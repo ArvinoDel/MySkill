@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     @vite('resources/css/app.css')
-    <style>
+    {{-- <style>
         body {
             background-color: #e09129 !important;
         }
-    </style>
+    </style> --}}
 
 </head>
 
