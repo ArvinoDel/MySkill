@@ -25,9 +25,9 @@
           </button>
         </div>
 
-        <div class="grid grid-flow-col items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex flex-shrink-0 items-center">
-            <p class="text-xl font-semibold">GMTrainer</p>
+        <div class="grid grid-flow-col items-center justify-center sm:items-stretch">
+          <div class="flex flex-shrink-0 items-center sm:justify-center">
+            <p class="text-xl font-semibold ps-11">GMTrainer</p>
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4 ps-56">
@@ -40,8 +40,8 @@
           </div>
         </div>
         <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button class="border border-rose-600 text-rose-600 me-4 px-7 py-2 rounded-md text-md">Login</button>
-                <button class="bg-rose-600 text-white px-7 py-2 rounded-md text-md">Register</button>
+                <button class="border border-rose-600 text-rose-600 me-4 px-4 py-2 rounded-md text-md lg:px-7 ">Login</button>
+                <button class="bg-rose-600 text-white px-4 py-2 rounded-md text-md lg:px-7">Register</button>
           </div>
         </div>
       </div>
