@@ -25,12 +25,12 @@
           </button>
         </div>
 
-        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+        <div class="grid grid-flow-col items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex flex-shrink-0 items-center">
             <p class="text-xl font-semibold">GMTrainer</p>
           </div>
           <div class="hidden sm:ml-6 sm:block">
-            <div class="flex space-x-4">
+            <div class="flex space-x-4 ps-56">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <a href="/" class="rounded-md {{ request()->is('/') ? 'underline underline-black underline-offset text-black' : 'text-white' }} px-3 py-2 text-lg" aria-current="page">Dashboard</a>
               <a href="/team" class="rounded-md {{ request()->is('team') ? 'underline underline-black underline-offset text-black' : 'text-white' }} px-3 py-2 text-lg">Team</a>
