@@ -9,25 +9,25 @@
             <!--
               Icon when menu is closed.
 
-              Menu open: "hidden", Menu closed: "block"
-            -->
-            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-            <!--
-              Icon when menu is open.
+                Menu open: "hidden", Menu closed: "block"
+              -->
+              <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <!--
+                Icon when menu is open.
 
-              Menu open: "block", Menu closed: "hidden"
-            -->
-            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
+                Menu open: "block", Menu closed: "hidden"
+              -->
+              <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
 
         <div class="grid grid-flow-col items-center justify-center sm:items-stretch">
           <div class="flex flex-shrink-0 items-center sm:justify-center">
-            <p class="text-xl font-semibold ps-11">GMTrainer</p>
+            <p class="text-xl font-semibold ps-12">GMTrainer</p>
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4 ps-56">
