@@ -1,8 +1,8 @@
 @extends('layouts.main')
 @section('container')
     <div class="home">
-        <h1 class="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <section class="w-screen h-96 rounded-b-3xl bg-gradient-to-b from-orange-400 to-red-400 text-white">
+                testing
+        </section>
     </div>
 @endsection
