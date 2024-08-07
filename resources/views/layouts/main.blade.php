@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MySkill</title>
     @vite('resources/css/app.css')
+    {{-- <style>
+        body {
+            background-color: #e09129 !important;
+        }
+    </style> --}}
+
 </head>
 
 <body>
