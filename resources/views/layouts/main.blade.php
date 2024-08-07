@@ -22,19 +22,8 @@
     </div>
 
     <script>
-        document.getElementById('mobile-menu-button').addEventListener('click', function() {
-          const menu = document.getElementById('mobile-menu');
-          const isMenuOpen = menu.classList.contains('block');
-          
-          menu.classList.toggle('hidden', isMenuOpen);
-          menu.classList.toggle('block', !isMenuOpen);
-    
-          const openIcon = this.querySelector('svg:first-of-type');
-          const closeIcon = this.querySelector('svg:last-of-type');
-          openIcon.classList.toggle('hidden', !isMenuOpen);
-          closeIcon.classList.toggle('hidden', isMenuOpen);
-        });
-      </script>
+   
+    </script>
 </body>
 
 </html>
