@@ -7,8 +7,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/elearning', function () {
-    return view('pages.elearning');
+Route::get('/Corporate-Service', function () {
+    return view('pages.corporate');
 });
 
 Route::get('/login', function () {
