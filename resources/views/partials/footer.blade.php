@@ -38,7 +38,7 @@
             </div>
             <div class="flex justify-start space-x-4 mt-8">
                 <!-- Social Media Icons -->
-                <a href="#"><img src="https://img.icons8.com/color/48/000000/tiktok--v1.png" alt="TikTok"></a>
+                <a href="https://www.tiktok.com/en"><img src="https://img.icons8.com/color/48/000000/tiktok--v1.png" alt="TikTok"></a>
                 <a href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" alt="Instagram"></a>
                 <a href="#"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a>
                 <a href="#"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter"></a>
