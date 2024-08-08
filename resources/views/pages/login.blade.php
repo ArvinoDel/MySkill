@@ -7,19 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login | MySkill</title>
     @vite('resources/css/app.css')
-    <style>
-        .image-container img {
-            border: none !important; /* Menghapus border */
-            border-radius: 0 !important; /* Menghapus border radius */
-            box-shadow: none !important; /* Menghapus bayangan */
-        }
-    </style>
 </head>
 
 <body>
-    <div class="flex w-full mt-8 max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg lg:max-w-4xl">
+    <div class="flex w-full mt-8 max-w-sm mx-auto overflow-hidden bg-white rounded-lg lg:max-w-4xl">
         <div class="hidden lg:flex ms-10 lg:w-1/2 items-center justify-center p-4 image-container">
-            <img class="w-full h-full object-contain" src="{{ asset('assets/login.svg') }}" alt="Login Image">
+            <img class="w-full h-full object-contain" src="{{ asset('assets/login.svg') }}">
         </div>
         <div class="w-full px-6 py-8 md:mx-24 lg:w-1/2">
             <div class="flex justify-center mx-auto">
