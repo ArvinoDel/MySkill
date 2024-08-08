@@ -10,21 +10,21 @@
 </head>
 
 <body>
-    <div class="flex w-full mt-8 max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg  lg:max-w-4xl">
-        <div class="hidden mx-2 mt-4 mb-3 lg:block lg:w-1/2 bg-cover bg-center"
-            style="background-image: url({{ asset('assets/login.svg') }}); height: 300px;">
+    <div class="flex w-full mt-8 max-w-sm mx-auto overflow-hidden bg-white rounded-lg lg:max-w-4xl">
+        <div class="hidden lg:flex ms-10 lg:w-1/2 items-center justify-center p-4 image-container">
+            <img class="w-full h-full object-contain" src="{{ asset('assets/login.svg') }}">
         </div>
-        <div class="w-full px-6 py-8 md:px-8 lg:w-1/2">
+        <div class="w-full px-6 py-8 md:mx-24 lg:w-1/2">
             <div class="flex justify-center mx-auto">
-                <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt="">
+                <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt="Logo">
             </div>
 
-            <p class="mt-3 text-xl text-center text-gray-600 :text-gray-200">
+            <p class="mt-3 text-xl text-center text-gray-600">
                 Welcome back!
             </p>
 
             <a href="#"
-                class="flex items-center justify-center mt-4 text-gray-600 transition-colors duration-300 transform border rounded-lg  ">
+                class="flex items-center justify-center mt-4 text-gray-600 transition-colors duration-300 transform border rounded-lg">
                 <div class="px-4 py-2">
                     <svg class="w-6 h-6" viewBox="0 0 40 40">
                         <path
@@ -48,29 +48,26 @@
             <div class="flex items-center justify-between mt-4">
                 <span class="w-1/5 border-b lg:w-1/4"></span>
 
-                <a href="#" class="text-xs text-center uppercase :text-gray-400 hover:underline">or login
-                    with email</a>
+                <a href="#" class="text-xs text-center uppercase hover:underline">or login with email</a>
 
-                <span class="w-1/5 border-b :border-gray-400 lg:w-1/4"></span>
+                <span class="w-1/5 border-b lg:w-1/4"></span>
             </div>
 
             <div class="mt-4">
-                <label class="block mb-2 text-sm font-medium text-gray-600 :text-gray-200"
-                    for="LoggingEmailAddress">Email Address</label>
+                <label class="block mb-2 text-sm font-medium text-gray-600" for="LoggingEmailAddress">Email Address</label>
                 <input id="LoggingEmailAddress"
-                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
+                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="email" />
             </div>
 
             <div class="mt-4">
                 <div class="flex justify-between">
-                    <label class="block mb-2 text-sm font-medium text-gray-600 :text-gray-200"
-                        for="loggingPassword">Password</label>
-                    <a href="#" class="text-xs :text-gray-300 hover:underline">Forget Password?</a>
+                    <label class="block mb-2 text-sm font-medium text-gray-600" for="loggingPassword">Password</label>
+                    <a href="#" class="text-xs hover:underline">Forget Password?</a>
                 </div>
 
                 <input id="loggingPassword"
-                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
+                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="password" />
             </div>
 

@@ -36,23 +36,23 @@
                     </ul>
                 </div>
             </div>
-            <div class="flex justify-start space-x-4 mt-8">
+            <div class="flex justify-start space-x-1 mt-8 ml-36">
                 <!-- Social Media Icons -->
-                <a href="https://www.tiktok.com/en"><img src="https://img.icons8.com/color/48/000000/tiktok--v1.png" alt="TikTok"></a>
-                <a href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" alt="Instagram"></a>
-                <a href="#"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a>
-                <a href="#"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube"></a>
+                <a href="#"><img src="https://img.icons8.com/color/38/000000/tiktok--v1.png" alt="TikTok"></a>
+                <a href="#"><img src="https://img.icons8.com/color/38/000000/instagram-new--v1.png" alt="Instagram"></a>
+                <a href="#"><img src="https://img.icons8.com/color/38/000000/linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="https://img.icons8.com/color/38/000000/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="https://img.icons8.com/color/38/000000/youtube-play.png" alt="YouTube"></a>
             </div>
-            <div class="mt-8">
+            <div class="mt-8 ml-36">
                 <p>Metode Pembayaran</p>
-                <div class="flex justify-start space-x-2 mt-2">
+                <div class="flex justify-start space-x-1 mt-2">
                     <!-- Payment Method Icons -->
-                    <img src="https://img.icons8.com/color/48/000000/bank.png" alt="Bank">
-                    <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard">
-                    <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
-                    <img src="https://img.icons8.com/color/48/000000/amex.png" alt="Amex">
-                    <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="Paypal">
+                    <img src="https://img.icons8.com/color/38/000000/bank.png" alt="Bank">
+                    <img src="https://img.icons8.com/color/38/000000/mastercard.png" alt="Mastercard">
+                    <img src="https://img.icons8.com/color/38/000000/visa.png" alt="Visa">
+                    <img src="https://img.icons8.com/color/38/000000/amex.png" alt="Amex">
+                    <img src="https://img.icons8.com/color/38/000000/paypal.png" alt="Paypal">
                     <!-- Add more payment icons as needed -->
                 </div>
             </div>
