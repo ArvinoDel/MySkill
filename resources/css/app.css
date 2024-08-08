@@ -1,10 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.underline-black {
+/* .underline-black {
     text-decoration-color: black;
 }
 
 .underline-offset {
     text-underline-offset: 20px;
-}
+} */
