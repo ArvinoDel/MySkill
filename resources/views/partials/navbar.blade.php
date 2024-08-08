@@ -44,10 +44,14 @@
             </a>
         </li>
     </ul>
-    <button
-        class="hidden lg:inline-block py-2 px-8 bg-white hover:bg-green-600 text-sm text-center text-gray-800 hover:text-white font-bold border-2 border-gray-800 hover:border-green-600 hover:shadow-md
-    transform active:scale-75 transition-transform focus:border-4 focus:border-green-300 duration-700 focus:outline-none">Log
-        In</button>
+    <div class="flex space-x-2">
+        <button type="button"
+            class="text-white hover:text-white border border-pink-400 hover:bg-pink-500 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-pink-300 dark:text-white dark:hover:text-white dark:hover:bg-pink-400 dark:focus:ring-pink-900">Login</button>
+        <button type="button"
+            class="focus:outline-none text-white bg-pink-500 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-600 dark:focus:ring-pink-500">Sign
+            Up</button>
+
+    </div>
 </nav>
 <div class="navbar-menu relative z-50 hidden">
     <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
@@ -101,13 +105,10 @@
             </ul>
         </div>
         <div class="mt-auto">
-            <div class="pt-6">
-                <button
-                    class="w-full py-3 px-4 bg-white hover:bg-green-600 text-sm text-center text-gray-800 hover:text-white font-bold border-2 border-gray-800 hover:border-green-600 hover:shadow-md
-          transform active:scale-75 transition-transform focus:border-4 focus:border-green-300 duration-700 focus:outline-none">Log
-                    In</button>
+            <div class="pt-6 rounded-lg">
+                <button type="button"
+                    class="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-yellow-300 dark:text-pink-300 dark:hover:text-white dark:hover:bg-pink-400 dark:focus:ring-yellow-900">Login</button>
             </div>
-
         </div>
     </nav>
 </div>
