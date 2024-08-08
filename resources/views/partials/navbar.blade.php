@@ -1,4 +1,4 @@
-<nav class="relative px-8 py-4 flex justify-between items-center bg-white">
+<nav class="relative px-8 py-4 flex justify-between items-center bg-orange-400">
     <a class="text-3xl font-bold leading-none" href="#">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 hover:text-green-600" viewBox="0 0 20 20"
             fill="currentColor">
