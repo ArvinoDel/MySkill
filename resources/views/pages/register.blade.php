@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login | MySkill</title>
+    <title>Sign Up | MySkill</title>
     @vite('resources/css/app.css')
+
 </head>
 
 <body>
-    <div class="flex w-full mt-8 max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg  lg:max-w-4xl">
+    <div
+        class="flex flex-row-reverse w-full mt-8 max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg lg:max-w-4xl">
         <div class="hidden mx-2 mt-4 mb-3 lg:block lg:w-1/2 bg-cover bg-center"
-            style="background-image: url({{ asset('assets/login.svg') }}); height: 300px;">
+            style="background-image: url({{ asset('assets/regis.svg') }}); height: 300px;">
         </div>
         <div class="w-full px-6 py-8 md:px-8 lg:w-1/2">
             <div class="flex justify-center mx-auto">
@@ -41,16 +43,13 @@
                             fill="#1976D2" />
                     </svg>
                 </div>
-
                 <span class="w-5/6 px-4 py-3 font-bold text-center">Sign in with Google</span>
             </a>
 
             <div class="flex items-center justify-between mt-4">
                 <span class="w-1/5 border-b lg:w-1/4"></span>
-
                 <a href="#" class="text-xs text-center uppercase :text-gray-400 hover:underline">or login
                     with email</a>
-
                 <span class="w-1/5 border-b :border-gray-400 lg:w-1/4"></span>
             </div>
 
@@ -68,7 +67,6 @@
                         for="loggingPassword">Password</label>
                     <a href="#" class="text-xs :text-gray-300 hover:underline">Forget Password?</a>
                 </div>
-
                 <input id="loggingPassword"
                     class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
                     type="password" />
@@ -83,13 +81,12 @@
 
             <div class="flex items-center justify-between mt-4">
                 <span class="w-1/5 border-b md:w-1/4"></span>
-
-                <a href="/register" class="text-xs uppercase hover:underline">or sign up</a>
-
+                <a href="/login" class="text-xs uppercase hover:underline">or sign in</a>
                 <span class="w-1/5 border-b md:w-1/4"></span>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
