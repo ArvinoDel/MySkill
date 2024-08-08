@@ -18,9 +18,9 @@
     <section class="w-screen h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white flex items-center">
         <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-72 w-100 ml-16 py-2">
         <div class="ml-4">
-            <p class="text-4xl font-bold w-4/5">Kuasai Ratusan Skill, Bangun Portofolio & Bersetifikat.</p>
+            <p class="text-4xl font-bold w-4/5">Bootcamp yang Memberi Hasil. Fokus Praktik & Portfolio.</p>
             <br>
-            <p class="w-4/5">Akses semua materi sekali bayar. Lebih dari sekadar nonton rekaman. Belajar fleksibel via • Video Materi • Case Study & Praktik • Bahan Bacaan • Komunitas.</p>
+            <p class="w-8/12">Full Online dan Dipandu oleh Praktisi Senior. Praktikal, lebih dari sekadar Webinar. Fokus Bantu Kembangkan Skill dan Portfolio Ribuan Alumni.</p>
             <br>
             <button type="button" class="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Lihat Program Pilihan</button>
             <div class="flex items-center mt-2">
