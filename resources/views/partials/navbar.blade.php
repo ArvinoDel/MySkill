@@ -45,16 +45,13 @@
         </li>
     </ul>
     <div class="flex space-x-2">
-      <button type="button"
-          class="text-white border border-pink-400 bg-transparent hover:bg-pink-500 hover:border-pink-500 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:border-pink-300 dark:text-white dark:hover:bg-pink-400 dark:focus:ring-pink-900 transition-all duration-300">
-          Login
-      </button>
-      <button type="button"
-          class="text-white bg-pink-500 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-full text-sm px-5 py-2.5 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-500 transition-all duration-300">
-          Sign Up
-      </button>
-  </div>
-  
+        <button type="button"
+            class="text-white hover:text-white border border-pink-400 hover:bg-pink-500 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-pink-300 dark:text-white dark:hover:text-white dark:hover:bg-pink-400 dark:focus:ring-pink-900">Login</button>
+        <button type="button"
+            class="focus:outline-none text-white bg-pink-500 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-600 dark:focus:ring-pink-500">Sign
+            Up</button>
+
+    </div>
 </nav>
 <div class="navbar-menu relative z-50 hidden">
     <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
