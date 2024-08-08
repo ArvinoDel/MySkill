@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer Example</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body class="bg-gray-900 text-white">
-    <footer class="bg-gray-900 py-10">
+    <footer class="bg-gray-900 py-10 text-white">
         <div class="container mx-auto">
             <div class="text-center">
                 <h2 class="text-xl font-bold">GMTrainer</h2>
@@ -69,6 +59,3 @@
             <p class="mt-8 text-center">&copy; 2024 - 2025. All rights reserved</p>
         </div>
     </footer>
-</body>
-
-</html>
