@@ -89,169 +89,169 @@
     <!-- start grid -->
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-14">
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
 </div>
 <div class="bg-white rounded-lg shadow-md p-4">
-    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> <!-- Mengubah ukuran gambar -->
-    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> <!-- Menambah margin top -->
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm"> 
+    <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p> 
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-calendar-alt mr-2"></i>
         <p class="text-sm">9 Oktober 2024</p>
     </div>
-    <div class="flex items-center mt-4 text-gray-500"> <!-- Menambah margin top -->
+    <div class="flex items-center mt-4 text-gray-500"> 
         <i class="fas fa-tag mr-2"></i>
         <p class="text-sm">Rp 590.000 <span class="line-through text-red-500">Rp 1.000.000</span></p>
     </div>
