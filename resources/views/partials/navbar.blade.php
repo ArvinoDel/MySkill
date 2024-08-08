@@ -1,4 +1,4 @@
-<nav class="sticky top-0 px-8 py-4 flex justify-between items-center bg-orange-400">
+<nav class="sticky top-0 px-8 py-4 flex justify-between items-center bg-orange-400 z-10">
     <a class="text-3xl font-bold leading-none" href="#">
         <img class="w-21 h-21" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
     </a>
@@ -14,14 +14,14 @@
     <ul
         class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-8">
         <li>
-            <a href="/"
-                class="{{ request()->is('home') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm text-white font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
+            <a href="/home"
+                class="{{ request()->is('home') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
                 Home
             </a>
         </li>
         <li>
             <a href="/e-learning"
-                class="{{ request()->is('e-learning') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm text-white font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
+                class="{{ request()->is('e-learning') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
                 E-Learning
             </a>
         </li>
@@ -34,13 +34,13 @@
         </li>
         <li>
             <a href="/review"
-                class="{{ request()->is('review') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm text-white font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
+                class="{{ request()->is('review') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
                 Review CV
             </a>
         </li>
         <li>
             <a href="/corporate-service"
-                class="{{ request()->is('corporate') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm text-white font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
+                class="{{ request()->is('corporate-service') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
                 Corporate Service
             </a>
         </li>

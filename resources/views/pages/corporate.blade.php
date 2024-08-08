@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('container')
 <div class="home">
-    <section class="w-screen h-auto rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white flex">
+    <section class="w-full h-auto rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white flex">
         <!-- Adjust margin and padding for the image container -->
         <div>
             <img src="{{ asset('./assets/corporate/corporate.webp') }}" class="h-64 w-64 ml-16 py-2 mt-4"> <!-- Reduced mt-8 to mt-4 -->
