@@ -566,4 +566,95 @@
     </div>
 
     <h3 class="py-20 text-center text-2xl font-bold ">Yang Sering Ditanyakan</h3>
+    <div class="relative inline-block w-full px-32 py-4">
+            <div class="relative inline-block w-full px-32 py-4">
+                <div>
+                    <button type="button" onclick="toggleDropdown('dropdown2')"
+                        class="inline-flex justify-between w-full px-4 text-lg font-medium text-dark" id="menu-button2"
+                        aria-expanded="false" aria-haspopup="true">
+                        Apakah ProSkill bagus ?
+                        <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="dropdown2" class="dropdown-content" role="menu" aria-orientation="vertical"
+                    aria-labelledby="menu-button2" tabindex="-1">
+                    <div class="pt-2" role="none">
+                        <p class="text-gray-700 block px-4 text-sm" role="menuitem">Proskill memiliki tiga fitur utama e-learning untuk belajar Mandiri via video modul belajar dan webinar series bulanan bootcamp untuk belajar intensif fokus pada praktik via Zoom barang ekspor mentoring untuk dapat template dan review CV hingga persiapan wawancara bersama HRD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative inline-block w-full px-32 py-4">
+                <div>
+                    <button type="button" onclick="toggleDropdown('dropdown3')"
+                        class="inline-flex justify-between w-full px-4 text-lg font-medium text-dark" id="menu-button3"
+                        aria-expanded="false" aria-haspopup="true">
+                        Apakah ProSkill Berbayar ?
+                        <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="dropdown3" class="dropdown-content" role="menu" aria-orientation="vertical"
+                    aria-labelledby="menu-button3" tabindex="-1">
+                    <div class="pt-2" role="none">
+                        <p class="text-gray-700 block px-4 text-sm" role="menuitem">Ya, setiap peserta akan mendapatkan sertifikat
+                            setelah menyelesaikan kursus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative inline-block w-full px-32 py-4">
+                <div>
+                    <button type="button" onclick="toggleDropdown('dropdown1')"
+                        class="inline-flex justify-between w-full px-4 text-lg font-medium text-dark" id="menu-button1"
+                        aria-expanded="false" aria-haspopup="true">
+                        Platform Pembayaran apa saja yang digunakan SkillPro ?
+                        <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="dropdown1" class="dropdown-content" role="menu" aria-orientation="vertical"
+                    aria-labelledby="menu-button1" tabindex="-1">
+                    <div class="pt-2" role="none">
+                        <p class="text-gray-700 block px-4 text-sm" role="menuitem">Pembayaran bisa menggunakan berbagai
+                            e-wallet, QRIS, transfer bank hingga melalui swalayan terdekat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDropdown(dropdownId) {
+            const dropdown = document.getElementById(dropdownId);
+            dropdown.classList.toggle('show');
+            dropdown.style.maxHeight = dropdown.classList.contains('show') ? dropdown.scrollHeight + "px" : "0";
+            dropdown.style.opacity = dropdown.classList.contains('show') ? "1" : "0";
+        }
+    </script>
+
+    <style>
+        .dropdown-content {
+            transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            overflow: hidden;
+            max-height: 0;
+            opacity: 0;
+        }
+
+        .dropdown-content.show {
+            max-height: 200px;
+            opacity: 1;
+        }
+    </style>
 @endsection
