@@ -11,19 +11,86 @@
 </head>
 
 <body>
-    <div
-        class="flex flex-row-reverse w-full mt-8 max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg lg:max-w-4xl">
-        <div class="hidden mx-2 mt-4 mb-3 lg:block lg:w-1/2 bg-cover bg-center"
-            style="background-image: url({{ asset('assets/regis.svg') }}); height: 300px;">
+    <div class="flex flex-row-reverse w-full mt-8 max-w-sm mx-auto overflow-hidden bg-white rounded-lg lg:max-w-3xl">
+        <div class="hidden lg:flex ms-10 lg:w-1/2 items-center justify-center p-4 image-container">
+            <img class="w-full h-full object-contain" src="{{ asset('assets/regis.svg') }}">
         </div>
         <div class="w-full px-6 py-8 md:px-8 lg:w-1/2">
-            <div class="flex justify-center mx-auto">
-                <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt="">
+            <p class="mt-3 text-xl text-start text-gray-900 font-bold :text-gray-200">
+                Buat Akun MySkill
+            </p>
+
+            <p class="mt-1 text-sm text-start text-gray-600 :text-gray-200">
+                Silahkan Isi Form Berikut Untuk Melanjutkan
+            </p>
+
+            <p class="mt-5 text-md text-start text-gray-900 :text-gray-200">
+                Sudah memiliki akun? <a href="/login" class=""
+                    style=" background: linear-gradient(45deg, #f97316, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Masuk</a>
+            </p>
+
+            <div class="mt-3">
+                <label class="block mb-2 text-sm font-medium text-gray-600 :text-gray-200"
+                    for="LoggingEmailAddress">Email Address</label>
+                <input id="LoggingEmailAddress"
+                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
+                    type="email" />
             </div>
 
-            <p class="mt-3 text-xl text-center text-gray-600 :text-gray-200">
-                Welcome back!
-            </p>
+            <div class="mt-3">
+                <div class="flex justify-between">
+                    <label class="block mb-2 text-sm font-medium text-gray-600 :text-gray-200"
+                        for="loggingPassword">Password</label>
+                </div>
+                <input id="loggingPassword"
+                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
+                    type="password" />
+            </div>
+
+
+            <div class="mt-3">
+                <div class="flex justify-between">
+                    <label class="block mb-2 text-sm font-medium text-gray-600 :text-gray-200"
+                        for="loggingPassword">Confirm Password</label>
+                </div>
+                <input id="loggingPassword"
+                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
+                    type="password" />
+            </div>
+
+            <div class="mt-5 inline-flex items-center">
+                <label class="relative flex items-center p-3 rounded-full cursor-pointer" htmlFor="check">
+                    <input type="checkbox"
+                        class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10"
+                        id="check" />
+                    <span
+                        class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20"
+                            fill="currentColor" stroke="currentColor" stroke-width="1">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                </label>
+                <label class="mt-px text-sm font-light text-gray-700 cursor-pointer select-none" htmlFor="check">
+                    Saya bersedia menerima update informasi dari MySkill
+                </label>
+            </div>
+
+            <div class="mt-1">
+                <button
+                    class="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-gradient-to-r from-pink-400 to-orange-400 rounded-lg hover:from-pink-500 hover:to-orange-500 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-50">
+                    Sign In
+                </button>
+            </div>
+
+            <div class="flex items-center justify-between mt-4">
+                <span class="w-1/5 border-b lg:w-1/4"></span>
+                <a href="#" class="text-xs text-center uppercase :text-gray-400 hover:underline">or login
+                    with Google</a>
+                <span class="w-1/5 border-b :border-gray-400 lg:w-1/4"></span>
+            </div>
 
             <a href="#"
                 class="flex items-center justify-center mt-4 text-gray-600 transition-colors duration-300 transform border rounded-lg  ">
@@ -45,45 +112,6 @@
                 </div>
                 <span class="w-5/6 px-4 py-3 font-bold text-center">Sign in with Google</span>
             </a>
-
-            <div class="flex items-center justify-between mt-4">
-                <span class="w-1/5 border-b lg:w-1/4"></span>
-                <a href="#" class="text-xs text-center uppercase :text-gray-400 hover:underline">or login
-                    with email</a>
-                <span class="w-1/5 border-b :border-gray-400 lg:w-1/4"></span>
-            </div>
-
-            <div class="mt-4">
-                <label class="block mb-2 text-sm font-medium text-gray-600 :text-gray-200"
-                    for="LoggingEmailAddress">Email Address</label>
-                <input id="LoggingEmailAddress"
-                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
-                    type="email" />
-            </div>
-
-            <div class="mt-4">
-                <div class="flex justify-between">
-                    <label class="block mb-2 text-sm font-medium text-gray-600 :text-gray-200"
-                        for="loggingPassword">Password</label>
-                    <a href="#" class="text-xs :text-gray-300 hover:underline">Forget Password?</a>
-                </div>
-                <input id="loggingPassword"
-                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
-                    type="password" />
-            </div>
-
-            <div class="mt-6">
-                <button
-                    class="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-gradient-to-r from-pink-400 to-orange-400 rounded-lg hover:from-pink-500 hover:to-orange-500 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-50">
-                    Sign In
-                </button>
-            </div>
-
-            <div class="flex items-center justify-between mt-4">
-                <span class="w-1/5 border-b md:w-1/4"></span>
-                <a href="/login" class="text-xs uppercase hover:underline">or sign in</a>
-                <span class="w-1/5 border-b md:w-1/4"></span>
-            </div>
         </div>
     </div>
 
