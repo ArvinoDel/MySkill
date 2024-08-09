@@ -25,8 +25,8 @@
             </p>
 
             <p class="mt-5 text-md text-start text-gray-900 :text-gray-200">
-                Sudah memiliki akun? <a href="/login" class=""
-                    style=" background: linear-gradient(45deg, #f97316, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Masuk</a>
+                Sudah memiliki akun? <a href="/login"
+                    class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-pink-500">Masuk</a>
             </p>
 
             <div class="mt-3">
@@ -112,6 +112,18 @@
                 </div>
                 <span class="w-5/6 px-4 py-3 font-bold text-center">Sign in with Google</span>
             </a>
+
+            <label class="mt-3 text-sm font-light text-gray-900 text-center block" htmlFor="check">
+                Dengan membuat akun, saya setuju dengan
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-pink-500">
+                    Syarat dan Ketentuan
+                </span>
+                , dan
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-pink-500">
+                    Ketentuan Privasi MySkill
+                </span>
+            </label>
+
         </div>
     </div>
 
