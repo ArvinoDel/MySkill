@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="flex w-full mt-8 max-w-sm mx-auto overflow-hidden bg-white rounded-lg lg:max-w-4xl">
+    <div class="flex w-full mt-5 max-w-sm mx-auto overflow-hidden bg-white rounded-lg lg:max-w-4xl">
         <div class="hidden lg:flex ms-10 lg:w-1/2 items-center justify-center p-4 image-container">
             <img class="w-full h-full object-contain" src="{{ asset('assets/login.svg') }}">
         </div>
