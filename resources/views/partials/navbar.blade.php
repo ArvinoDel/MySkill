@@ -46,11 +46,16 @@
         </li>
     </ul>
     <div class="flex max-md:hidden space-x-2">
-        <button type="button"
-            class="text-white hover:text-white border border-pink-400 hover:bg-pink-500 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-pink-300 dark:text-white dark:hover:text-white dark:hover:bg-pink-400 dark:focus:ring-pink-900">Login</button>
-        <button type="button"
-            class="focus:outline-none text-white bg-pink-500 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-600 dark:focus:ring-pink-500">Sign
-            Up</button>
+        <a href="/login">
+            <button type="button"
+                class="text-white hover:text-white border border-pink-400 hover:bg-pink-500 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-pink-300 dark:text-white dark:hover:text-white dark:hover:bg-pink-400 dark:focus:ring-pink-900">Login</button>
+
+        </a>
+        <a href="/register">
+            <button type="button"
+                class="focus:outline-none text-white bg-pink-500 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-600 dark:focus:ring-pink-500">Sign
+                Up</button>
+        </a>
 
     </div>
 </nav>
