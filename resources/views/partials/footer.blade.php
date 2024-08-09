@@ -12,8 +12,8 @@
             </div>
 
             {{-- <div class="ml-36 mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left"> --}}
-            <div class="mt-10 flex gap-8 justify-around">
-                <div class="flex flex-col justify-self-start">
+            <div class="mt-10 flex max-sm:flex-col gap-7 justify-around">
+                <div class="flex flex-col justify-self-start max:text-center">
                     <h3 class="font-semibold">GMTrainer</h3>
                     <ul class="mt-2 space-y-2">
                         <li><a href="#" class="hover:underline">Tentang</a></li>
@@ -22,6 +22,7 @@
                         <li><a href="#" class="hover:underline">Blog</a></li>
                     </ul>
                 </div>
+
                 <div class="flex flex-col justify-self-start">
                     <h3 class="font-semibold">Produk</h3>
                     <ul class="mt-2 space-y-2">
@@ -30,6 +31,7 @@
                         <li><a href="#" class="hover:underline">Review CV</a></li>
                     </ul>
                 </div>
+
                 <div class="flex flex-col justify-self-start">
                     <h3 class="font-semibold">Lainnya</h3>
                     <ul class="mt-2 space-y-2">
@@ -40,7 +42,7 @@
                 </div>
             </div>
 
-            <div class="flex justify-start space-x-1 mt-8 ml-36">
+            <div class="flex justify-start space-x-1 mt-8">
                 <!-- Social Media Icons -->
                 <a href="#"><img src="https://img.icons8.com/color/38/000000/tiktok--v1.png" alt="TikTok"></a>
                 <a href="#"><img src="https://img.icons8.com/color/38/000000/instagram-new--v1.png" alt="Instagram"></a>
@@ -49,17 +51,17 @@
                 <a href="#"><img src="https://img.icons8.com/color/38/000000/youtube-play.png" alt="YouTube"></a>
             </div>
 
-            <div class="mt-8 ml-36">
-                <p>Metode Pembayaran</p>
-                <div class="flex justify-start space-x-1 mt-2">
-                    <!-- Payment Method Icons -->
-                    <img src="https://img.icons8.com/color/38/000000/bank.png" alt="Bank">
-                    <img src="https://img.icons8.com/color/38/000000/mastercard.png" alt="Mastercard">
-                    <img src="https://img.icons8.com/color/38/000000/visa.png" alt="Visa">
-                    <img src="https://img.icons8.com/color/38/000000/amex.png" alt="Amex">
-                    <img src="https://img.icons8.com/color/38/000000/paypal.png" alt="Paypal">
-                    <!-- Add more payment icons as needed -->
-                </div>
+            <div class="mt-8">
+                    <p>Metode Pembayaran</p>
+                    <div class="flex justify-start space-x-1 mt-2">
+                        <!-- Payment Method Icons -->
+                        <img src="https://img.icons8.com/color/38/000000/bank.png" alt="Bank">
+                        <img src="https://img.icons8.com/color/38/000000/mastercard.png" alt="Mastercard">
+                        <img src="https://img.icons8.com/color/38/000000/visa.png" alt="Visa">
+                        <img src="https://img.icons8.com/color/38/000000/amex.png" alt="Amex">
+                        <img src="https://img.icons8.com/color/38/000000/paypal.png" alt="Paypal">
+                        <!-- Add more payment icons as needed -->
+                    </div>
             </div>
 
             <p class="mt-8 text-center">&copy; 2024 - 2025. All rights reserved</p>
