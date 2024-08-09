@@ -73,7 +73,7 @@
                         </svg>
                     </span>
                 </label>
-                <label class="mt-px text-sm font-light text-gray-700 cursor-pointer select-none" htmlFor="check">
+                <label class="mt-px text-xs font-light text-gray-700 cursor-pointer select-none" htmlFor="check">
                     Saya bersedia menerima update informasi dari MySkill
                 </label>
             </div>
