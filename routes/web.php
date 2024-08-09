@@ -10,6 +10,9 @@ Route::get('/home', function () {
 Route::get('/corporate-service', function () {
     return view('pages.corporate');
 });
+Route::get('/corporate-training', function () {
+    return view('pages.corporate-training');
+});
 Route::get('/bootcamp', function () {
     return view('pages.bootcamp');
 });
