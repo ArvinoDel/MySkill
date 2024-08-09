@@ -1,6 +1,7 @@
 
     <footer class="bg-gray-900 py-10 text-white">
         <div class="container mx-auto">
+
             <div class="text-center">
                 <h2 class="text-xl font-bold">GMTrainer</h2>
                 <p class="mt-2">Mari Kejar Impian Bersama GMT</p>
@@ -9,8 +10,10 @@
                 <p>Sumber - Cirebon</p>
                 <p class="mt-2">0882002077497</p>
             </div>
-            <div class=" ml-36 mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-                <div>
+
+            {{-- <div class="ml-36 mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left"> --}}
+            <div class="mt-10 flex gap-8 justify-around">
+                <div class="flex flex-col justify-self-start">
                     <h3 class="font-semibold">GMTrainer</h3>
                     <ul class="mt-2 space-y-2">
                         <li><a href="#" class="hover:underline">Tentang</a></li>
@@ -19,7 +22,7 @@
                         <li><a href="#" class="hover:underline">Blog</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="flex flex-col justify-self-start">
                     <h3 class="font-semibold">Produk</h3>
                     <ul class="mt-2 space-y-2">
                         <li><a href="#" class="hover:underline">E-learning</a></li>
@@ -27,7 +30,7 @@
                         <li><a href="#" class="hover:underline">Review CV</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="flex flex-col justify-self-start">
                     <h3 class="font-semibold">Lainnya</h3>
                     <ul class="mt-2 space-y-2">
                         <li><a href="#" class="hover:underline">FAQ</a></li>
@@ -36,6 +39,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="flex justify-start space-x-1 mt-8 ml-36">
                 <!-- Social Media Icons -->
                 <a href="#"><img src="https://img.icons8.com/color/38/000000/tiktok--v1.png" alt="TikTok"></a>
@@ -44,6 +48,7 @@
                 <a href="#"><img src="https://img.icons8.com/color/38/000000/twitter.png" alt="Twitter"></a>
                 <a href="#"><img src="https://img.icons8.com/color/38/000000/youtube-play.png" alt="YouTube"></a>
             </div>
+
             <div class="mt-8 ml-36">
                 <p>Metode Pembayaran</p>
                 <div class="flex justify-start space-x-1 mt-2">
@@ -56,6 +61,7 @@
                     <!-- Add more payment icons as needed -->
                 </div>
             </div>
+
             <p class="mt-8 text-center">&copy; 2024 - 2025. All rights reserved</p>
         </div>
     </footer>

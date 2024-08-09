@@ -15,8 +15,8 @@
 </style>
 
 <div class="bootcamp">
-    <section class="w-full h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white flex items-center">
-        <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-72 w-100 ml-16 py-2">
+    <section class="w-full h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex items-center">
+        <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-72 w-100 lg:ml-16 py-2">
         <div class="ml-4">
             <p class="text-4xl font-bold w-4/5">Bootcamp yang Memberi Hasil. Fokus Praktik & Portfolio.</p>
             <br>
@@ -260,8 +260,8 @@
 <!-- end grid -->
 
 <!-- akses konten premium -->
-<section class="w-screen h-auto rounded-b-3xl bg-white flex items-center mt-12 mb-14 p-4">
-        <img src="{{ asset('./assets/bootcamp/pembelajaran.png') }}" class="h-72 w-100 ml-20 py-4">
+<section class="w-screen h-auto rounded-b-3xl bg-white lg:flex items-center mt-12 mb-14 p-4">
+        <img src="{{ asset('./assets/bootcamp/pembelajaran.png') }}" class="h-72 w-100 lg:ml-20 py-4">
         <div class="ml-4">
             <p class="text-4xl font-bold w-4/5 ml-4">E-learning & Training Untuk Perusahaan</p>
             <br>

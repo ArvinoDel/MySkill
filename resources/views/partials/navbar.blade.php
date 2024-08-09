@@ -1,4 +1,4 @@
-<nav class="sticky top-0 px-8 flex justify-between items-center bg-orange-400">
+<nav class="sticky top-0 px-8 flex justify-between items-center bg-orange-400 z-10">
     <a class="text-2xl font-bold leading-none" href="#">
         <img class="w-21 h-21" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
     </a>
