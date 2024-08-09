@@ -24,8 +24,8 @@
             </p>
 
             <p class="mt-6 text-md text-start text-gray-900 :text-gray-200">
-                Belum memiliki akun? <a href="/register" class=""
-                    style=" background: linear-gradient(45deg, #f97316, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Daftar
+                Belum memiliki akun? <a href="/register"
+                    class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-pink-500">Daftar
                     Sekarang</a>
             </p>
 
