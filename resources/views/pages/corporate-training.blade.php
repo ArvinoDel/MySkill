@@ -60,43 +60,54 @@
     </div>
     <h2 class="text-3xl font-bold mb-6 text-center">Fokus Mendorong Performa, Bukan Sekadar Organizer</h2>
     <section class="mt-8 overflow-x-auto whitespace-nowrap px-8 py-4 mb-12 no-scrollbar">
+        <style>
+            /* Hide scrollbar for Chrome, Safari and Opera */
+            .no-scrollbar::-webkit-scrollbar {
+                display: none;
+            }
+            /* Hide scrollbar for IE, Edge and Firefox */
+            .no-scrollbar {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+        </style>
         <div class="inline-block px-4">
             <div class="bg-white rounded-lg shadow-md p-4 w-64">
-                <img src="{{ asset('./assets/corporate/bi.webp') }}" class="h-34 w-64 rounded-sm mb-4">
-                <p class="text-sm">Bank Indonesia - Microsoft Excel</p>
+                <img src="{{ asset('./assets/corporate/bi.webp') }}" class="h-34 w-64 pb-1 rounded-sm mb-4">
+                <p class="text-sm text-center ">Microsoft Excel - Bank Indonesia</p>
             </div>
         </div>
         <div class="inline-block px-4">
             <div class="bg-white rounded-lg shadow-md p-4 w-64">
                 <img src="{{ asset('./assets/corporate/fb.webp') }}" class="h-34 w-64 rounded-sm">
-                <p class="text-sm break-words">Kuningan Dev. International - Facebook</p>
-                <p class="text-sm text-center"> Ads</p>
+                <p class="text-sm text-center ">Kuningan Dev. International - </p>
+                <p class="text-sm text-center pb-1">Facebook Ads</p>
             </div>
         </div>
         <div class="inline-block px-2">
             <div class="bg-white rounded-lg shadow-md p-4 w-64">
                 <img src="{{ asset('./assets/corporate/ojk.webp') }}" class="h-34 w-64 rounded-sm">
                 <p class="text-sm">Otoritas Jasa Keuangan - Business</p>
-                <p class="text-sm text-center"> English</p>
+                <p class="text-sm text-center pb-1"> English</p>
             </div>
         </div>
         <div class="inline-block px-4">
             <div class="bg-white rounded-lg shadow-md p-4 w-64">
                 <img src="{{ asset('./assets/corporate/qoala.webp') }}" class="h-34 w-64 rounded-sm">
-                <p class="text-sm">Qoala - Professional Communication</p>
+                <p class="text-sm py-4 pb-1">Qoala - Professional Communication</p>
             </div>
         </div>
         <div class="inline-block px-4">
             <div class="bg-white rounded-lg shadow-md p-4 w-64">
-                <img src="{{ asset('./assets/corporate/pln.webp') }}" class="h-34 w-64 rounded-sm">
-                <p class="text-sm text-center">PLN - Data Analysis</p>
+                <img src="{{ asset('./assets/corporate/pln.webp') }}" class="h-34 w-64 pb-1 rounded-sm mb-4">
+                <p class="text-sm text-center pb-1">PLN - Data Analysis</p>
             </div>
         </div>
         <div class="inline-block px-4">
             <div class="bg-white rounded-lg shadow-md p-4 w-64">
                 <img src="{{ asset('./assets/corporate/djp.webp') }}" class="h-34 w-64 rounded-sm">
                 <p class="text-sm">Direktorat Jendral Pajak - Marketing</p>
-                <p class="text-sm text-center">Communication</p>
+                <p class="text-sm text-center pb-1">Communication</p>
             </div>
         </div>
     </section>
@@ -155,8 +166,8 @@
                     <textarea id="pesan" class="w-full p-4 bg-gray-300 rounded-lg mt-2 h-40"></textarea>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <button type="submit" class="w-auto px-4 py-2 bg-gray-300 text-white font-bold rounded-lg">Kirim</button>
-                    <p>silahkan lengkapi form diatas untuk mengirim pesan</p>
+                    <button type="submit" class="w-auto px-4 py-2 text-white bg-gradient-to-b from-orange-400 to-red-400  font-bold rounded-lg mb-8">Kirim</button>
+                    <p class="mb-8">Silahkan lengkapi form diatas untuk mengirim pesan</p>
                 </div>
             </form>
         </div>

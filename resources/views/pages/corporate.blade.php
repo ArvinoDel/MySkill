@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('container')
+
 <div class="corporate">
     <section class="flex h-auto rounded-b-3xl lg:bg-gradient-to-b from-orange-400 to-red-400 text-white w-screen">
         <!-- Adjust margin and padding for the image container -->
@@ -33,7 +34,7 @@
         <h3 class="text-center mt-4 text-3xl font-bold mb-4 text-black">Mengapa Ratusan Perusahaan Memilih GMTrainer?</h3>
         <div class="flex justify-center mb-4 space-x-4">
             <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-2">
-                <img src="./assets/corporate/linkedin-top-startup.webp" alt="LinkedIn Top Startup Award" class="mx-auto mb-4">
+                <img src="./assets/corporate/linkedin-top-startup.webp" alt="LinkedIn Top Startup Award" class="mx-auto mb-4 ">
                 <p class="text-md">2X LinkedIn Top Startup Award</p>
                 <p>Satu-satunya startup Education Technology di Indonesia.</p>
             </div>
@@ -50,62 +51,87 @@
         </div>
     </div>
 
-    <section class="w-scren h-auto">
+    <section class="w-screen h-auto">
         <h3 class="text-center mt-4 mr-12 text-3xl font-bold mb-4 text-black w-full">Berbagai Program GMTrainer</h3>
         <!-- Corporate Training -->
-        <div class=" flex items-start">
-            <img src="./assets/corporate/corporate-training.webp" alt="Corporate Training" class="h-48 object-cover rounded-lg mb-6 mr-6">
+        <div class="flex gap-12 justify-items-center px-4">
+            <img src="./assets/corporate/corporate-training.webp" alt="Corporate Training" class="h-72 w-120 ml-8 object-cover rounded-md">
             <div>
                 <h2 class="text-pink-600 text-2xl font-bold">Corporate Training</h2>
                 <p class="text-gray-700 mb-4">
                     Assessment, Pelatihan, dan Konsultasi Pasca Training.
                 </p>
-                <p class="text-gray-700 mb-4">
-                    Customizeable: offline / online, berbagai topik dan durasi bisa disesuaikan.
-                    <br>
-                    Dibawakan praktisi senior dari notable companies dan industri yang relevan.
-                    <br>
-                    Fokus praktik & case study. Assessment before dan after training yang lengkap.
+                <p class="text-gray-700 text-md mb-4 w-10/12">
+                <ul class="list-disc pl-5 mb-3">
+                    <li>
+                        Customizeable: offline / online, berbagai topik dan durasi bisa
+                        <br> disesuaikan.
+                    </li>
+                    <li>
+                        Dibawakan praktisi senior dari notable companies dan industri yang
+                        <br>relevan.
+                    </li>
+                    <li>
+                        Fokus praktik & case study. Assessment before dan after training
+                        <br> yang lengkap.
+                    </li>
+                </ul>
                 </p>
-                <button type="button" class="focus:outline-none text-white bg-pink-600 font-medium rounded-full text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Pelajari Corporate Training</button>
+                <button type="button" class="focus:outline-none text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Pelajari Corporate Training</button>
             </div>
         </div>
 
         <!-- Performance Management Software -->
-        <div class=" flex items-center justify-around">
-            <div class="ml-80">
-                <h2 class="text-pink-600 text-2xl font-bold mb-4">Performance Management Software</h2>
+        <div class="flex justify-end gap-12">
+            <div class="">
+                <h2 class="text-pink-600 text-2xl font-bold">Performance Management Software</h2>
                 <p class="text-gray-700 mb-4">
-                    Tools HR untuk Melaek Perform & Employee Learning.
+                Tools HRIS untuk Melacak Performa & Employee Learning
                 </p>
-                <p class="text-gray-700 mb-4">
-                    ✅ Pencatatan dan Monitoring KPI setiap divisi dan karyawan.
-                    <br>
-                    ✅ 1.000+ konten materi upskilling untuk semua divisi di perusahaan.
-                    <br>
-                    ✅ Dashboard analytics yang lengkap untuk data-driven decision.
+                <p class="text-gray-700 text-md mb-4 w-10/12">
+                <ul class="list-disc pl-5 mb-3">
+                    <li>
+                        Pencatatan dan Monitoring KPI setiap divisi dan karyawan.
+
+                    </li>
+                    <li>
+                        1.000+ konten materi upskilling untuk semua divisi di perusahaan.
+
+                    </li>
+                    <li>
+                        Dashboard analytics yang lengkap untuk data-driven decision.
+
+                    </li>
+                </ul>
                 </p>
-                <button type="button" class="focus:outline-none text-white bg-pink-600 font-medium rounded-full text-sm px-5 py-2.5 mb-4 me-2 dark:focus:ring-yellow-900">Pelajari Performance Management Software</button>
+                <button type="button" class="focus:outline-none text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 mb-4 me-2 dark:focus:ring-yellow-900">Pelajari Performance Management Software</button>
             </div>
-            <img src="./assets/corporate/experience.webp" alt="Performance Management Software" class="mr-12 h-48 object-cover rounded-lg">
+            <img src="./assets/corporate/experience.webp" alt="Performance Management Software" class="mr-10 h-64 object-cover shadow-lg rounded-lg">
         </div>
 
         <!-- Corporate Campaign, Partnership & CSR -->
-        <div class="flex items-center">
-            <img src="./assets/corporate/corporate-campaign.webp" alt="Corporate Training" class="h-48 object-cover rounded-lg mb-6 mr-6">
+        <div class="flex gap-12 justify-items-center px-4">
+            <img src="./assets/corporate/corporate-campaign.webp" alt="Corporate Training" class="h-80 w-120 ml-8 object-cover rounded-md">
             <div>
                 <h2 class="text-pink-600 text-2xl font-bold">Corporate Campaign, Partnership & CSR</h2>
                 <p class="text-gray-700 mb-4">
                     Perbesar Brand Awareness & Dampak Besama 1.5 Juta+ Member
                 </p>
-                <p class="text-gray-700 mb-4">
-                    ✅ Kerjasama pelaksanaan Public Training, Event & Workshop.
-                    <br>
-                    ✅ Perkenalkan brand & expertise perusahaan, perkuat corporate branding
-                    <br>
-                    ✅ Terbukti membangun virality dan word of mouth dengan ribuan peserta.
-                </p>
-                <button type="button" class="focus:outline-none mb-4 text-white bg-pink-600 font-medium rounded-full text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Hubungi Tim MySkill</button>
+                <ul class="list-disc pl-5 mb-3">
+                    <li>
+                        Kerjasama pelaksanaan Public Training, Event & Workshop.
+
+                    </li>
+                    <li>
+                        Perkenalkan brand & expertise perusahaan, perkuat corporate branding
+
+                    </li>
+                    <li>
+                        Terbukti membangun virality dan word of mouth dengan ribuan peserta.
+
+                    </li>
+                </ul>
+                <button type="button" class="focus:outline-none mb-4 text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Hubungi Tim MySkill</button>
             </div>
         </div>
 
