@@ -1,6 +1,7 @@
 <nav class="sticky top-0 px-8 flex justify-between items-center bg-orange-400 z-10 w-full">
     <a class="text-2xl font-bold leading-none" href="#">
-        <img class="w-21 h-21" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
+        <img class="max-w-xs max-md:w-20 h-auto" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
+
     </a>
     <div class="lg:hidden">
         <button class="navbar-burger flex items-center p-3 focus:outline-none hover:text-white focus:text-gray-900">
