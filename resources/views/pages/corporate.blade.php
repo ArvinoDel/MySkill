@@ -9,7 +9,7 @@
                     class="h-48 w-auto lg:h-64 lg:w-auto object-cover">
             </div>
 
-            <div class="text-left lg:text-left lg:ml-4 text-black lg:text-white">
+            <div class="text-left lg:text-left max-md:m-4 lg:ml-4 text-black lg:text-white">
                 <button type="button"
                     class="focus:outline-none text-white bg-gray-900 font-medium rounded-full text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">GMT
                     for Business</button>
