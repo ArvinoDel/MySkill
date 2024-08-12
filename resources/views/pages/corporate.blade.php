@@ -108,35 +108,33 @@
             </div>
 
             <!-- Performance Management Software -->
-            <div class="flex mr-12 justify-end gap-12">
-                <div class="">
+            <div class="flex flex-col-reverse md:flex-row md:mr-12 justify-center md:justify-end gap-12 px-4 md:px-0">
+                <div class="flex-1 md:ml-12 mb-4 md:mb-0">
                     <h2 class="text-pink-600 text-2xl font-bold">Performance Management Software</h2>
                     <p class="text-gray-700 mb-4">
                         Tools HRIS untuk Melacak Performa & Employee Learning
                     </p>
-                    <p class="text-gray-700 text-md mb-4 w-10/12">
+                    <p class="text-gray-700 text-md mb-4 w-full md:w-10/12">
                     <ul class="list-disc pl-5 mb-3">
                         <li>
                             Pencatatan dan Monitoring KPI setiap divisi dan karyawan.
-
                         </li>
                         <li>
                             1.000+ konten materi upskilling untuk semua divisi di perusahaan.
-
                         </li>
                         <li>
                             Dashboard analytics yang lengkap untuk data-driven decision.
-
                         </li>
                     </ul>
                     </p>
                     <button type="button"
-                        class="focus:outline-none text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 mb-4 me-2 dark:focus:ring-yellow-900">Pelajari
+                        class="focus:outline-none text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 mb-4 dark:focus:ring-yellow-900">Pelajari
                         Performance Management Software</button>
                 </div>
                 <img src="./assets/corporate/experience.webp" alt="Performance Management Software"
-                    class="mr-10 h-64 object-cover shadow-lg rounded-lg">
+                    class="h-64 object-cover shadow-lg rounded-lg md:mr-10 md:h-auto max-w-xs md:max-w-none mx-4 md:mx-0">
             </div>
+
 
             <!-- Corporate Campaign, Partnership & CSR -->
             <div class="flex flex-col lg:flex-row gap-12 py-6 justify-items-center px-4">
@@ -167,28 +165,34 @@
                 </div>
             </div>
 
-            <div class="min-h-screen flex items-center justify-center">
-                <div class="mx-auto w-full max-w-lg">
-                    <h2 class="text-3xl font-bold mb-6 text-center">Hubungi GMTrainer untuk Diskusi Lebih Lanjut</h2>
-                    <form class="bg-white space-y-6">
-                        <div class="grid grid-cols-1 gap-6">
-                            <label for="nama" class="font-bold">Nama
-                                <input type="text" id="nama" class="w-full p-4 bg-gray-300 rounded-lg">
+            <div class="min-h-screen flex items-center justify-center mt-9 px-4 sm:px-6 lg:px-8">
+                <div class="w-full max-w-lg">
+                    <h2 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center">Hubungi GMTrainer untuk Diskusi
+                        Lebih Lanjut</h2>
+                    <form class="bg-white space-y-4 sm:space-y-6 p-4 sm:p-6">
+                        <div class="grid grid-cols-1 gap-4 sm:gap-6">
+                            <label for="nama" class="font-bold text-sm sm:text-base">Nama
+                                <input type="text" id="nama"
+                                    class="w-full p-3 sm:p-4 bg-gray-300 rounded-lg text-sm sm:text-base">
                             </label>
-                            <label for="jabatan" class="font-bold">Jabatan
-                                <input type="text" id="jabatan" class="w-full p-4 bg-gray-300 rounded-lg">
+                            <label for="jabatan" class="font-bold text-sm sm:text-base">Jabatan
+                                <input type="text" id="jabatan"
+                                    class="w-full p-3 sm:p-4 bg-gray-300 rounded-lg text-sm sm:text-base">
                             </label>
-                            <label for="perusahaan" class="font-bold">Perusahaan
-                                <input type="text" id="perusahaan" class="w-full p-4 bg-gray-300 rounded-lg">
+                            <label for="perusahaan" class="font-bold text-sm sm:text-base">Perusahaan
+                                <input type="text" id="perusahaan"
+                                    class="w-full p-3 sm:p-4 bg-gray-300 rounded-lg text-sm sm:text-base">
                             </label>
-                            <label for="email" class="font-bold">Email Resmi
-                                <input type="email" id="email" class="w-full p-4 bg-gray-300 rounded-lg">
+                            <label for="email" class="font-bold text-sm sm:text-base">Email Resmi
+                                <input type="email" id="email"
+                                    class="w-full p-3 sm:p-4 bg-gray-300 rounded-lg text-sm sm:text-base">
                             </label>
-                            <label for="no-hp" class="font-bold">No. HP / WhatsApp
-                                <input type="text" id="no-hp" class="w-full p-4 bg-gray-300 rounded-lg">
+                            <label for="no-hp" class="font-bold text-sm sm:text-base">No. HP / WhatsApp
+                                <input type="text" id="no-hp"
+                                    class="w-full p-3 sm:p-4 bg-gray-300 rounded-lg text-sm sm:text-base">
                             </label>
-                            <label for="layanan" class="font-bold">Pilih Layanan</label>
-                            <select id="layanan" class="w-full p-4 bg-gray-300 rounded-lg">
+                            <label for="layanan" class="font-bold text-sm sm:text-base">Pilih Layanan</label>
+                            <select id="layanan" class="w-full p-3 sm:p-4 bg-gray-300 rounded-lg text-sm sm:text-base">
                                 <option value="" disabled selected hidden></option>
                                 <option value="corporate-training">Corporate Training</option>
                                 <option value="performance-management-software">Performance Management Software</option>
@@ -198,17 +202,18 @@
                             </select>
                         </div>
                         <div>
-                            <label for="pesan" class="font-bold">Pesan</label>
-                            <textarea id="pesan" class="w-full p-4 bg-gray-300 rounded-lg mt-2 h-40"></textarea>
+                            <label for="pesan" class="font-bold text-sm sm:text-base">Pesan</label>
+                            <textarea id="pesan" class="w-full p-3 sm:p-4 bg-gray-300 rounded-lg mt-2 text-sm sm:text-base h-32 sm:h-40"></textarea>
                         </div>
-                        <div class="flex items-center space-x-4">
+                        <div class="flex flex-col sm:flex-row items-center space-y-4 sm:space-x-4 sm:space-y-0">
                             <button type="submit"
-                                class="w-auto px-4 py-2 bg-gray-300 text-white font-bold rounded-lg mb-4">Kirim</button>
-                            <p class="mb-4">silahkan lengkapi form diatas untuk mengirim pesan</p>
+                                class="w-full sm:w-auto px-4 py-2 bg-gray-300 text-white font-bold rounded-lg">Kirim</button>
+                            <p class="text-xs sm:text-sm">silahkan lengkapi form diatas untuk mengirim pesan</p>
                         </div>
                     </form>
                 </div>
             </div>
+
         </section>
     </div>
 @endsection
