@@ -23,6 +23,11 @@ Route::get('/bootcamp', function () {
     return view('pages.bootcamp');
 });
 
+Route::get('/payment', function () {
+    return view('pages.payment');
+});
+
+
 Route::get('/elearning', function () {
     return view('pages.elearning');
 });
