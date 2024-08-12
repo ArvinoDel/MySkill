@@ -2,10 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/home', function () {
+
+
+// pages routes here
+Route::get('/', function () {
     return view('pages.home');
 });
 
+Route::get('/review', function () {
+    return view('pages.review');
+});
 
 Route::get('/corporate-service', function () {
     return view('pages.corporate');
@@ -26,6 +32,11 @@ Route::get('/elearning', function () {
     return view('pages.elearning');
 });
 
+
+
+
+
+// login or register routes
 Route::get('/login', function () {
     return view('pages.login');
 });

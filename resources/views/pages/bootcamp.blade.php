@@ -36,7 +36,7 @@
                 <p class="ml-4 text-white text-md font-semibold">> 10.000 Orang Telah Lulus</p>
             </div>
         </div>
-    </section>
+    </section>  
 
     <!-- Horizontal Scrollable Section -->
     <p class="mt-4 font-bold text-2xl flex justify-center px-14">Testimoni Alumni Bootcamp MySkill</p>
