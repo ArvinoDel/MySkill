@@ -78,13 +78,21 @@
         <!--  -->
 
         <div class="ml-4">
-            <p class="text-xl bg-gradient-to-b from-red-400 to-red-500 font-bold bg-clip-text text-transparent"><i class="fas fa-chevron-right bg-clip-text text-transparent mr-2"></i>Tentang Program</p>
+            <p class="text-xl bg-gradient-to-b from-red-400 to-red-500 font-bold bg-clip-text text-transparent">
+                <i class="fas fa-chevron-right bg-clip-text text-transparent mr-2"></i>Tentang Program
+            </p>
+            <p class="w-full sm:w-11/12 text-base sm:text-lg">
+                MySkill paham, proses melamar magang atau kerja amat membingungkan. Kita seolah menebak-nebak standar HRD dalam menilai CV kita akan seperti apa? Untuk itu, HR Consultant MySkill hadir untuk membantu
+                mereview CV kamu. Dalam waktu 7 hari kerja, kamu akan mendapatkan saran terperinci untuk meningkatkan kualitas CV lamaranmu.
+            </p>
             <br>
-            <p>MySkill paham, proses melamar magang atau kerja amat membingungkan. Kita seolah menebak-nebak</p>
-            <p> standar HRD dalam menilai CV kita akan seperti apa? Untuk itu, HR Consultant MySkill hadir untuk membantu </p>
-            <p>mereview CV kamu. Dalam waktu 7 hari kerja, kamu akan mendapatkan saran terperinci untuk meningkatkan </p>
-            kualitas CV lamaranmu.
-            <br>
+            <div class="flex flex-col sm:flex-row mt-4 ml-1 mr-1 w-full sm:w-72 items-center">
+                <img src="{{ asset('./assets/review/benefit.png') }}" class="w-full sm:w-72 rounded-md mt-1 mb-1">
+                <p class="ml-2 text-sm sm:text-base">
+                    ✅ CV kamu akan direview langsung oleh HRD profesional. Baik CV magang, kerja, beasiswa dan keperluan professional lainnya.
+                </p>
+            </div>
         </div>
+
     </section>
     @endsection

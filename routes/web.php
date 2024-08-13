@@ -23,6 +23,9 @@ Route::get('/corporate-service', function () {
 Route::get('/corporate-training', function () {
     return view('pages.corporate-training');
 });
+Route::get('/experience', function () {
+    return view('pages.experience');
+});
 Route::get('/bootcamp', function () {
     return view('pages.bootcamp');
 });
