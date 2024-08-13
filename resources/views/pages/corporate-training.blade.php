@@ -1,74 +1,105 @@
 @extends('layouts.main')
 @section('container')
 <div class="corporate">
-    <section class="w-screen h-auto rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white flex">
+    <section
+        class="w-screen h-auto rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white flex flex-col lg:flex-row">
         <!-- Adjust margin and padding for the image container -->
-        <div>
-            <img src="{{ asset('./assets/corporate/header.webp') }}" class="h-64 w-100 ml-16 py-2 mt-4"> <!-- Reduced mt-8 to mt-4 -->
+        <div class="flex justify-center lg:justify-start">
+            <img src="{{ asset('./assets/corporate/header.webp') }}"
+                class="h-48 w-auto lg:h-80 lg:mt-4 lg:ml-4 lg:mr-2 mt-4 lg:w-auto object-cover rounded-md">
+            <!-- Further reduced max-w -->
         </div>
 
-        <div class="ml-4 mt-8">
-            <button type="button" class="focus:outline-none text-white bg-gray-900 font-medium rounded-full text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">MySkill for Business</button>
-            <p class="text-4xl font-bold">
+        <div class="lg:ml-4 lg:mt-8 p-4 lg:p-0">
+            <button type="button"
+                class="focus:outline-none text-white bg-gray-900 font-medium rounded-full text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900 mb-4 lg:mb-0">MySkill
+                for Business</button>
+            <p class="text-base lg:text-4xl font-bold text-black lg:text-white">
                 Tingkatkan Skill & Performa Karyawan
             </p>
-            <p class="text-4xl font-bold mb-0">
+            <p class="text-base lg:text-4xl font-bold text-black lg:text-white mb-0">
                 dengan Corporate Training
             </p>
-            <p class="mt-2 text-lg">MySkill membantu ratusan enterprise, startup, badan pemerintahan dan</p>
-            <p class="text-lg"> institusi lainnya untuk mengembangkan potensi karyawan melalui </p>
-            <p class="text-lg">customizable training.</p>
+            <p class="mt-2 text-sm lg:text-lg text-black lg:text-white">MySkill membantu ratusan enterprise, startup,
+                badan pemerintahan dan</p>
+            <p class="text-sm lg:text-lg text-black lg:text-white"> institusi lainnya untuk mengembangkan potensi
+                karyawan melalui </p>
+            <p class="text-sm lg:text-lg text-black lg:text-white">customizable training.</p>
             <br>
 
-            <button type="button" class="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Konsultasi Gratis Sekarang</button>
-            <div class="flex justify-start items-center space-x-4 mb-4">
-                <img src="./assets/corporate/microsoft.webp" alt="Microsoft" class="h-6">
-                <img src="./assets/corporate/kemenkeu.webp" alt="kemenkeu" class="h-6">
-                <img src="./assets/corporate/bank-mandiri.webp" alt="mandiri" class="h-6">
-                <img src="./assets/corporate/bank-indonesia.webp" alt="bi" class="h-6">
-                <img src="./assets/corporate/mizan.webp" alt="mizan" class="h-6">
+            <button type="button"
+                class="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Konsultasi
+                Gratis Sekarang</button>
+            <div class="flex flex-wrap justify-center lg:justify-start items-center space-x-4 mb-4">
+                <img src="./assets/corporate/microsoft.webp" alt="Microsoft" class="h-4 lg:h-6 mb-2">
+                <!-- Reduced size on mobile -->
+                <img src="./assets/corporate/kemenkeu.webp" alt="kemenkeu" class="h-4 lg:h-6 mb-2">
+                <!-- Reduced size on mobile -->
+                <img src="./assets/corporate/bank-mandiri.webp" alt="mandiri" class="h-4 lg:h-6 mb-2">
+                <!-- Reduced size on mobile -->
+                <img src="./assets/corporate/bank-indonesia.webp" alt="bi" class="h-4 lg:h-6 mb-2">
+                <!-- Reduced size on mobile -->
+                <img src="./assets/corporate/mizan.webp" alt="mizan" class="h-4 lg:h-6 mb-2">
+                <!-- Reduced size on mobile -->
             </div>
+        </div>
     </section>
-    <h3 class="text-center mt-4 mr-100 text-3xl font-bold mb-4 text-black">MySkill Dipercaya Ratusan Institusi Sebagai Learning Partner Karena</h3>
-    <div class="flex justify-center mb-4 space-x-4">
-        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1">
-            <img src="./assets/corporate/Customizable.webp" alt="" class="mx-auto mb-4 w-11/12">
-            <p class="text-md font-bold">Customizable Program</p>
-            <p class="text-sm">Dari segi topik materi, online/offline,<br>durasi serta lokasi pelatihan.</p>
+
+    <h3 class="text-center mt-4 mr-100 text-3xl font-bold mb-4 text-black">MySkill Dipercaya Ratusan Institusi Sebagai
+        Learning Partner Karena</h3>
+    <div class="flex flex-wrap justify-center mb-4 space-x-4 space-y-4">
+        <!-- Customizable Program -->
+        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center">
+            <img src="./assets/corporate/Customizable.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs">
+            <p class="text-md font-bold text-center">Customizable Program</p>
+            <p class="text-sm text-center">Dari segi topik materi, online/offline,<br>durasi serta lokasi pelatihan.</p>
         </div>
-        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1">
-            <img src="./assets/corporate/senior-practicioner.webp" alt="" class="mx-auto mb-4">
-            <p class="text-md font-bold">Dibawakan Praktisi Senior</p>
-            <p class="text-sm">MySkill menggandeng professional terkurasi dari notable companies.</p>
+        <!-- Dibawakan Praktisi Senior -->
+        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center">
+            <img src="./assets/corporate/senior-practicioner.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs">
+            <p class="text-md font-bold text-center">Dibawakan Praktisi Senior</p>
+            <p class="text-sm text-center">MySkill menggandeng professional terkurasi dari notable companies.</p>
         </div>
-        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1">
-            <img src="./assets/corporate/workshop.webp" alt="" class="mx-auto mb-4">
-            <p class="text-md font-bold">Workshop & Practice Driven</p>
-            <p class="text-sm">Pelatihan MySkill mengkombinasikan pemahaman, praktik dan case study.</p>
+        <!-- Workshop & Practice Driven -->
+        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center">
+            <img src="./assets/corporate/workshop.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs">
+            <p class="text-md font-bold text-center">Workshop & Practice Driven</p>
+            <p class="text-sm text-center">Pelatihan MySkill mengkombinasikan pemahaman, praktik dan case study.</p>
         </div>
-        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1">
-            <img src="./assets/corporate/measured-impact.webp" alt="" class="mx-auto mb-4 w-2/3">
-            <p class="text-md font-bold">Before & After yang Terukur</p>
-            <p class="text-sm">Dari need assessment, test, reporting & konsultasi pasca training.</p>
+        <!-- Before & After yang Terukur -->
+        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center">
+            <img src="./assets/corporate/measured-impact.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs">
+            <p class="text-md font-bold text-center">Before & After yang Terukur</p>
+            <p class="text-sm text-center">Dari need assessment, test, reporting & konsultasi pasca training.</p>
         </div>
     </div>
+
 </div>
 
 <section class="w-screen h-auto">
-    <div class="text-center">
-        <button type="button" class="focus:outline-none text-xl text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Konsultasi Gratis Sekarang</button>
+    <div class="text-center mb-4">
+        <button type="button"
+            class="focus:outline-none text-base sm:text-xl text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-4 sm:px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">
+            Konsultasi Gratis Sekarang
+        </button>
     </div>
-    <h2 class="text-3xl font-bold mb-6 text-center">Fokus Mendorong Performa, Bukan Sekadar Organizer</h2>
+    <h2 class="text-xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center">
+        Fokus Mendorong Performa, Bukan Sekadar Organizer
+    </h2>
+
     <section class="mt-8 overflow-x-auto whitespace-nowrap px-8 py-4 mb-12 no-scrollbar">
         <style>
             /* Hide scrollbar for Chrome, Safari and Opera */
             .no-scrollbar::-webkit-scrollbar {
                 display: none;
             }
+
             /* Hide scrollbar for IE, Edge and Firefox */
             .no-scrollbar {
-                -ms-overflow-style: none;  /* IE and Edge */
-                scrollbar-width: none;  /* Firefox */
+                -ms-overflow-style: none;
+                /* IE and Edge */
+                scrollbar-width: none;
+                /* Firefox */
             }
         </style>
         <div class="inline-block px-4">
@@ -112,66 +143,35 @@
         </div>
     </section>
 
-    <h3 class="text-center mt-4 mr-20 text-3xl font-bold mb-4 text-black">Mengapa Ratusan Perusahaan Memilih GMTrainer?</h3>
-    <div class="flex justify-center mb-4 space-x-4">
-        <div class="bg-white text-black p-6 rounded-xl w-64 border border-spacing-2">
-            <img src="./assets/corporate/linkedin-top-startup.webp" alt="LinkedIn Top Startup Award" class="mx-auto mb-4">
-            <p class="text-md">2X LinkedIn Top Startup Award</p>
-            <p>Satu-satunya startup Education Technology di Indonesia.</p>
+    <h3 class="text-center mt-4 mb-4 text-3xl font-bold text-black mx-4 sm:mx-10 md:mx-20 lg:mx-20">
+        Mengapa Ratusan Perusahaan Memilih GMTrainer?
+    </h3>
+
+    <div class="flex flex-wrap justify-center mb-4 space-x-4 space-y-4">
+        <!-- LinkedIn Top Startup Award -->
+        <div class="bg-white text-black p-6 rounded-xl w-64 border border-spacing-2 flex flex-col items-center">
+            <img src="./assets/corporate/linkedin-top-startup.webp" alt="LinkedIn Top Startup Award"
+                class="mx-auto mb-4 w-1/2 max-w-xs">
+            <p class="text-md text-center">2X LinkedIn Top Startup Award</p>
+            <p class="text-center">Satu-satunya startup Education Technology di Indonesia.</p>
         </div>
-        <div class="bg-white text-black p-6 rounded-xl w-64 border border-spacing-2">
-            <img src="./assets/corporate/course-report.webp" alt="Course Report" class="mx-auto mb-4">
-            <p class="text-md">Rating 4.99 di Course Report</p>
-            <p>Mendapatkan rating sangat memuaskan dari para peserta.</p>
+        <!-- Course Report -->
+        <div class="bg-white text-black p-6 rounded-xl w-64 border border-spacing-2 flex flex-col items-center">
+            <img src="./assets/corporate/course-report.webp" alt="Course Report" class="mx-auto mb-4 w-1/2 max-w-xs">
+            <p class="text-md text-center">Rating 4.99 di Course Report</p>
+            <p class="text-center">Mendapatkan rating sangat memuaskan dari para peserta.</p>
         </div>
-        <div class="bg-white text-black p-6 rounded-xl w-64  border border-spacing-2">
-            <img src="./assets/corporate/userbase.webp" alt="Users" class="mx-auto mb-4">
-            <p class="text-md">Lebih dari 1.5 Juta Pengguna</p>
-            <p>Komunitas pengembangan skill terbesar di Indonesia.</p>
+        <!-- Users -->
+        <div class="bg-white text-black p-6 rounded-xl w-64 border border-spacing-2 flex flex-col items-center">
+            <img src="./assets/corporate/userbase.webp" alt="Users" class="mx-auto mb-4 w-1/2 max-w-xs">
+            <p class="text-md text-center">Lebih dari 1.5 Juta Pengguna</p>
+            <p class="text-center">Komunitas pengembangan skill terbesar di Indonesia.</p>
         </div>
     </div>
 
-    <div class="min-h-screen flex items-center justify-center">
-        <div class="mx-auto w-full max-w-lg">
-            <h2 class="text-3xl font-bold mb-6 text-center">Hubungi GMTrainer untuk Diskusi Lebih Lanjut</h2>
-            <form class="bg-white space-y-6">
-                <div class="grid grid-cols-1 gap-6">
-                    <label for="nama" class="font-bold">Nama
-                        <input type="text" id="nama" class="w-full p-4 bg-gray-300 rounded-lg">
-                    </label>
-                    <label for="jabatan" class="font-bold">Jabatan
-                        <input type="text" id="jabatan" class="w-full p-4 bg-gray-300 rounded-lg">
-                    </label>
-                    <label for="perusahaan" class="font-bold">Perusahaan
-                        <input type="text" id="perusahaan" class="w-full p-4 bg-gray-300 rounded-lg">
-                    </label>
-                    <label for="email" class="font-bold">Email Resmi
-                        <input type="email" id="email" class="w-full p-4 bg-gray-300 rounded-lg">
-                    </label>
-                    <label for="no-hp" class="font-bold">No. HP / WhatsApp
-                        <input type="text" id="no-hp" class="w-full p-4 bg-gray-300 rounded-lg">
-                    </label>
-                    <label for="layanan" class="font-bold">Pilih Layanan</label>
-                    <select id="layanan" class="w-full p-4 bg-gray-300 rounded-lg">
-                        <option value="" disabled selected hidden></option>
-                        <option value="corporate-training">Corporate Training</option>
-                        <option value="performance-management-software">Performance Management Software</option>
-                        <option value="employee-learning-development">Employee Learning and Development</option>
-                        <option value="consulting-services">Consulting Services</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="pesan" class="font-bold">Pesan</label>
-                    <textarea id="pesan" class="w-full p-4 bg-gray-300 rounded-lg mt-2 h-40"></textarea>
-                </div>
-                <div class="flex items-center space-x-4">
-                    <button type="submit" class="w-auto px-4 py-2 text-white bg-gradient-to-b from-orange-400 to-red-400  font-bold rounded-lg mb-8">Kirim</button>
-                    <p class="mb-8">Silahkan lengkapi form diatas untuk mengirim pesan</p>
-                </div>
-            </form>
-        </div>
-    </div>
+
+    @include('partials.hubungi-kami')
+
 </section>
 </div>
 @endsection
