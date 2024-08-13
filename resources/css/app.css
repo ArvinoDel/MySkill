@@ -9,3 +9,84 @@
 .underline-offset {
     text-underline-offset: 20px;
 } */
+
+.no-scroll {
+    overflow: hidden;
+}
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Custom CSS for border color when clicked */
+.border-light-blue-500 {
+    border-color: #3b82f6; /* Adjust the color to your needs */
+}
+
+/* Ensure scale effect on click */
+.scale-105 {
+    transform: scale(1.05);
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    25%{
+        opacity: 0.25;
+        transform: translateX(15px);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateX(10px);
+    }
+    100%{
+        opacity: 0.75;
+        transform: translateX(5px);
+    }
+    /* 100% {
+        opacity: 1;
+        transform: translateX(0);
+    } */
+}
+
+@keyframes fadeOutLeft {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    50%{
+        opacity: 0.25;
+        transform: translateX(15px);
+    }
+    100%{
+        opacity: 0.5;
+        transform: translateX(-10px);
+    }
+    /* 100%{
+        opacity: 0.75;
+        transform: translateX(-5px);
+    } */
+    /* 100% {
+        opacity: 0;
+        transform: translateX(-20px);
+    } */
+}
+
+.fade-in-right {
+    animation: fadeInRight 0.50s ease-in-out;
+}
+
+.fade-out-left {
+    animation: fadeOutLeft 0.50s ease-in-out;
+}

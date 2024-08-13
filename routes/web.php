@@ -20,6 +20,10 @@ Route::get('/review', function () {
 Route::get('/corporate-service', function () {
     return view('pages.corporate');
 });
+
+Route::get('/e-learning', function () {
+    return view('pages.e-learning');
+});
 Route::get('/corporate-training', function () {
     return view('pages.corporate-training');
 });
