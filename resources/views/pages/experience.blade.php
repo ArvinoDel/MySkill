@@ -1,5 +1,17 @@
 @extends('layouts.main')
 @section('container')
+
+@php
+$buttons = [
+['id' => 1, 'label' => '📕 Learning'],
+['id' => 2, 'label' => '💼 Onboarding'],
+['id' => 3, 'label' => '✅ Project'],
+['id' => 4, 'label' => '🎯 Performance'],
+['id' => 5, 'label' => '📊 Analytics'],
+];
+$activeButton = request()->query('activeButton');
+@endphp
+
 <div class="corporate">
     <section
         class="flex flex-col lg:flex-row-reverse h-auto rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white w-screen">
@@ -43,209 +55,242 @@
             </div>
         </div>
     </section>
-    <div class="MuiBox-root mui-style-1wmuiqq">
-        <div class="MuiContainer-root MuiContainer-maxWidthLg mui-style-1qsxih2">
-            <div class="MuiBox-root mui-style-1yjvs5a">
-                <div>
-                    <div class="MuiBox-root mui-style-ohwg9z">
-                        <div class="MuiGrid-root MuiGrid-container mui-style-1502sed">
-                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto mui-style-1hbjsgn" data-key=".$feature-button-learning}">
-                                <div class="MuiBox-root mui-style-0"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedMonochrome MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorMonochrome MuiButton-root MuiButton-outlined MuiButton-outlinedMonochrome MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorMonochrome mui-style-1g7xpjj" tabindex="0" type="button" fdprocessedid="qh7hps">📕 Learning<span class="MuiTouchRipple-root mui-style-w0pj6f"></span></button></div>
-                            </div>
-                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto mui-style-1hbjsgn" data-key=".$feature-button-onboarding}">
-                                <div class="MuiBox-root mui-style-0"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedMonochrome MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorMonochrome MuiButton-root MuiButton-outlined MuiButton-outlinedMonochrome MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorMonochrome mui-style-1g7xpjj" tabindex="0" type="button" fdprocessedid="7bz0d">💼 Onboarding<span class="MuiTouchRipple-root mui-style-w0pj6f"></span></button></div>
-                            </div>
-                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto mui-style-1hbjsgn" data-key=".$feature-button-project}">
-                                <div class="MuiBox-root mui-style-0"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedMonochrome MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorMonochrome MuiButton-root MuiButton-outlined MuiButton-outlinedMonochrome MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorMonochrome mui-style-1g7xpjj" tabindex="0" type="button" fdprocessedid="l85cki">✅ Project<span class="MuiTouchRipple-root mui-style-w0pj6f"></span></button></div>
-                            </div>
-                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto mui-style-1hbjsgn" data-key=".$feature-button-performance}">
-                                <div class="MuiBox-root mui-style-0"><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedMonochrome MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorMonochrome MuiButton-root MuiButton-contained MuiButton-containedMonochrome MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorMonochrome mui-style-156429p" tabindex="0" type="button" fdprocessedid="eqy0h">🎯 Performance<span class="MuiTouchRipple-root mui-style-w0pj6f"></span></button></div>
-                            </div>
-                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto mui-style-1hbjsgn" data-key=".$feature-button-analytics}">
-                                <div class="MuiBox-root mui-style-0"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedMonochrome MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorMonochrome MuiButton-root MuiButton-outlined MuiButton-outlinedMonochrome MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorMonochrome mui-style-1g7xpjj" tabindex="0" type="button" fdprocessedid="z56eo8">📊 Analytics<span class="MuiTouchRipple-root mui-style-w0pj6f"></span></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+    <!-- button here -->
+    <div id="buttonContainer" class="flex space-x-4 mt-14 mr-14 ml-14 mb-8">
+        @foreach ($buttons as $button)
+        <a
+            id="button-{{ $button['id'] }}"
+            href="#{{ $button['id'] }}"
+            data-target="content-{{ $button['id'] }}"
+            class="py-1 px-2 rounded-md font-semibold
+           bg-white border border-black text-gray-800
+        hover:bg-gray-300 hover:border-gray-400 hover:text-gray-900" style=".bg-gray-900.no-hover:hover {
+    background-color: inherit;
+    border-color: inherit;
+    color: inherit;
+}">
+            {{ $button['label'] }}
+        </a>
+        @endforeach
+    </div>
+
+    <!-- INI KAALO MAU BIKIN DIV, PASTIKAN ADA ID CONTENT-#ID SESUAI DENGAN ID BUTTON NYA  DAN CLASS NYA PASTI HIDDEN -->
+    <div id="content-1" class="flex">
+        <div class="w-1/2 ml-14">
+            <p class="text-xl lg:text-4xl font-bold mb-2">
+                Ratusan Materi
+            </p>
+            <p class="text-xl lg:text-4xl font-bold mb-2">
+                Upskilling Untuk Semua
+            </p>
+            <p class="text-xl lg:text-4xl font-bold mb-2">
+                Tim.
+            </p>
+            <p class="text-xl">
+                Akses 900+ video dan modul latihan hasil rancangan
+            </p>
+            <p class="text-xl">
+                para experts. Upgrade skill karyawan di semua divisi
+            </p>
+            <p class="text-xl">
+                dengan efisien.
+            </p>
+            <button type="button"
+                class="text-black lg:text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 mt-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0 dark:focus:ring-yellow-900">
+                saya tertarik
+            </button>
+        </div>
+
+        <video src="{{ asset('assets/corporate/learning.mp4') }}" autoplay loop muted class="w-1/2 h-auto mr-12 ml-4" playsinline>
+        </video>
+    </div>
+
+    <div id="content-2" class="hidden">
+        <div class="flex"> <!-- Added flex class for layout -->
+            <div class="w-1/2 ml-14"> <!-- Text content on the left -->
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    Buat dan Bagikan Materi
+                </p>
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    Onboarding.
+                </p>
+
+                <p class="text-xl">
+                    Kurangi repetisi dan hemat waktu hingga 90% untuk membagikan informasi bagi Karyawan maupun Mitra bisnis baru di perusahaan.
+                </p>
+                <button type="button"
+                    class="text-black lg:text-black bg-yellow-400 hover:bg-yellow-500 mt-4 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0 dark:focus:ring-yellow-900">
+                    saya tertarik
+                </button>
             </div>
-            <div class="MuiBox-root mui-style-0">
-                <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 mui-style-isbt42">
-                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5 mui-style-1r482s6">
-                        <div class="MuiStack-root mui-style-1ov46kg">
-                            <div style="opacity: 1; transform: none;">
-                                <h2 class="MuiTypography-root MuiTypography-h2 mui-style-1stiisk">Buat dan Pantau Target KPI Semua Karyawan. </h2>
-                            </div>
-                            <div style="opacity: 1; transform: none;">
-                                <p class="MuiTypography-root MuiTypography-body1 mui-style-147j9uz">Pastikan performa tiap tim mencapai target. Ketahui perkembangan dari setiap tujuan.</p>
-                            </div>
-                            <div style="opacity: 1; transform: none;"><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedWarning MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorWarning MuiButton-root MuiButton-contained MuiButton-containedWarning MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorWarning mui-style-1r4dikm" tabindex="0" type="button" fdprocessedid="5dadvh">Saya Tertarik<span class="MuiTouchRipple-root mui-style-w0pj6f"></span></button></div>
-                        </div>
-                    </div>
-                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-7 mui-style-1ak9ift">
-                        <div style="opacity: 1; transform: none;">
-                            <div class="MuiBox-root mui-style-nyzudu"><video class="MuiBox-root mui-style-1ukiuui" autoplay="" loop="" preload="auto">
-                                    <source src="/assets/experience/performance.mp4" type="video/mp4">
-                                </video></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            <video src="{{ asset('assets/corporate/onboarding.mp4') }}" autoplay loop muted class="w-1/2 h-auto mr-12 ml-4" playsinline> <!-- Video on the right -->
+            </video>
         </div>
     </div>
 
-    <section class="p-8 bg-white">
-        <div class="text-center">
-            <h2 class="text-xl font-bold">Ratusan Materi Upskilling Untuk Semua Tim</h2>
-            <p class="mt-4">Akses 900+ video dan modul latihan hasil rancangan para experts. Upgrade skill karyawan di semua divisi dengan efisien.</p>
-            <button class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 mt-6 rounded">Saya Tertarik</button>
+    <div id="content-3" class="hidden">
+        <div class="flex"> <!-- Added flex class for layout -->
+            <div class="w-1/2 ml-14"> <!-- Text content on the left -->
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    Tools Manajemen
+                </p>
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    Proyek secara
+                </p>
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    Kolaboratif.
+                </p>
+                <p class="text-xl">
+                    Buat dan kerjakan tugas di dalam tim maupun dengan pihak eksternal. Simpel, rapi dan mudah dipantau.
+                </p>
+                <button type="button"
+                    class="text-black lg:text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 mt-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0 dark:focus:ring-yellow-900">
+                    saya tertarik
+                </button>
+            </div>
+
+            <video src="{{ asset('assets/corporate/project.mp4') }}" autoplay loop muted class="w-1/2 h-auto mr-12 ml-4" playsinline> <!-- Video on the right -->
+            </video>
+        </div>
+    </div>
+
+    <div id="content-4" class="hidden">
+        <div class="flex"> <!-- Added flex class for layout -->
+            <div class="w-1/2 ml-14"> <!-- Text content on the left -->
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    Buat dan Pantau Target
+                </p>
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    KPI Semua Karyawan.
+                </p>
+                <p class="text-xl">
+                    Pastikan performa tiap tim mencapai target. Ketahui perkembangan dari setiap tujuan.
+                </p>
+                <button type="button"
+                    class="text-black lg:text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 mt-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0 dark:focus:ring-yellow-900">
+                    saya tertarik
+                </button>
+            </div>
+
+            <video src="{{ asset('assets/corporate/performance.mp4') }}" autoplay loop muted class="w-1/2 h-auto mr-12 ml-4" playsinline> <!-- Video on the right -->
+            </video>
+        </div>
+    </div>
+
+    <div id="content-5" class="hidden">
+        <div class="flex"> <!-- Added flex class for layout -->
+            <div class="w-1/2 ml-14"> <!-- Text content on the left -->
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    Dapatkan Insight dari
+                </p>
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    Perkembangan &
+                </p>
+                <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
+                    Performa Tim.
+                </p>
+                <p class="text-xl">
+                    Satu dashboard untuk memantau semua. Dari aktivitas upskilling, proyek hingga performa.
+                </p>
+                <button type="button"
+                    class="text-black lg:text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 mt-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0 dark:focus:ring-yellow-900">
+                    saya tertarik
+                </button>
+            </div>
+
+            <video src="{{ asset('assets/corporate/analytics.mp4') }}" autoplay loop muted class="w-1/2 h-auto mr-12 ml-4" playsinline> <!-- Video on the right -->
+            </video>
+        </div>
+    </div>
+
+    <section class="mt-12 lg:flex-row-reverse h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white w-screen">
+        <div class="flex flex-col items-center">
+            <p class="text-center mt-4 text-4xl font-bold text-black">Dirancang oleh MySkill. Platform Upskilling #1
+            </p>
+            <p class="text-center text-4xl font-bold mb-4 text-black">dengan 1 Juta lebih Pengguna.
+            </p>
+            <p class="text-xl">
+                Kembangkan bisnis perusahaan Kamu dengan mendorong tiap karyawan bekerja dan berkembang
+            </p>
+            <p class="text-xl">
+                dengan lebih efektif.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center mb-4 space-y-4 sm:space-y-0 sm:space-x-4 px-4">
+                <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
+                    <p class="text-md font-medium text-center mb-4">Didukung oleh</p>
+                    <img src="./assets/corporate/east-ventures.webp" alt=""
+                        class="mx-auto">
+                </div>
+                <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
+                    <p class="text-md font-medium text-center mb-4 ">Didukung oleh</p>
+                    <div class="flex justify-center"> <!-- Added flex container for alignment -->
+                        <img src="./assets/corporate/aws-edstart.webp" alt="" class="mx-2 h-16"> <!-- Adjusted height for smaller size -->
+                        <img src="./assets/corporate/linkedin-top-startupp.webp" alt="" class="mx-2 h-16"> <!-- Adjusted height for smaller size -->
+                    </div>
+                </div>
+                <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
+                    <p class="text-md font-medium text-center mb-4">Bekerjasama dengan</p>
+                    <div class="flex justify-center space-x-2 mt-8"> <!-- Adjusted for alignment -->
+                        <img src="./assets/corporate/paragon.webp" alt="Users" class="mx-auto h-6"> <!-- Adjusted height for smaller size -->
+                        <img src="./assets/corporate/microsoftt.webp" alt="Users" class="mx-auto  h-6"> <!-- Adjusted height for smaller size -->
+                        <img src="./assets/corporate/mandiri.webp" alt="Users" class="mx-auto  h-6"> <!-- Adjusted height for smaller size -->
+                    </div>
+                </div>
+                <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
+                    <p class="text-md font-medium text-center mb-4">Bekerjasama dengan</p>
+                    <div class="flex justify-center space-x-1 mt-8"> <!-- Reduced space-x-2 to space-x-1 -->
+                        <img src="./assets/corporate/techinasia.webp" alt="Users" class="mx-auto h-4"> <!-- Adjusted height to h-4 -->
+                        <img src="./assets/corporate/cnbc.webp" alt="Users" class="mx-auto h-4"> <!-- Adjusted height to h-4 -->
+                        <img src="./assets/corporate/technode.webp" alt="Users" class="mx-auto h-4"> <!-- Adjusted height to h-4 -->
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <div class="flex flex-col items-center">
-        <h3 class="text-center mt-4 text-3xl font-bold mb-4 text-black">Mengapa Ratusan Perusahaan Memilih GMTrainer?
-        </h3>
-        <div class="flex flex-col sm:flex-row justify-center mb-4 space-y-4 sm:space-y-0 sm:space-x-4 px-4">
-            <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
-                <img src="./assets/corporate/linkedin-top-startup.webp" alt="LinkedIn Top Startup Award"
-                    class="mx-auto mb-4">
-                <p class="text-md font-medium">2X LinkedIn Top Startup Award</p>
-                <p>Satu-satunya startup Education Technology di Indonesia.</p>
-            </div>
-            <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
-                <img src="./assets/corporate/course-report.webp" alt="Course Report" class="mx-auto mb-4">
-                <p class="text-md font-medium">Rating 4.99 di Course Report</p>
-                <p>Mendapatkan rating sangat memuaskan dari para peserta.</p>
-            </div>
-            <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
-                <img src="./assets/corporate/userbase.webp" alt="Users" class="mx-auto mb-4">
-                <p class="text-md font-medium">Lebih dari 1.5 Juta Pengguna</p>
-                <p>Komunitas pengembangan skill terbesar di Indonesia.</p>
-            </div>
-        </div>
-
-    </div>
-
     <section class="w-screen h-auto">
-        <h3 class="text-center mt-4 mr-12 text-3xl font-bold mb-4 text-black w-full">Berbagai Program GMTrainer</h3>
-        <!-- Corporate Training -->
-        <div class="flex flex-col lg:flex-row gap-8 px-4 py-6 items-center">
-            <img src="./assets/corporate/corporate-training.webp" alt="Corporate Training"
-                class="h-56 w-full lg:h-72 lg:w-1/2 object-cover rounded-md mb-4 lg:mb-0">
-            <div class="lg:w-1/2">
-                <h2 class="text-pink-600 text-xl lg:text-2xl font-bold mb-2">Corporate Training</h2>
-                <p class="text-gray-700 text-base lg:text-lg mb-4">
-                    Assessment, Pelatihan, dan Konsultasi Pasca Training.
-                </p>
-                <ul class="list-disc pl-5 text-base lg:text-lg mb-4">
-                    <li>
-                        Customizeable: offline / online, berbagai topik dan durasi bisa disesuaikan.
-                    </li>
-                    <li>
-                        Dibawakan praktisi senior dari notable companies dan industri yang relevan.
-                    </li>
-                    <li>
-                        Fokus praktik & case study. Assessment before dan after training yang lengkap.
-                    </li>
-                </ul>
-                <button type="button"
-                    class="focus:outline-none text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 dark:focus:ring-yellow-900">Pelajari
-                    Corporate Training</button>
-            </div>
-        </div>
+        <p class="bg-clip-text bg-gradient-to-r from-orange-400 to-pink-500 ml-4 mt-4 text-transparent text-xl">
+            MySkill Experience akan Rilis Segera!
+        </p>
+        <h3 class=" mt-4 ml-4 text-4xl font-bold mb-4 text-black w-full">Daftar sekarang untuk mendapat info detail produk dan promo.</h3>
+        <p class="text-black ml-4 mt-4 text-transparent text-xl">
+            Kembangkan bisnis perusahaan Kamu dengan mengembangkan SDM di
+        </p>
+        <p class="text-black ml-4 mb-4 text-transparent text-xl">
+            dalamnya melalui LMS MySkill segera.
+        </p>  
 
-        <!-- Performance Management Software -->
-        <div class="flex mr-12 justify-end gap-12">
-            <div class="">
-                <h2 class="text-pink-600 text-2xl font-bold">Performance Management Software</h2>
-                <p class="text-gray-700 mb-4">
-                    Tools HRIS untuk Melacak Performa & Employee Learning
-                </p>
-                <p class="text-gray-700 text-md mb-4 w-10/12">
-                <ul class="list-disc pl-5 mb-3">
-                    <li>
-                        Pencatatan dan Monitoring KPI setiap divisi dan karyawan.
-
-                    </li>
-                    <li>
-                        1.000+ konten materi upskilling untuk semua divisi di perusahaan.
-
-                    </li>
-                    <li>
-                        Dashboard analytics yang lengkap untuk data-driven decision.
-
-                    </li>
-                </ul>
-                </p>
-                <button type="button"
-                    class="focus:outline-none text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 mb-4 me-2 dark:focus:ring-yellow-900">Pelajari
-                    Performance Management Software</button>
-            </div>
-            <img src="./assets/corporate/experience.webp" alt="Performance Management Software"
-                class="mr-10 h-64 object-cover shadow-lg rounded-lg">
-        </div>
-
-        <!-- Corporate Campaign, Partnership & CSR -->
-        <div class="flex flex-col lg:flex-row gap-12 py-6 justify-items-center px-4">
-            <img src="./assets/corporate/corporate-campaign.webp" alt="Corporate Training"
-                class="h-48 w-auto lg:h-80 lg:w-auto object-cover rounded-md">
-            <div>
-                <h2 class="text-pink-600 text-2xl font-bold">Corporate Campaign, Partnership & CSR</h2>
-                <p class="text-gray-700 mb-4">
-                    Perbesar Brand Awareness & Dampak Besama 1.5 Juta+ Member
-                </p>
-                <ul class="list-disc pl-5 mb-3">
-                    <li>
-                        Kerjasama pelaksanaan Public Training, Event & Workshop.
-
-                    </li>
-                    <li>
-                        Perkenalkan brand & expertise perusahaan, perkuat corporate branding
-
-                    </li>
-                    <li>
-                        Terbukti membangun virality dan word of mouth dengan ribuan peserta.
-
-                    </li>
-                </ul>
-                <button type="button"
-                    class="focus:outline-none mb-4 text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Hubungi
-                    Tim MySkill</button>
-            </div>
-        </div>
-
-        <div class="min-h-screen flex items-center justify-center">
-            <div class="mx-auto w-full max-w-lg">
-                <h2 class="text-3xl font-bold mb-6 text-center">Hubungi GMTrainer untuk Diskusi Lebih Lanjut</h2>
+        <div class=" flex items-center justify-center">
+            <div class="mx-auto w-full ml-4">
                 <form class="bg-white space-y-6">
-                    <div class="grid grid-cols-1 gap-6">
-                        <label for="nama" class="font-bold">Nama
+                    <div class="grid grid-cols-2 gap-3"> <!-- Adjusted column size -->
+                        <label for="nama" class="font-bold">Email Resmi / Perusahaan
                             <input type="text" id="nama" class="w-full p-4 bg-gray-300 rounded-lg">
                         </label>
-                        <label for="jabatan" class="font-bold">Jabatan
+                        <label for="jabatan" class="font-bold">Telepon /WhatsApp
                             <input type="text" id="jabatan" class="w-full p-4 bg-gray-300 rounded-lg">
                         </label>
-                        <label for="perusahaan" class="font-bold">Perusahaan
+                        <label for="perusahaan" class="font-bold">Departemen
                             <input type="text" id="perusahaan" class="w-full p-4 bg-gray-300 rounded-lg">
                         </label>
-                        <label for="email" class="font-bold">Email Resmi
+                        <label for="email" class="font-bold">Total Karayawan
                             <input type="email" id="email" class="w-full p-4 bg-gray-300 rounded-lg">
                         </label>
-                        <label for="no-hp" class="font-bold">No. HP / WhatsApp
+                        <label for="no-hp" class="font-bold">Nama Lengkap
                             <input type="text" id="no-hp" class="w-full p-4 bg-gray-300 rounded-lg">
                         </label>
-                        <label for="layanan" class="font-bold">Pilih Layanan</label>
-                        <select id="layanan" class="w-full p-4 bg-gray-300 rounded-lg">
-                            <option value="" disabled selected hidden></option>
-                            <option value="corporate-training">Corporate Training</option>
-                            <option value="performance-management-software">Performance Management Software</option>
-                            <option value="employee-learning-development">Employee Learning and Development</option>
-                            <option value="consulting-services">Consulting Services</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="pesan" class="font-bold">Pesan</label>
-                        <textarea id="pesan" class="w-full p-4 bg-gray-300 rounded-lg mt-2 h-40"></textarea>
+                        <label for="no-hp" class="font-bold">Posisi di Perusahaan
+                            <input type="text" id="no-hp" class="w-full p-4 bg-gray-300 rounded-lg">
+                        </label>
+                        <label for="no-hp" class="font-bold">Nama Perusahaan
+                            <input type="text" id="no-hp" class="w-full p-4 bg-gray-300 rounded-lg">
+                        </label>
+                        <label for="no-hp" class="font-bold">Website Perusahaan
+                            <input type="text" id="no-hp" class="w-full p-4 bg-gray-300 rounded-lg">
+                        </label>
                     </div>
                     <div class="flex items-center space-x-4">
                         <button type="submit"
