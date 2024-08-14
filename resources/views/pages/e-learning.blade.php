@@ -35,57 +35,79 @@
         <!-- Section 2: Testimonials -->
         <section class="bg-gray-100 p-4 md:p-8">
             <div class="container mx-auto">
-                <h2 class="text-2xl font-bold mb-6">Testimoni Member E-learning MySkill</h2>
+                <h2 class="text-2xl font-bold mb-6 text-center">Testimoni Member E-learning MySkill</h2>
+
                 <div class="flex overflow-x-auto space-x-4 pb-4 no-scrollbar">
-                    <div class="bg-white p-4 rounded-lg shadow-md min-w-[280px]">
-
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
                         <div class="flex items-center mb-4">
                             <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
-
                         </div>
                         <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
                     </div>
-                    <div class="bg-white p-4 rounded-lg shadow-md min-w-[280px]">
-
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
                         <div class="flex items-center mb-4">
                             <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
-
                         </div>
                         <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
                     </div>
-                    <div class="bg-white p-4 rounded-lg shadow-md min-w-[280px]">
-
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
                         <div class="flex items-center mb-4">
                             <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
-
                         </div>
                         <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
                     </div>
-                    <div class="bg-white p-4 rounded-lg shadow-md min-w-[280px]">
-
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
                         <div class="flex items-center mb-4">
                             <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
-
                         </div>
                         <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
                     </div>
-                    <div class="bg-white p-4 rounded-lg shadow-md min-w-[280px]">
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
                         <div class="flex items-center mb-4">
                             <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
-
                         </div>
                         <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
                     </div>
-                    <div class="bg-white p-4 rounded-lg shadow-md min-w-[280px]">
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
                         <div class="flex items-center mb-4">
                             <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
-
+                        </div>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/cards.webp') }}" alt="" class="rounded-lg">
                         </div>
                         <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Baca Cerita</button>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- Section 3: Solutions -->
         <section class="bg-white p-4 md:p-8">
@@ -97,49 +119,44 @@
                 <!-- Left Column with Cards -->
                 <div class="w-full md:w-1/2 flex flex-col space-y-4">
                     <div id="card1" data-target="img1"
-                        class="card bg-white border border-gray-300 rounded-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-l-indigo-500 cursor-pointer shadow-md">
+                        class="card bg-white border border-gray-300 rounded-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md active-card">
                         <h3 class="font-bold mb-2">Belajar Fleksibel dan Bersertifikat</h3>
-                        <p class="text-sm text-gray-600">Disusun bertahap dari level dasar hingga lanjutan oleh praktisi
-                            industri dari berbagai top companies. Dapatkan e-certificate di tiap materi.</p>
+                        <p class="text-sm text-gray-600">Disusun bertahap dari level dasar hingga lanjutan oleh praktisi industri dari berbagai top companies. Dapatkan e-certificate di tiap materi.</p>
                     </div>
                     <div id="card2" data-target="img2"
                         class="card bg-white border border-gray-300 rounded-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md">
                         <h3 class="font-bold mb-2">Kombinasi Strategi, Praktek & Portfolio</h3>
-                        <p class="text-sm text-gray-600">Belajar sambil Praktek dengan ragam case study, worksheet dan
-                            framework. Didasarkan pada kebutuhan industri dan profesi.</p>
+                        <p class="text-sm text-gray-600">Belajar sambil Praktek dengan ragam case study, worksheet dan framework. Didasarkan pada kebutuhan industri dan profesi.</p>
                     </div>
                     <div id="card3" data-target="img3"
                         class="card bg-white border border-gray-300 rounded-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md">
                         <h3 class="font-bold mb-2">Gabung Komunitas Diskusi secara Lifetime</h3>
-                        <p class="text-sm text-gray-600">Bangun network profesional, saling sharing ilmu dan praktik, sampai
-                            berbagi info loker maupun freelance. Hobi kumpul juga.</p>
+                        <p class="text-sm text-gray-600">Bangun network profesional, saling sharing ilmu dan praktik, sampai berbagi info loker maupun freelance. Hobi kumpul juga.</p>
                     </div>
                     <div id="card4" data-target="img4"
                         class="card bg-white border border-gray-300 rounded-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md">
                         <h3 class="font-bold mb-2">Ratusan Ribu Member. Terbukti Berdampak</h3>
-                        <p class="text-sm text-gray-600">Member MySkill telah terbukti diterima di National & Multinational
-                            companies, membangun bisnis hingga freelance.</p>
+                        <p class="text-sm text-gray-600">Member MySkill telah terbukti diterima di National & Multinational companies, membangun bisnis hingga freelance.</p>
                     </div>
                 </div>
                 <!-- Right Column with Images -->
                 <div class="w-full md:w-1/2 flex items-center justify-center">
                     <!-- Images for the Cards -->
-
-                    <div class="w-11/12 h-auto max-w-[90%] object-cover hidden transform fade-in-right" id="img1">
+                    <div class="w-11/12 h-auto max-w-[90%] object-cover fade-in-left" id="img1">
                         <img src="{{ asset('assets/e-learning/1.webp') }}" alt="Image 1">
                     </div>
-                    <div class="w-11/12 h-auto max-w-[90%] object-cover hidden transform fade-in-right" id="img2">
+                    <div class="w-11/12 h-auto max-w-[90%] object-cover hidden" id="img2">
                         <img src="{{ asset('assets/e-learning/2.webp') }}" alt="Image 2">
                     </div>
-                    <div class="w-11/12 h-auto max-w-[90%] object-cover hidden transform fade-in-right" id="img3">
+                    <div class="w-11/12 h-auto max-w-[90%] object-cover hidden" id="img3">
                         <img src="{{ asset('assets/e-learning/4.webp') }}" alt="Image 3">
                     </div>
-                    <div class="w-11/12 h-auto max-w-[90%] object-cover hidden transform fade-in-right" id="img4">
+                    <div class="w-11/12 h-auto max-w-[90%] object-cover hidden" id="img4">
                         <img src="{{ asset('assets/e-learning/3.webp') }}" alt="Image 4">
                     </div>
-
                 </div>
             </div>
+            
 
         </section>
 
