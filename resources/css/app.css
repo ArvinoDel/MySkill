@@ -37,56 +37,64 @@
     transform: scale(1.05);
 }
 
-@keyframes fadeInRight {
+@keyframes fadeInLeft {
     0% {
         opacity: 0;
-        transform: translateX(20px);
+        transform: translateX(-20px); /* Start from the left */
     }
     25%{
         opacity: 0.25;
-        transform: translateX(15px);
+        transform: translateX(-15px);
     }
-    50%{
+    50% {
         opacity: 0.5;
-        transform: translateX(10px);
+        transform: translateX(-10px); /* Move partially to the right */
     }
-    100%{
+    75% {
         opacity: 0.75;
-        transform: translateX(5px);
-    }
-    /* 100% {
+        transform: translateX(-5px); /* Move partially to the right */
+        }
+    100% {
         opacity: 1;
-        transform: translateX(0);
-    } */
+        transform: translateX(0); /* Move to original position */
+    }
 }
 
-@keyframes fadeOutLeft {
+@keyframes fadeOutRight {
     0% {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateX(0); /* Start from original position */
     }
-    50%{
-        opacity: 0.25;
-        transform: translateX(15px);
-    }
-    100%{
-        opacity: 0.5;
-        transform: translateX(-10px);
-    }
-    /* 100%{
+    25% {
         opacity: 0.75;
-        transform: translateX(-5px);
-    } */
-    /* 100% {
+        transform: translateX(5px); /* Move partially to the left */
+        }
+    50% {
+        opacity: 0.5;
+        transform: translateX(10px); /* Move partially to the left */
+    }
+    75% {
+        opacity: 0.25;
+        transform: translateX(15px); /* Move partially to the left */
+    } 
+    100% {
         opacity: 0;
-        transform: translateX(-20px);
-    } */
+        transform: translateX(20px); /* Move out of view to the right */
+    }
 }
 
-.fade-in-right {
-    animation: fadeInRight 0.50s ease-in-out;
+/* Class for fading in from the left */
+.fade-in-left {
+    animation: fadeInLeft 1s ease-in-out; /* Animation for fading in */
 }
 
-.fade-out-left {
-    animation: fadeOutLeft 0.50s ease-in-out;
+/* Class for fading out to the right */
+.fade-out-right {
+    animation: fadeOutRight 1s ease-in-out; /* Animation for fading out */
 }
+
+
+    .tab-button.active {
+        background-color: #02ffd5; /* Adjust the color as needed */
+        color: #fff;
+    }
