@@ -239,14 +239,14 @@
                 </div>
 
                 <div class="flex justify-center mt-4 gap-4">
-                    <button class="bg-yellow-500 text-white px-4 py-2 rounded-full">Mulai Berlangganan</button>
-                    <button class="border border-blue-500 text-blue-500 px-4 py-2 rounded-full">Lihat Semua Materi</button>
+                    <a href="#pricing" class="scroll-smooth"><button class="bg-yellow-500 text-white px-4 py-2 rounded-full">Mulai Berlangganan</button></a>
+                    <a href="#learning" class="scroll-smooth"><button class="border border-blue-500 text-blue-500 px-4 py-2 rounded-full">Lihat Semua Materi</button></a>
                 </div>
             </div>
         </section>
 
         <!-- Section 5: Popular Courses -->
-        <section class="bg-gray-100 p-4 md:p-8">
+        <section id="learning" class="bg-gray-100 p-4 md:p-8">
             <div class="container mx-auto">
                 <h2 class="text-2xl font-bold mb-4">Daftar Learning Path Rancangan Experts</h2>
 
@@ -542,7 +542,7 @@
         </section>
 
         <!-- Section 7: Pricing -->
-        <section class="bg-gradient-to-b from-blue-100 to-white py-12 px-4">
+        <section id="pricing" class="bg-gradient-to-b from-blue-100 to-white py-12 px-4">
             <div class="max-w-5xl mx-auto">
                 <h2 class="text-3xl font-bold text-center mb-2">Langganan Sekarang dan Jadi Lebih Hebat</h2>
                 <p class="text-center mb-8 text-gray-600">Langganan bulanan untuk akses semua materi, tanpa batas. Makin

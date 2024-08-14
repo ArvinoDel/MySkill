@@ -98,3 +98,7 @@
         background-color: #02ffd5; /* Adjust the color as needed */
         color: #fff;
     }
+
+    html{
+        scroll-behavior: smooth;
+    }

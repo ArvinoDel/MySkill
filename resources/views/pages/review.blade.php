@@ -57,7 +57,7 @@
 
     <div class="container mx-auto px-4 py-8">
         <div class="flex flex-wrap -mx-4">
-            <div class="w-full md:w-1/4 px-4 mb-8 sticky top-0 h-screen">
+            <div class="w-full md:w-1/4 px-4 mb-8 sticky top-11 h-screen">
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h4 class="font-bold text-lg mb-4">Detail</h4>
                     <ul class="space-y-2">
