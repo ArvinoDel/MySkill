@@ -3,7 +3,7 @@
 
 <!-- header here -->
 <div class="review">
-    <section class="w-screen h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex">
+    <section class="w-full h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex">
         <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-100 lg:ml-16 py-2">
         <div class="ml-4">
             <p class="text-4xl font-bold w-4/5">Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.</p>
@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section class="w-screen h-auto bg-white mt-10 lg:flex">
+    <section class="w-full h-auto bg-white mt-10 lg:flex">
         <!-- sidebar sticky disini -->
         <div class="sticky top-0 w-64 bg-white p-4 shadow-lg rounded-lg border ml-12 mt-2 mb-2 mr-2">
             <h2 class="font-bold text-md text-black">Detail</h2>
