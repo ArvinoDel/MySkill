@@ -30,9 +30,17 @@ Route::get('/corporate-training', function () {
 Route::get('/experience', function () {
     return view('pages.experience');
 });
-Route::get('/bootcamp', function () {
-    return view('pages.bootcamp');
+
+// folder bootcamp
+Route::get('/program/bootcamp', function () {
+    return view('pages.program.bootcamp');
 });
+
+Route::get('/program/digital-marketing', function () {
+    return view('pages.program.digital-marketing');
+});
+// end routes bootcamp
+
 
 Route::get('/payment', function () {
     return view('pages.payment');
