@@ -62,7 +62,8 @@
 </nav>
 <div class="navbar-menu relative z-50 hidden">
     <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-    <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+    <nav
+        class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white bg-opacity-75 border-r border-white border-opacity-50 shadow-lg backdrop-blur-lg">
         <div class="flex items-center mb-8">
             <a class="mr-auto text-3xl font-bold leading-none hover:text-green-600" href="#">
                 <img class="w-23" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
@@ -82,31 +83,32 @@
                         <div
                             class="flex w-1 scale-y-0 transition-transform origin-top rounded-full duration-400 ease-in">
                         </div>
-                        <a class="flex p-4 text-sm font-semibold text-black" href="#">Home</a>
+                        <a class="flex p-4 text-sm font-semibold text-black" href="/home">Home</a>
                     </li>
                     <li class="mb-1 inline-flex group rounded w-full">
                         <div
                             class="flex w-1 group0 scale-y-0 transition-transform origin-top rounded-full duration-400 ease-in">
                         </div>
-                        <a class="block p-4 text-sm font-semibold text-black" href="#">E-learning</a>
+                        <a class="block p-4 text-sm font-semibold text-black" href="/e-learning">E-learning</a>
                     </li>
                     <li class="mb-1 inline-flex group rounded w-full">
                         <div
                             class="flex w-1 group0 scale-y-0 transition-transform origin-top rounded-full duration-400 ease-in">
                         </div>
-                        <a class="block p-4 text-sm font-semibold text-black" href="#">Program & Bootcamp</a>
+                        <a class="block p-4 text-sm font-semibold text-black" href="/bootcamp">Program & Bootcamp</a>
                     </li>
                     <li class="mb-1 inline-flex group rounded w-full">
                         <div
                             class="flex w-1 group0 scale-y-0 transition-transform origin-top rounded-full duration-400 ease-in">
                         </div>
-                        <a class="block p-4 text-sm font-semibold text-black" href="#">Review CV</a>
+                        <a class="block p-4 text-sm font-semibold text-black" href="/review">Review CV</a>
                     </li>
                     <li class="mb-1 inline-flex group rounded w-full">
                         <div
                             class="flex w-1 scale-y-0 transition-transform origin-top rounded-full duration-400 ease-in">
                         </div>
-                        <a class="block p-4 text-sm font-semibold text-black" href="#">Corporate Service</a>
+                        <a class="block p-4 text-sm font-semibold text-black" href="/corporate-service">Corporate
+                            Service</a>
                     </li>
                 </ul>
             </div>
