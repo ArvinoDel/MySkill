@@ -111,11 +111,55 @@
 
         <!-- Section 3: Solutions -->
         <section class="bg-white p-4 md:p-8">
-            <div class="container mx-auto flex flex-col items-center text-center">
+            <div class="container mx-auto flex-col items-center text-center">
                 <h4 class="text-md">E-Learning</h4>
                 <h2 class="text-2xl font-bold mb-6">Solusi #1 Kuasai Ratusan Skill Profesional</h2>
             </div>
-            <div class="container mx-auto flex flex-col md:flex-row">
+
+            <!-- Carousel Container -->
+            <div id="card-container" class="flex overflow-x-auto whitespace-wrap w-auto scroll-smooth sm:hidden md:hidden lg:hidden no-scrollbar b-3">
+                <!-- Card: Digital Marketing -->
+                <div class="flex flex-col w-64 bg-white border border-gray-300 rounded-lg shadow-md mr-4">
+                    <img src="{{ asset('assets/e-learning/1.webp') }}" alt="Digital Marketing"
+                        class="w-full h-auto object-cover rounded-t-lg">
+                    <div class="p-4 w-64">
+                        <h3 class="font-bold mb-2 ">Belajar Fleksibel dan Bersertifikat</h3>
+                        <p class="text-sm text-gray-600">Disusun bertahap dari level dasar hingga lanjutan oleh praktisi
+                            industri dari berbagai top companies. Dapatkan e-certificate di tiap materi.</p>
+                    </div>
+                </div>
+                <!-- Card: Digital Marketing -->
+                <div class="flex flex-col w-64 bg-white border border-gray-300 rounded-lg shadow-md mr-4">
+                    <img src="{{ asset('assets/e-learning/2.webp') }}" alt="Digital Marketing"
+                        class="w-full h-auto object-cover rounded-t-lg">
+                    <div class="p-4 w-64">
+                        <h3 class="font-bold mb-2 ">Kombinasi Strategi, Praktek & Portfolio</h3>
+                        <p class="text-sm text-gray-600">Belajar sambil Praktek dengan ragam case study, worksheet dan
+                            framework. Didasarkan pada kebutuhan industri dan profesi.</p>
+                    </div>
+                </div><!-- Card: Digital Marketing -->
+                <div class="flex flex-col w-64 bg-white border border-gray-300 rounded-lg shadow-md mr-4">
+                    <img src="{{ asset('assets/e-learning/4.webp') }}" alt="Digital Marketing"
+                        class="w-full h-auto object-cover rounded-t-lg">
+                    <div class="p-4 w-64">
+                        <h3 class="font-bold mb-2 ">Gabung Komunitas Diskusi secara Lifetime</h3>
+                        <p class="text-sm text-gray-600">Bangun network profesional, saling sharing ilmu dan praktik,
+                            sampai berbagi info loker maupun freelance. Hobi kumpul juga.</p>
+                    </div>
+                </div><!-- Card: Digital Marketing -->
+                <div class="flex flex-col w-64 bg-white border border-gray-300 rounded-lg shadow-md mr-4">
+                    <img src="{{ asset('assets/e-learning/3.webp') }}" alt="Digital Marketing"
+                        class="w-full h-auto object-cover rounded-t-lg">
+                    <div class="p-4 w-64">
+                        <h3 class="font-bold mb-2 ">Ratusan Ribu Member. Terbukti Berdampak</h3>
+                        <p class="text-sm text-gray-600">Member MySkill telah terbukti diterima di National & Multinational
+                            companies, membangun bisnis hingga freelance.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mx-auto hidden lg:flex md:flex flex-col md:flex-row">
                 <!-- Left Column with Cards -->
                 <div class="w-full md:w-1/2 flex flex-col space-y-4">
                     <div id="card1" data-target="img1"
@@ -161,7 +205,6 @@
                 </div>
             </div>
 
-
         </section>
 
         {{-- Section 4: Skills --}}
@@ -198,11 +241,11 @@
                 <div class="flex justify-center mt-4 gap-4">
                     <button class="bg-yellow-500 text-white px-4 py-2 rounded-full">Mulai Berlangganan</button>
                     <button class="border border-blue-500 text-blue-500 px-4 py-2 rounded-full">Lihat Semua Materi</button>
-                  </div>
+                </div>
             </div>
         </section>
 
-        <!-- Section 4: Popular Courses -->
+        <!-- Section 5: Popular Courses -->
         <section class="bg-gray-100 p-4 md:p-8">
             <div class="container mx-auto">
                 <h2 class="text-2xl font-bold mb-4">Daftar Learning Path Rancangan Experts</h2>
@@ -348,7 +391,7 @@
                 </div>
         </section>
 
-        {{-- Section 5: Mentors --}}
+        {{-- Section 6: Mentors --}}
         <section class="bg-gray-100 py-12 px-4">
             <div class="container mx-auto">
                 <h2 class="text-3xl font-bold text-center mb-2">Dibuat oleh Praktisi Profesional Terkurasi. Walk the talk.
@@ -498,7 +541,7 @@
             </div>
         </section>
 
-        <!-- Section 6: Pricing -->
+        <!-- Section 7: Pricing -->
         <section class="bg-gradient-to-b from-blue-100 to-white py-12 px-4">
             <div class="max-w-5xl mx-auto">
                 <h2 class="text-3xl font-bold text-center mb-2">Langganan Sekarang dan Jadi Lebih Hebat</h2>
@@ -682,7 +725,22 @@
             </div>
         </section>
 
+        <!-- akses konten premium -->
+        <section class="w-full h-auto rounded-b-3xl bg-white lg:flex items-center mt-12 mb-14 p-4">
+            <img src="{{ asset('./assets/bootcamp/pembelajaran.png') }}" class="h-72 w-100 lg:ml-20 py-4">
+            <div class="ml-4">
+                <p class="text-4xl font-bold w-4/5 ml-4">E-learning & Training Untuk Perusahaan</p>
+                <br>
+                <p class="w-4/5 ml-4">Miliki akses ratusan konten elearning MySkill serta dukungan corporate training untuk
+                    perusahaan.
+                    Miliki juga berbagai fitur khusus untuk mendorong employee performance and development.</p>
+                <br>
+                <button type="button"
+                    class="ml-4 focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-3 me-2 mb-2 dark:focus:ring-yellow-900">Hubungi
+                    Tim MySkill</button>
+            </div>
 
+        </section>
 
     </section>
 @endsection

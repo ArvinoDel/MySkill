@@ -28,7 +28,7 @@
         </li>
         <li>
             <a href="/program/bootcamp"
-                class="{{ request()->is('bootcamp') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black hover:text-gray-900 hover:before:scale-x-100 focus:outline-none focus:ring-0">
+                class="{{ request()->is('program/bootcamp') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black hover:text-gray-900 hover:before:scale-x-100 focus:outline-none focus:ring-0">
                 Program & Bootcamp
             </a>
 
