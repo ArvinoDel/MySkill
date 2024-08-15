@@ -111,32 +111,80 @@
 
         <!-- Section 3: Solutions -->
         <section class="bg-white p-4 md:p-8">
-            <div class="container mx-auto flex flex-col items-center text-center">
+            <div class="container mx-auto flex-col items-center text-center">
                 <h4 class="text-md">E-Learning</h4>
                 <h2 class="text-2xl font-bold mb-6">Solusi #1 Kuasai Ratusan Skill Profesional</h2>
             </div>
-            <div class="container mx-auto flex flex-col md:flex-row">
+
+            <!-- Carousel Container -->
+            <div id="card-container" class="flex overflow-x-auto whitespace-wrap w-auto scroll-smooth sm:hidden md:hidden lg:hidden no-scrollbar b-3">
+                <!-- Card: Digital Marketing -->
+                <div class="flex flex-col w-64 bg-white border border-gray-300 rounded-lg shadow-md mr-4">
+                    <img src="{{ asset('assets/e-learning/1.webp') }}" alt="Digital Marketing"
+                        class="w-full h-auto object-cover rounded-t-lg">
+                    <div class="p-4 w-64">
+                        <h3 class="font-bold mb-2 ">Belajar Fleksibel dan Bersertifikat</h3>
+                        <p class="text-sm text-gray-600">Disusun bertahap dari level dasar hingga lanjutan oleh praktisi
+                            industri dari berbagai top companies. Dapatkan e-certificate di tiap materi.</p>
+                    </div>
+                </div>
+                <!-- Card: Digital Marketing -->
+                <div class="flex flex-col w-64 bg-white border border-gray-300 rounded-lg shadow-md mr-4">
+                    <img src="{{ asset('assets/e-learning/2.webp') }}" alt="Digital Marketing"
+                        class="w-full h-auto object-cover rounded-t-lg">
+                    <div class="p-4 w-64">
+                        <h3 class="font-bold mb-2 ">Kombinasi Strategi, Praktek & Portfolio</h3>
+                        <p class="text-sm text-gray-600">Belajar sambil Praktek dengan ragam case study, worksheet dan
+                            framework. Didasarkan pada kebutuhan industri dan profesi.</p>
+                    </div>
+                </div><!-- Card: Digital Marketing -->
+                <div class="flex flex-col w-64 bg-white border border-gray-300 rounded-lg shadow-md mr-4">
+                    <img src="{{ asset('assets/e-learning/4.webp') }}" alt="Digital Marketing"
+                        class="w-full h-auto object-cover rounded-t-lg">
+                    <div class="p-4 w-64">
+                        <h3 class="font-bold mb-2 ">Gabung Komunitas Diskusi secara Lifetime</h3>
+                        <p class="text-sm text-gray-600">Bangun network profesional, saling sharing ilmu dan praktik,
+                            sampai berbagi info loker maupun freelance. Hobi kumpul juga.</p>
+                    </div>
+                </div><!-- Card: Digital Marketing -->
+                <div class="flex flex-col w-64 bg-white border border-gray-300 rounded-lg shadow-md mr-4">
+                    <img src="{{ asset('assets/e-learning/3.webp') }}" alt="Digital Marketing"
+                        class="w-full h-auto object-cover rounded-t-lg">
+                    <div class="p-4 w-64">
+                        <h3 class="font-bold mb-2 ">Ratusan Ribu Member. Terbukti Berdampak</h3>
+                        <p class="text-sm text-gray-600">Member MySkill telah terbukti diterima di National & Multinational
+                            companies, membangun bisnis hingga freelance.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mx-auto hidden lg:flex md:flex flex-col md:flex-row">
                 <!-- Left Column with Cards -->
                 <div class="w-full md:w-1/2 flex flex-col space-y-4">
                     <div id="card1" data-target="img1"
-                        class="card bg-white border border-gray-300 rounded-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md active-card">
+                        class="cards bg-white border border-gray-300 rounded-xl p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md active-card">
                         <h3 class="font-bold mb-2">Belajar Fleksibel dan Bersertifikat</h3>
-                        <p class="text-sm text-gray-600">Disusun bertahap dari level dasar hingga lanjutan oleh praktisi industri dari berbagai top companies. Dapatkan e-certificate di tiap materi.</p>
+                        <p class="text-sm text-gray-600">Disusun bertahap dari level dasar hingga lanjutan oleh praktisi
+                            industri dari berbagai top companies. Dapatkan e-certificate di tiap materi.</p>
                     </div>
                     <div id="card2" data-target="img2"
-                        class="card bg-white border border-gray-300 rounded-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md">
+                        class="cards bg-white border border-gray-300 rounded-xl p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md">
                         <h3 class="font-bold mb-2">Kombinasi Strategi, Praktek & Portfolio</h3>
-                        <p class="text-sm text-gray-600">Belajar sambil Praktek dengan ragam case study, worksheet dan framework. Didasarkan pada kebutuhan industri dan profesi.</p>
+                        <p class="text-sm text-gray-600">Belajar sambil Praktek dengan ragam case study, worksheet dan
+                            framework. Didasarkan pada kebutuhan industri dan profesi.</p>
                     </div>
                     <div id="card3" data-target="img3"
-                        class="card bg-white border border-gray-300 rounded-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md">
+                        class="cards bg-white border border-gray-300 rounded-xl p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md">
                         <h3 class="font-bold mb-2">Gabung Komunitas Diskusi secara Lifetime</h3>
-                        <p class="text-sm text-gray-600">Bangun network profesional, saling sharing ilmu dan praktik, sampai berbagi info loker maupun freelance. Hobi kumpul juga.</p>
+                        <p class="text-sm text-gray-600">Bangun network profesional, saling sharing ilmu dan praktik,
+                            sampai berbagi info loker maupun freelance. Hobi kumpul juga.</p>
                     </div>
                     <div id="card4" data-target="img4"
-                        class="card bg-white border border-gray-300 rounded-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md">
+                        class="cards bg-white border border-gray-300 rounded-xl p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:border-indigo-500 focus:ring-2 focus:ring-light-blue-500 cursor-pointer shadow-md">
                         <h3 class="font-bold mb-2">Ratusan Ribu Member. Terbukti Berdampak</h3>
-                        <p class="text-sm text-gray-600">Member MySkill telah terbukti diterima di National & Multinational companies, membangun bisnis hingga freelance.</p>
+                        <p class="text-sm text-gray-600">Member MySkill telah terbukti diterima di National & Multinational
+                            companies, membangun bisnis hingga freelance.</p>
                     </div>
                 </div>
                 <!-- Right Column with Images -->
@@ -156,34 +204,51 @@
                     </div>
                 </div>
             </div>
-            
 
         </section>
 
-        <!-- Section 4: Popular Courses -->
+        {{-- Section 4: Skills --}}
         <section class="bg-gray-100 p-4 md:p-8">
-            <div class="container mx-auto">
+            <div class="container mx-auto text-center">
                 <h2 class="text-2xl font-bold mb-4">Ratusan Skill Impian Kini Dalam Genggamanmu</h2>
                 <p class="mb-4 text-gray-600">Lihat contoh beberapa materi terpopuler rancangan experts berikut. Materi
                     baru
                     setiap bulan tanpa tambahan biaya.</p>
+                <!-- Buttons -->
                 <div class="flex overflow-x-auto space-x-2 pb-2 no-scrollbar mb-5">
-                    <button
-                        class="bg-teal-500 text-white px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">Digital
+                    <button id="btn-digitalmarketing"
+                        class="tab-button bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">Digital
                         Marketing</button>
-                    <button
-                        class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">Data
+                    <button id="btn-datascience"
+                        class="tab-button bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">Data
                         Science & Data Analysis</button>
-                    <button
-                        class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">Microsoft
+                    <button id="btn-excel"
+                        class="tab-button bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">Microsoft
                         Excel, Word and PowerPoint</button>
-                    <button
-                        class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">UI-UX
+                    <button id="btn-uiux"
+                        class="tab-button bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">UI-UX
                         Research and Design</button>
-                    <button
-                        class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">Product
+                    <button id="btn-productmanagement"
+                        class="tab-button bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap">Product
                         and Project Management</button>
                 </div>
+
+                <!-- Carousel Container -->
+                <div class="overflow-x-auto pb-2 no-scrollbar mb-5">
+                    @include('partials.cards-elearning')
+                </div>
+
+                <div class="flex justify-center mt-4 gap-4">
+                    <a href="#pricing" class="scroll-smooth"><button class="bg-yellow-500 text-white px-4 py-2 rounded-full">Mulai Berlangganan</button></a>
+                    <a href="#learning" class="scroll-smooth"><button class="border border-blue-500 text-blue-500 px-4 py-2 rounded-full">Lihat Semua Materi</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Popular Courses -->
+        <section id="learning" class="bg-gray-100 p-4 md:p-8">
+            <div class="container mx-auto">
+                <h2 class="text-2xl font-bold mb-4">Daftar Learning Path Rancangan Experts</h2>
 
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     <div
@@ -326,8 +391,158 @@
                 </div>
         </section>
 
-        <!-- Section 5: Pricing -->
-        <section class="bg-gradient-to-b from-blue-100 to-white py-12 px-4">
+        {{-- Section 6: Mentors --}}
+        <section class="bg-gray-100 py-12 px-4">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-2">Dibuat oleh Praktisi Profesional Terkurasi. Walk the talk.
+                </h2>
+                <p class="text-center text-gray-600 mb-8">Belajar langsung dari experienced professional yang mengajarkan
+                    pengalaman, case study & best practices.</p>
+
+                <div
+                    class="flex flex-nowrap md:mx-24 justify-start md:justify-between overflow-x-auto pb-6 space-x-4 md:space-x-2 snap-x no-scrollbar">
+                    <!-- Repeat this card structure for each professional -->
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors2.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors3.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors4.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors5.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors6.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors7.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors8.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors9.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors10.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <div class="snap-start flex-shrink-0 w-40 md:w-48 h-auto relative group">
+                        <img src="{{ asset('assets/e-learning/mentors2.webp') }}" alt="Professional"
+                            class="w-full h-full object-cover rounded-lg">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                            <button
+                                class="bg-white text-black py-2 px-4 rounded-full text-sm font-medium hover:bg-gray-200 mt-48 md:mt-64 transition">Lihat
+                                Materi</button>
+                        </div>
+                    </div>
+
+                    <!-- Repeat the above card structure for each professional (total of 7 cards) -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Pricing -->
+        <section id="pricing" class="bg-gradient-to-b from-blue-100 to-white py-12 px-4">
             <div class="max-w-5xl mx-auto">
                 <h2 class="text-3xl font-bold text-center mb-2">Langganan Sekarang dan Jadi Lebih Hebat</h2>
                 <p class="text-center mb-8 text-gray-600">Langganan bulanan untuk akses semua materi, tanpa batas. Makin
@@ -508,6 +723,23 @@
 
                 </div>
             </div>
+        </section>
+
+        <!-- akses konten premium -->
+        <section class="w-full h-auto rounded-b-3xl bg-white lg:flex items-center mt-12 mb-14 p-4">
+            <img src="{{ asset('./assets/bootcamp/pembelajaran.png') }}" class="h-72 w-100 lg:ml-20 py-4">
+            <div class="ml-4">
+                <p class="text-4xl font-bold w-4/5 ml-4">E-learning & Training Untuk Perusahaan</p>
+                <br>
+                <p class="w-4/5 ml-4">Miliki akses ratusan konten elearning MySkill serta dukungan corporate training untuk
+                    perusahaan.
+                    Miliki juga berbagai fitur khusus untuk mendorong employee performance and development.</p>
+                <br>
+                <button type="button"
+                    class="ml-4 focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-3 me-2 mb-2 dark:focus:ring-yellow-900">Hubungi
+                    Tim MySkill</button>
+            </div>
+
         </section>
 
     </section>
