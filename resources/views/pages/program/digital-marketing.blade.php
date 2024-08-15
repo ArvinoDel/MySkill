@@ -3,9 +3,9 @@
 
 <div class="digital-marketing">
     <section class="w-full h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex max-sm:text-black max-sm:bg-white lg:mb-4">
-        <img src="{{ asset('./assets/bootcamp/full.png') }}" class="lg:h-96 rounded-3xl w-auto lg:mt-4 lg:ml-16 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
+        <img src="{{ asset('./assets/bootcamp/full.png') }}" class="lg:h-96 rounded-3xl w-auto lg:mt-4 lg:ml-16 py-2 max-sm:h-60 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
         <div class="lg:ml-4 max-sm:text-black max-sm:w-full max-sm:text-center max-sm:mx-auto max-sm:py-4" style="width: 100%;">
-            <p class="lg:ml-4 text-4xl font-bold w-4/5 max-sm:text-xl max-sm:w-full max-sm:mx-auto lg:mt-4">DIGITAL MARKETING: FULLSTACK INTENSIVE BOOTCAMP</p>
+            <p class="lg:ml-4 lg:text-4xl font-bold lg:w-4/5 max-sm:text-2xl max-sm:text-left max-sm:w-full max-sm:px-3 lg:mt-4">DIGITAL MARKETING: FULLSTACK INTENSIVE BOOTCAMP</p>
             <br>
             <div class="lg:w-48 lg:h-36 lg:ml-4 bg-white border border-gray-400 rounded-2xl shadow relative">
                 <p class="font-bold text-orange-600 text-2xl lg:ml-4 lg:mt-2">Batch 27</p>
@@ -27,18 +27,18 @@
 
 <div class="flex ">
     <!-- Sidebar -->
-    <div class="w-64 md:w-1/4 px-4 mb-8 sticky top-11 h-full ">
+    <div class="w-64 md:w-1/4 px-4 pt-6 mb-8 sticky top-11 h-full max-sm:hidden">
         <div class="h-10/12 top-0 pb-10 bg-white rounded-lg shadow-md p-4 lg:ml-4 lg:mb-4 lg:mt-4">
             <ul class="space-y-2">
                 <p class="text-md font-semibold">Detail</p>
                 <!-- Daftar item di sini -->
                 <li class="flex items-center">
                     <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#" class="text-gray-600 font-medium ml-2">Tentang Bootcamp</a>
+                    <a href="#tentang-bootcamp" class="text-gray-600 font-medium ml-2">Tentang Bootcamp</a>
                 </li>
                 <li class="flex items-center">
                     <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#" class="text-gray-600 font-medium ml-2">Prospek Karier</a>
+                    <a href="#prospek" class="text-gray-600 font-medium ml-2">Prospek Karier</a>
                 </li>
                 <li class="flex items-center">
                     <i class="fas fa-chevron-right text-gray-600"></i>
@@ -73,7 +73,7 @@
         </div>
         <!-- Tombol Daftar Sekarang dengan Ikon Petir -->
         <div class="">
-            <button class="absolute top-80 left-0 w-10/12 bg-yellow-500 text-white rounded-lg flex items-center justify-center lg:p-1 lg:ml-7 lg:mb-4 lg:mt-12">
+            <button class="absolute top-[340px] left-4 w-9/12 bg-yellow-500 text-white rounded-lg flex items-center justify-center lg:p-1 lg:ml-7 lg:mb-4 lg:mt-12">
                 <i class="fas fa-bolt mr-2"></i>
                 Daftar Sekarang
             </button>
@@ -81,25 +81,35 @@
     </div>
 
     <!-- Main Content -->
-    <div class="flex-1 p-8">
-        <p class="text-orange-600 text-xl font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Tentang Bootcamp</p>
+    <div class="flex-1 lg:p-8 max-sm:p-2">
+        <p id="tentang-bootcamp" class="text-orange-600 text-xl font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Tentang Bootcamp</p>
         <p class="mt-4">Bootcamp Digital Marketing merupakan pelatihan online secara intensif dan live bersama mentor expert dari Top Companies di Indonesia. Materi Bootcamp ini dirancang secara terstruktur dari dasar hingga lanjut dengan standar industri terkini. Bayangkan dirimu belajar langsung dengan yang menggagas campaign "Traveloka Dulu, Jalan-jalan Kemudian." atau Lemonilo x NCT Dream! Asik, kan? Bootcamp ini dirakit oleh para Head dan Manager Marketing dari:</p>
         <br>
-        <img src="{{ asset('./assets/bootcamp/adv.png') }}" class="lg:h-64 rounded-3xl w-auto lg:mt-4 lg:ml-6 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
-        <br>
-        <div name="scrollbar">
+        <img src="{{ asset('./assets/bootcamp/adv.png') }}" class="lg:h-64 rounded-3xl w-auto lg:mt-4 lg:ml-6 lg:py-2 max-sm:h-fit max-sm:w-12 max-sm:mx-auto max-sm:my-4">
+        <br class="max-sm:hidden">
+        <div class="max-sm:hidden">
+            <!-- Konten ini akan hilang pada layar kecil -->
             <div class="flex overflow-x-auto space-x-4 no-scrollbar">
-                <img src="{{ asset('./assets/bootcamp/motivasi.png') }}" class="h-64 w-auto">
-                <img src="{{ asset('./assets/bootcamp/motivasi2.png') }}" class="h-64 w-auto">
-                <img src="{{ asset('./assets/bootcamp/motivasi.png') }}" class="h-64 w-auto">
-                <img src="{{ asset('./assets/bootcamp/motivasi2.png') }}" class="h-64 w-auto">
-                <img src="{{ asset('./assets/bootcamp/motivasi.png') }}" class="h-64 w-auto">
+                <img src="{{ asset('./assets/bootcamp/motivasi.png') }}" class="lg:h-64 max-sm:h-44 lg:w-auto object-fill">
+                <img src="{{ asset('./assets/bootcamp/motivasi2.png') }}" class="lg:h-64 max-sm:h-44 lg:w-auto object-fill">
+                <img src="{{ asset('./assets/bootcamp/motivasi.png') }}" class="lg:h-64 max-sm:h-44 lg:w-auto object-fill">
+                <img src="{{ asset('./assets/bootcamp/motivasi2.png') }}" class="lg:h-64 max-sm:h-44 lg:w-auto object-fill">
+                <img src="{{ asset('./assets/bootcamp/motivasi.png') }}" class="lg:h-64 max-sm:h-44 lg:w-auto object-fill">
+            </div>
+        </div>
+        <div class="lg:hidden">
+            <!-- Konten ini akan hilang pada layar besar -->
+            <div class="flex overflow-x-auto space-x-4 no-scrollbar">
+                <img src="{{ asset('./assets/bootcamp/motiv1.png') }}" class="max-sm:w-96 object-fill">
+                <img src="{{ asset('./assets/bootcamp/motif2.png') }}" class="max-sm:w-96 object-fill">
+                <img src="{{ asset('./assets/bootcamp/motiv1.png') }}" class="max-sm:w-96 object-fill">
+                <img src="{{ asset('./assets/bootcamp/motif2.png') }}" class="max-sm:w-96 object-fill">
             </div>
         </div>
         <br>
         <div>
             <!-- prospek karir start -->
-            <p class="text-orange-600 text-xl font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Prospek Karir</p>
+            <p id="prospek" class="text-orange-600 text-xl font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Prospek Karir</p>
             <p class="text-md font-regular mb-8">Ikuti Intensive Bootcamp dan dapatkan balik modal secara berlipat dari gaji pertamamu. Berbagai pilihan profesi yang bisa dijalani saat memiliki skill digital marketing:
                 <br>
                 💎 Social Media Specialist : Rp 5-15 Juta/bulan.
@@ -125,7 +135,7 @@
             </p>
         </div>
         <div>
-            <img src="{{ asset('./assets/bootcamp/trusted.png') }}" class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
+            <img src="{{ asset('./assets/bootcamp/trusted.png') }}" class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-28 max-sm:w-20 max-sm:mx-auto max-sm:my-4 object-cover">
         </div>
         <!-- prospek karir end -->
 
@@ -134,7 +144,8 @@
         <p class="lg:w-10/12">Upgrade skill mulai dari memahami konsep, analisa studi kasus, hingga praktik untuk mengoptimalkannya. Kuasai berbagai skill dan tools di bidang Digital Marketing untuk karier maupun bisnis kamu.
             <b>Contoh Skill & Portfolio yang bisa kamu miliki:</b>
         </p>
-        <img src="{{ asset('./assets/bootcamp/get.png') }}" class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
+        123
+        <img src="{{ asset('./assets/bootcamp/get.png') }}" class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
         <!-- scrollbar-2 -->
         <div name="scrollbar-2 mb-4">
             <div class="flex overflow-x-auto space-x-4 no-scrollbar">
@@ -178,12 +189,12 @@
         <b><i>Akselerasi Karir</i></b>
         <p>✅ Mendapat template CV & Surat Lamaran kerja versi Bahasa Inggris & Bahasa Indonesia. <br>
             ✅ Akses Ratusan Video eLearning dengan ratusan sertifikat yang bisa didapatkan.</p>
-        <img src="{{ asset('./assets/bootcamp/sertifikat.png') }}" class="lg:h-72 rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
+        <img src="{{ asset('./assets/bootcamp/sertifikat.png') }}" class="lg:h-72 rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
         <!-- benefit end -->
 
         <!-- peserta bootcamp -->
         <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Peserta Bootcamp</p>
-        <img src="{{ asset('./assets/bootcamp/peserta.png') }}" class="lg:h-80 sm:h-auto rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
+        <img src="{{ asset('./assets/bootcamp/peserta.png') }}" class="lg:h-80 sm:h-auto rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
 
         <!-- Kurikulum & Silabus -->
         <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Kurikulum & Silabus</p>
@@ -231,7 +242,7 @@
             <!-- Dropdown 1 -->
             <div class="mb-2 border border-gray-300 rounded lg:mt-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown1', this)">
-                    <b>Onboarding and Sharing Session with Alumni (Optional)</b>
+                    <p class="font-semibold">Onboarding and Sharing Session with Alumni (Optional)</p>
                     <i class="fas fa-chevron-down" id="arrow1"></i>
                 </button>
                 <div id="dropdown1" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -245,7 +256,7 @@
             <!-- Dropdown 2 -->
             <div class="border border-gray-300 rounded mb-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown2', this)">
-                    <b> The Fundamental Of Marketing </b>
+                    <p class="font-semibold"> The Fundamental Of Marketing </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown2" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -257,7 +268,7 @@
             <!-- Dropdown 3 -->
             <div class="border border-gray-300 rounded">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown3', this)">
-                    <b> Brand Strategy </b>
+                    <p class="font-semibold"> Brand Strategy </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown3" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -269,7 +280,7 @@
             <!-- Dropdown 4 -->
             <div class="border border-gray-300 rounded mt-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown4', this)">
-                    <b> Audience Persona & Insight </b>
+                    <p class="font-semibold"> Audience Persona & Insight </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown4" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -280,7 +291,7 @@
             <!-- Dropdown 5 -->
             <div class="border border-gray-300 rounded mt-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown5', this)">
-                    <b> Digital Marketing & Network </b>
+                    <p class="font-semibold"> Digital Marketing & Network </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown5" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -292,7 +303,7 @@
             <!-- Dropdown 6 -->
             <div class="border border-gray-300 rounded mt-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown6', this)">
-                    <b> Campaign & Media Planning </b>
+                    <p class="font-semibold"> Campaign & Media Planning </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown6" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -306,7 +317,7 @@
             <!-- Dropdown 7 -->
             <div class="border border-gray-300 rounded mt-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown7', this)">
-                    <b> Content & Marketing </b>
+                    <p class="font-semibold"> Content & Marketing </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown7" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -320,7 +331,7 @@
             <!-- Dropdown 8 -->
             <div class="border border-gray-300 rounded mt-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown8', this)">
-                    <b> Creative Copywriting </b>
+                    <p class="font-semibold"> Creative Copywriting </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown8" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -334,7 +345,7 @@
             <!-- Dropdown 9 -->
             <div class="border border-gray-300 rounded mt-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown9', this)">
-                    <b> Social Media Strategy </b>
+                    <p class="font-semibold"> Social Media Strategy </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown9" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -350,7 +361,7 @@
             <!-- Dropdown 10 -->
             <div class="border border-gray-300 rounded mt-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown10', this)">
-                    <b> Social Media Research & Analytics </b>
+                    <p class="font-semibold"> Social Media Research & Analytics </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown10" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -364,7 +375,7 @@
             <!-- Dropdown 11 -->
             <div class="border border-gray-300 rounded mt-2">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown11', this)">
-                    <b> Ecommerce Marketing </b>
+                    <p class="font-semibold"> Ecommerce Marketing </p>
                     <i class="fas fa-chevron-down" id="arrow2"></i>
                 </button>
                 <div id="dropdown11" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -389,7 +400,7 @@
         <!-- FAQ 1 -->
         <div class="border border-gray-300 rounded mt-2">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq1', this)">
-                <b> Saya tidak memiliki pengalaman sama sekali di bidang Digital Marketing, apakah saya bisa mengikuti kelas? </b>
+                <p class="font-semibold"> Saya tidak memiliki pengalaman sama sekali di bidang Digital Marketing, apakah saya bisa mengikuti kelas? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
             </button>
             <div id="faq1" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -399,7 +410,7 @@
         <!-- FAQ 2 -->
         <div class="border border-gray-300 rounded mt-2">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq2', this)">
-                <b> Bagaimana jika saya tidak bisa menghadiri kelas, apakah saya masih bisa mengikuti materi ? </b>
+                <p class="font-semibold"> Bagaimana jika saya tidak bisa menghadiri kelas, apakah saya masih bisa mengikuti materi ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
             </button>
             <div id="faq2" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -409,7 +420,7 @@
         <!-- FAQ 3 -->
         <div class="border border-gray-300 rounded mt-2">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq3', this)">
-                <b> Bagaimana jika saya mengalami kesulitan untuk mengerjakan team project untuk portofolio saya ? </b>
+                <p class="font-semibold"> Bagaimana jika saya mengalami kesulitan untuk mengerjakan team project untuk portofolio saya ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
             </button>
             <div id="faq3" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -419,7 +430,7 @@
         <!-- FAQ 4 -->
         <div class="border border-gray-300 rounded mt-2">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq4', this)">
-                <b>Apakah final project portofolio, bisa saya gunakan untuk melamar kerja ? </b>
+                <p class="font-semibold">Apakah final project portofolio, bisa saya gunakan untuk melamar kerja ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
             </button>
             <div id="faq4" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -428,7 +439,7 @@
         <!-- FAQ 5 -->
         <div class="border border-gray-300 rounded mt-2">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq5', this)">
-                <b> Bagaimana cara agar bisa mengikuti extra sesi tambahan ? </b>
+                <p class="font-semibold"> Bagaimana cara agar bisa mengikuti extra sesi tambahan ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
             </button>
             <div id="faq5" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -437,7 +448,7 @@
         <!-- FAQ 6 -->
         <div class="border border-gray-300 rounded mt-2">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq6', this)">
-                <b> Seperti apa bentuk final project yang akan dikerjakan peserta ? </b>
+                <p class="font-semibold"> Seperti apa bentuk final project yang akan dikerjakan peserta ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
             </button>
             <div id="faq6" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -450,11 +461,11 @@
         <p class="mb-2">Bukan sekadar join Bootcamp. Tapi, Komunitas berkembang bersama. Gabung grup untuk berdiskusi, berbagi info loker dan freelance, hingga kumpul offline dan networking. Bangun support system bersama yuk!</p>
         <!-- scrollbar-3 -->
         <div name="scrollbar-2 mb-8">
-            <div class="flex overflow-x-auto space-x-4 no-scrollbar">
-                <img src="{{ asset('./assets/bootcamp/komun1.png') }}" class="h-64 w-auto">
-                <img src="{{ asset('./assets/bootcamp/komun2.png') }}" class="h-64 w-auto">
-                <img src="{{ asset('./assets/bootcamp/komun3.png') }}" class="h-64 w-auto">
-                <img src="{{ asset('./assets/bootcamp/komun4.png') }}" class="h-64 w-auto">
+            <div class="flex overflow-x-auto space-x-4 max-sm:ps-2 no-scrollbar">
+                <img src="{{ asset('./assets/bootcamp/komun1.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px]">
+                <img src="{{ asset('./assets/bootcamp/komun2.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px]">
+                <img src="{{ asset('./assets/bootcamp/komun3.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px]">
+                <img src="{{ asset('./assets/bootcamp/komun4.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px]">
             </div>
         </div>
         <!-- komunitas end -->
@@ -506,11 +517,11 @@
 
 <!-- scrollbar horizontal 3 -->
 <div name="mb-8" class="overflow-x-auto no-scrollbar">
-    <div class="flex space-x-4 w-max px-14 py-3">
+    <div class="flex space-x-4 w-max lg:px-14 max-sm:px-4 py-3">
         <!-- Item Bootcamp 1 -->
-        <div class="bg-white rounded-lg shadow-md p-4 w-64">
+        <div class="bg-white rounded-lg shadow-md p-4 lg:w-64 max-sm:w-40 max-sm:h-40">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
-            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
+            <p class="mt-4 text-gray-700 font-semibold font-sans h-50 lg:text-lg max-sm:text-sm max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex items-center mt-4 text-gray-500">
                 <i class="fas fa-calendar-alt mr-2"></i>
                 <p class="text-sm">1 Januari 2025</p>
@@ -518,71 +529,6 @@
             <div class="flex items-center mt-4 text-gray-500">
                 <i class="fas fa-tag mr-2"></i>
                 <p class="text-sm">Rp 500.000 <span class="line-through text-red-500">Rp 800.000</span></p>
-            </div>
-        </div>
-        <!-- Item Bootcamp 2 -->
-        <div class="bg-white rounded-lg shadow-md p-4 w-64">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
-            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 2</p>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-calendar-alt mr-2"></i>
-                <p class="text-sm">15 Januari 2025</p>
-            </div>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-tag mr-2"></i>
-                <p class="text-sm">Rp 550.000 <span class="line-through text-red-500">Rp 850.000</span></p>
-            </div>
-        </div>
-        <!-- Item Bootcamp 3 -->
-        <div class="bg-white rounded-lg shadow-md p-4 w-64">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
-            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 3</p>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-calendar-alt mr-2"></i>
-                <p class="text-sm">1 Februari 2025</p>
-            </div>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-tag mr-2"></i>
-                <p class="text-sm">Rp 600.000 <span class="line-through text-red-500">Rp 900.000</span></p>
-            </div>
-        </div>
-        <!-- Item Bootcamp 4 -->
-        <div class="bg-white rounded-lg shadow-md p-4 w-64">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
-            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 4</p>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-calendar-alt mr-2"></i>
-                <p class="text-sm">15 Februari 2025</p>
-            </div>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-tag mr-2"></i>
-                <p class="text-sm">Rp 650.000 <span class="line-through text-red-500">Rp 950.000</span></p>
-            </div>
-        </div>
-        <!-- Item Bootcamp 5 -->
-        <div class="bg-white rounded-lg shadow-md p-4 w-64">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
-            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 4</p>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-calendar-alt mr-2"></i>
-                <p class="text-sm">15 Februari 2025</p>
-            </div>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-tag mr-2"></i>
-                <p class="text-sm">Rp 650.000 <span class="line-through text-red-500">Rp 950.000</span></p>
-            </div>
-        </div>
-        <!-- Item Bootcamp 6 -->
-        <div class="bg-white rounded-lg shadow-md p-4 w-64">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
-            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 4</p>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-calendar-alt mr-2"></i>
-                <p class="text-sm">15 Februari 2025</p>
-            </div>
-            <div class="flex items-center mt-4 text-gray-500">
-                <i class="fas fa-tag mr-2"></i>
-                <p class="text-sm">Rp 650.000 <span class="line-through text-red-500">Rp 950.000</span></p>
             </div>
         </div>
         <!-- Item More -->
