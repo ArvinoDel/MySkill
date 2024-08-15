@@ -66,3 +66,15 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('pages.register');
 });
+
+Route::get('/profile/my-purchase', function () {
+    return view('pages.profile.my-purchase');
+});
+
+Route::get('/profile/my-activity', function () {
+    return view('pages.profile.my-activity');
+});
+
+Route::get('/profile/my-transaction', function () {
+    return view('pages.profile.my-transaction');
+});
