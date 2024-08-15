@@ -25,9 +25,8 @@
     </section>
 </div>
 
-<div class="flex">
+<div class="flex ">
     <!-- Sidebar -->
-
     <div class="w-64 sticky">
         <div class="h-10/12 top-0 pb-10 bg-white rounded-lg shadow-md p-4 lg:ml-4 lg:mb-4 lg:mt-4">
             <ul class="space-y-2">
@@ -148,7 +147,455 @@
         </div>
         <!-- yang bisa kamu dapatkan end -->
 
+        <!-- benefit start -->
+        <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Benefit Bootcamp</p>
+        <p class="lg:mt-2 lg:mb-1"><b>Materi Kelas:</b></p>
+        <p class="font-normal">✅ 20 Live Class Bersama Mentor Experts dari Top Companies.
+            <br>
+            ✅ Tutor berpengalaman dengan level Lead/Manager/Head.
+            <br>
+            ✅ Latihan dan praktik dengan membuat mini portofolio pada setiap live class.
+            <br>
+            ✅ Sesi sharing pengalaman bersama expert.
+            <br>
+            ✅ Terdapat sesi persiapan karir untuk persiapan berkas lamaran kerja (CV, Surat Lamaran Kerja, Interview, Linkedin).
+        </p>
+        <p class="lg:mt-6 lg:mb-6"><b>Seletah Kelas:</b></p>
+        <p class="lg:mb-6">
+            ✅ Mendapat rekaman video setiap Sesi untuk dipelajari Kembali.
+            <br>
+            ✅ Mendapatkan e-Certificate selesai pelatihan.
+        </p>
+        <p class="text-medium">
+            <b><i>[Opsional] +Additional Fee jika ingin bergabung program Final Project secara berkelompok.</i></b>
+            Pembayaran dilakukan terpisah, saat Bootcamp dimulai.
+        </p>
+        <b><i>Final Fotofolio Project</i></b>
+        <p class="lg:mb-6">✅ Dibentuk team project untuk pembuatan final portofolio. <br>
+            ✅ Portfolio dibuat komprehensif sesuai standar melamar kerja. <br>
+            ✅ 3x sesi mentoring dan review untuk final portfolio project. <br>
+            ✅ Special award untuk tim terbaik.</p>
+        <b><i>Akselerasi Karir</i></b>
+        <p>✅ Mendapat template CV & Surat Lamaran kerja versi Bahasa Inggris & Bahasa Indonesia. <br>
+            ✅ Akses Ratusan Video eLearning dengan ratusan sertifikat yang bisa didapatkan.</p>
+        <img src="{{ asset('./assets/bootcamp/sertifikat.png') }}" class="lg:h-72 rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
+        <!-- benefit end -->
+
+        <!-- peserta bootcamp -->
+        <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Peserta Bootcamp</p>
+        <img src="{{ asset('./assets/bootcamp/peserta.png') }}" class="lg:h-80 sm:h-auto rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
+
+        <!-- Kurikulum & Silabus -->
+        <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Kurikulum & Silabus</p>
+        <b>Dirancang & Belajar Langsung Dari Yang Terbaik!</b>
+        <p>
+            📝 Aliya Mutiara Devi - Senior Product Marketing at Technology Industry <br>
+            📝 Naura Yasyfina - Brand Strategist at OLX Indonesia <br>
+            📝 Ken Kirana - Product Marketing at Bibit <br>
+            📝 Ghevira Azzahra - Digital Media Planner at i-dac (Hakuhodo International Indonesia) <br>
+            📝 Nur Rahmah - Content Writer at Kitabisa.com <br>
+            📝 Heru Raharja Catur Putra - Founder at Juwara Copywriting <br>
+            📝 Tita Pratiwi - Head of Digital at Vindes Corp <br>
+            📝 Jovita Wibowo - Lead Social Media Strategist at Mekari <br>
+            📝 Ferdinand Siswanto - Ecommerce Business Development Manager at Colgate-Palmolive <br>
+            📝 Ray Maximillian - KOL Lead at Bibit.id <br>
+            📝 Yosanatan Manuel - Performance Marketing Specialist at Bibit <br>
+            📝 Nanda Faturrohmi Putri - Digital Marketing Specialist at THIS IS APRIL <br>
+            📝 Antonius Putu Satria K.W.C - SEO and ASO Manager at Transfez <br>
+            📝 Nanda Saputri - SEO Strategist Manager at Tirto.id <br>
+            📝 Aldi Dwi Putra - CRM Strategy and Planning at Sayurbox <br>
+            📝 Raudah Sabila, Senior Talent Acquisition Specialist at Bukalapak <br>
+        </p>
+
+        <!-- jadwal kelas -->
+        <p class="lg:mt-6"><b>Jadwal Kelas:</b></p>
+        <p>✅ Batch 25: 5 Juni - 22 Juli 2024</p>
+        <b>Sesi On Boarding: Senin, 3 Juni 2024</b>
+
+        <p class="lg:mt-6">✅ Batch 26: 7 Agustus - 20 September 2024</p>
+        <b>Sesi On Boarding: Senin, 5 Agustus 2024</b>
+
+        <p class="lg:mt-6 lg:w-11/12"><b>
+                📌Notes: <br>
+                Sesi On boarding ini bersifat opsional dan ditujukan untuk mengenal satu sama lain dan program dengan lebih baik. Bukan sesi materi.
+                <br>
+                Jika terlewat, tetap bisa mendaftar bootcamp hingga tanggal penutupan, dan melihat recording maupun panduan bootcamp yang diberikan.
+            </b></p>
+
+        <p class="lg:mt-6 lg:mb-4"><b>Pelaksanaan Kelas :</b><br>
+            Setiap hari Senin, Rabu dan Jumat.<br>
+            Pukul 19.30-21.30 WIB
+        </p>
+
+        <div>
+            <!-- Dropdown 1 -->
+            <div class="mb-2 border border-gray-300 rounded lg:mt-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown1', this)">
+                    <b>Onboarding and Sharing Session with Alumni (Optional)</b>
+                    <i class="fas fa-chevron-down" id="arrow1"></i>
+                </button>
+                <div id="dropdown1" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    <p>> Class introduction and rules</p>
+                    <p>> Alumni sharing session</p>
+                    <p class="mt-4">Alumni sharing session: Sesi On boarding ini bersifat opsional dan ditujukan untuk mengenal satu sama lain dan program dengan lebih baik. Bukan sesi materi.</p>
+                    <p>Jika terlewat, tetap bisa mendaftar bootcamp hingga tanggal penutupan, dan melihat recording maupun panduan bootcamp yang diberikan.</p>
+                </div>
+            </div>
+
+            <!-- Dropdown 2 -->
+            <div class="border border-gray-300 rounded mb-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown2', this)">
+                    <b> The Fundamental Of Marketing </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown2" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    <p>> Konsep Marketing & Komunikasi Pemasaran <br>
+                        > Mengenal Marketing Mix (4P & 4C Matrix)</p>
+                </div>
+            </div>
+
+            <!-- Dropdown 3 -->
+            <div class="border border-gray-300 rounded">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown3', this)">
+                    <b> Brand Strategy </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown3" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    <p>> Mengenal komponen pembentuk brand <br>
+                        > Strategi komunikasi brand <br>
+                        > Merancang brand activation</p>
+                </div>
+            </div>
+            <!-- Dropdown 4 -->
+            <div class="border border-gray-300 rounded mt-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown4', this)">
+                    <b> Audience Persona & Insight </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown4" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    > Merancang customer research & persona <br>
+                    > Memahami audience pain points & motivation
+                </div>
+            </div>
+            <!-- Dropdown 5 -->
+            <div class="border border-gray-300 rounded mt-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown5', this)">
+                    <b> Digital Marketing & Network </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown5" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    > Pemetaan audience buyer journey & funnel <br>
+                    > Digital marketing trifecta <br>
+                    > Digital marketing metrics and tools
+                </div>
+            </div>
+            <!-- Dropdown 6 -->
+            <div class="border border-gray-300 rounded mt-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown6', this)">
+                    <b> Campaign & Media Planning </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown6" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    > Merangkai digital campaign
+                    <br>
+                    > Media planning strategy
+                    <br>
+                    > Eksperimentasi & evaluasi campaign
+                </div>
+            </div>
+            <!-- Dropdown 7 -->
+            <div class="border border-gray-300 rounded mt-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown7', this)">
+                    <b> Content & Marketing </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown7" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    > Content funnel
+                    <br>
+                    > Perancangan & distribusi konten
+                    <br>
+                    > Eksperimentasi, metrik & improvement
+                </div>
+            </div>
+            <!-- Dropdown 8 -->
+            <div class="border border-gray-300 rounded mt-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown8', this)">
+                    <b> Creative Copywriting </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown8" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    > Konsep & formula copywriting
+                    <br>
+                    > Menggali insight & konsep
+                    <br>
+                    > Copywriting best practice
+                </div>
+            </div>
+            <!-- Dropdown 9 -->
+            <div class="border border-gray-300 rounded mt-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown9', this)">
+                    <b> Social Media Strategy </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown9" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    > Karakteristik tiap social media channel
+                    <br>
+                    > Mengenal target audience
+                    <br>
+                    > Membangun content pillar
+                    <br>
+                    > Eksperimentasi & optimalisasi social media
+                </div>
+            </div>
+            <!-- Dropdown 10 -->
+            <div class="border border-gray-300 rounded mt-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown10', this)">
+                    <b> Social Media Research & Analytics </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown10" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    > Competitor research
+                    <br>
+                    > Social media listening
+                    <br>
+                    > Social media metrics & improvement
+                </div>
+            </div>
+            <!-- Dropdown 11 -->
+            <div class="border border-gray-300 rounded mt-2">
+                <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('dropdown11', this)">
+                    <b> Ecommerce Marketing </b>
+                    <i class="fas fa-chevron-down" id="arrow2"></i>
+                </button>
+                <div id="dropdown11" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                    > Membuat deskripsi dan display produk
+                    <br>
+                    > Membangun relasi pelanggan
+                    <br>
+                    > Strategi pemasaran
+                    <br>
+                    > Mengembangkan online shop
+                </div>
+            </div>
+        </div>
+
+        <!-- sistem belajar -->
+        <p class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-4"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Sistem Belajar</p>
+        <img class="MuiBox-root mui-style-nj2azm" src="https://imagedelivery.net/I_EC-Jc9ZMucGPqxWez19A/e50f0b44-5d3b-42c1-dee3-500b93c71e00/public" alt="Sistem Belajar" loading="lazy">
+
+        <!-- FAQ -->
+        <p class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>FAQ</p>
+        <p class="mb-6">Masih bingung? Tenang :)</p>
+        <!-- FAQ 1 -->
+        <div class="border border-gray-300 rounded mt-2">
+            <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq1', this)">
+                <b> Saya tidak memiliki pengalaman sama sekali di bidang Digital Marketing, apakah saya bisa mengikuti kelas? </b>
+                <i class="fas fa-chevron-down" id="arrow2"></i>
+            </button>
+            <div id="faq1" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                Tentu bisa! Pada Intensive Bootcamp Digital Marketing akan diampu oleh tutor expert dibidangnya yang akan menyampaikan materi dari level dasar (basic) hingga level lanjut (advance) yang mudah dipahami sehingga kamu tidak perlu khawatir sulit memahami materi walaupun kamu tidak memiliki background digital marketing sebelumnya.
+            </div>
+        </div>
+        <!-- FAQ 2 -->
+        <div class="border border-gray-300 rounded mt-2">
+            <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq2', this)">
+                <b> Bagaimana jika saya tidak bisa menghadiri kelas, apakah saya masih bisa mengikuti materi ? </b>
+                <i class="fas fa-chevron-down" id="arrow2"></i>
+            </button>
+            <div id="faq2" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                Tentu saja! Jika kamu tidak dapat hadir pada sesi kelas, kamu bisa mengikuti materi melalui video recording setiap sesinya sehingga kamu tidak tertinggal materi yang telah disampaikan di sesi kelas.
+            </div>
+        </div>
+        <!-- FAQ 3 -->
+        <div class="border border-gray-300 rounded mt-2">
+            <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq3', this)">
+                <b> Bagaimana jika saya mengalami kesulitan untuk mengerjakan team project untuk portofolio saya ? </b>
+                <i class="fas fa-chevron-down" id="arrow2"></i>
+            </button>
+            <div id="faq3" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                <p>Jangan khawatir! Kamu akan didampingi oleh <i>learning asisstant (mentor)</i> selama proses pengerjaan final team project, bersama mentor kamu bisa berdiskusi secara intensif dan interaktif</p>
+            </div>
+        </div>
+        <!-- FAQ 4 -->
+        <div class="border border-gray-300 rounded mt-2">
+            <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq4', this)">
+                <b>Apakah final project portofolio, bisa saya gunakan untuk melamar kerja ? </b>
+                <i class="fas fa-chevron-down" id="arrow2"></i>
+            </button>
+            <div id="faq4" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                Final project portofolio tentu bisa digunakan sebagai portofolio untuk melamar pekerjaan. Kamu akan mengerjakan final project secara real case secara end to end process sehingga sangat cukup untuk mendukung kamu dari segi pemahaman dan praktik pada pekerjaaan bidang Digital Marketing. Dengan final project yang dikerjakan terbukti MySkill sudah membantu banyak alumni dalam mencari pekerjaan. </div>
+        </div>
+        <!-- FAQ 5 -->
+        <div class="border border-gray-300 rounded mt-2">
+            <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq5', this)">
+                <b> Bagaimana cara agar bisa mengikuti extra sesi tambahan ? </b>
+                <i class="fas fa-chevron-down" id="arrow2"></i>
+            </button>
+            <div id="faq5" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                Peserta harus menghadiri setiap sesi kelas yang diselenggarakan, serta secara aktif berpartisipasi dalam mengerjakan mini portofolio yang dikerjakan pada tiap sesi. </div>
+        </div>
+        <!-- FAQ 6 -->
+        <div class="border border-gray-300 rounded mt-2">
+            <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq6', this)">
+                <b> Seperti apa bentuk final project yang akan dikerjakan peserta ? </b>
+                <i class="fas fa-chevron-down" id="arrow2"></i>
+            </button>
+            <div id="faq6" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
+                Kamu akan diminta mempraktikkan semua materi yang telah dipelajari, dengan cara menghandle secara langsung sebuah bisnis UMKM. Kamu akan berperan aktif dalam membuat strategi, eksekusi, hingga evaluasi pada berbagai aspek.
+            </div>
+        </div>
+
+        <!-- Komunitas -->
+        <p class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Komunitas</p>
+        <p class="mb-2">Bukan sekadar join Bootcamp. Tapi, Komunitas berkembang bersama. Gabung grup untuk berdiskusi, berbagi info loker dan freelance, hingga kumpul offline dan networking. Bangun support system bersama yuk!</p>
+        <!-- scrollbar-3 -->
+        <div name="scrollbar-2 mb-8">
+            <div class="flex overflow-x-auto space-x-4">
+                <img src="{{ asset('./assets/bootcamp/komun1.png') }}" class="h-64 w-auto">
+                <img src="{{ asset('./assets/bootcamp/komun2.png') }}" class="h-64 w-auto">
+                <img src="{{ asset('./assets/bootcamp/komun3.png') }}" class="h-64 w-auto">
+                <img src="{{ asset('./assets/bootcamp/komun4.png') }}" class="h-64 w-auto">
+            </div>
+        </div>
+        <!-- komunitas end -->
+
+        <!-- daftar sekarang -->
+        <p class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Daftar Sekarang</p>
+        <p>Ayo, persiapkan dirimu untuk mulai #RintisKarirImpian</p>
+        <button type="button" class="lg:mt-2 w-full focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-3 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-1.5 max-sm:w-4/5 max-sm:mx-auto">
+            <i class="fas fa-bolt"></i> Daftar Sekarang
+        </button>
+
+        <!-- script dropdown -->
+        <script>
+            function toggleDropdown(id, button) {
+                const dropdown = document.getElementById(id);
+                const isHidden = dropdown.classList.contains('hidden');
+
+                if (isHidden) {
+                    dropdown.classList.remove('hidden');
+                    setTimeout(() => {
+                        dropdown.classList.remove('opacity-0');
+                        dropdown.classList.add('opacity-100');
+                    }, 10); // Delay to allow the transition to take effect
+                } else {
+                    dropdown.classList.remove('opacity-100');
+                    dropdown.classList.add('opacity-0');
+                    dropdown.addEventListener('transitionend', function() {
+                        dropdown.classList.add('hidden');
+                    }, {
+                        once: true
+                    });
+                }
+
+                const arrow = button.querySelector('i');
+                arrow.classList.toggle('fa-chevron-down');
+                arrow.classList.toggle('fa-chevron-up');
+            }
+        </script>
     </div>
+</div>
+
+<div class="w-full flex justify-center">
+    <hr class="mb-6 mt-2 w-11/12 border-1 ">
+</div>
+
+<!-- second content -->
+<p class="font-semibold text-3xl lg:ml-12">Ikuti Juga Bootcamp Lainnya</p>
+<p class="lg:ml-12 mb-4">Lanjut pelajari skill bersama tutor terbaik berpengalaman di bidangnya.</p>
+
+<!-- scrollbar horizontal 3 -->
+<div name="scrollbar-2 mb-8" class="overflow-x-auto">
+    <div class="flex space-x-4 w-max px-14 py-3">
+        <!-- Item Bootcamp 1 -->
+        <div class="bg-white rounded-lg shadow-md p-4 w-64">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
+            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-calendar-alt mr-2"></i>
+                <p class="text-sm">1 Januari 2025</p>
+            </div>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-tag mr-2"></i>
+                <p class="text-sm">Rp 500.000 <span class="line-through text-red-500">Rp 800.000</span></p>
+            </div>
+        </div>
+        <!-- Item Bootcamp 2 -->
+        <div class="bg-white rounded-lg shadow-md p-4 w-64">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
+            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 2</p>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-calendar-alt mr-2"></i>
+                <p class="text-sm">15 Januari 2025</p>
+            </div>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-tag mr-2"></i>
+                <p class="text-sm">Rp 550.000 <span class="line-through text-red-500">Rp 850.000</span></p>
+            </div>
+        </div>
+        <!-- Item Bootcamp 3 -->
+        <div class="bg-white rounded-lg shadow-md p-4 w-64">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
+            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 3</p>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-calendar-alt mr-2"></i>
+                <p class="text-sm">1 Februari 2025</p>
+            </div>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-tag mr-2"></i>
+                <p class="text-sm">Rp 600.000 <span class="line-through text-red-500">Rp 900.000</span></p>
+            </div>
+        </div>
+        <!-- Item Bootcamp 4 -->
+        <div class="bg-white rounded-lg shadow-md p-4 w-64">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
+            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 4</p>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-calendar-alt mr-2"></i>
+                <p class="text-sm">15 Februari 2025</p>
+            </div>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-tag mr-2"></i>
+                <p class="text-sm">Rp 650.000 <span class="line-through text-red-500">Rp 950.000</span></p>
+            </div>
+        </div>
+        <!-- Item Bootcamp 5 -->
+        <div class="bg-white rounded-lg shadow-md p-4 w-64">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
+            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 4</p>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-calendar-alt mr-2"></i>
+                <p class="text-sm">15 Februari 2025</p>
+            </div>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-tag mr-2"></i>
+                <p class="text-sm">Rp 650.000 <span class="line-through text-red-500">Rp 950.000</span></p>
+            </div>
+        </div>
+        <!-- Item Bootcamp 6 -->
+        <div class="bg-white rounded-lg shadow-md p-4 w-64">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
+            <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Dummy Bootcamp 4</p>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-calendar-alt mr-2"></i>
+                <p class="text-sm">15 Februari 2025</p>
+            </div>
+            <div class="flex items-center mt-4 text-gray-500">
+                <i class="fas fa-tag mr-2"></i>
+                <p class="text-sm">Rp 650.000 <span class="line-through text-red-500">Rp 950.000</span></p>
+            </div>
+        </div>
+        <!-- Item More -->
+        <div class="bg-gray-100 rounded-lg shadow-md p-4 w-64 h-96 flex flex-col justify-center items-center">
+            <p class="text-4xl text-gray-400 mb-4">+</p>
+            <p class="text-gray-500">lihat bootcamp lainnya...</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="w-full flex justify-center mt-8">
+    <hr class="mb-6 mt-4 w-11/12 border-1 ">
 </div>
 
 @endsection
