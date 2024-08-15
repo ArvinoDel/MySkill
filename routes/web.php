@@ -51,6 +51,9 @@ Route::get('/elearning', function () {
     return view('pages.elearning');
 });
 
+Route::get('/my-profile', function () {
+    return view('pages.profile.my-profile');
+});
 
 
 
