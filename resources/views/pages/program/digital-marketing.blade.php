@@ -27,7 +27,7 @@
 
 <div class="flex ">
     <!-- Sidebar -->
-    <div class="w-64 sticky">
+    <div class="w-64 md:w-1/4 px-4 mb-8 sticky top-11 h-full ">
         <div class="h-10/12 top-0 pb-10 bg-white rounded-lg shadow-md p-4 lg:ml-4 lg:mb-4 lg:mt-4">
             <ul class="space-y-2">
                 <p class="text-md font-semibold">Detail</p>
@@ -88,7 +88,7 @@
         <img src="{{ asset('./assets/bootcamp/adv.png') }}" class="lg:h-64 rounded-3xl w-auto lg:mt-4 lg:ml-6 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
         <br>
         <div name="scrollbar">
-            <div class="flex overflow-x-auto space-x-4">
+            <div class="flex overflow-x-auto space-x-4 no-scrollbar">
                 <img src="{{ asset('./assets/bootcamp/motivasi.png') }}" class="h-64 w-auto">
                 <img src="{{ asset('./assets/bootcamp/motivasi2.png') }}" class="h-64 w-auto">
                 <img src="{{ asset('./assets/bootcamp/motivasi.png') }}" class="h-64 w-auto">
@@ -137,7 +137,7 @@
         <img src="{{ asset('./assets/bootcamp/get.png') }}" class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-52 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
         <!-- scrollbar-2 -->
         <div name="scrollbar-2 mb-4">
-            <div class="flex overflow-x-auto space-x-4">
+            <div class="flex overflow-x-auto space-x-4 no-scrollbar">
                 <img src="{{ asset('./assets/bootcamp/get3.png') }}" class="h-64 w-auto">
                 <img src="{{ asset('./assets/bootcamp/get2.png') }}" class="h-64 w-auto">
                 <img src="{{ asset('./assets/bootcamp/get3.png') }}" class="h-64 w-auto">
@@ -450,7 +450,7 @@
         <p class="mb-2">Bukan sekadar join Bootcamp. Tapi, Komunitas berkembang bersama. Gabung grup untuk berdiskusi, berbagi info loker dan freelance, hingga kumpul offline dan networking. Bangun support system bersama yuk!</p>
         <!-- scrollbar-3 -->
         <div name="scrollbar-2 mb-8">
-            <div class="flex overflow-x-auto space-x-4">
+            <div class="flex overflow-x-auto space-x-4 no-scrollbar">
                 <img src="{{ asset('./assets/bootcamp/komun1.png') }}" class="h-64 w-auto">
                 <img src="{{ asset('./assets/bootcamp/komun2.png') }}" class="h-64 w-auto">
                 <img src="{{ asset('./assets/bootcamp/komun3.png') }}" class="h-64 w-auto">
@@ -505,7 +505,7 @@
 <p class="lg:ml-12 mb-4">Lanjut pelajari skill bersama tutor terbaik berpengalaman di bidangnya.</p>
 
 <!-- scrollbar horizontal 3 -->
-<div name="scrollbar-2 mb-8" class="overflow-x-auto">
+<div name="mb-8" class="overflow-x-auto no-scrollbar">
     <div class="flex space-x-4 w-max px-14 py-3">
         <!-- Item Bootcamp 1 -->
         <div class="bg-white rounded-lg shadow-md p-4 w-64">
