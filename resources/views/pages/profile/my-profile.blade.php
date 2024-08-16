@@ -15,9 +15,8 @@
                 <ul class="space-y-4">
                     <li>
                         <a href="/my-profile" class="flex items-center text-blue-600 hover:text-blue-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v12a2 2 0 002 2h4v-7H5v-2h3V7.5A2.5 2.5 0 0110.5 5H13v2h-2.5a.5.5 0 00-.5.5V9h3l-.5 2H10v7h6a2 2 0 002-2V4a2 2 0 00-2-2H4z" clip-rule="evenodd" />
-                            </svg>
+                            <!-- Replace with your logo -->
+                            <img src="/path/to/your/logo.png" alt="Logo" class="h-5 w-5 mr-2">
                             Profil Saya
                         </a>
                     </li>
