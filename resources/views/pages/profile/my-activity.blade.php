@@ -46,9 +46,34 @@
     <div>
         <h2 class="text-2xl font-semibold  text-left mr-4 ml-4">Lanjut Belajar</h2>
         <p class="text-sm text-left mb-4 ml-4">Yuk lanjutkan progress belajarmu untuk segera dapatkan sertifikat!</p>
-        <div class="w-full bg-white p-16 rounded-lg shadow-md">
+
+        <div class="flex items-center p-4 bg-white shadow rounded-lg">
+            <!-- Image Placeholder -->
+            <div class="w-32 h-32 bg-gray-200 rounded-lg"></div>
+
+            <!-- Content Section -->
+            <div class="ml-4 flex-1 pt-2">
+                <h3 class="text-gray-800 font-semibold">Sepertinya Kamu Belum Mulai Belajar...</h3>
+                <p class="text-sm text-gray-500">Yuk mulai belajar beragam materi pilihan terbaik di MySkill.</p>
+
+                <!-- Progress Bar -->
+                <div class="relative pt-2 mt-2">
+                    <div class="h-2 bg-gray-200 rounded-full">
+                        <div class="w-0 h-full bg-orange-500 rounded-full"></div>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-1">0%</p>
+                </div>
+                <!-- Button moved below the progress bar -->
+                <div class="mt-4">
+                    <button class="px-4 py-2 mb-4 bg-orange-500 text-white text-sm font-medium rounded-lg shadow hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-opacity-75">
+                        Mulai Belajar
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="flex justify-between items-center border-b border-gray-300 mb-6 tab-container">
+
+
+        <div class="flex justify-between items-center border-b border-gray-300 mb-6  tab-container ml-4">
             <div class="flex space-x-4 mt-6">
                 <a href="#" id="show-Course Disimpan" class="text-lg tab active-tab">Course Disimpan</a>
                 <a href="#" id="show-Course Selesai" class="text-lg tab">Course Selesai</a>
@@ -56,10 +81,10 @@
             <span class="underline" id="underline"></span>
         </div>
 
-        <div id="Course Disimpan-content" class="text-start" style="min-height: 100px;">
+        <div id="Course Disimpan-content" class="text-start ml-4" style="min-height: 100px;">
             <h2 class="text-xl font-semibold text-gray-800 w-10/12">Sepertinya kamu belum menyimpan course. Simpan course favoritmu agar kamu bisa dengan mudah disini.</h2>
         </div>
-        <div id="Course Selesai-content" class="text-start hidden" style="min-height: 100px;">
+        <div id="Course Selesai-content" class="text-start hidden ml-4" style="min-height: 100px;">
             <h2 class="text-xl font-semibold text-gray-800 mb-8 w-10/12">Sepertinya kamu belum menyelesaikan course. Selesaikan course dan dapatkan sertifikatnya!</h2>
         </div>
 
