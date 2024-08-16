@@ -3,7 +3,7 @@
         <img class="max-w-xs max-md:w-20 h-auto" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
 
     </a>
-    <div class="lg:hidden">
+    <div class="lg:hidden md:hidden">
         <button class="navbar-burger flex items-center p-3 focus:outline-none hover:text-white focus:text-gray-900">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd"
