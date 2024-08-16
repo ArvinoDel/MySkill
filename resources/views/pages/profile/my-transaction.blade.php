@@ -3,9 +3,9 @@
 
 <div class="flex flex-col md:flex-row gap-4">
     <!-- Sidebar -->
-    <aside class="w-full md:w-1/4 px-4 mb-8 sticky top-11 h-full">
-        <div class="bg-white rounded-lg shadow-md p-6">
-            <h2 class="text-gray-700 font-semibold mb-4">Navigasi Profil</h2>
+    <aside class="w-full md:w-1/4 px-4 mb-8 h-full sticky top-11 md:top-0">
+        <div class="bg-white rounded-lg shadow-md p-6 mt-8">
+            <h2 class="text-gray-700 font-semibold mb-4 ">Navigasi Profil</h2>
             <ul class="space-y-4">
                 <li>
                     <a href="/my-profile" class="flex items-center text-gray-800 hover:text-blue-600">
@@ -44,12 +44,12 @@
     </aside>
 
     <div class="w-full h-full mt-4">
-        <h2 class="text-2xl font-semibold text-left">Transaksi Saya</h2>
-        <p class="text-sm text-left mb-6">Lihat semua transaksi kamu di MySkill.</p>
+        <h2 class="text-2xl font-semibold text-left mr-4 ml-4">Transaksi Saya</h2>
+        <p class="text-sm text-left mb-4 ml-4">Lihat semua transaksi kamu di MySkill.</p>
         <div class="p-4">
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-4 flex justify-between items-center">
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-4 flex flex-col md:flex-row justify-between items-center">
                 <!-- Left Section -->
-                <div>
+                <div class="mb-4 md:mb-0">
                     <p class="text-sm text-gray-500 mb-1">20240812-XD-1301000000001988</p>
                     <h2 class="text-lg font-bold text-gray-800">Paket Video E-Learning 6 Bulan</h2>
                     <p class="text-sm text-gray-600 mt-2">Dibuat: 12 Agu 2024, 11:32</p>
@@ -72,8 +72,6 @@
                 </div>
             </div>
         </div>
-
-
 
         <div class="flex mb-8 justify-end gap-4 mt-6">
             <button class="bg-gray-100 text-gray-500 px-4 py-2 rounded hover:bg-gray-200">
