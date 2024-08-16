@@ -3,8 +3,8 @@
 
 <div class="flex flex-col md:flex-row gap-4">
     <!-- Sidebar -->
-    <aside class="w-full md:w-1/4 px-4 mb-8 sticky top-11 h-full">
-        <div class="bg-white rounded-lg shadow-md p-6">
+    <aside class="w-full md:w-1/4 px-4 mb-8 h-full sticky top-11 md:top-0">
+        <div class="bg-white rounded-lg shadow-md p-6 mt-8">
             <h2 class="text-gray-700 font-semibold mb-4">Navigasi Profil</h2>
             <ul class="space-y-4">
                 <li>
@@ -44,8 +44,8 @@
     </aside>
 
     <div>
-        <h2 class="text-2xl font-semibold  text-left">Lanjut Belajar</h2>
-        <p class="text-sm text-left mb-6">Yuk lanjutkan progress belajarmu untuk segera dapatkan sertifikat!</p>
+        <h2 class="text-2xl font-semibold  text-left mr-4 ml-4">Lanjut Belajar</h2>
+        <p class="text-sm text-left mb-4 ml-4">Yuk lanjutkan progress belajarmu untuk segera dapatkan sertifikat!</p>
         <div class="w-full bg-white p-16 rounded-lg shadow-md">
         </div>
         <div class="flex justify-between items-center border-b border-gray-300 mb-6 tab-container">
