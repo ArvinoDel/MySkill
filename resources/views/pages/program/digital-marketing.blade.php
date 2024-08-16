@@ -32,41 +32,41 @@
             <ul class="space-y-2">
                 <p class="text-md font-semibold">Detail</p>
                 <!-- Daftar item di sini -->
-                <li class="flex items-center">
-                    <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#tentang-bootcamp" class="text-gray-600 font-medium ml-2">Tentang Bootcamp</a>
+                <li class="flex items-center hover:bg-gray-300">
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#tentang-bootcamp" class="text-black font-medium ml-2">Tentang Bootcamp</a>
                 </li>
-                <li class="flex items-center">
-                    <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#prospek" class="text-gray-600 font-medium ml-2">Prospek Karier</a>
+                <li class="flex items-center hover:bg-gray-300">
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#prospek" class="text-black font-medium ml-2">Prospek Karier</a>
                 </li>
-                <li class="flex items-center">
-                    <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#" class="text-gray-600 font-medium ml-2">Yang Bisa Kamu Dapatkan</a>
+                <li class="flex items-center hover:bg-gray-300">
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#dapatkan" class="text-black font-medium ml-2">Yang Bisa Kamu Dapatkan</a>
                 </li>
-                <li class="flex items-center">
-                    <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#" class="text-gray-600 font-medium ml-2">Benefit Bootcamp</a>
+                <li class="flex items-center hover:bg-gray-300">
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#benefit" class="text-black font-medium ml-2">Benefit Bootcamp</a>
                 </li>
-                <li class="flex items-center">
-                    <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#" class="text-gray-600 font-medium ml-2">Peserta Bootcamp</a>
+                <li class="flex items-center hover:bg-gray-300">
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#peserta" class="text-black font-medium ml-2">Peserta Bootcamp</a>
                 </li>
-                <li class="flex items-center">
-                    <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#" class="text-gray-600 font-medium ml-2">Kurikulum & Silabus</a>
+                <li class="flex items-center hover:bg-gray-300">
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#kurikulum" class="text-black font-medium ml-2">Kurikulum & Silabus</a>
                 </li>
-                <li class="flex items-center">
-                    <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#" class="text-gray-600 font-medium ml-2">Sistem Belajar</a>
+                <li class="flex items-center hover:bg-gray-300">
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#sistem" class="text-black font-medium ml-2">Sistem Belajar</a>
                 </li>
-                <li class="flex items-center">
-                    <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#" class="text-gray-600 font-medium ml-2">FAQ</a>
+                <li class="flex items-center hover:bg-gray-300">
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#faq" class="text-black font-medium ml-2">FAQ</a>
                 </li>
-                <li class="flex items-center">
-                    <i class="fas fa-chevron-right text-gray-600"></i>
-                    <a href="#" class="text-gray-600 font-medium ml-2">Komunitas</a>
+                <li class="flex items-center hover:bg-gray-300">
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#komunitas" class="text-black font-medium ml-2">Komunitas</a>
                 </li>
                 <!-- Tambahkan item lainnya di sini -->
             </ul>
@@ -140,11 +140,10 @@
         <!-- prospek karir end -->
 
         <!-- yang bisa kamu dapatkan start -->
-        <p class="text-orange-600 text-xl font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Apa Yang Bisa Kamu Dapatkan</p>
+        <p id="dapatkan" class="text-orange-600 text-xl font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Apa Yang Bisa Kamu Dapatkan</p>
         <p class="lg:w-10/12">Upgrade skill mulai dari memahami konsep, analisa studi kasus, hingga praktik untuk mengoptimalkannya. Kuasai berbagai skill dan tools di bidang Digital Marketing untuk karier maupun bisnis kamu.
             <b>Contoh Skill & Portfolio yang bisa kamu miliki:</b>
         </p>
-        123
         <img src="{{ asset('./assets/bootcamp/get.png') }}" class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
         <!-- scrollbar-2 -->
         <div name="scrollbar-2 mb-4">
@@ -157,7 +156,7 @@
             </div>
         </div>
         <!-- yang bisa kamu dapatkan end -->
-
+        <div id="benefit"></div>
         <!-- benefit start -->
         <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Benefit Bootcamp</p>
         <p class="lg:mt-2 lg:mb-1"><b>Materi Kelas:</b></p>
@@ -193,11 +192,11 @@
         <!-- benefit end -->
 
         <!-- peserta bootcamp -->
-        <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Peserta Bootcamp</p>
+        <p id="peserta" class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Peserta Bootcamp</p>
         <img src="{{ asset('./assets/bootcamp/peserta.png') }}" class="lg:h-80 sm:h-auto rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
 
         <!-- Kurikulum & Silabus -->
-        <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Kurikulum & Silabus</p>
+        <p id="kurikulum" class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Kurikulum & Silabus</p>
         <b>Dirancang & Belajar Langsung Dari Yang Terbaik!</b>
         <p>
             📝 Aliya Mutiara Devi - Senior Product Marketing at Technology Industry <br>
@@ -391,11 +390,11 @@
         </div>
 
         <!-- sistem belajar -->
-        <p class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-4"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Sistem Belajar</p>
+        <p id="sistem" class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-4"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Sistem Belajar</p>
         <img class="MuiBox-root mui-style-nj2azm" src="https://imagedelivery.net/I_EC-Jc9ZMucGPqxWez19A/e50f0b44-5d3b-42c1-dee3-500b93c71e00/public" alt="Sistem Belajar" loading="lazy">
 
         <!-- FAQ -->
-        <p class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>FAQ</p>
+        <p id="faq" class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>FAQ</p>
         <p class="mb-6">Masih bingung? Tenang :)</p>
         <!-- FAQ 1 -->
         <div class="border border-gray-300 rounded mt-2">
@@ -457,7 +456,7 @@
         </div>
 
         <!-- Komunitas -->
-        <p class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Komunitas</p>
+        <p id="komunitas" class="text-orange-600 text-xl lg:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Komunitas</p>
         <p class="mb-2">Bukan sekadar join Bootcamp. Tapi, Komunitas berkembang bersama. Gabung grup untuk berdiskusi, berbagi info loker dan freelance, hingga kumpul offline dan networking. Bangun support system bersama yuk!</p>
         <!-- scrollbar-3 -->
         <div name="scrollbar-2 mb-8">
@@ -538,7 +537,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="w-full flex justify-center mt-8">
     <hr class="mb-6 mt-4 w-11/12 border-1 ">

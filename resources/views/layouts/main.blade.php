@@ -27,6 +27,13 @@
 
     @include('partials.footer')
 
+    <!-- wa button -->
+    <button href="#" class="fixed end-12 justify-cen bottom-8 bg-orange-500 text-white p-3 rounded-full shadow-lg">
+        <i class="fab fa-whatsapp" style="font-size: 20px; padding: 4px; margin-left: 4px;"></i>
+        Whatsapp
+    </button>
+
+
 </body>
 
 </html>
