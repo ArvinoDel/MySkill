@@ -3,7 +3,7 @@
 
 <div class="flex flex-col md:flex-row gap-4">
     <!-- Sidebar -->
-    <aside class="w-full md:w-1/4 px-4 mb-8 h-full sticky top-11 md:top-0">
+    <aside class="w-full md:w-1/4 px-4 mb-8 h-full max-sm:relative md:sticky lg:sticky top-11 md:top-0">
         <div class="bg-white rounded-lg shadow-md p-6 mt-8">
             <h2 class="text-gray-700 font-semibold mb-4 ">Navigasi Profil</h2>
             <ul class="space-y-4">

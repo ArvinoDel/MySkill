@@ -9,45 +9,76 @@
 
     <div class="flex flex-col md:flex-row">
         <!-- Sidebar -->
-        <aside class="w-full md:w-1/4 px-4 mb-8 h-full sticky top-11 md:top-0">
-            <div class="bg-white rounded-lg shadow-md p-6 mt-8">
-                <h2 class="text-gray-700 font-semibold mb-4">Navigasi Profil</h2>
-                <ul class="space-y-4">
-                    <li>
-                        <a href="/my-profile" class="flex items-center text-blue-600 hover:text-blue-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v12a2 2 0 002 2h4v-7H5v-2h3V7.5A2.5 2.5 0 0110.5 5H13v2h-2.5a.5.5 0 00-.5.5V9h3l-.5 2H10v7h6a2 2 0 002-2V4a2 2 0 00-2-2H4z" clip-rule="evenodd" />
-                            </svg>
-                            Profil Saya
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/profile/my-purchase" class="flex items-center text-gray-600 hover:text-blue-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 2a1 1 0 00-1 1v1H5a1 1 0 00-1 1v10a1 1 0 001 1h10a1 1 0 001-1V5a1 1 0 00-1-1h-4V3a1 1 0 00-1-1zM8 4h4v2H8V4zM4 7v9h12V7H4zm6 5h2v2h-2v-2z" />
-                            </svg>
-                            Akses Pembelian
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/profile/my-activity" class="flex items-center text-gray-600 hover:text-blue-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M5.05 4.05a7 7 0 119.9 9.9 7 7 0 01-9.9-9.9zM12 9a2 2 0 10-4 0 2 2 0 004 0zm2.5 6a5.5 5.5 0 10-9 0h9z" />
-                            </svg>
-                            Aktivitas Saya
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/profile/my-transaction" class="flex items-center text-gray-600 hover:text-blue-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M4.293 5.293a1 1 0 011.414 0L10 9.586l4.293-4.293a1 1 0 111.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414z" clip-rule="evenodd" />
-                            </svg>
-                            Riwayat Transaksi
-                        </a>
-                    </li>
-                </ul>
+        <aside class="w-full md:w-1/4 px-4 mb-8 h-full max-sm:relative md:sticky lg:sticky top-11 md:top-0">
+            <!-- Sidebar Container -->
+            <input type="checkbox" id="toggle-nav" class="hidden" />
+            <div class="bg-white rounded-lg shadow-md mt-4 md:mt-8 overflow-hidden">
+                <!-- Toggle Button -->
+                <label for="toggle-nav" class="md:hidden bg-blue-600 text-white font-semibold p-4 rounded-lg shadow-md cursor-pointer flex items-center justify-between">
+                    Navigasi Profil
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </label>
+
+                <!-- Sidebar Content -->
+                <div class="p-6 transition-all duration-300 ease-in-out max-h-0 md:max-h-full md:block" id="sidebar-content">
+                    <h2 class="text-gray-700 font-semibold mb-4 max-sm:hidden">Navigasi Profil</h2>
+                    <ul class="space-y-4">
+                        <li>
+                            <a href="/my-profile" class="flex items-center text-blue-600 hover:text-blue-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v12a2 2 0 002 2h4v-7H5v-2h3V7.5A2.5 2.5 0 0110.5 5H13v2h-2.5a.5.5 0 00-.5.5V9h3l-.5 2H10v7h6a2 2 0 002-2V4a2 2 0 00-2-2H4z" clip-rule="evenodd" />
+                                </svg>
+                                Profil Saya
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/profile/my-purchase" class="flex items-center text-gray-600 hover:text-blue-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M10 2a1 1 0 00-1 1v1H5a1 1 0 00-1 1v10a1 1 0 001 1h10a1 1 0 001-1V5a1 1 0 00-1-1h-4V3a1 1 0 00-1-1zM8 4h4v2H8V4zM4 7v9h12V7H4zm6 5h2v2h-2v-2z" />
+                                </svg>
+                                Akses Pembelian
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/profile/my-activity" class="flex items-center text-gray-600 hover:text-blue-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M5.05 4.05a7 7 0 119.9 9.9 7 7 0 01-9.9-9.9zM12 9a2 2 0 10-4 0 2 2 0 004 0zm2.5 6a5.5 5.5 0 10-9 0h9z" />
+                                </svg>
+                                Aktivitas Saya
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/profile/my-transaction" class="flex items-center text-gray-600 hover:text-blue-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M4.293 5.293a1 1 0 011.414 0L10 9.586l4.293-4.293a1 1 0 111.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                                Riwayat Transaksi
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </aside>
+
+        <style>
+            /* Toggle the visibility of the sidebar content */
+            #toggle-nav:checked~div #sidebar-content {
+                max-height: 500px;
+                /* Adjust as needed */
+            }
+
+            #toggle-nav:checked~div label svg {
+                transform: rotate(180deg);
+            }
+
+            @media (min-width: 768px) {
+                #sidebar-content {
+                    max-height: none !important;
+                }
+            }
+        </style>
 
 
         <!-- Profile Form -->
@@ -113,4 +144,5 @@
 </div>
 
 </div>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3" defer></script>
 @endsection
