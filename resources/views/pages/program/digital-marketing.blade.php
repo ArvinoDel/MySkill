@@ -194,7 +194,7 @@
 
         <!-- peserta bootcamp -->
         <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Peserta Bootcamp</p>
-        <img src="{{ asset('./assets/bootcamp/peserta.png') }}" class="lg:h-80 sm:h-auto rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
+        <img src="{{ asset('./assets/bootcamp/peserta.png') }}" class="lg:h-80 sm:h-auto rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-fit">
 
         <!-- Kurikulum & Silabus -->
         <p class="text-orange-600 text-xl lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Kurikulum & Silabus</p>
