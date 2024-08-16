@@ -4,20 +4,20 @@
 <!-- header here -->
 <div class="review">
     <section class="w-full h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex">
-        <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-100 lg:ml-16 py-2">
+        <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-100 lg:ml-16 py-2 max-sm:ml-12">
         <div class="ml-4">
-            <p class="text-4xl font-bold w-4/5">Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.</p>
-            <br>
-            <p class="w-8/12">Tingkatkan peluang diterima magang dan kerja full-time dengan bantuan HRD. Mulai dari Review CV, Template Surat Lamaran, hingga persiapan wawancara.</p>
-            <br>
-            <button type="button" class="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Daftar Sekarang</button>
-            <div class="flex items-center mt-2">
-                <div class="flex space-x-1">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
+            <p class="text-3xl lg:text-white max-sm:text-black font-bold lg:w-4/5 max-sm:w-96 ">Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.</p>
+            <br class="max-sm:hidden">
+            <p class="lg:w-8/12 lg:text-white max-sm:text-black max-sm:w-96">Tingkatkan peluang diterima magang dan kerja full-time dengan bantuan HRD. Mulai dari Review CV, Template Surat Lamaran, hingga persiapan wawancara.</p>
+            <br class="max-sm:hidden">
+            <button type="button" class="max-sm:hidden focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Daftar Sekarang</button>
+            <div class="flex items-center mt-2 max-sm:hidden">
+                <div class="flex space-x-1 max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
                 </div>
                 <p class="ml-4 text-white text-md font-semibold">> 10.000 CV Telah Direview</p>
             </div>
@@ -31,7 +31,7 @@
         </div>
     </section>
     <section class="bg-white lg:bg-gradient-to-b from-red-400 to-red-500 text-white lg:flex">
-        <div class="flex space-x-2 mt-4 mb-4">
+        <div class="flex space-x-2 mt-4 mb-4 max-sm:overflow-x-auto no-scrollbar">
             <div class="bg-white p-2 rounded-lg ml-4">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button" class="mt-2 ml-2 px-14 py-2 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca Sekarang</button>
@@ -57,7 +57,7 @@
 
     <div class="container mx-auto px-4 py-8">
         <div class="flex flex-wrap -mx-4">
-            <div class="w-full md:w-1/4 px-4 mb-8 sticky top-11 h-screen">
+            <div class="w-full max-sm:hidden md:w-1/4 px-4 mb-8 sticky top-11 h-screen">
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h4 class="font-bold text-lg mb-4">Detail</h4>
                     <ul class="space-y-2">
@@ -71,15 +71,17 @@
             </div>
 
             <div class="w-full md:w-3/4 px-4">
-                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                    <h2 class="font-bold text-2xl mb-4" id="tentang-program">Tentang Program</h2>
+                <div class="bg-white rounded-lg p-6 mb-8">
+                    <p id="tentang-bootcamp" class="text-orange-600 lg:ml-4 lg:text-xl max-sm:text-lg max-sm:ml-2 font-bold">
+                        <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Tentang Bootcamp
+                    </p>
+                    <!-- Gambar di sebelah kiri -->
+                    <p class="mb-4 lg:ml-4 lg:text-base max-sm:ml-2">MySkill paham, proses melamar magang atau kerja amat membingungkan. Kita seolah menebak-nebak standar HRD dalam menilai CV kita akan seperti apa? Untuk itu, HR Consultant MySkill hadir untuk membantu mereview CV kamu. Dalam waktu 7 hari kerja, kamu akan mendapatkan saran terperinci untuk meningkatkan kualitas CV lamaranmu.</p>
                     <div class="flex flex-col md:flex-row items-start">
-                        <!-- Gambar di sebelah kiri -->
-                        <img src="./assets/corporate/benefit-main.webp" alt="" class="w-full md:w-1/3 mb-4 md:mb-0 md:mr-4">
 
+                        <img src="./assets/corporate/benefit-main.webp" alt="" class="w-60 mx-auto max-sm:justify-items-center md:w-1/3 mb-4 md:mb-0 md:mr-4">
                         <!-- Tulisan di sebelah kanan -->
                         <div>
-                            <p class="mb-4">MySkill paham, proses melamar magang atau kerja amat membingungkan. Kita seolah menebak-nebak standar HRD dalam menilai CV kita akan seperti apa? Untuk itu, HR Consultant MySkill hadir untuk membantu mereview CV kamu. Dalam waktu 7 hari kerja, kamu akan mendapatkan saran terperinci untuk meningkatkan kualitas CV lamaranmu.</p>
                             <ul class="space-y-2">
                                 <li class="flex items-start">
                                     <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -104,8 +106,10 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                    <h2 class="font-bold text-2xl mb-4" id="benefit-tambahan">Benefit Tambahan</h2>
+                <div class="bg-white rounded-lg p-6 mb-8">
+                    <p id="tentang-bootcamp" class="text-orange-600 lg:mb-4 lg:ml-4 lg:text-xl max-sm:text-lg max-sm:mb-6 max-sm:ml-2 font-bold">
+                        <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Benefit Tambahan
+                    </p>
                     <div class="overflow-x-auto no-scrollbar">
                         <div class="flex space-x-6">
                             <div class="border rounded-lg p-4 flex-shrink-0 w-80">
@@ -179,8 +183,10 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <h2 class="font-bold text-2xl mb-4" id="untuk-siapa-saja">Untuk Siapa Saja</h2>
+                <div class="bg-white rounded-lg p-6">
+                    <p id="untuk-siapa-saja" class="text-orange-600 lg:ml-4 lg:text-xl max-sm:text-lg max-sm:ml-2 max-sm:mb-4 font-bold">
+                        <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Untuk Siapa Saja
+                    </p>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                         @foreach(['Mahasiswa', 'Fresh Graduate', 'Job Seeker', 'Karyawan Profesional', 'Lulusan SMA/SMK', 'Internship Hunter', 'Pencari Beasiswa', 'Freelancer'] as $audience)
                         <div class="bg-gray-100 rounded-lg p-3 flex items-center">
