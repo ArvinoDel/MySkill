@@ -101,9 +101,9 @@
                         Fokus praktik & case study. Assessment before dan after training yang lengkap.
                     </li>
                 </ul>
-                <button type="button"
+                <a href="/corporate-training"
                     class="focus:outline-none text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 dark:focus:ring-yellow-900">Pelajari
-                    Corporate Training</button>
+                    Corporate Training</a>
             </div>
         </div>
 
@@ -127,9 +127,9 @@
                     </li>
                 </ul>
                 </p>
-                <button type="button"
+                <a href="/experience"
                     class="focus:outline-none text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 mb-4 dark:focus:ring-yellow-900">Pelajari
-                    Performance Management Software</button>
+                    Performance Management Software</a>
             </div>
             <img src="./assets/corporate/experience.webp" alt="Performance Management Software"
                 class="h-64 object-cover shadow-lg rounded-lg md:mr-10 md:h-auto max-w-xs md:max-w-none mx-4 md:mx-0">

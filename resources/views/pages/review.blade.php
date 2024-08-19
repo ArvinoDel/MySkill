@@ -58,7 +58,7 @@
     <div class="container mx-auto px-4 py-8">
         <div class="flex flex-wrap -mx-4">
             <div class="w-full max-sm:hidden md:w-1/4 px-4 mb-8 sticky top-11 h-screen">
-                <div class="bg-white rounded-lg shadow-md p-6">
+                <div class="bg-white rounded-xl shadow-2xl p-6 border border-spacing-2">
                     <h4 class="font-bold text-lg mb-4">Detail</h4>
                     <ul class="space-y-2">
                         <li><a href="#tentang-program" class="text-blue-600 hover:text-blue-800">Tentang Program</a></li>
@@ -200,9 +200,9 @@
                 </div>
 
                 <div class="overflow-x-auto mt-10 no-scrollbar">
-                    <div class="flex">
+                    <div class="flex justify-between"> <!-- Added flex container for alignment -->
                         <!-- Card 1 -->
-                        <div class="bg-white rounded-lg shadow-lg p-6 m-4 max-w-xs flex-shrink-0">
+                        <div class="bg-white rounded-lg shadow-lg p-6 m-4 max-w-xs flex-shrink-0 flex flex-col"> <!-- Added flex column -->
                             <h2 class="text-teal-500 text-lg font-semibold mb-4">3x Review CV (2 Bulan)</h2>
                             <ul class="text-gray-700 mb-6 space-y-2">
                                 <li>🔥 3x Review CV selama 2 Bulan</li>
@@ -221,7 +221,7 @@
                         </div>
 
                         <!-- Card 2 -->
-                        <div class="bg-white rounded-lg shadow-lg p-6 m-4 max-w-xs flex-shrink-0">
+                        <div class="bg-white rounded-lg shadow-lg p-6 m-4 max-w-xs flex-shrink-0 flex flex-col"> <!-- Added flex column -->
                             <h2 class="text-teal-500 text-lg font-semibold mb-4">1x Review CV (1 Bulan)</h2>
                             <ul class="text-gray-700 mb-6 space-y-2">
                                 <li>🔥 1x Review CV selama 1 Bulan</li>
@@ -238,7 +238,7 @@
                         </div>
 
                         <!-- Card 3 -->
-                        <div class="bg-white rounded-lg shadow-lg p-6 m-4 max-w-xs flex-shrink-0">
+                        <div class="bg-white rounded-lg shadow-lg p-6 m-4 max-w-xs flex-shrink-0 flex flex-col"> <!-- Added flex column -->
                             <h2 class="text-teal-500 text-lg font-semibold mb-4">50+ Template Dokumen Lengkap untuk Apply Kerja (1 Bulan)</h2>
                             <ul class="text-gray-700 mb-6 space-y-2">
                                 <li>🔥 20+ Template CV (Indonesia & English)</li>
