@@ -1,4 +1,4 @@
-<nav class="sticky top-0 px-8 flex justify-between items-center bg-orange-400 z-10 w-full">
+<nav class="sticky top-0 px-8 flex justify-between items-center bg-orange-400 z-10 w-screen">
     <a class="text-2xl font-bold leading-none" href="#">
         <img class="max-w-xs max-md:w-20 h-auto" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
 
@@ -94,7 +94,7 @@
                         <div
                             class="flex w-1 group0 scale-y-0 transition-transform origin-top rounded-full duration-400 ease-in">
                         </div>
-                        <a class="block p-4 text-sm font-semibold text-black" href="/bootcamp">Program & Bootcamp</a>
+                        <a class="block p-4 text-sm font-semibold text-black" href="/program/bootcamp">Program & Bootcamp</a>
                     </li>
                     <li class="mb-1 inline-flex group rounded w-full">
                         <div
