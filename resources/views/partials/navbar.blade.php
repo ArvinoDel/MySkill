@@ -94,7 +94,7 @@
                         <div
                             class="flex w-1 group0 scale-y-0 transition-transform origin-top rounded-full duration-400 ease-in">
                         </div>
-                        <a class="block p-4 text-sm font-semibold text-black" href="/bootcamp">Program & Bootcamp</a>
+                        <a class="block p-4 text-sm font-semibold text-black" href="/program/bootcamp">Program & Bootcamp</a>
                     </li>
                     <li class="mb-1 inline-flex group rounded w-full">
                         <div
