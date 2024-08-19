@@ -1,36 +1,33 @@
 @extends('layouts.main')
 @section('container')
-    <section class="e-learning">
+    <section class="e-learning w-screen">
         <!-- Section 1: Hero -->
         <section class="bg-white lg:bg-gradient-to-b from-orange-400 to-red-500 p-4 md:p-8">
             <div class="container mx-auto">
-                <div class="flex flex-col md:flex-row items-center">
-                    <div class="md:w-1/2 mb-4 md:mb-0 ml-4 relative">
-                        <img src="{{ asset('assets/e-learning/header.webp') }}" alt="Woman with laptop"
-                            class="w-full h-auto md:w-3/4 rounded-lg">
+                <div class="flex flex-col md:flex-col lg:flex-row items-center">
+                    <img src="{{ asset('assets/e-learning/header.webp') }}" alt="Woman with laptop"
+                        class="mb-4 md:mb-4 w-full h-auto max-sm:max-w-xs md:max-w-sm lg:w-1/2 rounded-lg">
 
-                    </div>
-                    <div class="">
+                    <div class="text-center lg:ml-6 lg:text-left">
                         <h1 class="text-3xl md:text-4xl font-bold mb-4 lg:text-white text-gray-950">Kuasai Ratusan Skill,
-                            Bangun Portfolio &
-                            Bersertifikat.</h1>
+                            Bangun Portfolio & Bersertifikat.</h1>
                         <p class="text-sm md:text-base lg:text-white mb-4 text-gray-950">Akses semua materi sekali bayar.
-                            Lebih dari sekadar
-                            nonton rekaman.
-                            Belajar fleksibel via • Video Materi • Case Study & Praktik • Bahan Bacaan • Komunitas.</p>
-                        <div class="flex space-x-4 mb-4 ">
+                            Lebih
+                            dari sekadar nonton rekaman. Belajar fleksibel via • Video Materi • Case Study & Praktik • Bahan
+                            Bacaan • Komunitas.</p>
+                        <div class="flex justify-center lg:justify-start space-x-4 mb-4">
                             <button class="bg-teal-500 lg:text-white px-6 py-2 rounded-md font-semibold text-gray-950">Mulai
                                 Berlangganan</button>
                             <button
                                 class="bg-yellow-500 lg:text-white px-6 py-2 rounded-md font-semibold text-gray-950">Lihat
-                                900+
-                                Materi</button>
+                                900+ Materi</button>
                         </div>
                         <p class="text-sm lg:text-white text-gray-950">2.000+ Orang Berlangganan Setiap Minggu</p>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- Section 2: Testimonials -->
         <section class="bg-gray-100 p-4 md:p-8">
@@ -117,7 +114,8 @@
             </div>
 
             <!-- Carousel Container -->
-            <div id="card-container" class="flex overflow-x-auto whitespace-wrap w-auto scroll-smooth sm:hidden md:hidden lg:hidden no-scrollbar b-3">
+            <div id="card-container"
+                class="flex overflow-x-auto whitespace-wrap w-auto scroll-smooth sm:hidden md:hidden lg:hidden no-scrollbar b-3">
                 <!-- Card: Digital Marketing -->
                 <div class="flex flex-col w-64 bg-white border border-gray-300 rounded-lg shadow-md mr-4">
                     <img src="{{ asset('assets/e-learning/1.webp') }}" alt="Digital Marketing"
@@ -239,8 +237,11 @@
                 </div>
 
                 <div class="flex justify-center mt-4 gap-4">
-                    <a href="#pricing" class="scroll-smooth"><button class="bg-yellow-500 text-white px-4 py-2 rounded-full">Mulai Berlangganan</button></a>
-                    <a href="#learning" class="scroll-smooth"><button class="border border-blue-500 text-blue-500 px-4 py-2 rounded-full">Lihat Semua Materi</button></a>
+                    <a href="#pricing" class="scroll-smooth"><button
+                            class="bg-yellow-500 text-white px-4 py-2 rounded-full">Mulai Berlangganan</button></a>
+                    <a href="#learning" class="scroll-smooth"><button
+                            class="border border-blue-500 text-blue-500 px-4 py-2 rounded-full">Lihat Semua
+                            Materi</button></a>
                 </div>
             </div>
         </section>
@@ -704,7 +705,7 @@
                                         viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
                                             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path>
+                                            clip-rule="evxenodd"></path>
                                     </svg>Sertifikat di Tiap Materi</li>
                                 <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-gray-800" fill="currentColor"
                                         viewBox="0 0 20 20">
@@ -721,6 +722,116 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </section>
+
+        {{-- Section 8: Portofolio --}}
+        <section class="bg-gray-100 p-4 md:p-8">
+            <div class="container mx-auto">
+                <h2 class="text-2xl font-bold mb-2 text-center">Portfolio Member MySkill</h2>
+                <p class="mb-4 text-gray-600 text-center">Bangun Portfoliomu dengan belajar secara praktikal dan direct di
+                    MySkill.</p>
+
+                <div class="flex overflow-x-auto space-x-4 pb-4 no-scrollbar">
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/DM.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/UI.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/DA.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/ME.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/DA.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/DM.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/UI.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/ME.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/DM.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/DA.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
+                    <div class="bg-white p-4 rounded-2xl shadow-md min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
+                        <div class="flex items-center mb-4">
+                            <img src="{{ asset('assets/e-learning/UI.webp') }}" alt="" class="rounded-lg">
+                        </div>
+                        <h3 class="font-bold text-sm mb-4">Digital Marketing</h3>
+                        <p class="text-xs text-gray-600 mb-2">Marketing Strategy for Pandora Catering</p>
+                        <button class="w-full bg-teal-500 text-white py-2 rounded-md font-semibold">Lihat Portofolio</button>
+
+                    </div>
                 </div>
             </div>
         </section>
