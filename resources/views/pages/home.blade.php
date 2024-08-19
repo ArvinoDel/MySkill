@@ -1,7 +1,6 @@
 @extends('layouts.main')
 @section('container')
     <section class="home w-screen">
-
         <div class="w-full h-auto rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-500">
             <div class="snap-x snap-mandatory flex overflow-x-auto gap-6 mx-4 pt-3 lg:mx-4"
                 style="scrollbar-width: none; -ms-overflow-style: none;" ontouchstart="this.classList.add('touching')"

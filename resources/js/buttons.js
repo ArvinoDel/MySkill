@@ -31,3 +31,15 @@ document.querySelectorAll('#buttonContainer a').forEach(button => {
         }
     });
 });
+
+
+window.addEventListener('scroll', () => {
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 0) {
+        navbar.classList.add('glassmorphism');
+        navbar.classList.remove('bg-orange-400');
+    } else {
+        navbar.classList.remove('glassmorphism');
+        navbar.classList.add('bg-orange-400');
+    }
+});
