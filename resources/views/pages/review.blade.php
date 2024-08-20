@@ -32,40 +32,53 @@
 
 
     <!-- card here -->
-    <section class="bg-white text-white lg:flex max-sm:hidden">
-        <div class="flex justify-center items-center">
-            <p class="flex text-center lg:px-40 lg:ml-64 text-xl font-bold text-white md:text-black">Testimoni Peserta Review CV
+    <section class="bg-red-400 text-white lg:flex max-sm:hidden">
+        <div class="flex justify-center items-center w-full">
+            <p class="text-center text-xl font-bold text-white">Testimoni Peserta Review CV
                 MySkill</p>
         </div>
     </section>
-    <p class="text-black font-bold text-2xl mt-6 ml-4 md:hidden lg:hidden">Testimoni Peserta Review CV</p>
-    <section class="bg-white lg:bg-gradient-to-b from-red-400 to-red-500 text-white lg:flex">
-        <div class="flex mt-4 mb-4 max-sm:overflow-x-auto max-sm:space-x-4 max-lg:overflow-x-auto no-scrollbar ">
-            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
+    <section class="bg-white bg-gradient-to-b from-red-400 to-red-500 text-white lg:flex ">
+        <p class="text-white font-bold text-2xl ml-4 md:hidden lg:hidden">Testimoni Peserta Review CV</p>
+        <br>
+        <div class="flex mb-4 max-sm:mb-2 max-sm:overflow-x-auto md:overflow-x-auto max-sm:space-x-4 lg:overflow-x-auto no-scrollbar ">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mb-6 mt-2 max-sm:min-w-[14rem] ml-4 max-sm:border">
+                <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
+                <button type="button"
+                    class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
+                    Cerita</button>
+            </div>
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
+                <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
+                <button type="button"
+                    class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
+                    Cerita</button>
+            </div>
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
@@ -82,7 +95,7 @@
                 <div class="bg-white rounded-xl shadow-2xl p-6 border border-spacing-2">
                     <h4 class="font-bold text-lg mb-4">Detail</h4>
                     <ul class="space-y-2">
-                        <li><a href="#tentang-program" class="text-blue-600 hover:text-blue-800">Tentang Program</a>
+                        <li><a href="#tentang-bootcamp" class="text-blue-600 hover:text-blue-800">Tentang Program</a>
                         </li>
                         <li><a href="#benefit-tambahan" class="text-blue-600 hover:text-blue-800">Benefit Tambahan</a>
                         </li>
@@ -97,7 +110,7 @@
             </div>
 
             <div class="w-screen lg:w-3/4 px-4">
-                <div class="bg-white rounded-lg p-6 mb-8">
+                <div class="bg-white rounded-lg mb-6">
                     <p id="tentang-bootcamp"
                         class="text-orange-600 lg:ml-4 lg:text-xl max-sm:text-lg max-sm:ml-2 font-bold md:text-xl md:mb-4">
                         <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Tentang Bootcamp
@@ -147,7 +160,7 @@
                 </div>
 
                 <div class="bg-white rounded-lg p-6 mb-8">
-                    <p id="tentang-bootcamp"
+                    <p id="benefit-tambahan"
                         class="text-orange-600 lg:mb-4 lg:ml-4 lg:text-xl max-sm:text-lg max-sm:mb-6 max-sm:ml-2 font-bold md:text-xl md:mb-4">
                         <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Benefit Tambahan
                     </p>
