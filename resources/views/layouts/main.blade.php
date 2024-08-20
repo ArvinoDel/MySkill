@@ -29,7 +29,7 @@
 
     <!-- wa button -->
     <a target="_blank" href="https://wa.me/6285224216499?text=Saya%20tertarik%20untuk%20berlangganan%20bimbel%20online%20MySkill.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20paket%20langganan%2C%20harga%2C%20dan%20fitur%20yang%20tersedia.%20Terima%20kasih.">
-        <button class="fixed end-12 justify-cen bottom-8 bg-orange-500 text-white p-3 rounded-full shadow-lg">
+        <button class="fixed end-12 justify-center bottom-8 bg-orange-500 text-white p-3 rounded-full shadow-lg">
             <i class="fab fa-whatsapp" style="font-size: 20px; padding: 4px; margin-left: 4px;"></i>
             Whatsapp
         </button>

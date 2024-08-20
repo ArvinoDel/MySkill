@@ -1,4 +1,4 @@
-<footer class="bg-gray-900 py-10 text-white">
+<footer class="bg-gray-900 py-10 text-white w-screen">
     <div class="container mx-auto">
 
         <div class="text-center">

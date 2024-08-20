@@ -1,81 +1,79 @@
 @extends('layouts.main')
 @section('container')
 
-<div class="flex flex-col md:flex-row gap-4">
+<div class="flex flex-col lg:flex-row gap-4">
     <!-- Sidebar -->
-    <aside class="w-full md:w-1/4 px-4 h-full max-sm:relative md:sticky lg:sticky top-5 md:top-0">
-        <!-- Sidebar Container -->
-        <input type="checkbox" id="toggle-nav" class="hidden" />
-        <div class="bg-white rounded-lg shadow-md md:mt-2 overflow-hidden">
-            <!-- Toggle Button -->
-            <label for="toggle-nav" class="md:hidden bg-blue-600 text-white font-semibold p-3 rounded-lg shadow-md cursor-pointer flex items-center justify-between">
-                Navigasi Profil
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-            </label>
+    <aside class="w-full md:w-full lg:w-1/4 px-4 h-full max-md:relative lg:sticky top-5 lg:top-0">
+    <!-- Sidebar Container -->
+    <input type="checkbox" id="toggle-nav" class="hidden" />
+    <div class="bg-white rounded-lg shadow-md md:mt-2 overflow-hidden">
+        <!-- Toggle Button -->
+        <label for="toggle-nav" class="lg:hidden bg-blue-600 text-white font-semibold p-3 rounded-lg shadow-md cursor-pointer flex items-center justify-between">
+            Navigasi Profil
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+        </label>
 
-            <!-- Sidebar Content -->
-            <div class=" transition-all duration-300 ease-in-out max-h-0 md:max-h-full md:block" id="sidebar-content">
-                <h2 class="text-gray-700 font-semibold  mb-2 max-sm:hidden ml-4">Navigasi Profil</h2>
-                <ul class="space-y-4 py-3">
-                    <li class="p-1 px-5">
-                        <a href="/my-profile" class="flex items-center text-gray-600 hover:text-blue-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v12a2 2 0 002 2h4v-7H5v-2h3V7.5A2.5 2.5 0 0110.5 5H13v2h-2.5a.5.5 0 00-.5.5V9h3l-.5 2H10v7h6a2 2 0 002-2V4a2 2 0 00-2-2H4z" clip-rule="evenodd" />
-                            </svg>
-                            Profil Saya
-                        </a>
-                    </li>
-                    <li class="p-1 px-5">
-                        <a href="/profile/my-purchase" class="flex items-center text-blue-600 hover:text-blue-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 2a1 1 0 00-1 1v1H5a1 1 0 00-1 1v10a1 1 0 001 1h10a1 1 0 001-1V5a1 1 0 00-1-1h-4V3a1 1 0 00-1-1zM8 4h4v2H8V4zM4 7v9h12V7H4zm6 5h2v2h-2v-2z" />
-                            </svg>
-                            Akses Pembelian
-                        </a>
-                    </li>
-                    <li class="p-1 px-5">
-                        <a href="/profile/my-activity" class="flex items-center text-gray-600 hover:text-blue-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M5.05 4.05a7 7 0 119.9 9.9 7 7 0 01-9.9-9.9zM12 9a2 2 0 10-4 0 2 2 0 004 0zm2.5 6a5.5 5.5 0 10-9 0h9z" />
-                            </svg>
-                            Aktivitas Saya
-                        </a>
-                    </li>
-                    <li class="p-1 px-5">
-                        <a href="/profile/my-transaction" class="flex items-center text-gray-600 hover:text-blue-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M4.293 5.293a1 1 0 011.414 0L10 9.586l4.293-4.293a1 1 0 111.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414z" clip-rule="evenodd" />
-                            </svg>
-                            Riwayat Transaksi
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <!-- Sidebar Content -->
+        <div class="transition-all duration-300 ease-in-out max-h-0 md:max-h-0 lg:max-h-full lg:block overflow-hidden" id="sidebar-content">
+            <h2 class="text-gray-700 font-semibold mb-2 hidden lg:block ml-4">Navigasi Profil</h2>
+            <ul class="space-y-4 py-3">
+                <li class="p-1 px-5">
+                    <a href="/my-profile" class="flex items-center text-gray-600 hover:text-blue-800">
+                        Profil Saya
+                    </a>
+                </li>
+                <li class="p-1 px-5">
+                    <a href="/profile/my-purchase" class="flex items-center text-blue-600 hover:text-blue-800">
+                        Akses Pembelian
+                    </a>
+                </li>
+                <li class="p-1 px-5">
+                    <a href="/profile/my-activity" class="flex items-center text-gray-600 hover:text-blue-800">
+                        Aktivitas Saya
+                    </a>
+                </li>
+                <li class="p-1 px-5">
+                    <a href="/profile/my-transaction" class="flex items-center text-gray-600 hover:text-blue-800">
+                        Riwayat Transaksi
+                    </a>
+                </li>
+            </ul>
         </div>
-    </aside>
+    </div>
+</aside>
 
-    <style>
-        /* Toggle the visibility of the sidebar content */
-        #toggle-nav:checked~div #sidebar-content {
-            max-height: 500px;
-            /* Adjust as needed */
-        }
+<style>
+    /* Toggle the visibility of the sidebar content */
+    #toggle-nav:checked~div #sidebar-content {
+        max-height: 500px;
+        /* Adjust this value as needed to accommodate the content */
+    }
 
-        #toggle-nav:checked~div label svg {
-            transform: rotate(180deg);
-        }
+    /* Rotate the arrow when the dropdown is active */
+    #toggle-nav:checked~div label svg {
+        transform: rotate(180deg);
+    }
 
-        @media (min-width: 768px) {
-            #sidebar-content {
-                max-height: none !important;
-            }
+    /* Ensure content is hidden by default on small and medium screens */
+    #sidebar-content {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    /* For large screens, display the content fully */
+    @media (min-width: 1024px) {
+        #sidebar-content {
+            max-height: none;
+            overflow: visible;
         }
-    </style>
+    }
+</style>
+
 
     <!-- Content Area -->
-    <div class="w-full h full md:w-3/4 bg-white  p-6">
+    <div class="w-full h full  bg-white  p-6">
         <div class="flex justify-between items-center border-b border-gray-300 pb-2 mb-6 tab-container">
             <div class="flex space-x-4">
                 <a href="#" id="show-elearning" class="text-lg tab active-tab">E-Learning</a>

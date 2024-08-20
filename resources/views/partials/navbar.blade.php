@@ -1,9 +1,18 @@
 <nav id="navbar" class="sticky top-0 px-8 flex justify-between items-center bg-orange-400 z-10 w-screen transition-all duration-300 ease-in-out">
+    <div class="lg:hidden max-sm:hidden">
+        <button class="navbar-burger flex items-center p-3 focus:outline-none hover:text-white focus:text-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+    </div>
     <a class="text-2xl font-bold leading-none" href="#">
         <img class="max-w-xs max-md:w-20 h-auto" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
 
     </a>
-    <div class="lg:hidden md:mx-20">
+    <div class="lg:hidden md:hidden">
         <button class="navbar-burger flex items-center p-3 focus:outline-none hover:text-white focus:text-gray-900">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd"
@@ -45,7 +54,7 @@
             </a>
         </li>
     </ul>
-    <div class="max- hidden lg:block space-x-2">
+    <div class="max-lg:hidden lg:block space-x-2 justify-items-end flex">
         <a href="/login">
             <button type="button"
                 class="text-white hover:text-white border border-pink-400 hover:bg-pink-500 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-pink-300 dark:text-white dark:hover:text-white dark:hover:bg-pink-400 dark:focus:ring-pink-900">Login</button>
