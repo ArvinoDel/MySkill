@@ -26,7 +26,7 @@
         </div>
 
 
-        <div class="grid grid-flow-col lg:grid-cols-5 ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
+        <div class="grid grid-flow-col lg:grid-cols-5 ps-6 gap-8 overflow-x-auto ">
             <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
                 <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
                     alt="" />
@@ -72,7 +72,7 @@
     <div class="py-12">
         <h2 class="text-2xl text-center font-bold">Terbukti Memberi Hasil dan Membuka Batasan Diri</h2>
     </div>
-    <div class="grid grid-flow-col ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
+    <div class="grid grid-flow-col ps-6 gap-8 overflow-x-auto ">
         <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
                 <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
