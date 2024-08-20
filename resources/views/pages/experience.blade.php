@@ -11,7 +11,7 @@
         $activeButton = request()->query('activeButton');
     @endphp
 
-    <div class="corporate">
+    <div class="corporate w-screen">
         <section
             class="flex flex-col lg:flex-row-reverse h-auto rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white w-full">
             <!-- Image Container -->
@@ -202,43 +202,42 @@
                 <p class="text-xl">
                     dengan lebih efektif.
                 </p>
-                <div class="flex flex-col sm:flex-row justify-center mb-4 space-y-4 sm:space-y-0 sm:space-x-4 px-4">
-                    <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
-                        <p class="text-md font-medium text-center mb-4">Didukung oleh</p>
-                        <img src="./assets/corporate/east-ventures.webp" alt="" class="mx-auto">
-                    </div>
-                    <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
-                        <p class="text-md font-medium text-center mb-4 ">Didukung oleh</p>
-                        <div class="flex justify-center"> <!-- Added flex container for alignment -->
-                            <img src="./assets/corporate/aws-edstart.webp" alt="" class="mx-2 h-16">
-                            <!-- Adjusted height for smaller size -->
-                            <img src="./assets/corporate/linkedin-top-startupp.webp" alt="" class="mx-2 h-16">
-                            <!-- Adjusted height for smaller size -->
+                <div class="flex flex-col px-4">
+                    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                        <!-- Card 1 -->
+                        <div class="bg-white text-black p-6 rounded-lg w-full border border-spacing-2">
+                            <p class="text-md font-medium text-center mb-4">Didukung oleh</p>
+                            <img src="./assets/corporate/east-ventures.webp" alt="" class="mx-auto">
                         </div>
-                    </div>
-                    <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
-                        <p class="text-md font-medium text-center mb-4">Bekerjasama dengan</p>
-                        <div class="flex justify-center space-x-2 mt-8"> <!-- Adjusted for alignment -->
-                            <img src="./assets/corporate/paragon.webp" alt="Users" class="mx-auto h-6">
-                            <!-- Adjusted height for smaller size -->
-                            <img src="./assets/corporate/microsoftt.webp" alt="Users" class="mx-auto  h-6">
-                            <!-- Adjusted height for smaller size -->
-                            <img src="./assets/corporate/mandiri.webp" alt="Users" class="mx-auto  h-6">
-                            <!-- Adjusted height for smaller size -->
+                        <!-- Card 2 -->
+                        <div class="bg-white text-black p-6 rounded-lg w-full border border-spacing-2">
+                            <p class="text-md font-medium text-center mb-4">Didukung oleh</p>
+                            <div class="flex justify-center">
+                                <img src="./assets/corporate/aws-edstart.webp" alt="" class="mx-2 h-16">
+                                <img src="./assets/corporate/linkedin-top-startupp.webp" alt="" class="mx-2 h-16">
+                            </div>
                         </div>
-                    </div>
-                    <div class="bg-white text-black p-6 rounded-lg w-full sm:w-64 border border-spacing-2">
-                        <p class="text-md font-medium text-center mb-4">Bekerjasama dengan</p>
-                        <div class="flex justify-center space-x-1 mt-8"> <!-- Reduced space-x-2 to space-x-1 -->
-                            <img src="./assets/corporate/techinasia.webp" alt="Users" class="mx-auto h-4">
-                            <!-- Adjusted height to h-4 -->
-                            <img src="./assets/corporate/cnbc.webp" alt="Users" class="mx-auto h-4">
-                            <!-- Adjusted height to h-4 -->
-                            <img src="./assets/corporate/technode.webp" alt="Users" class="mx-auto h-4">
-                            <!-- Adjusted height to h-4 -->
+                        <!-- Card 3 -->
+                        <div class="bg-white text-black p-6 rounded-lg w-full border border-spacing-2">
+                            <p class="text-md font-medium text-center mb-4">Bekerjasama dengan</p>
+                            <div class="flex justify-center space-x-2 mt-8">
+                                <img src="./assets/corporate/paragon.webp" alt="Users" class="mx-auto h-6">
+                                <img src="./assets/corporate/microsoftt.webp" alt="Users" class="mx-auto h-6">
+                                <img src="./assets/corporate/mandiri.webp" alt="Users" class="mx-auto h-6">
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="bg-white text-black p-6 rounded-lg w-full border border-spacing-2">
+                            <p class="text-md font-medium text-center mb-4">Bekerjasama dengan</p>
+                            <div class="flex justify-center space-x-1 mt-8">
+                                <img src="./assets/corporate/techinasia.webp" alt="Users" class="mx-auto h-4">
+                                <img src="./assets/corporate/cnbc.webp" alt="Users" class="mx-auto h-4">
+                                <img src="./assets/corporate/technode.webp" alt="Users" class="mx-auto h-4">
+                            </div>
                         </div>
                     </div>
                 </div>
+                
 
             </div>
         </section>

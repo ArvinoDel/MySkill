@@ -3,34 +3,37 @@
     <!-- header here -->
     <section class="review w-screen h-auto">
         <section class=" bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex">
-            <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-100 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-12">
-            <div class="ml-4">
-                <p class="text-3xl lg:text-white max-lg:text-black font-bold lg:w-4/5 max-lg:w-96 ">Dapatkan Review CV oleh
-                    HRD & Dokumen Persiapan Melamar Kerja.</p>
+            <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-12">
+            <div class="p-4">
+                <p class="text-3xl font-bold lg:text-white text-black lg:w-4/5 w-full max-lg:w-96">
+                    Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.
+                </p>
                 <br class="max-sm:hidden">
-                <p class="lg:w-8/12 lg:text-white max-lg:text-black max-lg:w-96">Tingkatkan peluang diterima magang dan kerja
-                    full-time dengan bantuan HRD. Mulai dari Review CV, Template Surat Lamaran, hingga persiapan wawancara.
+                <p class="lg:w-8/12 lg:text-white text-black">
+                    Tingkatkan peluang diterima magang dan kerja full-time dengan bantuan HRD. Mulai dari Review CV, Template Surat Lamaran, hingga persiapan wawancara.
                 </p>
                 <br class="max-sm:hidden">
                 <button type="button"
-                    class="max-sm:hidden focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Daftar
-                    Sekarang</button>
+                    class="max-sm:hidden focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2">
+                    Daftar Sekarang
+                </button>
                 <div class="flex items-center mt-2 max-sm:hidden">
-                    <div class="flex space-x-1 max-sm:hidden">
+                    <div class="flex space-x-1">
                         <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full max-sm:hidden">
+                            class="h-6 w-6 rounded-full">
                         <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full max-sm:hidden">
+                            class="h-6 w-6 rounded-full">
                         <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full max-sm:hidden">
+                            class="h-6 w-6 rounded-full">
                         <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full max-sm:hidden">
+                            class="h-6 w-6 rounded-full">
                         <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full max-sm:hidden">
+                            class="h-6 w-6 rounded-full">
                     </div>
                     <p class="ml-4 text-white text-md font-semibold">> 10.000 CV Telah Direview</p>
                 </div>
             </div>
+            
         </section>
 
         <!-- card here -->

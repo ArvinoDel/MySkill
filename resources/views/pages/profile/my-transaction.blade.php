@@ -3,7 +3,7 @@
 
 <div class="flex flex-col md:flex-row gap-4">
     <!-- Sidebar -->
-    <aside class="w-full md:w-1/4 px-4 mb-8 h-full max-sm:relative md:sticky lg:sticky top-11 md:top-0">
+    <aside class="w-full md:w-1/4 px-4 h-full max-sm:relative md:sticky lg:sticky top-5 md:top-0">
         <!-- Sidebar Container -->
         <input type="checkbox" id="toggle-nav" class="hidden" />
         <div class="bg-white rounded-lg shadow-md mb-4 md:mt-2 overflow-hidden">
@@ -74,11 +74,11 @@
         }
     </style>
 
-    <div class="w-full h-full mt-4">
+    <div class="w-full h-full">
         <h2 class="text-2xl font-semibold text-left mr-4 ml-4">Transaksi Saya</h2>
         <p class="text-sm text-left mb-4 ml-4">Lihat semua transaksi kamu di MySkill.</p>
         <div class="p-4">
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
                 <!-- Left Section -->
                 <div class="mb-4 md:mb-0">
                     <p class="text-sm text-gray-500 mb-1">20240812-XD-1301000000001988</p>
@@ -87,24 +87,25 @@
                     <p class="text-sm text-gray-600">Dibayarkan: -</p>
                     <p class="text-sm text-gray-600">Metode: qr-code/qris</p>
                 </div>
-
+            
                 <!-- Right Section -->
-                <div class="flex flex-col items-end">
+                <div class="flex flex-col items-center md:items-end">
                     <!-- Status -->
                     <div class="mb-2">
-                        <span class="text-sm  sm:text-center font-semibold text-white bg-red-500 px-4 py-2 rounded-full">Kadaluarsa</span>
+                        <span class="text-sm font-semibold text-white bg-red-500 px-4 py-2 rounded-full">Kadaluarsa</span>
                     </div>
                     <!-- Price -->
-                    <p class="text-lg max-sm:text-left font-semibold text-gray-800">Rp 111.514</p>
+                    <p class="text-lg font-semibold text-gray-800">Rp 111.514</p>
                     <!-- Detail Button -->
                     <button class="mt-2 bg-teal-500 text-white px-4 py-2 rounded-lg hover:bg-teal-600">
                         Lihat Detail
                     </button>
                 </div>
             </div>
+            
         </div>
 
-        <div class="flex mb-8 justify-end gap-4 mt-6">
+        <div class="flex mb-8 justify-end gap-4 mt-6 mr-4">
             <button class="bg-gray-100 text-gray-500 px-4 py-2 rounded hover:bg-gray-200">
                 &lt; Sebelumnya
             </button>

@@ -9,10 +9,10 @@
 
     <div class="flex flex-col md:flex-row">
         <!-- Sidebar -->
-        <aside class="w-full md:w-1/4 px-4 mb-8 h-full max-sm:relative md:sticky lg:sticky top-11 md:top-0">
+        <aside class="w-full md:w-1/4 px-4 h-full max-sm:relative md:sticky lg:sticky top-5 md:top-0">
             <!-- Sidebar Container -->
             <input type="checkbox" id="toggle-nav" class="hidden" />
-            <div class="bg-white rounded-lg shadow-md mb-4 md:mt-2 overflow-hidden">
+            <div class="bg-white rounded-lg shadow-md md:mt-2 overflow-hidden">
                 <!-- Toggle Button -->
                 <label for="toggle-nav" class="md:hidden bg-blue-600 text-white font-semibold p-3 rounded-lg shadow-md cursor-pointer flex items-center justify-between">
                     Navigasi Profil
@@ -81,7 +81,7 @@
 
 
         <!-- Profile Form -->
-        <div class="w-full md:w-3/4 bg-white p-8 rounded-lg shadow-md">
+        <div class="w-full h-full md:w-3/4 bg-white p-8 ">
             <h2 class="text-2xl font-semibold  text-center">Welcome, User!</h2>
             <p class="text-sm text-center mb-6">Informasi mengenai profil dan preferensi kamu di seluruh layanan myskill.</p>
             <form>
@@ -121,13 +121,13 @@
                     </div>
                 </div>
                 <div>
-                    <p class="text-sm">MySkill akan menghubungimu jika ada hiring partner yang tertarik dengan skill dan pengalamanmu.</p>
+                    <p class="text-sm ml-8">MySkill akan menghubungimu jika ada hiring partner yang tertarik dengan skill dan pengalamanmu.</p>
                 </div>
-                <div class="mt-6 flex items-center space-x-4">
+                <div class="mt-6 flex items-center space-x-4 ml-6">
                     <button type="button" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Ubah Email</button>
                     <button type="button" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Ubah Password</button>
                 </div>
-                <div class="mt-6 flex items-center">
+                <div class="mt-6 flex items-center ml-6">
                     <input type="checkbox" id="subscribe" class="form-checkbox">
                     <label for="subscribe" class="ml-2 text-gray-700">Saya bersedia menerima update informasi dari MySkill</label>
                 </div>

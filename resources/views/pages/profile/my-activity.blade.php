@@ -3,7 +3,7 @@
 
 <div class="flex flex-col md:flex-row gap-4">
     <!-- Sidebar -->
-    <aside class="w-full md:w-1/4 px-4 mb-8 h-full max-sm:relative md:sticky lg:sticky top-11 md:top-0">
+    <aside class="w-full md:w-1/4 px-4  h-full max-sm:relative md:sticky lg:sticky top-5 md:top-0">
         <!-- Sidebar Container -->
         <input type="checkbox" id="toggle-nav" class="hidden" />
         <div class="bg-white rounded-lg shadow-md mb-4 md:mt-2 overflow-hidden">
@@ -73,7 +73,7 @@
             }
         }
     </style>
-    <div>
+    <div class="w-full h-full">
         <h2 class="text-2xl font-semibold  text-left mr-4 ml-4">Lanjut Belajar</h2>
         <p class="text-sm text-left mb-4 ml-4">Yuk lanjutkan progress belajarmu untuk segera dapatkan sertifikat!</p>
 

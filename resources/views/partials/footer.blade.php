@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <div class="flex justify-start space-x-1 mt-8">
+        <div class="flex lg:justify-start max-lg:justify-center space-x-1 mt-8">
             <!-- Social Media Icons -->
             <a href="#"><img src="https://img.icons8.com/color/38/000000/tiktok--v1.png" alt="TikTok"></a>
             <a href="#"><img src="https://img.icons8.com/color/38/000000/instagram-new--v1.png"
@@ -52,8 +52,8 @@
         </div>
 
         <div class="mt-8">
-            <p>Metode Pembayaran</p>
-            <div class="flex justify-start space-x-1 mt-2">
+            <p class="flex hlg:justify-start max-lg:justify-center">Metode Pembayaran</p>
+            <div class="flex lg:justify-start max-lg:justify-center space-x-1 mt-2">
                 <!-- Payment Method Icons -->
                 <img src="https://img.icons8.com/color/38/000000/bank.png" alt="Bank">
                 <img src="https://img.icons8.com/color/38/000000/mastercard.png" alt="Mastercard">

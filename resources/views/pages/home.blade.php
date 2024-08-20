@@ -27,7 +27,7 @@
             </div>
 
 
-            <div class="grid grid-flow-col lg:grid-cols-5 ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
+            <div class="grid grid-flow-col lg:grid-cols-5 pe-8 ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
                 <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
                     <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}"
                         alt="" />
@@ -130,7 +130,7 @@
         </div>
 
         <div class="grid md:grid-cols-2">
-            <img class="lg:w-96 w-80 h-80 ms-10 lg:ms-48" src="{{ asset('assets/home/image1.svg') }}" alt="" />
+            <img class="lg:w-96 sm:w-80 h-80 ms-10 max-sm:w-3/4 justify-center lg:ms-48" src="{{ asset('assets/home/image1.svg') }}" alt="" />
             <div class="text-start px-10 lg:px-20 lg:py-4">
                 <h2 class="font-bold text-black text-2xl">E-learning</h2>
                 <h1 class="text-black text-lg pt-7 font-semibold">Pelajari Ratusan Skill Sekali Bayar. Praktik dan
@@ -169,11 +169,11 @@
                 </div>
                 <button class="font-semibold px-10 rounded-xl py-2 mt-8 bg-orange-400">Lihat Beragam Bootcamp</button>
             </div>
-            <img class="w-80 lg:w-96 h-80 ms-10" src="{{ asset('assets/home/image2.svg') }}" alt="" />
+            <img class="sm:w-80 max-sm:w-3/4 justify-center lg:w-96 h-80 ms-10" src="{{ asset('assets/home/image2.svg') }}" alt="" />
         </div>
 
         <div class="grid lg:grid-cols-2">
-            <img class="ms-10 w-80 lg:w-96 h-80 lg:ps-20" src="{{ asset('assets/home/image3.svg') }}" alt="" />
+            <img class="ms-10 sm:w-80 max-sm:w-3/4 justify-center lg:w-96 h-80 lg:ps-20" src="{{ asset('assets/home/image3.svg') }}" alt="" />
             <div class="text-start px-10 lg:px-20  lg:py-4">
                 <h2 class="font-bold text-black text-2xl">Review CV</h2>
                 <h1 class="text-black text-lg pt-7 font-semibold">Dapatkan review dan dokumen persiapan karir dari HRD</h1>
@@ -214,7 +214,7 @@
                     <button class="font-semibold lg:px-10 rounded-xl py-2 mt-8 bg-orange-400">Software HRIS</button>
                 </div>
             </div>
-            <img class="lg:w-96 w-80 h-80 ms-10" src="{{ asset('assets/home/image88.svg') }}" alt="" />
+            <img class="lg:w-96 sm:w-80 max-sm:w-3/4 justify-center h-80 ms-10" src="{{ asset('assets/home/image88.svg') }}" alt="" />
         </div>
 
         <h2 class="text-center font-bold text-2xl mx-3 lg:px-80 py-24">Rasanya Gabung Dengan Komunitas GM Official
