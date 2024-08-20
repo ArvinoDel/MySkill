@@ -18,7 +18,7 @@
     @vite('resources/js/buttons.js')
 </head>
 
-<body>
+<body class="">
     @include('partials.navbar')
 
     <div class="container" id="container">

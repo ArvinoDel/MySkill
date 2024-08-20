@@ -3,12 +3,12 @@
 
 <div class="flex flex-col md:flex-row gap-4">
     <!-- Sidebar -->
-    <aside class="w-full md:w-1/4 px-4 mb-8 h-full max-sm:relative md:sticky lg:sticky top-11 md:top-0">
+    <aside class="w-full md:w-1/4 px-4  h-full max-sm:relative md:sticky lg:sticky top-5 md:top-0">
         <!-- Sidebar Container -->
         <input type="checkbox" id="toggle-nav" class="hidden" />
-        <div class="bg-white rounded-lg shadow-md mt-4 md:mt-8 overflow-hidden">
+        <div class="bg-white rounded-lg shadow-md mb-4 md:mt-2 overflow-hidden">
             <!-- Toggle Button -->
-            <label for="toggle-nav" class="md:hidden bg-blue-600 text-white font-semibold p-4 rounded-lg shadow-md cursor-pointer flex items-center justify-between">
+            <label for="toggle-nav" class="md:hidden bg-blue-600 text-white font-semibold p-3 rounded-lg shadow-md cursor-pointer flex items-center justify-between">
                 Navigasi Profil
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -17,7 +17,7 @@
 
             <!-- Sidebar Content -->
             <div class=" transition-all duration-300 ease-in-out max-h-0 md:max-h-full md:block" id="sidebar-content">
-                <h2 class="text-gray-700 font-semibold mb-4 max-sm:hidden">Navigasi Profil</h2>
+                <h2 class="text-gray-700 font-semibold  mb-2 max-sm:hidden ml-4">Navigasi Profil</h2>
                 <ul class="space-y-4 py-3">
                     <li class="p-1 px-5">
                         <a href="/my-profile" class="flex items-center text-gray-600 hover:text-blue-800">
@@ -73,7 +73,7 @@
             }
         }
     </style>
-    <div>
+    <div class="w-full h-full">
         <h2 class="text-2xl font-semibold  text-left mr-4 ml-4">Lanjut Belajar</h2>
         <p class="text-sm text-left mb-4 ml-4">Yuk lanjutkan progress belajarmu untuk segera dapatkan sertifikat!</p>
 

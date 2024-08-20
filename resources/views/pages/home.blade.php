@@ -1,31 +1,72 @@
 @extends('layouts.main')
 @section('container')
-    <div class="w-full h-auto  rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-500">
-        <div class="snap-x snap-mandatory flex overflow-x-auto gap-6 mx-4 lg:mx-4"
-            style="scrollbar-width: none; -ms-overflow-style: none;" ontouchstart="this.classList.add('touching')"
-            ontouchend="this.classList.remove('touching')" onmousedown="this.classList.add('touching')"
-            onmouseup="this.classList.remove('touching')">
-            <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+    <section class="home w-screen">
+        <div class="w-full h-auto rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-500">
+            <div class="snap-x snap-mandatory flex overflow-x-auto gap-6 mx-4 pt-3 lg:mx-4"
+                style="scrollbar-width: none; -ms-overflow-style: none;" ontouchstart="this.classList.add('touching')"
+                ontouchend="this.classList.remove('touching')" onmousedown="this.classList.add('touching')"
+                onmouseup="this.classList.remove('touching')">
+                <div class="snap-always snap-center flex-shrink-0">
+                    <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                </div>
+                <div class="snap-always snap-center flex-shrink-0">
+                    <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                </div>
+                <div class="snap-always snap-center flex-shrink-0">
+                    <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                </div>
+                <div class="snap-always snap-center flex-shrink-0">
+                    <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                </div>
+                <div class="snap-always snap-center flex-shrink-0">
+                    <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                </div>
             </div>
-            <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+            <div>
+                <h2 class="text-2xl text-center py-14 font-bold text-black">Mari Merintis Karir Bersama GMT</h2>
             </div>
-            <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
-            </div>
-            <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
-            </div>
-            <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
-            </div>
-        </div>
-        <div>
-            <h2 class="text-2xl text-center py-14 font-bold text-black">Mari Merintis Karir Bersama GMT</h2>
-        </div>
 
 
+            <div class="grid grid-flow-col lg:grid-cols-5 pe-8 ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
+                <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                    <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}"
+                        alt="" />
+                    <div class="p-5">
+                        <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member
+                            Belajar Bersama</h5>
+                    </div>
+                </div>
+                <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                    <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}"
+                        alt="" />
+                    <div class="p-5">
+                        <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member
+                            Belajar Bersama</h5>
+                    </div>
+                </div>
+                <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                    <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}"
+                        alt="" />
+                    <div class="p-5">
+                        <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member
+                            Belajar Bersama</h5>
+                    </div>
+                </div>
+                <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                    <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}"
+                        alt="" />
+                    <div class="p-5">
+                        <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member
+                            Belajar Bersama</h5>
+                    </div>
+                </div>
+                <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                    <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}"
+                        alt="" />
+                    <div class="p-5">
+                        <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member
+                            Belajar Bersama</h5>
+                    </div>
         <div class="grid grid-flow-col lg:grid-cols-5 ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
             <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
                 <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
@@ -57,61 +98,65 @@
                     <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
                 </div>
             </div>
+
         </div>
 
-    </div>
+        <div class="py-12">
+            <h2 class="text-2xl text-center font-bold">Terbukti Memberi Hasil dan Membuka Batasan Diri</h2>
+        </div>
 
-    <div class="py-12">
-        <h2 class="text-2xl text-center font-bold">Terbukti Memberi Hasil dan Membuka Batasan Diri</h2>
-    </div>
+        <div class="grid grid-flow-col ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
+            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <div class="flex justify-center">
+                    <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                        src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                </div>
+                <div class="p-5 flex justify-center">
+                    <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
+                </div>
+            </div>
+            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <div class="flex justify-center">
+                    <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                        src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                </div>
+                <div class="p-5 flex justify-center">
+                    <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
+                </div>
+            </div>
+            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <div class="flex justify-center">
+                    <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                        src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                </div>
+                <div class="p-5 flex justify-center">
+                    <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
+                </div>
+            </div>
+            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <div class="flex justify-center">
+                    <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                        src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                </div>
+                <div class="p-5 flex justify-center">
+                    <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
+                </div>
+            </div>
+            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <div class="flex justify-center">
+                    <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                        src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                </div>
+                <div class="p-5 flex justify-center">
+                    <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
+                </div>
+            </div>
+        </div>
 
-    <div class="grid grid-flow-col ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-            <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
-            </div>
-            <div class="p-5 flex justify-center">
-                <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
-            </div>
-        </div>
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-            <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
-            </div>
-            <div class="p-5 flex justify-center">
-                <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
-            </div>
-        </div>
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-            <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
-            </div>
-            <div class="p-5 flex justify-center">
-                <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
-            </div>
-        </div>
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-            <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
-            </div>
-            <div class="p-5 flex justify-center">
-                <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
-            </div>
-        </div>
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-            <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
-            </div>
-            <div class="p-5 flex justify-center">
-                <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
-            </div>
-        </div>
-    </div>
 
-
-    <div>
-        <h3 class="py-12 text-center font-bold text-2xl text-black">Berbagai Macam Program di GMT</h3>
-    </div>
+        <div>
+            <h3 class="py-12 text-center font-bold text-2xl text-black">Berbagai Macam Program di GMT</h3>
+        </div>
 
     <div class="grid md:grid-cols-2 lg:py-10">
         <img class="lg:w-96 w-80 h-80 ms-10 lg:ms-48" src="{{ asset('assets/home/image1.svg') }}" alt="" />
@@ -563,7 +608,10 @@
                 <div id="dropdown2" class="dropdown-content" role="menu" aria-orientation="vertical"
                     aria-labelledby="menu-button2" tabindex="-1">
                     <div class="pt-2" role="none">
-                        <p class="text-gray-700 block px-4 text-sm" role="menuitem">Proskill memiliki tiga fitur utama e-learning untuk belajar Mandiri via video modul belajar dan webinar series bulanan bootcamp untuk belajar intensif fokus pada praktik via Zoom barang ekspor mentoring untuk dapat template dan review CV hingga persiapan wawancara bersama HRD</p>
+                        <p class="text-gray-700 block px-4 text-sm" role="menuitem">Proskill memiliki tiga fitur utama
+                            e-learning untuk belajar Mandiri via video modul belajar dan webinar series bulanan bootcamp
+                            untuk belajar intensif fokus pada praktik via Zoom barang ekspor mentoring untuk dapat template
+                            dan review CV hingga persiapan wawancara bersama HRD</p>
                     </div>
                 </div>
             </div>
@@ -584,7 +632,8 @@
                 <div id="dropdown3" class="dropdown-content" role="menu" aria-orientation="vertical"
                     aria-labelledby="menu-button3" tabindex="-1">
                     <div class="pt-2" role="none">
-                        <p class="text-gray-700 block px-4 text-sm" role="menuitem">Ya, setiap peserta akan mendapatkan sertifikat
+                        <p class="text-gray-700 block px-4 text-sm" role="menuitem">Ya, setiap peserta akan mendapatkan
+                            sertifikat
                             setelah menyelesaikan kursus.</p>
                     </div>
                 </div>
@@ -595,12 +644,12 @@
                         class="inline-flex text-start justify-between w-full md:px-3 px-4 text-lg font-medium text-dark" id="menu-button1"
                         aria-expanded="false" aria-haspopup="true">
                         Platform Pembayaran apa saja yang digunakan pada SkillPro ?
-                        <svg class="-mr-1 lg:ml-2 ps-3 h-5 w-10 lg:h-5 lg:w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                        fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd"
-                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
+                        <svg class="-mr-1 lg:ml-2 ps-3 h-5 w-10 lg:h-5 lg:w-8" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
                     </button>
                 </div>
                 <div id="dropdown1" class="dropdown-content" role="menu" aria-orientation="vertical"
@@ -612,7 +661,8 @@
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+    </section>
 
     <script>
         function toggleDropdown(dropdownId) {

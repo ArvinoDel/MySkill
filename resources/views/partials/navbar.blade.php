@@ -1,9 +1,9 @@
-<nav class="sticky top-0 px-8 flex justify-between items-center bg-orange-400 z-10 w-screen">
+<nav id="navbar" class="sticky top-0 px-8 flex justify-between items-center bg-orange-400 z-10 w-screen transition-all duration-300 ease-in-out">
     <a class="text-2xl font-bold leading-none" href="#">
         <img class="max-w-xs max-md:w-20 h-auto" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
 
     </a>
-    <div class="lg:hidden md:hidden">
+    <div class="lg:hidden ">
         <button class="navbar-burger flex items-center p-3 focus:outline-none hover:text-white focus:text-gray-900">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd"
@@ -16,31 +16,31 @@
         class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-8">
         <li>
             <a href="/home"
-                class="{{ request()->is('home') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
+                class="{{ request()->is('home') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-sm font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
                 Home
             </a>
         </li>
         <li>
             <a href="/e-learning"
-                class="{{ request()->is('e-learning') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
+                class="{{ request()->is('e-learning') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-sm font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
                 E-Learning
             </a>
         </li>
         <li>
             <a href="/program/bootcamp"
-                class="{{ request()->is('program/bootcamp') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black hover:text-gray-900 hover:before:scale-x-100 focus:outline-none focus:ring-0">
+                class="{{ request()->is('program/bootcamp') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-sm font-medium relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 hover:text-teal-400 hover:before:scale-x-100 focus:outline-none focus:ring-0">
                 Program & Bootcamp
             </a>
         </li>
         <li>
             <a href="/review"
-                class="{{ request()->is('review') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
+                class="{{ request()->is('review') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-sm font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
                 Review CV
             </a>
         </li>
         <li>
             <a href="/corporate-service"
-                class="{{ request()->is('corporate-service') ? 'text-black before:scale-x-100' : 'text-white before:scale-x-0' }} text-sm font-medium hover:text-gray-900 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-black before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-black active:before:bg-black">
+                class="{{ request()->is('corporate-service') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-sm font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
                 Corporate Service
             </a>
         </li>

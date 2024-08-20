@@ -107,3 +107,11 @@
         overflow-x: hidden;
     }
     
+    
+
+    /* In your global stylesheet or within Tailwind's config file */
+.glassmorphism {
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: border for more effect */
+}

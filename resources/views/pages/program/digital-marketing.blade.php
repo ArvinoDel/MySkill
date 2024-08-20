@@ -2,31 +2,30 @@
 @section('container')
 <div class="digital-marketing">
     <section
-        class="w-full h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex max-sm:text-black max-sm:bg-white lg:mb-4">
+        class="w-full h-auto bg-white bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex max-sm:text-black max-sm:bg-white lg:mb-4">
         <img src="{{ asset('./assets/bootcamp/full.png') }}"
-            class="lg:h-96 rounded-3xl w-auto lg:mt-4 lg:ml-16 py-2 max-sm:h-60 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
+            class="lg:h-96 md:h-full md:p-4 rounded-3xl w-auto lg:mt-4 lg:ml-16 py-2 max-sm:h-60 max-sm:w-12 max-sm:mx-auto max-sm:my-4">
         <div class="lg:ml-4 max-sm:text-black max-sm:w-full max-sm:text-center max-sm:mx-auto max-sm:py-4"
             style="width: 100%;">
             <p
-                class="lg:ml-4 lg:text-4xl font-bold lg:w-4/5 max-sm:text-2xl max-sm:text-left max-sm:w-full max-sm:px-3 lg:mt-4">
+                class="lg:ml-4 md:ml-4 lg:text-white md:text-black lg:text-4xl font-bold lg:w-4/5 max-sm:text-2xl max-sm:text-left max-sm:w-full max-sm:px-3 lg:mt-4">
                 DIGITAL MARKETING: FULLSTACK INTENSIVE BOOTCAMP</p>
             <br>
-            <div class="lg:w-48 lg:h-36 lg:ml-4 bg-white border border-gray-400 rounded-2xl shadow relative">
-                <p class="font-bold text-orange-600 text-2xl lg:ml-4 lg:mt-2">Batch 27</p>
-                <p class="text-black font-regular text-xl lg:ml-4">Rp 590.000</p>
-                <p class="text-black font-regular text-xs lg:ml-4 line-through">Early sale: Rp 450.000</p>
-                <p class="text-black font-regular text-sm lg:ml-4">Late sale: Rp 1.000.000</p>
-                <p class="text-black font-semibold text-sm lg:ml-4 lg:mb-1">9 Okt 2024 - 22 Nov 2024</p>
+            <div class="lg:w-48 lg:h-36 lg:ml-4 md:w-56 md:h-34 md:ml-4 bg-white border border-gray-400 lg:rounded-2xl md:rounded-xl shadow relative">
+                <p class="font-bold text-orange-600 text-2xl lg:ml-4 lg:mt-2 md:ml-2 md:text-lg">Batch 27</p>
+                <p class="text-black font-regular text-xl lg:ml-4 md:ml-2 md:text-base">Rp 590.000</p>
+                <p class="text-black font-regular text-xs lg:ml-4 line-through md:ml-2">Early sale: Rp 450.000</p>
+                <p class="text-black font-regular text-sm lg:ml-4 md:ml-2">Late sale: Rp 1.000.000</p>
+                <p class="text-black font-semibold text-sm lg:ml-4 lg:mb-1 md:ml-2 md:mb-1">9 Okt 2024 - 22 Nov 2024</p>
                 <span
                     class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-1 rounded-full">Limited</span>
             </div>
             <button type="button" onclick="toggleModal('registrationModal')"
-                class="lg:ml-4 lg:mt-2 focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-1.5 max-sm:w-4/5 max-sm:mx-auto">
-                <i class="fas fa-bolt"></i> Daftar Sekarang
+                class="lg:ml-4 lg:mt-2 md:ml-4  md:text-base md:mt-4 md:p-4 focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-1.5 max-sm:w-4/5 max-sm:mx-auto">
+                <i class="fas fa-bolt ml-2"></i> Daftar Sekarang
             </button>
             <div class="flex items-center mt-1 max-sm:flex-col max-sm:items-center">
-                <p
-                    class="lg:ml-4 lg:text-white text-md font-semibold max-sm:text-black max-sm:ml-0 max-sm:text-sm max-sm:mt-2">
+                <p class="lg:ml-4 md:ml-4 md:text-sm md:mb-4 lg:text-white text-md font-semibold max-sm:text-black max-sm:ml-0 max-sm:text-sm max-sm:mt-2">
                     5.000+ Alumni Bootcamp Tiap Bulan</p>
             </div>
         </div>
@@ -102,7 +101,7 @@
 
 <div class="flex ">
     <!-- Sidebar -->
-    <div class="w-64 md:w-1/4 px-4 pt-6 mb-8 sticky top-11 h-full max-sm:hidden">
+    <div class="w-64 md:w-1/4 px-4 pt-6 mb-8 sticky top-11 h-full max-sm:hidden lg:block md:hidden">
         <div class="h-10/12 top-0 pb-10 bg-white rounded-lg shadow-md p-4 lg:ml-4 lg:mb-4 lg:mt-4">
             <ul class="space-y-2">
                 <p class="text-md font-semibold">Detail</p>
@@ -158,9 +157,9 @@
 
     <!-- Main Content -->
     <div class="flex-1 lg:p-8 max-sm:p-2">
-        <p id="tentang-bootcamp" class="text-orange-600 lg:ml-4 lg:text-xl max-sm:text-base max-sm:ml-2 font-bold"><i
-                class="fas fa-chevron-right sm:text-sm text-orange-600 mr-3"></i>Tentang Bootcamp</p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">Bootcamp Digital Marketing merupakan pelatihan online secara intensif dan live bersama mentor
+        <p id="tentang-bootcamp" class="text-orange-600 lg:ml-4 lg:text-xl max-sm:text-base max-sm:ml-2 font-bold md:text-xl md:mt-4"><i
+                class="fas fa-chevron-right sm:text-sm text-orange-600 mr-3 md:ml-6 md:text-xl"></i>Tentang Bootcamp</p>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Bootcamp Digital Marketing merupakan pelatihan online secara intensif dan live bersama mentor
             expert dari Top Companies di Indonesia. Materi Bootcamp ini dirancang secara terstruktur dari dasar hingga
             lanjut dengan standar industri terkini. Bayangkan dirimu belajar langsung dengan yang menggagas campaign
             "Traveloka Dulu, Jalan-jalan Kemudian." atau Lemonilo x NCT Dream! Asik, kan? Bootcamp ini dirakit oleh para
@@ -169,7 +168,7 @@
         <img src="{{ asset('./assets/bootcamp/adv.png') }}"
             class="lg:h-64 rounded-3xl w-auto lg:mt-4 lg:ml-6 lg:py-2 max-sm:h-fit max-sm:w-12 max-sm:mx-auto max-sm:my-4">
         <br class="max-sm:hidden">
-        <div class="max-sm:hidden">
+        <div class="max-sm:hidden md:hidden">
             <!-- Konten ini akan hilang pada layar kecil -->
             <div class="flex overflow-x-auto space-x-4 no-scrollbar">
                 <img src="{{ asset('./assets/bootcamp/motivasi.png') }}"
@@ -196,9 +195,9 @@
         <br>
         <div>
             <!-- prospek karir start -->
-            <p id="prospek" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 font-bold"><i
-                    class="fas fa-chevron-right text-orange-600 mr-3"></i>Prospek Karir</p>
-            <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">Ikuti Intensive Bootcamp dan dapatkan balik modal secara berlipat dari
+            <p id="prospek" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 font-bold md:ml-6 md:text-xl"><i
+                    class="fas fa-chevron-right text-orange-600 mr-3 md:ml-1 md:text-xl"></i>Prospek Karir</p>
+            <p class="lg:mt-4 sm:mt-2 lg:ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Ikuti Intensive Bootcamp dan dapatkan balik modal secara berlipat dari
                 gaji pertamamu. Berbagai pilihan profesi yang bisa dijalani saat memiliki skill digital marketing:
                 <br>
                 💎 Social Media Specialist : Rp 5-15 Juta/bulan.
@@ -219,7 +218,7 @@
                 <br>
                 *Source: Glasdoor
             </p>
-            <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">
+            <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">
                 MySkill percaya, kamu pun bisa belajar dari nol dan rintis karir impianmu meski awalnya terasa sulit.
                 Maka, tak perlu diperumit dengan harus memikirkan biaya selangit. <b>Saat ini, para peserta Bootcamp
                     MySkill telah diterima bekerja di berbagai multinational dan top local companies seperti:</b>
@@ -227,13 +226,13 @@
         </div>
         <div>
             <img src="{{ asset('./assets/bootcamp/trusted.png') }}"
-                class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-28 max-sm:w-20 max-sm:mx-auto max-sm:my-4 object-cover">
+                class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-28 max-sm:w-20 max-sm:mx-auto max-sm:my-4 object-cover md:p-4">
         </div>
         <!-- prospek karir end -->
 
         <!-- yang bisa kamu dapatkan start -->
-        <p id="dapatkan" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Apa Yang Bisa Kamu Dapatkan</p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">Upgrade skill mulai dari memahami konsep, analisa studi kasus, hingga praktik untuk mengoptimalkannya. Kuasai berbagai skill dan tools di bidang Digital Marketing untuk karier maupun bisnis kamu.
+        <p id="dapatkan" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 font-bold md:text-xl"><i class="fas fa-chevron-right text-orange-600 mr-3 md:ml-6 md:text-xl"></i>Apa Yang Bisa Kamu Dapatkan</p>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Upgrade skill mulai dari memahami konsep, analisa studi kasus, hingga praktik untuk mengoptimalkannya. Kuasai berbagai skill dan tools di bidang Digital Marketing untuk karier maupun bisnis kamu.
             <b>Contoh Skill & Portfolio yang bisa kamu miliki:</b>
         </p>
         <img src="{{ asset('./assets/bootcamp/get.png') }}" class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
@@ -250,9 +249,9 @@
         <!-- yang bisa kamu dapatkan end -->
 
         <!-- benefit start -->
-        <p id="benefit" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 max-sm:mt-2 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Benefit Bootcamp</p>
-        <p class="lg:mt-2 lg:mb-1 max-sm:ml-2 max-sm:mt-2"><b>Materi Kelas:</b></p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">✅ 20 Live Class Bersama Mentor Experts dari Top Companies.
+        <p id="benefit" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 max-sm:mt-2 font-bold md:text-xl"><i class="fas fa-chevron-right text-orange-600 mr-3 md:ml-6"></i>Benefit Bootcamp</p>
+        <p class="lg:mt-2 lg:mb-1 max-sm:ml-2 max-sm:mt-2 md:text-base md:ml-6 md:mt-2"><b>Materi Kelas:</b></p>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">✅ 20 Live Class Bersama Mentor Experts dari Top Companies.
             <br>
             ✅ Tutor berpengalaman dengan level Lead/Manager/Head.
             <br>
@@ -262,35 +261,35 @@
             <br>
             ✅ Terdapat sesi persiapan karir untuk persiapan berkas lamaran kerja (CV, Surat Lamaran Kerja, Interview, Linkedin).
         </p>
-        <p class="lg:mt-6 lg:mb-6 max-sm:ml-2"><b>Seletah Kelas:</b></p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">
+        <p class="lg:mt-6 lg:mb-6 max-sm:ml-2 md:ml-6 md:mt-2 "><b>Seletah Kelas:</b></p>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">
             ✅ Mendapat rekaman video setiap Sesi untuk dipelajari Kembali.
             <br>
             ✅ Mendapatkan e-Certificate selesai pelatihan.
         </p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">
+        <p class="md:ml-6 md:mb-2 lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">
             <b><i>[Opsional] +Additional Fee jika ingin bergabung program Final Project secara berkelompok.</i></b>
             Pembayaran dilakukan terpisah, saat Bootcamp dimulai.
         </p>
-        <b class="max-sm:mt-6 max-sm:ml-2"><i>Final Fotofolio Project</i></b>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">✅ Dibentuk team project untuk pembuatan final portofolio. <br>
+        <b class="max-sm:mt-6 max-sm:ml-2 md:ml-6"><i>Final Fotofolio Project</i></b>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6 md:mb-2">✅ Dibentuk team project untuk pembuatan final portofolio. <br>
             ✅ Portfolio dibuat komprehensif sesuai standar melamar kerja. <br>
             ✅ 3x sesi mentoring dan review untuk final portfolio project. <br>
             ✅ Special award untuk tim terbaik.</p>
-        <b class="max-sm:mt-6 max-sm:ml-2"><i>Akselerasi Karir</i></b>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">✅ Mendapat template CV & Surat Lamaran kerja versi Bahasa Inggris & Bahasa Indonesia. <br>
+        <b class="max-sm:mt-6 max-sm:ml-2 md:ml-6 "><i>Akselerasi Karir</i></b>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">✅ Mendapat template CV & Surat Lamaran kerja versi Bahasa Inggris & Bahasa Indonesia. <br>
             ✅ Akses Ratusan Video eLearning dengan ratusan sertifikat yang bisa didapatkan.</p>
-        <img src="{{ asset('./assets/bootcamp/sertifikat.png') }}" class="lg:h-72 rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
+        <img src="{{ asset('./assets/bootcamp/sertifikat.png') }}" class="lg:h-72 md:h-72 md:p-4 rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
         <!-- benefit end -->
 
         <!-- peserta bootcamp -->
-        <p id="peserta" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Peserta Bootcamp</p>
+        <p id="peserta" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold md:text-xl md:mb-4 md:mt-4"><i class="fas fa-chevron-right text-orange-600 mr-3 md:ml-6 "></i>Peserta Bootcamp</p>
         <img src="{{ asset('./assets/bootcamp/peserta.png') }}" class="lg:h-80 sm:h-auto rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
 
         <!-- Kurikulum & Silabus -->
-        <p id="kurikulum" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Kurikulum & Silabus</p>
-        <b class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">Dirancang & Belajar Langsung Dari Yang Terbaik!</b>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">
+        <p id="kurikulum" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold md:text-xl"><i class="fas fa-chevron-right text-orange-600 mr-3 md:ml-6"></i>Kurikulum & Silabus</p>
+        <b class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Dirancang & Belajar Langsung Dari Yang Terbaik!</b>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">
             📝 Aliya Mutiara Devi - Senior Product Marketing at Technology Industry <br>
             📝 Naura Yasyfina - Brand Strategist at OLX Indonesia <br>
             📝 Ken Kirana - Product Marketing at Bibit <br>
@@ -310,14 +309,14 @@
         </p>
 
         <!-- jadwal kelas -->
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm"><b>Jadwal Kelas:</b></p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">✅ Batch 25: 5 Juni - 22 Juli 2024</p>
-        <b class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">Sesi On Boarding: Senin, 3 Juni 2024</b>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6"><b>Jadwal Kelas:</b></p>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">✅ Batch 25: 5 Juni - 22 Juli 2024</p>
+        <b class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Sesi On Boarding: Senin, 3 Juni 2024</b>
 
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">✅ Batch 26: 7 Agustus - 20 September 2024</p>
-        <b class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">Sesi On Boarding: Senin, 5 Agustus 2024</b>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">✅ Batch 26: 7 Agustus - 20 September 2024</p>
+        <b class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Sesi On Boarding: Senin, 5 Agustus 2024</b>
 
-        <p class="lg:mt-4 max-sm:mt-6 ml-2 max-sm:mb-6 lg:text-base max-sm:text-sm"><b>
+        <p class="lg:mt-4 max-sm:mt-6 ml-2 max-sm:mb-6 lg:text-base max-sm:text-sm md:ml-6"><b>
                 📌Notes: <br>
                 Sesi On boarding ini bersifat opsional dan ditujukan untuk mengenal satu sama lain dan program dengan
                 lebih baik. Bukan sesi materi.
@@ -326,14 +325,14 @@
                 panduan bootcamp yang diberikan.
             </b></p>
 
-        <p class="lg:mt-6 lg:mb-4 sm:mt-8 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm"><b>Pelaksanaan Kelas :</b><br>
+        <p class="lg:mt-6 lg:mb-4 sm:mt-8 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6 md:mb-6"><b>Pelaksanaan Kelas :</b><br>
             Setiap hari Senin, Rabu dan Jumat.<br>
             Pukul 19.30-21.30 WIB
         </p>
 
         <div>
             <!-- Dropdown 1 -->
-            <div class="mb-2 border border-gray-300 rounded lg:mt-2 max-sm:mt-6">
+            <div class="mb-2 border border-gray-300 rounded lg:mt-2 max-sm:mt-6 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown1', this)">
                     <p class="font-semibold">Onboarding and Sharing Session with Alumni (Optional)</p>
@@ -350,7 +349,7 @@
             </div>
 
             <!-- Dropdown 2 -->
-            <div class="border border-gray-300 rounded mb-2">
+            <div class="border border-gray-300 rounded mb-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown2', this)">
                     <p class="font-semibold"> The Fundamental Of Marketing </p>
@@ -363,7 +362,7 @@
             </div>
 
             <!-- Dropdown 3 -->
-            <div class="border border-gray-300 rounded">
+            <div class="border border-gray-300 rounded md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown3', this)">
                     <p class="font-semibold"> Brand Strategy </p>
@@ -376,7 +375,7 @@
                 </div>
             </div>
             <!-- Dropdown 4 -->
-            <div class="border border-gray-300 rounded mt-2">
+            <div class="border border-gray-300 rounded mt-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown4', this)">
                     <p class="font-semibold"> Audience Persona & Insight </p>
@@ -388,7 +387,7 @@
                 </div>
             </div>
             <!-- Dropdown 5 -->
-            <div class="border border-gray-300 rounded mt-2">
+            <div class="border border-gray-300 rounded mt-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown5', this)">
                     <p class="font-semibold"> Digital Marketing & Network </p>
@@ -401,7 +400,7 @@
                 </div>
             </div>
             <!-- Dropdown 6 -->
-            <div class="border border-gray-300 rounded mt-2">
+            <div class="border border-gray-300 rounded mt-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown6', this)">
                     <p class="font-semibold"> Campaign & Media Planning </p>
@@ -416,7 +415,7 @@
                 </div>
             </div>
             <!-- Dropdown 7 -->
-            <div class="border border-gray-300 rounded mt-2">
+            <div class="border border-gray-300 rounded mt-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown7', this)">
                     <p class="font-semibold"> Content & Marketing </p>
@@ -431,7 +430,7 @@
                 </div>
             </div>
             <!-- Dropdown 8 -->
-            <div class="border border-gray-300 rounded mt-2">
+            <div class="border border-gray-300 rounded mt-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown8', this)">
                     <p class="font-semibold"> Creative Copywriting </p>
@@ -446,7 +445,7 @@
                 </div>
             </div>
             <!-- Dropdown 9 -->
-            <div class="border border-gray-300 rounded mt-2">
+            <div class="border border-gray-300 rounded mt-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown9', this)">
                     <p class="font-semibold"> Social Media Strategy </p>
@@ -463,7 +462,7 @@
                 </div>
             </div>
             <!-- Dropdown 10 -->
-            <div class="border border-gray-300 rounded mt-2">
+            <div class="border border-gray-300 rounded mt-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown10', this)">
                     <p class="font-semibold"> Social Media Research & Analytics </p>
@@ -479,7 +478,7 @@
                 </div>
             </div>
             <!-- Dropdown 11 -->
-            <div class="border border-gray-300 rounded mt-2">
+            <div class="border border-gray-300 rounded mt-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
                     onclick="toggleDropdown('dropdown11', this)">
                     <p class="font-semibold"> Ecommerce Marketing </p>
@@ -499,14 +498,14 @@
         </div>
 
         <!-- sistem belajar -->
-        <p id="sistem" class="text-orange-600 max-sm:mt-6 max-sm:mb-3 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-4"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Sistem Belajar</p>
-        <img class="MuiBox-root mui-style-nj2azm" src="https://imagedelivery.net/I_EC-Jc9ZMucGPqxWez19A/e50f0b44-5d3b-42c1-dee3-500b93c71e00/public" alt="Sistem Belajar" loading="lazy">
+        <p id="sistem" class="text-orange-600 max-sm:mt-6 max-sm:mb-3 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-4 md:ml-6 md:text-xl md:mb-2"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Sistem Belajar</p>
+        <img class="MuiBox-root mui-style-nj2azm md:p-4" src="https://imagedelivery.net/I_EC-Jc9ZMucGPqxWez19A/e50f0b44-5d3b-42c1-dee3-500b93c71e00/public" alt="Sistem Belajar" loading="lazy">
 
         <!-- FAQ -->
-        <p id="faq" class="text-orange-600 max-sm:mt-6 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>FAQ</p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">Masih bingung? Tenang :)</p>
+        <p id="faq" class="text-orange-600 max-sm:mt-6 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-1 md:ml-6 md:text-xl"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>FAQ</p>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Masih bingung? Tenang :)</p>
         <!-- FAQ 1 -->
-        <div class="border border-gray-300 rounded mt-2">
+        <div class="border border-gray-300 rounded mt-2 md:m-4">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq1', this)">
                 <p class="font-semibold"> Saya tidak memiliki pengalaman sama sekali di bidang Digital Marketing, apakah saya bisa mengikuti kelas? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
@@ -516,7 +515,7 @@
             </div>
         </div>
         <!-- FAQ 2 -->
-        <div class="border border-gray-300 rounded mt-2">
+        <div class="border border-gray-300 rounded mt-2 md:m-4">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq2', this)">
                 <p class="font-semibold"> Bagaimana jika saya tidak bisa menghadiri kelas, apakah saya masih bisa mengikuti materi ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
@@ -526,9 +525,9 @@
             </div>
         </div>
         <!-- FAQ 3 -->
-        <div class="border border-gray-300 rounded mt-2">
+        <div class="border border-gray-300 rounded mt-2 md:m-4">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq3', this)">
-                <p class="font-semibold"> Bagaimana jika saya mengalami kesulitan untuk mengerjakan team project untuk portofolio saya ? </p>
+                <p class="font-semibold md:w-11/12"> Bagaimana jika saya mengalami kesulitan untuk mengerjakan team project untuk portofolio saya ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
             </button>
             <div id="faq3" class="hidden p-2 font-regular bg-white transition-opacity duration-300 ease-in-out opacity-0">
@@ -536,7 +535,7 @@
             </div>
         </div>
         <!-- FAQ 4 -->
-        <div class="border border-gray-300 rounded mt-2">
+        <div class="border border-gray-300 rounded mt-2 md:m-4">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq4', this)">
                 <p class="font-semibold">Apakah final project portofolio, bisa saya gunakan untuk melamar kerja ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
@@ -545,7 +544,7 @@
                 Final project portofolio tentu bisa digunakan sebagai portofolio untuk melamar pekerjaan. Kamu akan mengerjakan final project secara real case secara end to end process sehingga sangat cukup untuk mendukung kamu dari segi pemahaman dan praktik pada pekerjaaan bidang Digital Marketing. Dengan final project yang dikerjakan terbukti MySkill sudah membantu banyak alumni dalam mencari pekerjaan. </div>
         </div>
         <!-- FAQ 5 -->
-        <div class="border border-gray-300 rounded mt-2">
+        <div class="border border-gray-300 rounded mt-2 md:m-4">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq5', this)">
                 <p class="font-semibold"> Bagaimana cara agar bisa mengikuti extra sesi tambahan ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
@@ -554,7 +553,7 @@
                 Peserta harus menghadiri setiap sesi kelas yang diselenggarakan, serta secara aktif berpartisipasi dalam mengerjakan mini portofolio yang dikerjakan pada tiap sesi. </div>
         </div>
         <!-- FAQ 6 -->
-        <div class="border border-gray-300 rounded mt-2">
+        <div class="border border-gray-300 rounded mt-2 md:m-4">
             <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center" onclick="toggleDropdown('faq6', this)">
                 <p class="font-semibold"> Seperti apa bentuk final project yang akan dikerjakan peserta ? </p>
                 <i class="fas fa-chevron-down" id="arrow2"></i>
@@ -565,55 +564,29 @@
         </div>
 
         <!-- Komunitas -->
-        <p id="komunitas" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 max-sm:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Komunitas</p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-4 lg:text-base max-sm:text-sm">Bukan sekadar join Bootcamp. Tapi, Komunitas berkembang bersama. Gabung grup untuk berdiskusi, berbagi info loker dan freelance, hingga kumpul offline dan networking. Bangun support system bersama yuk!</p>
+        <p id="komunitas" class="md:ml-6 md:text-xl text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 max-sm:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Komunitas</p>
+        <p class="md:ml-6 md:mb-4 lg:mt-4 sm:mt-2 ml-2 max-sm:mb-4 lg:text-base max-sm:text-sm md:w-11/12">Bukan sekadar join Bootcamp. Tapi, Komunitas berkembang bersama. Gabung grup untuk berdiskusi, berbagi info loker dan freelance, hingga kumpul offline dan networking. Bangun support system bersama yuk!</p>
         <!-- scrollbar-3 -->
-        <div name="scrollbar-2 mb-8">
+        <div name="scrollbar-2 mb-8 ">
             <div class="flex overflow-x-auto space-x-4 max-sm:ps-2 no-scrollbar">
-                <img src="{{ asset('./assets/bootcamp/komun1.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px]">
-                <img src="{{ asset('./assets/bootcamp/komun2.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px]">
-                <img src="{{ asset('./assets/bootcamp/komun3.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px]">
-                <img src="{{ asset('./assets/bootcamp/komun4.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px]">
+                <img src="{{ asset('./assets/bootcamp/komun1.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px] md:p-4">
+                <img src="{{ asset('./assets/bootcamp/komun2.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px] md:p-4">
+                <img src="{{ asset('./assets/bootcamp/komun3.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px] md:p-4">
+                <img src="{{ asset('./assets/bootcamp/komun4.png') }}" class="lg:h-64 max-sm:h-60 lg:w-auto max-sm:w-[272px] md:p-4">
             </div>
         </div>
         <!-- komunitas end -->
 
         <!-- daftar sekarang -->
-        <p class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-1 max-sm:mt-4"><i
+        <p class="md:ml-6 md:text-xl text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-1 max-sm:mt-4"><i
                 class="fas fa-chevron-right text-orange-600 mr-3"></i>Daftar Sekarang</p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm">Ayo, persiapkan dirimu untuk mulai #RintisKarirImpian</p>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6 md:mb-2">Ayo, persiapkan dirimu untuk mulai #RintisKarirImpian</p>
         <button type="button" onclick="toggleModal('registrationModal')"
-            class="lg:mt-2 w-full focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm lg:px-5 lg:py-3 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-2 max-sm:mt-1 max-sm:w-4/5 max-sm:mx-auto">
+            class="lg:mt-2 w-full md:w-11/12 md:ml-8 md:p-2 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm lg:px-5 lg:py-3 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-2 max-sm:mt-1 max-sm:w-4/5 max-sm:mx-auto">
             <i class="fas fa-bolt"></i> Daftar Sekarang
         </button>
 
-        <!-- script dropdown -->
-        <script>
-            function toggleDropdown(id, button) {
-                const dropdown = document.getElementById(id);
-                const isHidden = dropdown.classList.contains('hidden');
 
-                if (isHidden) {
-                    dropdown.classList.remove('hidden');
-                    setTimeout(() => {
-                        dropdown.classList.remove('opacity-0');
-                        dropdown.classList.add('opacity-100');
-                    }, 10); // Delay to allow the transition to take effect
-                } else {
-                    dropdown.classList.remove('opacity-100');
-                    dropdown.classList.add('opacity-0');
-                    dropdown.addEventListener('transitionend', function() {
-                        dropdown.classList.add('hidden');
-                    }, {
-                        once: true
-                    });
-                }
-
-                const arrow = button.querySelector('i');
-                arrow.classList.toggle('fa-chevron-down');
-                arrow.classList.toggle('fa-chevron-up');
-            }
-        </script>
     </div>
 </div>
 
@@ -622,14 +595,14 @@
 </div>
 
 <!-- second content -->
-<p class="font-semibold text-3xl lg:ml-12 max-sm:ml-4">Ikuti Juga Bootcamp Lainnya</p>
-<p class="lg:mt-1 sm:mt-2 lg:ml-12 max-sm:ml-4 max-sm:mb-1 lg:text-base max-sm:text-sm">Lanjut pelajari skill bersama tutor terbaik berpengalaman di bidangnya.</p>
+<p class="font-semibold text-3xl lg:ml-12 max-sm:ml-4 md:ml-6">Ikuti Juga Bootcamp Lainnya</p>
+<p class="lg:mt-1 sm:mt-2 lg:ml-12 max-sm:ml-4 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Lanjut pelajari skill bersama tutor terbaik berpengalaman di bidangnya.</p>
 
 <!-- scrollbar horizontal 3 -->
 <div name="mb-8" class="overflow-x-auto no-scrollbar">
     <div class="flex space-x-4 w-max lg:px-14 max-sm:px-4 py-3">
         <!-- Item Bootcamp 1 -->
-        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between">
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:ml-6 md:p-4">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
             <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex flex-col mt-2 text-gray-500">
@@ -644,7 +617,7 @@
             </div>
         </div>
         <!-- Item Bootcamp 2 -->
-        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between">
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:p-4">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
             <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex flex-col mt-2 text-gray-500">
@@ -659,7 +632,7 @@
             </div>
         </div>
         <!-- Item Bootcamp 3 -->
-        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between">
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:p-4">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
             <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex flex-col mt-2 text-gray-500">
@@ -674,7 +647,22 @@
             </div>
         </div>
         <!-- Item Bootcamp 4 -->
-        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between">
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:p-4">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
+            <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
+            <div class="flex flex-col mt-2 text-gray-500">
+                <div class="flex items-center">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    <p class="text-sm">1 Januari 2025</p>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-tag mr-2"></i>
+                    <p class="text-sm">Rp 500.000 <span class="line-through max-sm:hidden">Rp 800.000</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- Item Bootcamp 5 -->
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:p-4">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
             <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex flex-col mt-2 text-gray-500">
@@ -689,16 +677,46 @@
             </div>
         </div>
         <!-- Item More -->
-        <div class="bg-gray-100 rounded-lg shadow-md lg:p-4 lg:w-64 max-sm:w-40 flex flex-col justify-center items-center">
-            <p class="lg:text-4xl max-sm:text-center max-sm:text-2xl text-gray-400 mb-4">+</p>
-            <p class="text-gray-500 max-sm:text-center">lihat bootcamp lainnya...</p>
-        </div>
+        <a href="/program/bootcamp">
+            <div class="bg-gray-100 rounded-lg shadow-md lg:p-4 lg:w-64 max-sm:w-40 flex flex-col justify-center items-center md:p-4">
+                <p class="lg:text-4xl max-sm:text-center max-sm:text-2xl md:text-6xl text-gray-400 mb-4">+</p>
+                <p class="text-gray-500 max-sm:text-center">lihat bootcamp lainnya...</p>
+            </div>
+        </a>
     </div>
 </div>
 
 <div class="w-full flex justify-center mt-8">
     <hr class="mb-6 mt-4 w-11/12 border-1 ">
 </div>
+
+<!-- script dropdown -->
+<script>
+    function toggleDropdown(id, button) {
+        const dropdown = document.getElementById(id);
+        const isHidden = dropdown.classList.contains('hidden');
+
+        if (isHidden) {
+            dropdown.classList.remove('hidden');
+            setTimeout(() => {
+                dropdown.classList.remove('opacity-0');
+                dropdown.classList.add('opacity-100');
+            }, 10); // Delay to allow the transition to take effect
+        } else {
+            dropdown.classList.remove('opacity-100');
+            dropdown.classList.add('opacity-0');
+            dropdown.addEventListener('transitionend', function() {
+                dropdown.classList.add('hidden');
+            }, {
+                once: true
+            });
+        }
+
+        const arrow = button.querySelector('i');
+        arrow.classList.toggle('fa-chevron-down');
+        arrow.classList.toggle('fa-chevron-up');
+    }
+</script>
 
 <script>
     function toggleModal(modalID) {
