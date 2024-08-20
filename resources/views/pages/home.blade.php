@@ -27,32 +27,32 @@
 
 
         <div class="grid grid-flow-col lg:grid-cols-5 ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
-            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
                 <div class="p-5">
                     <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
                 </div>
             </div>
-            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
                 <div class="p-5">
                     <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
                 </div>
             </div>
-            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
                 <div class="p-5">
                     <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
                 </div>
             </div>
-            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
                 <div class="p-5">
                     <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
                 </div>
             </div>
-            <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-36 h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
                 <div class="p-5">
                     <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
                 </div>
@@ -113,7 +113,7 @@
         <h3 class="py-12 text-center font-bold text-2xl text-black">Berbagai Macam Program di GMT</h3>
     </div>
 
-    <div class="grid md:grid-cols-2">
+    <div class="grid md:grid-cols-2 lg:py-10">
         <img class="lg:w-96 w-80 h-80 ms-10 lg:ms-48" src="{{ asset('assets/home/image1.svg') }}" alt="" />
         <div class="text-start px-10 lg:px-20 lg:py-4">
             <h2 class="font-bold text-black text-2xl">E-learning</h2>
@@ -134,7 +134,7 @@
         </div>
     </div>
 
-    <div class="lg:grid flex flex-col-reverse lg:grid-cols-2">
+    <div class="md:grid flex flex-col-reverse md:grid-cols-2 md:py-10">
         <div class="text-start px-10 lg:px-20 py-2 lg:py-4">
             <h2 class="font-bold text-black text-2xl">Bootcamp</h2>
             <h1 class="text-black text-lg pt-7 font-semibold">Intensive Live Class bersama Experts. Praktikal & Mendalam
@@ -155,7 +155,7 @@
         <img class="w-80 lg:w-96 h-80 ms-10" src="{{ asset('assets/home/image2.svg') }}" alt="" />
     </div>
 
-    <div class="grid lg:grid-cols-2">
+    <div class="grid md:grid-cols-2 md:py-10">
         <img class="ms-10 w-80 lg:w-96 h-80 lg:ps-20" src="{{ asset('assets/home/image3.svg') }}" alt="" />
         <div class="text-start px-10 lg:px-20  lg:py-4">
             <h2 class="font-bold text-black text-2xl">Review CV</h2>
@@ -175,7 +175,7 @@
         </div>
     </div>
 
-    <div class="lg:grid lg:grid-cols-2 flex flex-col-reverse">
+    <div class="md:grid md:grid-cols-2 flex flex-col-reverse md:py-10">
         <div class="text-start px-12 lg:px-20 lg:py-4">
             <h2 class="font-bold text-black text-2xl">Bootcamp</h2>
             <h1 class="text-black text-lg pt-7 font-semibold">Intensive Live Class bersama Experts. Praktikal & Mendalam
@@ -592,7 +592,7 @@
             <div class="relative inline-block w-full lg:px-32 py-4">
                 <div>
                     <button type="button" onclick="toggleDropdown('dropdown1')"
-                        class="inline-flex text-start justify-between w-full px-4 text-lg font-medium text-dark" id="menu-button1"
+                        class="inline-flex text-start justify-between w-full md:px-3 px-4 text-lg font-medium text-dark" id="menu-button1"
                         aria-expanded="false" aria-haspopup="true">
                         Platform Pembayaran apa saja yang digunakan pada SkillPro ?
                         <svg class="-mr-1 lg:ml-2 ps-3 h-5 w-10 lg:h-5 lg:w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
