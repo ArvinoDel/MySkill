@@ -2,7 +2,7 @@
 @section('container')
     <!-- header here -->
     <section class="review w-screen h-auto">
-        <section class=" bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex">
+        <section class=" bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white md:flex">
             <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-12">
             <div class="p-4">
                 <p class="text-3xl font-bold lg:text-white text-black lg:w-4/5 w-full max-lg:w-96">
@@ -33,7 +33,6 @@
                     <p class="ml-4 text-white text-md font-semibold">> 10.000 CV Telah Direview</p>
                 </div>
             </div>
-            
         </section>
 
         <!-- card here -->
