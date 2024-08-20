@@ -101,7 +101,7 @@
 
 <div class="flex ">
     <!-- Sidebar -->
-    <div class="w-64 md:w-1/4 px-4 pt-6 mb-8 sticky top-11 h-full max-sm:hidden md:hidden">
+    <div class="w-64 md:w-1/4 px-4 pt-6 mb-8 sticky top-11 h-full max-sm:hidden lg:block md:hidden">
         <div class="h-10/12 top-0 pb-10 bg-white rounded-lg shadow-md p-4 lg:ml-4 lg:mb-4 lg:mt-4">
             <ul class="space-y-2">
                 <p class="text-md font-semibold">Detail</p>
@@ -565,7 +565,7 @@
 
         <!-- Komunitas -->
         <p id="komunitas" class="md:ml-6 md:text-xl text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 max-sm:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Komunitas</p>
-        <p class="md:ml-6 md:mb-4 lg:mt-4 sm:mt-2 ml-2 max-sm:mb-4 lg:text-base max-sm:text-sm">Bukan sekadar join Bootcamp. Tapi, Komunitas berkembang bersama. Gabung grup untuk berdiskusi, berbagi info loker dan freelance, hingga kumpul offline dan networking. Bangun support system bersama yuk!</p>
+        <p class="md:ml-6 md:mb-4 lg:mt-4 sm:mt-2 ml-2 max-sm:mb-4 lg:text-base max-sm:text-sm md:w-11/12">Bukan sekadar join Bootcamp. Tapi, Komunitas berkembang bersama. Gabung grup untuk berdiskusi, berbagi info loker dan freelance, hingga kumpul offline dan networking. Bangun support system bersama yuk!</p>
         <!-- scrollbar-3 -->
         <div name="scrollbar-2 mb-8 ">
             <div class="flex overflow-x-auto space-x-4 max-sm:ps-2 no-scrollbar">
@@ -580,9 +580,9 @@
         <!-- daftar sekarang -->
         <p class="md:ml-6 md:text-xl text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-1 max-sm:mt-4"><i
                 class="fas fa-chevron-right text-orange-600 mr-3"></i>Daftar Sekarang</p>
-        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Ayo, persiapkan dirimu untuk mulai #RintisKarirImpian</p>
+        <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6 md:mb-2">Ayo, persiapkan dirimu untuk mulai #RintisKarirImpian</p>
         <button type="button" onclick="toggleModal('registrationModal')"
-            class="lg:mt-2 w-full md:w-11/12 md:p-2 md:m-4  focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm lg:px-5 lg:py-3 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-2 max-sm:mt-1 max-sm:w-4/5 max-sm:mx-auto">
+            class="lg:mt-2 w-full md:w-11/12 md:ml-8 md:p-2 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm lg:px-5 lg:py-3 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-2 max-sm:mt-1 max-sm:w-4/5 max-sm:mx-auto">
             <i class="fas fa-bolt"></i> Daftar Sekarang
         </button>
 
@@ -595,14 +595,14 @@
 </div>
 
 <!-- second content -->
-<p class="font-semibold text-3xl lg:ml-12 max-sm:ml-4">Ikuti Juga Bootcamp Lainnya</p>
-<p class="lg:mt-1 sm:mt-2 lg:ml-12 max-sm:ml-4 max-sm:mb-1 lg:text-base max-sm:text-sm">Lanjut pelajari skill bersama tutor terbaik berpengalaman di bidangnya.</p>
+<p class="font-semibold text-3xl lg:ml-12 max-sm:ml-4 md:ml-6">Ikuti Juga Bootcamp Lainnya</p>
+<p class="lg:mt-1 sm:mt-2 lg:ml-12 max-sm:ml-4 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Lanjut pelajari skill bersama tutor terbaik berpengalaman di bidangnya.</p>
 
 <!-- scrollbar horizontal 3 -->
 <div name="mb-8" class="overflow-x-auto no-scrollbar">
     <div class="flex space-x-4 w-max lg:px-14 max-sm:px-4 py-3">
         <!-- Item Bootcamp 1 -->
-        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between">
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:ml-6 md:p-4">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
             <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex flex-col mt-2 text-gray-500">
@@ -617,7 +617,7 @@
             </div>
         </div>
         <!-- Item Bootcamp 2 -->
-        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between">
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:p-4">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
             <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex flex-col mt-2 text-gray-500">
@@ -632,7 +632,7 @@
             </div>
         </div>
         <!-- Item Bootcamp 3 -->
-        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between">
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:p-4">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
             <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex flex-col mt-2 text-gray-500">
@@ -647,7 +647,22 @@
             </div>
         </div>
         <!-- Item Bootcamp 4 -->
-        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between">
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:p-4">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
+            <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
+            <div class="flex flex-col mt-2 text-gray-500">
+                <div class="flex items-center">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    <p class="text-sm">1 Januari 2025</p>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-tag mr-2"></i>
+                    <p class="text-sm">Rp 500.000 <span class="line-through max-sm:hidden">Rp 800.000</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- Item Bootcamp 5 -->
+        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:p-4">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
             <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex flex-col mt-2 text-gray-500">
@@ -662,10 +677,12 @@
             </div>
         </div>
         <!-- Item More -->
-        <div class="bg-gray-100 rounded-lg shadow-md lg:p-4 lg:w-64 max-sm:w-40 flex flex-col justify-center items-center">
-            <p class="lg:text-4xl max-sm:text-center max-sm:text-2xl text-gray-400 mb-4">+</p>
-            <p class="text-gray-500 max-sm:text-center">lihat bootcamp lainnya...</p>
-        </div>
+        <a href="/program/bootcamp">
+            <div class="bg-gray-100 rounded-lg shadow-md lg:p-4 lg:w-64 max-sm:w-40 flex flex-col justify-center items-center md:p-4">
+                <p class="lg:text-4xl max-sm:text-center max-sm:text-2xl md:text-6xl text-gray-400 mb-4">+</p>
+                <p class="text-gray-500 max-sm:text-center">lihat bootcamp lainnya...</p>
+            </div>
+        </a>
     </div>
 </div>
 
