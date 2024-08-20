@@ -22,12 +22,12 @@
             </div>
         </div>
         <div>
-            <h2 class="text-2xl text-center py-14 font-bold text-black">Mari Merintis Karir Bersama GMT</h2>
+            <h2 class="text-xl md:text-2xl text-center py-14 font-bold text-black">Mari Merintis Karir Bersama GMT</h2>
         </div>
 
 
         <div class="grid grid-flow-col lg:grid-cols-5 ps-6 gap-8 overflow-x-auto ">
-            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+            <div class="w-44 h-60 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
                 <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
                     alt="" />
                 <div class="p-5">
@@ -35,7 +35,7 @@
                         Bersama</h5>
                 </div>
             </div>
-            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+            <div class="w-44 h-60 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
                 <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
                     alt="" />
                 <div class="p-5">
@@ -43,7 +43,7 @@
                         Bersama</h5>
                 </div>
             </div>
-            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+            <div class="w-44 h-60 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
                 <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
                     alt="" />
                 <div class="p-5">
@@ -51,7 +51,7 @@
                         Bersama</h5>
                 </div>
             </div>
-            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+            <div class="w-44 h-60 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
                 <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
                     alt="" />
                 <div class="p-5">
@@ -59,7 +59,7 @@
                         Bersama</h5>
                 </div>
             </div>
-            <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+            <div class="w-44 h-60 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
                 <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
                     alt="" />
                 <div class="p-5">
@@ -73,7 +73,7 @@
         <h2 class="text-2xl text-center font-bold">Terbukti Memberi Hasil dan Membuka Batasan Diri</h2>
     </div>
     <div class="grid grid-flow-col ps-6 gap-8 overflow-x-auto ">
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+        <div class="w-44 h-64 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
                 <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
                     src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
@@ -82,7 +82,7 @@
                 <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
             </div>
         </div>
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+        <div class="w-44 h-64 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
                 <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
                     src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
@@ -91,7 +91,7 @@
                 <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
             </div>
         </div>
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+        <div class="w-44 h-64 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
                 <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
                     src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
@@ -100,7 +100,7 @@
                 <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
             </div>
         </div>
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+        <div class="w-44 h-64 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
                 <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
                     src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
@@ -109,7 +109,7 @@
                 <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
             </div>
         </div>
-        <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
+        <div class="w-44 h-64 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
                 <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
                     src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
