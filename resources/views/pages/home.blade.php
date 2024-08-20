@@ -28,33 +28,43 @@
 
         <div class="grid grid-flow-col lg:grid-cols-5 ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
             <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
+                    alt="" />
                 <div class="p-5">
-                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
+                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar
+                        Bersama</h5>
                 </div>
             </div>
             <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
+                    alt="" />
                 <div class="p-5">
-                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
+                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar
+                        Bersama</h5>
                 </div>
             </div>
             <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
+                    alt="" />
                 <div class="p-5">
-                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
+                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar
+                        Bersama</h5>
                 </div>
             </div>
             <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
+                    alt="" />
                 <div class="p-5">
-                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
+                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar
+                        Bersama</h5>
                 </div>
             </div>
             <div class="w-48 h-60 lg:w-52 lg:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
-                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}" alt="" />
+                <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
+                    alt="" />
                 <div class="p-5">
-                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar Bersama</h5>
+                    <h5 class="text-sm text-center font-bold text-gray-900">Noteworthy Lebih dari 1.5 Juta+ Member Belajar
+                        Bersama</h5>
                 </div>
             </div>
         </div>
@@ -65,7 +75,8 @@
     <div class="grid grid-flow-col ps-6 gap-8 overflow-x-auto sm:overflow-x-hidden">
         <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                    src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
             </div>
             <div class="p-5 flex justify-center">
                 <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
@@ -73,7 +84,8 @@
         </div>
         <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                    src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
             </div>
             <div class="p-5 flex justify-center">
                 <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
@@ -81,7 +93,8 @@
         </div>
         <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                    src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
             </div>
             <div class="p-5 flex justify-center">
                 <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
@@ -89,7 +102,8 @@
         </div>
         <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                    src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
             </div>
             <div class="p-5 flex justify-center">
                 <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
@@ -97,7 +111,8 @@
         </div>
         <div class="w-52 h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <div class="flex justify-center">
-                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36" src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
+                <img class="flex justify-center mt-4 rounded-t-lg w-36 h-36"
+                    src="{{ asset('assets/home/Rectangle51.svg') }}" alt="" />
             </div>
             <div class="p-5 flex justify-center">
                 <button class="bg-yellow-400 text-white px-7 py-2 rounded-md">Baca Cerita</button>
@@ -193,7 +208,8 @@
         </div>
         <img class="lg:w-96 w-80 h-80 ms-10" src="{{ asset('assets/home/image88.svg') }}" alt="" />
     </div>
-    <h2 class="text-center font-bold text-2xl mx-3 lg:px-80 py-24">Rasanya Gabung Dengan Komunitas GM Official #Sipaling Ngoding
+    <h2 class="text-center font-bold text-2xl mx-3 lg:px-80 py-24">Rasanya Gabung Dengan Komunitas GM Official #Sipaling
+        Ngoding
     </h2>
     <div class="snap-x snap-mandatory flex overflow-x-auto ps-6 gap-11"
         style="scrollbar-width: none; -ms-overflow-style: none;" ontouchstart="this.classList.add('touching')"
@@ -494,92 +510,108 @@
         </div>
     </div>
     <h3 class="py-20 text-center text-2xl font-bold ">Yang Sering Ditanyakan</h3>
-    <div class="relative inline-block w-full px-4 lg:px-32 py-4">
-            <div class="relative inline-block w-full lg:px-32 py-4">
+    <div class="relative inline-block w-full px-4 md:px-4 lg:px-0 py-4">
+        <div class="relative inline-block w-full lg:px-32 py-2">
+            <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
                 <div>
-                    <button type="button" onclick="toggleDropdown('dropdown2')"
-                        class="inline-flex justify-between w-full px-auto text-lg font-medium text-dark" id="menu-button2"
+                    <button type="button" onclick="toggleDropdown('dropdown2', 'icon2')" data-open="false"
+                        class="inline-flex justify-between w-full text-lg font-medium text-start text-dark" id="menu-button2"
                         aria-expanded="false" aria-haspopup="true">
                         Apakah ProSkill bagus ?
-                        <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                            fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
+                        <i id="icon2" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
                     </button>
                 </div>
                 <div id="dropdown2" class="dropdown-content" role="menu" aria-orientation="vertical"
                     aria-labelledby="menu-button2" tabindex="-1">
                     <div class="pt-2" role="none">
-                        <p class="text-gray-700 block px-auto text-sm" role="menuitem">Proskill memiliki tiga fitur utama e-learning untuk belajar Mandiri via video modul belajar dan webinar series bulanan bootcamp untuk belajar intensif fokus pada praktik via Zoom barang ekspor mentoring untuk dapat template dan review CV hingga persiapan wawancara bersama HRD</p>
+                        <p class="text-gray-700 block text-sm" role="menuitem">Proskill memiliki tiga fitur utama
+                            e-learning untuk belajar Mandiri via video modul belajar dan webinar series bulanan bootcamp
+                            untuk belajar intensif fokus pada praktik via Zoom barang ekspor mentoring untuk dapat template
+                            dan review CV hingga persiapan wawancara bersama HRD</p>
                     </div>
                 </div>
             </div>
-            <div class="relative inline-block w-full lg:px-32 py-4">
+        </div>
+
+        <div class="relative inline-block w-full lg:px-32 py-2">
+            <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
                 <div>
-                    <button type="button" onclick="toggleDropdown('dropdown3')"
-                        class="inline-flex justify-between w-full px-auto text-lg font-medium text-dark" id="menu-button3"
+                    <button type="button" onclick="toggleDropdown('dropdown3', 'icon3')" data-open="false"
+                        class="inline-flex justify-between w-full text-lg font-medium text-start text-dark" id="menu-button3"
                         aria-expanded="false" aria-haspopup="true">
                         Apakah ProSkill Berbayar ?
-                        <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                            fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
+                        <i id="icon3" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
                     </button>
                 </div>
                 <div id="dropdown3" class="dropdown-content" role="menu" aria-orientation="vertical"
                     aria-labelledby="menu-button3" tabindex="-1">
                     <div class="pt-2" role="none">
-                        <p class="text-gray-700 block px-auto text-sm" role="menuitem">Ya, setiap peserta akan mendapatkan sertifikat
-                            setelah menyelesaikan kursus.</p>
+                        <p class="text-gray-700 block text-sm" role="menuitem">Ya, setiap peserta akan mendapatkan
+                            sertifikat setelah menyelesaikan kursus.</p>
                     </div>
                 </div>
             </div>
-            <div class="relative inline-block w-full lg:px-32 py-4">
+        </div>
+
+        <div class="relative inline-block w-full lg:px-32 py-2">
+            <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
                 <div>
-                    <button type="button" onclick="toggleDropdown('dropdown1')"
-                        class="inline-flex text-start justify-between w-full px-auto text-lg font-medium text-dark" id="menu-button1"
+                    <button type="button" onclick="toggleDropdown('dropdown4', 'icon4')" data-open="false"
+                        class="inline-flex justify-between w-full text-lg font-medium text-start text-dark" id="menu-button4"
                         aria-expanded="false" aria-haspopup="true">
                         Platform Pembayaran apa saja yang digunakan pada SkillPro ?
-                        <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                        fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd"
-                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
+                        <i id="icon4" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
                     </button>
                 </div>
-                <div id="dropdown1" class="dropdown-content" role="menu" aria-orientation="vertical"
-                    aria-labelledby="menu-button1" tabindex="-1">
+                <div id="dropdown4" class="dropdown-content" role="menu" aria-orientation="vertical"
+                    aria-labelledby="menu-button4" tabindex="-1">
                     <div class="pt-2" role="none">
-                        <p class="text-gray-700 block px-auto text-sm" role="menuitem">Pembayaran bisa menggunakan berbagai
-                            e-wallet, QRIS, transfer bank hingga melalui swalayan terdekat</p>
+                        <p class="text-gray-700 block text-sm" role="menuitem">Pembayaran bisa menggunakan
+                            berbagai e-wallet, QRIS, transfer bank hingga melalui swalayan terdekat</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        function toggleDropdown(dropdownId) {
-            const dropdown = document.getElementById(dropdownId);
-            dropdown.classList.toggle('show');
-            dropdown.style.maxHeight = dropdown.classList.contains('show') ? dropdown.scrollHeight + "px" : "0";
-            dropdown.style.opacity = dropdown.classList.contains('show') ? "1" : "0";
-        }
-    </script>
+
     <style>
         .dropdown-content {
-            transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
             overflow: hidden;
             max-height: 0;
             opacity: 0;
         }
+
         .dropdown-content.show {
             max-height: 200px;
             opacity: 1;
         }
     </style>
+
+    <script>
+        function toggleDropdown(dropdownId, iconId) {
+            const dropdown = document.getElementById(dropdownId);
+            const button = document.querySelector(`[onclick="toggleDropdown('${dropdownId}', '${iconId}')"]`);
+            const icon = document.getElementById(iconId);
+
+            const isOpen = button.getAttribute("data-open") === "true";
+
+            // Toggle dropdown visibility
+            dropdown.classList.toggle("show");
+
+            // Toggle the data-open attribute
+            button.setAttribute("data-open", !isOpen);
+
+            // Change the FontAwesome icon
+            if (isOpen) {
+                icon.classList.remove("fa-chevron-up");
+                icon.classList.add("fa-chevron-down");
+            } else {
+                icon.classList.remove("fa-chevron-down");
+                icon.classList.add("fa-chevron-up");
+            }
+        }
+    </script>
+
+
 @endsection
