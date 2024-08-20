@@ -1,106 +1,105 @@
 @extends('layouts.main')
 @section('container')
-    <!-- header here -->
-    <section class="review w-screen h-auto">
-        <section class=" bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white md:flex">
-            <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-12">
-            <div class="p-4">
-                <p class="text-3xl font-bold lg:text-white text-black lg:w-4/5 w-full max-lg:w-96">
-                    Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.
-                </p>
-                <br class="max-sm:hidden">
-                <p class="lg:w-8/12 lg:text-white text-black">
-                    Tingkatkan peluang diterima magang dan kerja full-time dengan bantuan HRD. Mulai dari Review CV, Template Surat Lamaran, hingga persiapan wawancara.
-                </p>
-                <br class="max-sm:hidden">
-                <button type="button"
-                    class="max-sm:hidden focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2">
-                    Daftar Sekarang
-                </button>
-                <div class="flex items-center mt-2 max-sm:hidden">
-                    <div class="flex space-x-1">
-                        <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full">
-                        <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full">
-                        <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full">
-                        <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full">
-                        <img src="{{ asset('./assets/bootcamp/hero-header.png') }}"
-                            class="h-6 w-6 rounded-full">
-                    </div>
-                    <p class="ml-4 text-white text-md font-semibold">> 10.000 CV Telah Direview</p>
+<!-- header here -->
+<section class="review w-screen h-auto">
+    <section class="bg-white bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex md:flex md:flex-row">
+        <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-12">
+        <div class="p-4">
+            <p class="lg:text-4xl max-sm:text-3xl md:text-3xl md:w-full font-bold lg:text-white md:text-white text-black lg:w-4/5 w-full max-lg:w-96">
+                Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.
+            </p>
+            <br class="max-sm:hidden">
+            <p class="lg:w-8/12 md:w-full lg:text-white text-black md:text-white">
+                Tingkatkan peluang diterima magang dan kerja full-time dengan bantuan HRD. Mulai dari Review CV, Template Surat Lamaran, hingga persiapan wawancara.
+            </p>
+            <br class="max-sm:hidden">
+            <button type="button"
+                class="max-sm:hidden md:hidden focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2">
+                Daftar Sekarang
+            </button>
+            <div class="flex items-center mt-2 max-sm:hidden md:hidden">
+                <div class="flex space-x-1">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
                 </div>
+                <p class="ml-4 text-white text-md font-semibold md:hidden max-sm:hidden">> 10.000 CV Telah Direview</p>
             </div>
-            
-        </section>
+        </div>
+    </section>
+
 
     <!-- card here -->
-    <section class="bg-white lg:bg-red-400 text-white lg:flex">
+    <section class="bg-white text-white lg:flex max-sm:hidden">
         <div class="flex justify-center items-center">
-            <p class="flex text-center lg:px-40 lg:ml-64 text-2xl font-bold text-white">Testimoni Peserta Review CV
+            <p class="flex text-center lg:px-40 lg:ml-64 text-xl font-bold text-white md:text-black">Testimoni Peserta Review CV
                 MySkill</p>
         </div>
     </section>
+    <p class="text-black font-bold text-2xl mt-6 ml-4 md:hidden lg:hidden">Testimoni Peserta Review CV</p>
     <section class="bg-white lg:bg-gradient-to-b from-red-400 to-red-500 text-white lg:flex">
-        <div class="flex mt-4 mb-4 max-sm:overflow-x-auto max-lg:overflow-x-auto no-scrollbar">
-            <div class="bg-white p-2 rounded-lg ml-4 ">
+        <div class="flex mt-4 mb-4 max-sm:overflow-x-auto max-sm:space-x-4 max-lg:overflow-x-auto no-scrollbar ">
+            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
-                    class="mt-2 ml-2 px-14 py-2 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
-                    Sekarang</button>
+                    class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
+                    Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg ml-4">
+            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
-                    class="mt-2 ml-2 px-14 py-2 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
-                    Sekarang</button>
+                    class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
+                    Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg ml-4">
+            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
-                    class="mt-2 ml-2 px-14 py-2 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
-                    Sekarang</button>
+                    class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
+                    Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg ml-4">
+            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
-                    class="mt-2 ml-2 px-14 py-2 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
-                    Sekarang</button>
+                    class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
+                    Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg ml-4">
+            <div class="bg-white p-2 rounded-lg max-sm:min-w-[14rem] ml-4 max-sm:border">
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
-                    class="mt-2 ml-2 px-14 py-2 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
-                    Sekarang</button>
+                    class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
+                    Cerita</button>
             </div>
+
         </div>
     </section>
+
 
     <div class="container mx-auto px-4 py-8">
         <div class="flex flex-wrap -mx-4">
             <div class="w-full max-lg:hidden md:w-1/4 px-4 mb-8 sticky top-11 h-screen">
-                <div class="bg-white rounded-xl shadow-2xl p-6 border border-spacing-2 hover:shadow-lg transition-shadow duration-300">
+                <div class="bg-white rounded-xl shadow-2xl p-6 border border-spacing-2">
                     <h4 class="font-bold text-lg mb-4">Detail</h4>
                     <ul class="space-y-2">
-                        <li class="flex items-center"><svg class="w-5 h-5 text-gray-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6l6 6-6 6"></path></svg><a href="#tentang-program" class="text-gray-600 hover:text-blue-800">Tentang Program</a></li>
-                        <li class="flex items-center"><svg class="w-5 h-5 text-gray-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6l6 6-6 6"></path></svg><a href="#benefit-tambahan" class="text-gray-600 hover:text-blue-800">Benefit Tambahan</a></li>
-                        <li class="flex items-center"><svg class="w-5 h-5 text-gray-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6l6 6-6 6"></path></svg><a href="#untuk-siapa-saja" class="text-gray-600 hover:text-blue-800">Untuk Siapa Saja</a></li>
-                        <li class="flex items-center"><svg class="w-5 h-5 text-gray-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6l6 6-6 6"></path></svg><a href="#harga-program" class="text-gray-600 hover:text-blue-800">Harga Program</a></li>
+                        <li><a href="#tentang-program" class="text-blue-600 hover:text-blue-800">Tentang Program</a>
+                        </li>
+                        <li><a href="#benefit-tambahan" class="text-blue-600 hover:text-blue-800">Benefit Tambahan</a>
+                        </li>
+                        <li><a href="#untuk-siapa-saja" class="text-blue-600 hover:text-blue-800">Untuk Siapa Saja</a>
+                        </li>
+                        <li><a href="#harga-program" class="text-blue-600 hover:text-blue-800">Harga Program</a></li>
                     </ul>
                     <button
-                        class="w-full bg-yellow-500 text-white font-bold py-2 px-4 rounded mt-6 hover:bg-yellow-600 ">
-                        <svg class="w-5 h-5 inline-block mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M13 2L3 14h8v8l10-12h-8V2z"/></svg>
-                        Daftar Sekarang
-                    </button>
+                        class="w-full bg-yellow-500 text-white font-bold py-2 px-4 rounded mt-6 hover:bg-yellow-600">Daftar
+                        Sekarang</button>
                 </div>
             </div>
 
             <div class="w-screen lg:w-3/4 px-4">
                 <div class="bg-white rounded-lg p-6 mb-8">
-                    <p id="tentang-program"
-                        class="text-orange-600 lg:ml-4 mb-2 lg:text-xl max-sm:text-lg max-sm:ml-2 font-bold">
+                    <p id="tentang-bootcamp"
+                        class="text-orange-600 lg:ml-4 lg:text-xl max-sm:text-lg max-sm:ml-2 font-bold md:text-xl md:mb-4">
                         <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Tentang Bootcamp
                     </p>
                     <!-- Gambar di sebelah kiri -->
@@ -148,8 +147,8 @@
                 </div>
 
                 <div class="bg-white rounded-lg p-6 mb-8">
-                    <p id="benefit-tambahan"
-                        class="text-orange-600 lg:mb-4 lg:ml-4 lg:text-xl max-sm:text-lg max-sm:mb-6 max-sm:ml-2 font-bold">
+                    <p id="tentang-bootcamp"
+                        class="text-orange-600 lg:mb-4 lg:ml-4 lg:text-xl max-sm:text-lg max-sm:mb-6 max-sm:ml-2 font-bold md:text-xl md:mb-4">
                         <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Benefit Tambahan
                     </p>
                     <div class="overflow-x-auto no-scrollbar">
@@ -233,7 +232,7 @@
 
                 <div class="bg-white rounded-lg p-6">
                     <p id="untuk-siapa-saja"
-                        class="text-orange-600 lg:ml-4 mb-4 lg:text-xl max-sm:text-lg max-sm:ml-2 max-sm:mb-4 font-bold">
+                        class="text-orange-600 lg:ml-4 lg:text-xl max-sm:text-lg max-sm:ml-2 max-sm:mb-4 font-bold md:text-xl md:mb-4">
                         <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Untuk Siapa Saja
                     </p>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -250,77 +249,80 @@
                     </div>
                 </div>
 
-                <div class="overflow-x-auto mt-10 no-scrollbar">
-                    <p id="harga-program"
-                        class="text-orange-600 lg:ml-10 lg:text-xl max-sm:text-lg max-sm:ml-8 font-bold">
-                        <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Harga Program
-                    </p>
-                    <div class="flex justify-between"> <!-- Added flex container for alignment -->
+
+                <p id="harga-program"
+                    class="text-orange-600 lg:mb-4 lg:ml-10 lg:text-xl max-sm:text-lg max-sm:mb-6 max-sm:ml-2 font-bold md:text-xl md:ml-6">
+                    <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Harga Program
+                </p>
+                <div class="overflow-x-auto mt-2 no-scrollbar">
+                    <div class="flex justify-evenly md:w-[90%] lg:w-96 space-x-4"> <!-- Flex container dengan space-x-4 -->
                         <!-- Card 1 -->
-                        <div class="bg-white rounded-lg shadow-xl p-6 m-4 max-w-xs flex-shrink-0 flex flex-col">
+                        <div class="bg-white rounded-2xl lg:shadow-lg md:ml-2 border md:mt-4 lg:p-6 md:p-6 max-sm:p-2 max-sm:m-2 m-4 md:w-5/6 max-sm:w-5/6 flex-shrink-0 flex flex-col">
                             <!-- Added flex column -->
-                            <h2 class="text-teal-500 text-lg font-semibold mb-4">3x Review CV (2 Bulan)</h2>
+                            <h2 class="text-orange-600 text-lg font-bold mb-4 max-sm:ml-2">3x Review CV (2 Bulan)</h2>
                             <ul class="text-gray-700 mb-6 space-y-2">
-                                <li>🔥 3x Review CV selama 2 Bulan</li>
-                                <li>🔥 20+ Template CV (Indonesia & English)</li>
-                                <li>🔥 10+ Template Surat Lamaran (Indonesia & English)</li>
-                                <li>🔥 10+ Template Email Lamaran</li>
-                                <li>🔥 100+ Powerful Keywords for CV</li>
-                                <li>🔥 Interview Question & Tips</li>
-                                <li>🔥 LinkedIn Guideline</li>
+                                <li class="max-sm:ml-2">🔥 3x Review CV selama 2 Bulan</li>
+                                <li class="max-sm:ml-2">🔥 20+ Template CV (Indonesia & English)</li>
+                                <li class="max-sm:ml-2">🔥 10+ Template Surat Lamaran (Indonesia & English)</li>
+                                <li class="max-sm:ml-2">🔥 10+ Template Email Lamaran</li>
+                                <li class="max-sm:ml-2">🔥 100+ Powerful Keywords for CV</li>
+                                <li class="max-sm:ml-2">🔥 Interview Question & Tips</li>
+                                <li class="max-sm:ml-2">🔥 LinkedIn Guideline</li>
                             </ul>
-                            <p class="text-lg line-through text-gray-400">Rp 150.000</p>
-                            <p class="text-2xl font-bold text-teal-500 mb-4">Rp 35.000</p>
-                            <button class="bg-teal-500 text-white font-semibold py-2 px-4 rounded-lg w-full">
-                                <svg class="w-5 h-5 inline-block mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M13 2L3 14h8v8l10-12h-8V2z"/></svg>
+                            <div class="mb-4">
+                                <p class="text-lg line-through text-gray-400 whitespace-nowrap">Rp 150.000</p>
+                                <p class="text-2xl font-bold text-orange-600 whitespace-nowrap">Rp 35.000</p>
+                            </div>
+                            <button class="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg w-full">
                                 Daftar Sekarang
                             </button>
                         </div>
 
                         <!-- Card 2 -->
-                        <div class="bg-white rounded-lg shadow-xl p-6 m-4 max-w-xs flex-shrink-0 flex flex-col">
+                        <div class="bg-white rounded-2xl lg:shadow-lg md:ml-2 border md:mt-4 lg:p-6 md:p-6 max-sm:p-2 max-sm:m-2 m-4 md:w-5/6 max-sm:w-5/6 flex-shrink-0 flex flex-col">
                             <!-- Added flex column -->
-                            <h2 class="text-teal-500 text-lg font-semibold mb-4">1x Review CV (1 Bulan)</h2>
+                            <h2 class="text-orange-600 text-lg mb-4 font-bold ml-2">1x Review CV (1 Bulan)</h2>
                             <ul class="text-gray-700 mb-6 space-y-2">
-                                <li>🔥 1x Review CV selama 1 Bulan</li>
-                                <li>🔥 20+ Template CV (Indonesia & English)</li>
-                                <li>🔥 10+ Template Surat Lamaran (Indonesia & English)</li>
-                                <li>🔥 10+ Template e-Mail Lamaran Kerja</li>
-                                <li>🔥 100+ Powerful Keywords for CV</li>
+                                <li class="max-sm:ml-2">🔥 1x Review CV selama 1 Bulan</li>
+                                <li class="max-sm:ml-2">🔥 20+ Template CV (Indonesia & English)</li>
+                                <li class="max-sm:ml-2">🔥 10+ Template Surat Lamaran (Indonesia & English)</li>
+                                <li class="max-sm:ml-2">🔥 10+ Template e-Mail Lamaran Kerja</li>
+                                <li class="max-sm:ml-2">🔥 100+ Powerful Keywords for CV</li>
                             </ul>
-                            <p class="text-lg line-through text-gray-400">Rp 50.000</p>
-                            <p class="text-2xl font-bold text-teal-500 mb-4">Rp 15.000</p>
-                            <button class="bg-teal-500 text-white font-semibold py-2 px-4 rounded-lg w-full">
-                                <svg class="w-5 h-5 inline-block mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M13 2L3 14h8v8l10-12h-8V2z"/></svg>
+                            <div class="mb-4">
+                                <p class="text-lg line-through text-gray-400 whitespace-nowrap">Rp 50.000</p>
+                                <p class="text-2xl font-bold text-orange-600 whitespace-nowrap">Rp 15.000</p>
+                            </div>
+                            <button class="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg w-full">
                                 Daftar Sekarang
                             </button>
                         </div>
 
                         <!-- Card 3 -->
-                        <div class="bg-white rounded-lg shadow-xl p-6 m-4 max-w-xs flex-shrink-0 flex flex-col">
+                        <div class="bg-white rounded-2xl lg:shadow-lg md:ml-2 border md:mt-4 lg:p-6 md:p-6 max-sm:p-2 max-sm:m-2 m-4 md:w-5/6 max-sm:w-5/6 flex-shrink-0 flex flex-col">
                             <!-- Added flex column -->
-                            <h2 class="text-teal-500 text-lg font-semibold mb-4">50+ Template Dokumen Lengkap untuk
-                                Apply Kerja (1 Bulan)</h2>
+                            <h2 class="text-orange-600 text-lg mb-4 font-bold ml-2">50+ Template Dokumen Lengkap untuk Apply Kerja (1 Bulan)</h2>
                             <ul class="text-gray-700 mb-6 space-y-2">
-                                <li>🔥 20+ Template CV (Indonesia & English)</li>
-                                <li>🔥 10+ Template Surat Lamaran (Indonesia & English)</li>
-                                <li>🔥 10+ Template Email Lamaran</li>
-                                <li>🔥 100+ Powerful Keyword for CV/LinkedIn</li>
-                                <li>🔥 LinkedIn Guideline</li>
-                                <li>🔥 Interview Question & Tips</li>
+                                <li class="max-sm:ml-2">🔥 20+ Template CV (Indonesia & English)</li>
+                                <li class="max-sm:ml-2">🔥 10+ Template Surat Lamaran (Indonesia & English)</li>
+                                <li class="max-sm:ml-2">🔥 10+ Template Email Lamaran</li>
+                                <li class="max-sm:ml-2">🔥 100+ Powerful Keyword for CV/LinkedIn</li>
+                                <li class="max-sm:ml-2">🔥 LinkedIn Guideline</li>
+                                <li class="max-sm:ml-2">🔥 Interview Question & Tips</li>
                             </ul>
-                            <p class="text-lg line-through text-gray-400">Rp 20.000</p>
-                            <p class="text-2xl font-bold text-teal-500 mb-4">Rp 10.000</p>
-                            <button class="bg-teal-500 text-white font-semibold py-2 px-4 rounded-lg w-full">
-                                <svg class="w-5 h-5 inline-block mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M13 2L3 14h8v8l10-12h-8V2z"/></svg>
+                            <div class="mb-4">
+                                <p class="text-lg line-through text-gray-400 whitespace-nowrap">Rp 20.000</p>
+                                <p class="text-2xl font-bold text-orange-600 whitespace-nowrap">Rp 10.000</p>
+                            </div>
+                            <button class="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg w-full">
                                 Daftar Sekarang
                             </button>
                         </div>
                     </div>
                 </div>
 
-            </div>
 
+            </div>
         </div>
     </div>
 </section>
