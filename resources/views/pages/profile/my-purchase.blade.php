@@ -3,10 +3,10 @@
 
 <div class="flex flex-col md:flex-row gap-4">
     <!-- Sidebar -->
-    <aside class="w-full md:w-1/4 px-4 mb-8 h-full max-sm:relative md:sticky lg:sticky top-11 md:top-0">
+    <aside class="w-full md:w-1/4 px-4 h-full max-sm:relative md:sticky lg:sticky top-5 md:top-0">
         <!-- Sidebar Container -->
         <input type="checkbox" id="toggle-nav" class="hidden" />
-        <div class="bg-white rounded-lg shadow-md mb-4 md:mt-2 overflow-hidden">
+        <div class="bg-white rounded-lg shadow-md md:mt-2 overflow-hidden">
             <!-- Toggle Button -->
             <label for="toggle-nav" class="md:hidden bg-blue-600 text-white font-semibold p-3 rounded-lg shadow-md cursor-pointer flex items-center justify-between">
                 Navigasi Profil
@@ -75,7 +75,7 @@
     </style>
 
     <!-- Content Area -->
-    <div class="w-full md:w-3/4 bg-white shadow-md rounded-lg p-6">
+    <div class="w-full h full md:w-3/4 bg-white  p-6">
         <div class="flex justify-between items-center border-b border-gray-300 pb-2 mb-6 tab-container">
             <div class="flex space-x-4">
                 <a href="#" id="show-elearning" class="text-lg tab active-tab">E-Learning</a>
