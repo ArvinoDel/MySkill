@@ -47,32 +47,33 @@
 
     <h3 class="text-center mt-4 mr-100 text-3xl font-bold mb-4 text-black">MySkill Dipercaya Ratusan Institusi Sebagai
         Learning Partner Karena</h3>
-    <div class="flex flex-wrap justify-center mb-4 space-x-4 space-y-4">
+    <div class="flex flex-wrap justify-center mb-4 space-x-4">
         <!-- Customizable Program -->
         <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center">
-            <img src="./assets/corporate/Customizable.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs">
+            <img src="./assets/corporate/workshop.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs h-32 object-fill">
             <p class="text-md font-bold text-center">Customizable Program</p>
             <p class="text-sm text-center">Dari segi topik materi, online/offline,<br>durasi serta lokasi pelatihan.</p>
         </div>
         <!-- Dibawakan Praktisi Senior -->
         <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center">
-            <img src="./assets/corporate/senior-practicioner.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs">
+            <img src="./assets/corporate/senior-practicioner.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs h-32 object-fill">
             <p class="text-md font-bold text-center">Dibawakan Praktisi Senior</p>
             <p class="text-sm text-center">MySkill menggandeng professional terkurasi dari notable companies.</p>
         </div>
         <!-- Workshop & Practice Driven -->
         <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center">
-            <img src="./assets/corporate/workshop.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs">
+            <img src="./assets/corporate/workshop.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs h-32 object-fill">
             <p class="text-md font-bold text-center">Workshop & Practice Driven</p>
             <p class="text-sm text-center">Pelatihan MySkill mengkombinasikan pemahaman, praktik dan case study.</p>
         </div>
         <!-- Before & After yang Terukur -->
         <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center">
-            <img src="./assets/corporate/measured-impact.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs">
+            <img src="./assets/corporate/measured-impact.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs h-32 object-fill">
             <p class="text-md font-bold text-center">Before & After yang Terukur</p>
             <p class="text-sm text-center">Dari need assessment, test, reporting & konsultasi pasca training.</p>
         </div>
     </div>
+
 
 </div>
 
