@@ -515,8 +515,8 @@
             <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
                 <div>
                     <button type="button" onclick="toggleDropdown('dropdown2', 'icon2')" data-open="false"
-                        class="inline-flex justify-between w-full text-lg font-medium text-start text-dark" id="menu-button2"
-                        aria-expanded="false" aria-haspopup="true">
+                        class="inline-flex justify-between w-full text-lg font-medium text-start text-dark"
+                        id="menu-button2" aria-expanded="false" aria-haspopup="true">
                         Apakah ProSkill bagus ?
                         <i id="icon2" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
                     </button>
@@ -537,8 +537,8 @@
             <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
                 <div>
                     <button type="button" onclick="toggleDropdown('dropdown3', 'icon3')" data-open="false"
-                        class="inline-flex justify-between w-full text-lg font-medium text-start text-dark" id="menu-button3"
-                        aria-expanded="false" aria-haspopup="true">
+                        class="inline-flex justify-between w-full text-lg font-medium text-start text-dark"
+                        id="menu-button3" aria-expanded="false" aria-haspopup="true">
                         Apakah ProSkill Berbayar ?
                         <i id="icon3" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
                     </button>
@@ -557,8 +557,8 @@
             <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
                 <div>
                     <button type="button" onclick="toggleDropdown('dropdown4', 'icon4')" data-open="false"
-                        class="inline-flex justify-between w-full text-lg font-medium text-start text-dark" id="menu-button4"
-                        aria-expanded="false" aria-haspopup="true">
+                        class="inline-flex justify-between w-full text-lg font-medium text-start text-dark"
+                        id="menu-button4" aria-expanded="false" aria-haspopup="true">
                         Platform Pembayaran apa saja yang digunakan pada SkillPro ?
                         <i id="icon4" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
                     </button>
@@ -612,6 +612,4 @@
             }
         }
     </script>
-
-
 @endsection
