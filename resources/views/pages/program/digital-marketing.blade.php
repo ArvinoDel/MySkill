@@ -33,7 +33,7 @@
 </div>
 
 <!-- Modal -->
-<div id="registrationModal" class="fixed inset-0 z-50 hidden overflow-y-auto justify-center">
+<div id="registrationModal" class="fixed inset-0 z-50 hidden justify-center">
     <div class="flex items-center justify-center min-h-screen px-4 py-12 sm:px-0">
         <div class="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75" aria-hidden="true"
             onclick="toggleModal('registrationModal')"></div>
