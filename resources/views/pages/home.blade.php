@@ -6,19 +6,19 @@
             ontouchend="this.classList.remove('touching')" onmousedown="this.classList.add('touching')"
             onmouseup="this.classList.remove('touching')">
             <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-80 md:h-60 w-auto mx-auto">
             </div>
             <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-80 md:h-60 w-auto mx-auto">
             </div>
             <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-80 md:h-60 w-auto mx-auto">
             </div>
             <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-80 md:h-60 w-auto mx-auto">
             </div>
             <div class="snap-always snap-center flex-shrink-0">
-                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-60 w-auto mx-auto">
+                <img src="{{ asset('assets/home/Rectangle.svg') }}" alt="" class="h-32 lg:h-80 md:h-60 w-auto mx-auto">
             </div>
         </div>
         <div>
