@@ -5,7 +5,7 @@
     <section class="bg-white bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex md:flex md:flex-row">
         <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-12">
         <div class="p-4">
-            <p class="lg:text-4xl max-sm:text-3xl md:text-3xl md:w-full font-bold lg:text-white md:text-white text-black lg:w-4/5 w-full max-lg:w-96">
+            <p class="lg:text-4xl max-sm:text-3xl md:text-3xl lg:w-11/12 md:w-full font-bold lg:text-white md:text-white text-black w-full max-lg:w-96">
                 Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.
             </p>
             <br class="max-sm:hidden">
@@ -95,16 +95,16 @@
                 <div class="bg-white rounded-xl shadow-2xl p-6 border border-spacing-2">
                     <h4 class="font-bold text-lg mb-4">Detail</h4>
                     <ul class="space-y-2">
-                        <li><a href="#tentang-bootcamp" class="text-blue-600 hover:text-blue-800">Tentang Program</a>
+                        <li><a href="#tentang-bootcamp" class="text-black hover:text-orange-600"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Tentang Program</a>
                         </li>
-                        <li><a href="#benefit-tambahan" class="text-blue-600 hover:text-blue-800">Benefit Tambahan</a>
+                        <li><a href="#benefit-tambahan" class="text-black hover:text-orange-600"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Benefit Tambahan</a>
                         </li>
-                        <li><a href="#untuk-siapa-saja" class="text-blue-600 hover:text-blue-800">Untuk Siapa Saja</a>
+                        <li><a href="#untuk-siapa-saja" class="text-black hover:text-orange-600"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Untuk Siapa Saja</a>
                         </li>
-                        <li><a href="#harga-program" class="text-blue-600 hover:text-blue-800">Harga Program</a></li>
+                        <li><a href="#harga-program" class="text-black hover:text-orange-600"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Harga Program</a></li>
                     </ul>
                     <button
-                        class="w-full bg-yellow-500 text-white font-bold py-2 px-4 rounded mt-6 hover:bg-yellow-600">Daftar
+                        class="w-full bg-yellow-500 text-white font-bold py-2 px-4 rounded mt-6 hover:bg-yellow-600"> <i class="fas fa-bolt mr-2"></i>Daftar
                         Sekarang</button>
                 </div>
             </div>
@@ -287,6 +287,7 @@
                                 <p class="text-2xl font-bold text-orange-600 whitespace-nowrap">Rp 35.000</p>
                             </div>
                             <button class="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg w-full">
+
                                 Daftar Sekarang
                             </button>
                         </div>
