@@ -3,7 +3,7 @@
         <img class="max-w-xs max-md:w-20 h-auto" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
 
     </a>
-    <div class="lg:hidden ">
+    <div class="lg:hidden md:mx-20">
         <button class="navbar-burger flex items-center p-3 focus:outline-none hover:text-white focus:text-gray-900">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd"
@@ -45,7 +45,7 @@
             </a>
         </li>
     </ul>
-    <div class=" max-md:hidden space-x-2">
+    <div class="max- hidden lg:block space-x-2">
         <a href="/login">
             <button type="button"
                 class="text-white hover:text-white border border-pink-400 hover:bg-pink-500 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-pink-300 dark:text-white dark:hover:text-white dark:hover:bg-pink-400 dark:focus:ring-pink-900">Login</button>
@@ -56,7 +56,6 @@
                 class="focus:outline-none text-white bg-pink-500 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-600 dark:focus:ring-pink-500">Sign
                 Up</button>
         </a>
-
     </div>
 </nav>
 <div class="navbar-menu relative z-50 hidden">
@@ -113,14 +112,14 @@
             </div>
         </div>
         <div class="mt-auto flex justify-end">
-            <button type="button"
+            <a href="/login" type="button"
                 class="text-pink-500 hover:text-pink-500 border border-pink-400 hover:bg-pink-500 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-pink-300">
                 Login
-            </button>
-            <button type="button"
+            </a>
+            <a href="/register" type="button"
                 class="focus:outline-none text-white bg-pink-500 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
                 Sign Up
-            </button>
+            </a>
         </div>
 
     </nav>
