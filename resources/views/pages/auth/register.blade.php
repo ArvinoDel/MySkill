@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="flex flex-row-reverse w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg lg:max-w-3xl">
+    <div class="flex flex-row-reverse w-full max-w-xl mx-auto overflow-hidden bg-white rounded-lg lg:max-w-3xl">
         <div class="hidden lg:flex lg:w-1/2 items-center ms-10 justify-center image-container">
             <img class="w-full h-full object-contain" src="{{ asset('assets/regis.svg') }}">
         </div>
@@ -33,7 +33,7 @@
                 <label class="block mb-2 text-sm font-medium text-gray-600 :text-gray-200"
                     for="LoggingEmailAddress">Email Address</label>
                 <input id="LoggingEmailAddress"
-                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
+                    class="block w-full px-auto py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
                     type="email" />
             </div>
 
@@ -43,7 +43,7 @@
                         for="loggingPassword">Password</label>
                 </div>
                 <input id="loggingPassword"
-                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
+                    class="block w-full px-auto py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
                     type="password" />
             </div>
 
@@ -54,7 +54,7 @@
                         for="loggingPassword">Confirm Password</label>
                 </div>
                 <input id="loggingPassword"
-                    class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
+                    class="block w-full px-auto py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
                     type="password" />
             </div>
 
@@ -94,7 +94,7 @@
 
             <a href="#"
                 class="flex items-center justify-center mt-4 text-gray-600 transition-colors duration-300 transform border rounded-lg  ">
-                <div class="px-4 py-2">
+                <div class="px-auto py-2">
                     <svg class="w-6 h-6" viewBox="0 0 40 40">
                         <path
                             d="M36.3425 16.7358H35V16.6667H20V23.3333H29.4192C28.045 27.2142 24.3525 30 20 30C14.4775 30 10 25.5225 10 20C10 14.4775 14.4775 9.99999 20 9.99999C22.5492 9.99999 24.8683 10.9617 26.6342 12.5325L31.3483 7.81833C28.3717 5.04416 24.39 3.33333 20 3.33333C10.7958 3.33333 3.33335 10.7958 3.33335 20C3.33335 29.2042 10.7958 36.6667 20 36.6667C29.2042 36.6667 36.6667 29.2042 36.6667 20C36.6667 18.8825 36.5517 17.7917 36.3425 16.7358Z"
@@ -110,7 +110,7 @@
                             fill="#1976D2" />
                     </svg>
                 </div>
-                <span class="w-5/6 px-4 py-3 font-bold text-center">Sign in with Google</span>
+                <span class="w-5/6 px-auto py-3 font-bold text-center">Sign in with Google</span>
             </a>
 
             <label class="mt-3 text-sm font-light text-gray-900 text-center block" htmlFor="check">
