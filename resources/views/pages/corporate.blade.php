@@ -2,7 +2,7 @@
 @section('container')
 <div class="corporate">
     <section
-        class="flex flex-col lg:flex-row h-auto rounded-b-3xl bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white w-screen">
+        class="flex flex-col lg:flex-row h-auto rounded-b-3xl bg-gradient-to-b from-orange-400 to-red-400 text-white w-screen">
         <!-- Adjust margin and padding for the image container -->
         <div class="flex justify-center lg:justify-start mb-4 lg:mb-0 lg:ml-16 mt-4 lg:mt-0">
             <img src="{{ asset('./assets/corporate/corporate.webp') }}" alt="Corporate"

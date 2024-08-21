@@ -2,7 +2,7 @@
 @section('container')
     <section class="e-learning w-screen">
         <!-- Section 1: Hero -->
-        <section class="bg-white lg:bg-gradient-to-b from-orange-400 to-red-500 p-4 md:p-8">
+        <section class="bg-gradient-to-b from-orange-400 to-red-500 p-4 md:p-8">
             <div class="container mx-auto">
                 <div class="flex flex-col md:flex-col lg:flex-row items-center">
                     <img src="{{ asset('assets/e-learning/header.webp') }}" alt="Woman with laptop"
@@ -838,8 +838,8 @@
 
         <!-- akses konten premium -->
         <section class="w-full h-auto rounded-b-3xl bg-white lg:flex items-center mt-12 mb-14 p-4">
-            <img src="{{ asset('./assets/bootcamp/pembelajaran.png') }}" class="h-72 w-100 lg:ml-20 py-4">
-            <div class="ml-4">
+            <img src="{{ asset('./assets/bootcamp/pembelajaran.png') }}" class="h-72 w-100 lg:ml-20 mx-auto py-4">
+            <div class="mx-auto">
                 <p class="text-4xl font-bold w-4/5 ml-4">E-learning & Training Untuk Perusahaan</p>
                 <br>
                 <p class="w-4/5 ml-4">Miliki akses ratusan konten elearning MySkill serta dukungan corporate training untuk

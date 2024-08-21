@@ -16,7 +16,7 @@
 </style>
 <section class="bootcamp-program w-screen">
     <div class="bootcamp w-screen">
-        <section class="w-full h-auto bg-white lg:bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex max-sm:text-black max-sm:bg-white">
+        <section class="w-full h-auto bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex max-sm:text-black max-sm:bg-white">
             <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="lg:h-72 w-auto lg:ml-16 py-2 max-sm:h-48 max-sm:w-12 max-sm:mx-auto max-sm:my-4m md:mx-auto md:block md:w-96">
             <div class="lg:ml-4 max-sm:text-black max-sm:w-full max-sm:text-center max-sm:mx-auto max-sm:py-4">
                 <p class="text-4xl font-bold w-4/5 max-sm:text-xl max-sm:w-full max-sm:mx-auto lg:text-white md:ml-6">Bootcamp yang Memberi Hasil. Fokus Praktik & Portfolio.</p>
@@ -270,8 +270,8 @@
 
     <!-- akses konten premium -->
     <section class="w-full h-auto rounded-b-3xl bg-white lg:flex items-center mt-12 mb-14 p-4">
-        <img src="{{ asset('./assets/bootcamp/pembelajaran.png') }}" class="h-72 w-100 lg:ml-20 py-4">
-        <div class="ml-4">
+        <img src="{{ asset('./assets/bootcamp/pembelajaran.png') }}" class="h-72 w-100 lg:ml-20 mx-auto py-4">
+        <div class="mx-auto">
             <p class="text-4xl font-bold w-4/5 ml-4">E-learning & Training Untuk Perusahaan</p>
             <br>
             <p class="w-4/5 ml-4">Miliki akses ratusan konten elearning MySkill serta dukungan corporate training untuk
