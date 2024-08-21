@@ -21,7 +21,7 @@
             <div class="lg:ml-4 max-sm:text-black max-sm:w-full max-sm:text-center max-sm:mx-auto max-sm:py-4">
                 <p class="text-4xl font-bold w-4/5 max-sm:text-xl max-sm:w-full max-sm:mx-auto lg:text-white md:ml-6">Bootcamp yang Memberi Hasil. Fokus Praktik & Portfolio.</p>
                 <br>
-                <p class="w-8/12 max-sm:w-full max-sm:text-sm max-sm:mx-auto md:text-black md:ml-6">Full Online dan Dipandu oleh Praktisi Senior. Praktikal, lebih dari sekadar Webinar. Fokus Bantu Kembangkan Skill dan Portfolio Ribuan Alumni.</p>
+                <p class="w-8/12 max-sm:w-full max-sm:text-sm max-sm:mx-auto md:text-white md:ml-6">Full Online dan Dipandu oleh Praktisi Senior. Praktikal, lebih dari sekadar Webinar. Fokus Bantu Kembangkan Skill dan Portfolio Ribuan Alumni.</p>
                 <br>
                 <button type="button" class="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-1.5 max-sm:w-4/5 max-sm:mx-auto md:ml-6">Lihat Program Pilihan</button>
                 <div class="flex items-center mt-2 max-sm:flex-col max-sm:items-center">
