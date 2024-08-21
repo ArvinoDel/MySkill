@@ -12,23 +12,20 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('pages.home');
 });
-
+//cv routes
 Route::get('/review', function () {
-    return view('pages.review');
+    return view('pages.cv.review');
 });
 
+//Corporate Routes
 Route::get('/corporate-service', function () {
-    return view('pages.corporate');
-});
-
-Route::get('/e-learning', function () {
-    return view('pages.e-learning');
+    return view('pages.corporate.corporate');
 });
 Route::get('/corporate-training', function () {
-    return view('pages.corporate-training');
+    return view('pages.corporate.corporate-training');
 });
 Route::get('/experience', function () {
-    return view('pages.experience');
+    return view('pages.corporate.experience');
 });
 
 // folder bootcamp
@@ -41,32 +38,29 @@ Route::get('/program/digital-marketing', function () {
 });
 // end routes bootcamp
 
-
+// e learning Routes
+Route::get('/e-learning', function () {
+    return view('pages.e-learning.e-learning');
+});
 Route::get('/payment', function () {
-    return view('pages.payment');
+    return view('pages.e-learning.payment');
 });
-
-
-Route::get('/elearning', function () {
-    return view('pages.elearning');
-});
-
-Route::get('/my-profile', function () {
-    return view('pages.profile.my-profile');
-});
-
 
 
 
 // login or register routes
 Route::get('/login', function () {
-    return view('pages.login');
+    return view('pages.auth.login');
 });
 
 Route::get('/register', function () {
-    return view('pages.register');
+    return view('pages.auth.register');
 });
 
+// Profile Routes
+Route::get('/my-profile', function () {
+    return view('pages.profile.my-profile');
+});
 Route::get('/profile/my-purchase', function () {
     return view('pages.profile.my-purchase');
 });
