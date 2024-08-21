@@ -14,10 +14,7 @@
                 class="focus:outline-none text-white bg-gray-900 font-medium rounded-full text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">GMT
                 for Business</button>
             <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
-                Layanan Pengembangan Skill dan
-            </p>
-            <p class="text-xl lg:text-4xl font-bold mb-2 lg:mb-4">
-                Peningkatan Performa Karyawan
+                Layanan Pengembangan Skill dan Peningkatan Performa Karyawan
             </p>
             <p class="lg:w-8/12 lg:text-white text-black">
                 Jalankan corporate training yang disesuaikan dengan kebutuhan perusahaan, maupun akses Performance Management Software dan E-learning MySkill for Business.

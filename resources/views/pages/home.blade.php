@@ -428,40 +428,40 @@
             <img class="flex justify-center p-8" src="{{ asset('assets/home/east.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-16 mt-4 w-16" src="{{ asset('assets/home/aws.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-4 w-16" src="{{ asset('assets/home/aws.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mt-4 mx-14 w-20" src="{{ asset('assets/home/linkedin.svg') }}"
+            <img class="flex justify-center my-4 mx-auto w-20" src="{{ asset('assets/home/linkedin.svg') }}"
                 alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-16 mt-4 w-16" src="{{ asset('assets/home/kominfo.svg') }}"
+            <img class="flex justify-center mx-auto mt-4 w-16" src="{{ asset('assets/home/kominfo.svg') }}"
                 alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-3 w-40" src="{{ asset('assets/home/startup.svg') }}"
+            <img class="flex justify-center mx-auto mt-3 w-40" src="{{ asset('assets/home/startup.svg') }}"
                 alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
     </div>
     <h3 class="py-16 text-center text-2xl font-bold">Most Featured in</h3>
@@ -470,43 +470,43 @@
         ontouchend="this.classList.remove('touching')" onmousedown="this.classList.add('touching')"
         onmouseup="this.classList.remove('touching')">
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-12 mt-3 w-20" src="{{ asset('assets/home/techinasia.svg') }}"
+            <img class="flex justify-center mx-auto mt-3 w-20" src="{{ asset('assets/home/techinasia.svg') }}"
                 alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-6 mt-9 w-36" src="{{ asset('assets/home/idn.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-9 w-36" src="{{ asset('assets/home/idn.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mt-6 mx-4 w-40" src="{{ asset('assets/home/cnbc.svg') }}" alt="" />
+            <img class="flex justify-center mt-6 mx-auto w-40" src="{{ asset('assets/home/cnbc.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-4 mt-10 w-40" src="{{ asset('assets/home/technode.svg') }}"
+            <img class="flex justify-center mx-auto mt-10 w-40" src="{{ asset('assets/home/technode.svg') }}"
                 alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-3 w-40" src="{{ asset('assets/home/startup.svg') }}"
+            <img class="flex justify-center mx-auto mt-3 w-40" src="{{ asset('assets/home/startup.svg') }}"
                 alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
         <div class="snap-always snap-center flex-shrink-0 w-48 h-24 border border-black rounded-xl">
-            <img class="flex justify-center mx-5 mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
+            <img class="flex justify-center mx-auto mt-2" src="{{ asset('assets/home/asia.svg') }}" alt="" />
         </div>
     </div>
     <h3 class="py-20 text-center text-2xl font-bold ">Yang Sering Ditanyakan</h3>
@@ -576,7 +576,7 @@
 
     <style>
         .dropdown-content {
-            transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
+            transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
             overflow: hidden;
             max-height: 0;
             opacity: 0;
@@ -584,7 +584,7 @@
 
         .dropdown-content.show {
             max-height: 200px;
-            opacity: 1;
+            opacity: 1.2;
         }
     </style>
 
