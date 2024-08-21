@@ -1,7 +1,5 @@
 @extends('layouts.main')
 @section('container')
-
-<!-- rapsodi -->
 <div class="digital-marketing">
     <section
         class="w-full h-auto bg-white bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex max-sm:text-black max-sm:bg-white lg:mb-4">
@@ -33,13 +31,11 @@
         </div>
     </section>
 </div>
-
 <!-- Modal -->
 <div id="registrationModal" class="fixed inset-0 z-50 hidden justify-center">
     <div class="flex items-center justify-center min-h-screen px-4 py-12 sm:px-0">
         <div class="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75" aria-hidden="true"
             onclick="toggleModal('registrationModal')"></div>
-
         <div class="z-50 w-full max-w-md p-6 overflow-hidden transition-all transform bg-white rounded-lg shadow-xl">
             <div class="flex items-center justify-between">
                 <h3 class="text-lg font-medium text-gray-900">Pendaftaran Bootcamp</h3>
@@ -100,7 +96,6 @@
         </div>
     </div>
 </div>
-
 <div class="flex ">
     <!-- Sidebar -->
     <div class="w-64 md:w-1/4 px-4 pt-6 mb-8 sticky top-11 h-full max-sm:hidden lg:block md:hidden">
@@ -137,10 +132,28 @@
                     <a href="#sistem" class="text-black font-medium ml-2">Sistem Belajar</a>
                 </li>
                 <li class="flex items-center hover:bg-gray-300">
-                    <i class="fas fa-chevron-right text-black">href="#faq" class="text-black font-medium ml-2">FAQ</a>
+                    <i class="fas fa-chevron-right text-black"></i>
+                    <a href="#faq" class="text-black font-medium ml-2">FAQ</a>
                 </li>
                 <li class="flex items-center hover:bg-gray-300">
                     <i class="fas fa-chevron-right text-black"></i>
+
+
+
+
+
+
+
+          Expand Down
+
+
+
+
+
+          Expand Up
+
+    @@ -677,7 +676,7 @@ class="lg:mt-2 w-full md:w-11/12 md:ml-8 md:p-2 focus:outline-none text-white bg
+
                     <a href="#komunitas" class="text-black font-medium ml-2">Komunitas</a>
                 </li>
                 <!-- Tambahkan item lainnya di sini -->
@@ -155,7 +168,6 @@
             </button>
         </div>
     </div>
-
     <!-- Main Content -->
     <div class="flex-1 lg:p-8 max-sm:p-2">
         <p id="tentang-bootcamp" class="text-orange-600 lg:ml-4 lg:text-xl max-sm:text-base max-sm:ml-2 font-bold md:text-xl md:mt-4"><i
@@ -230,7 +242,6 @@
                 class="lg:h-80 rounded-3xl w-auto lg:mt-4 lg:ml-2 py-2 max-sm:h-28 max-sm:w-20 max-sm:mx-auto max-sm:my-4 object-cover md:p-4">
         </div>
         <!-- prospek karir end -->
-
         <!-- yang bisa kamu dapatkan start -->
         <p id="dapatkan" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 font-bold md:text-xl"><i class="fas fa-chevron-right text-orange-600 mr-3 md:ml-6 md:text-xl"></i>Apa Yang Bisa Kamu Dapatkan</p>
         <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Upgrade skill mulai dari memahami konsep, analisa studi kasus, hingga praktik untuk mengoptimalkannya. Kuasai berbagai skill dan tools di bidang Digital Marketing untuk karier maupun bisnis kamu.
@@ -248,7 +259,6 @@
             </div>
         </div>
         <!-- yang bisa kamu dapatkan end -->
-
         <!-- benefit start -->
         <p id="benefit" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 max-sm:mt-2 font-bold md:text-xl"><i class="fas fa-chevron-right text-orange-600 mr-3 md:ml-6"></i>Benefit Bootcamp</p>
         <p class="lg:mt-2 lg:mb-1 max-sm:ml-2 max-sm:mt-2 md:text-base md:ml-6 md:mt-2"><b>Materi Kelas:</b></p>
@@ -282,11 +292,9 @@
             ✅ Akses Ratusan Video eLearning dengan ratusan sertifikat yang bisa didapatkan.</p>
         <img src="{{ asset('./assets/bootcamp/sertifikat.png') }}" class="lg:h-72 md:h-72 md:p-4 rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
         <!-- benefit end -->
-
         <!-- peserta bootcamp -->
         <p id="peserta" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold md:text-xl md:mb-4 md:mt-4"><i class="fas fa-chevron-right text-orange-600 mr-3 md:ml-6 "></i>Peserta Bootcamp</p>
         <img src="{{ asset('./assets/bootcamp/peserta.png') }}" class="lg:h-80 sm:h-auto rounded-3xl w-auto lg:mt-4 lg:ml-8 py-2 max-sm:h-28 max-sm:w-12 max-sm:mx-auto max-sm:my-4 object-cover">
-
         <!-- Kurikulum & Silabus -->
         <p id="kurikulum" class="text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold md:text-xl"><i class="fas fa-chevron-right text-orange-600 mr-3 md:ml-6"></i>Kurikulum & Silabus</p>
         <b class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Dirancang & Belajar Langsung Dari Yang Terbaik!</b>
@@ -308,15 +316,12 @@
             📝 Aldi Dwi Putra - CRM Strategy and Planning at Sayurbox <br>
             📝 Raudah Sabila, Senior Talent Acquisition Specialist at Bukalapak <br>
         </p>
-
         <!-- jadwal kelas -->
         <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6"><b>Jadwal Kelas:</b></p>
         <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">✅ Batch 25: 5 Juni - 22 Juli 2024</p>
         <b class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Sesi On Boarding: Senin, 3 Juni 2024</b>
-
         <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">✅ Batch 26: 7 Agustus - 20 September 2024</p>
         <b class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Sesi On Boarding: Senin, 5 Agustus 2024</b>
-
         <p class="lg:mt-4 max-sm:mt-6 ml-2 max-sm:mb-6 lg:text-base max-sm:text-sm md:ml-6"><b>
                 📌Notes: <br>
                 Sesi On boarding ini bersifat opsional dan ditujukan untuk mengenal satu sama lain dan program dengan
@@ -325,12 +330,10 @@
                 Jika terlewat, tetap bisa mendaftar bootcamp hingga tanggal penutupan, dan melihat recording maupun
                 panduan bootcamp yang diberikan.
             </b></p>
-
         <p class="lg:mt-6 lg:mb-4 sm:mt-8 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6 md:mb-6"><b>Pelaksanaan Kelas :</b><br>
             Setiap hari Senin, Rabu dan Jumat.<br>
             Pukul 19.30-21.30 WIB
         </p>
-
         <div>
             <!-- Dropdown 1 -->
             <div class="mb-2 border border-gray-300 rounded lg:mt-2 max-sm:mt-6 md:m-4">
@@ -348,7 +351,6 @@
                         maupun panduan bootcamp yang diberikan.</p>
                 </div>
             </div>
-
             <!-- Dropdown 2 -->
             <div class="border border-gray-300 rounded mb-2 md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
@@ -361,7 +363,6 @@
                         > Mengenal Marketing Mix (4P & 4C Matrix)</p>
                 </div>
             </div>
-
             <!-- Dropdown 3 -->
             <div class="border border-gray-300 rounded md:m-4">
                 <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center"
@@ -497,11 +498,9 @@
                 </div>
             </div>
         </div>
-
         <!-- sistem belajar -->
         <p id="sistem" class="text-orange-600 max-sm:mt-6 max-sm:mb-3 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-4 md:ml-6 md:text-xl md:mb-2"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Sistem Belajar</p>
         <img class="MuiBox-root mui-style-nj2azm md:p-4" src="https://imagedelivery.net/I_EC-Jc9ZMucGPqxWez19A/e50f0b44-5d3b-42c1-dee3-500b93c71e00/public" alt="Sistem Belajar" loading="lazy">
-
         <!-- FAQ -->
         <p id="faq" class="text-orange-600 max-sm:mt-6 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-1 md:ml-6 md:text-xl"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>FAQ</p>
         <p class="lg:mt-4 sm:mt-2 ml-2 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Masih bingung? Tenang :)</p>
@@ -563,7 +562,6 @@
                 Kamu akan diminta mempraktikkan semua materi yang telah dipelajari, dengan cara menghandle secara langsung sebuah bisnis UMKM. Kamu akan berperan aktif dalam membuat strategi, eksekusi, hingga evaluasi pada berbagai aspek.
             </div>
         </div>
-
         <!-- Komunitas -->
         <p id="komunitas" class="md:ml-6 md:text-xl text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 max-sm:mt-6 font-bold lg:mb-1"><i class="fas fa-chevron-right text-orange-600 mr-3"></i>Komunitas</p>
         <p class="md:ml-6 md:mb-4 lg:mt-4 sm:mt-2 ml-2 max-sm:mb-4 lg:text-base max-sm:text-sm md:w-11/12">Bukan sekadar join Bootcamp. Tapi, Komunitas berkembang bersama. Gabung grup untuk berdiskusi, berbagi info loker dan freelance, hingga kumpul offline dan networking. Bangun support system bersama yuk!</p>
@@ -577,7 +575,6 @@
             </div>
         </div>
         <!-- komunitas end -->
-
         <!-- daftar sekarang -->
         <p class="md:ml-6 md:text-xl text-orange-600 lg:text-xl max-sm:text-base max-sm:ml-2 lg:mt-6 font-bold lg:mb-1 max-sm:mt-4"><i
                 class="fas fa-chevron-right text-orange-600 mr-3"></i>Daftar Sekarang</p>
@@ -586,19 +583,14 @@
             class="lg:mt-2 w-full md:w-11/12 md:ml-8 md:p-2 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm lg:px-5 lg:py-3 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-2 max-sm:mt-1 max-sm:w-4/5 max-sm:mx-auto">
             <i class="fas fa-bolt"></i> Daftar Sekarang
         </button>
-
-
     </div>
 </div>
-
 <div class="w-full flex justify-center">
     <hr class="mb-6 mt-2 w-11/12 border-1 ">
 </div>
-
 <!-- second content -->
 <p class="font-semibold text-3xl lg:ml-12 max-sm:ml-4 md:ml-6">Ikuti Juga Bootcamp Lainnya</p>
 <p class="lg:mt-1 sm:mt-2 lg:ml-12 max-sm:ml-4 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Lanjut pelajari skill bersama tutor terbaik berpengalaman di bidangnya.</p>
-
 <!-- scrollbar horizontal 3 -->
 <div name="mb-8" class="overflow-x-auto no-scrollbar">
     <div class="flex space-x-4 w-max lg:px-14 max-sm:px-4 py-3">
@@ -678,25 +670,33 @@
             </div>
         </div>
         <!-- Item More -->
-        <a href="/bootcamp">
+        <a href="/program/bootcamp">
             <div class="bg-gray-100 rounded-lg shadow-md lg:p-4 lg:w-64 max-sm:w-40 flex flex-col justify-center items-center md:p-4">
                 <p class="lg:text-4xl max-sm:text-center max-sm:text-2xl md:text-6xl text-gray-400 mb-4">+</p>
                 <p class="text-gray-500 max-sm:text-center">lihat bootcamp lainnya...</p>
+
+
+
+
+
+
+
+          Expand Down
+
+
+
             </div>
         </a>
     </div>
 </div>
-
 <div class="w-full flex justify-center mt-8">
     <hr class="mb-6 mt-4 w-11/12 border-1 ">
 </div>
-
 <!-- script dropdown -->
 <script>
     function toggleDropdown(id, button) {
         const dropdown = document.getElementById(id);
         const isHidden = dropdown.classList.contains('hidden');
-
         if (isHidden) {
             dropdown.classList.remove('hidden');
             setTimeout(() => {
@@ -712,13 +712,11 @@
                 once: true
             });
         }
-
         const arrow = button.querySelector('i');
         arrow.classList.toggle('fa-chevron-down');
         arrow.classList.toggle('fa-chevron-up');
     }
 </script>
-
 <script>
     function toggleModal(modalID) {
         const modal = document.getElementById(modalID);
