@@ -29,11 +29,11 @@ Route::get('/experience', function () {
 });
 
 // folder bootcamp
-Route::get('/program/bootcamp', function () {
+Route::get('/bootcamp', function () {
     return view('pages.program.bootcamp');
 });
 
-Route::get('/program/digital-marketing', function () {
+Route::get('/bootcamp/digital-marketing', function () {
     return view('pages.program.digital-marketing');
 });
 // end routes bootcamp

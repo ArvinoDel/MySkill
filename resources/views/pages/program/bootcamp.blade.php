@@ -93,7 +93,7 @@
     <!-- end search bar -->
 
     <!-- start grid -->
-    <a href="digital-marketing">
+    <a href="/bootcamp/digital-marketing">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-14">
             <div class="bg-white rounded-lg shadow-md p-4">
                 <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
