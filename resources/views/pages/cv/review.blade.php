@@ -9,24 +9,24 @@
                 Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.
             </p>
             <br class="max-sm:hidden">
-            <p class="lg:w-8/12 md:w-full lg:text-white text-black md:text-white">
+            <p class="lg:w-8/12 md:w-full lg:mb-4 lg:text-white text-black md:text-white">
                 Tingkatkan peluang diterima magang dan kerja full-time dengan bantuan HRD. Mulai dari Review CV, Template Surat Lamaran, hingga persiapan wawancara.
             </p>
-            <br class="max-sm:hidden">
             <button type="button"
-                class="max-sm:hidden md:hidden focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2">
+                class="max-sm:hidden md:hidden lg:block focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2">
                 Daftar Sekarang
             </button>
-            <div class="flex items-center mt-2 max-sm:hidden md:hidden">
+            <div class="flex items-center mt-2 max-sm:hidden md:hidden lg:flex lg:justify-start">
                 <div class="flex space-x-1">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
-                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:hidden">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
+                    <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
                 </div>
-                <p class="ml-4 text-white text-md font-semibold md:hidden max-sm:hidden">> 10.000 CV Telah Direview</p>
+                <p class="ml-4 text-white text-md font-semibold">> 10.000 CV Telah Direview</p>
             </div>
+
         </div>
     </section>
 
@@ -34,7 +34,7 @@
     <!-- card here -->
     <section class="bg-red-400 text-white lg:flex max-sm:hidden">
         <div class="flex justify-center items-center w-full">
-            <p class="text-center text-xl font-bold text-white">Testimoni Peserta Review CV
+            <p class="text-center text-2xl font-bold text-white">Testimoni Peserta Review CV
                 MySkill</p>
         </div>
     </section>

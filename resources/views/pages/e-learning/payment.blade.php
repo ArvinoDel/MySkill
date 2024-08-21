@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('container')
-    <div class="payment bg-gray-50 font-inter">
+    <div class="payment bg-gray-50 font-inter w-screen">
         <div class="max-w-5xl mx-auto py-10 px-4 md:px-10">
             <!-- Main Container -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
