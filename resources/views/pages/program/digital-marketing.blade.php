@@ -1,5 +1,7 @@
 @extends('layouts.main')
 @section('container')
+
+<!-- rapsodi -->
 <div class="digital-marketing">
     <section
         class="w-full h-auto bg-white bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex max-sm:text-black max-sm:bg-white lg:mb-4">
