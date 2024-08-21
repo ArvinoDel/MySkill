@@ -135,8 +135,7 @@
                     <a href="#sistem" class="text-black font-medium ml-2">Sistem Belajar</a>
                 </li>
                 <li class="flex items-center hover:bg-gray-300">
-                    <i class="fas fa-chevron-right text-black"></i>
-                    <a href="#faq" class="text-black font-medium ml-2">FAQ</a>
+                    <i class="fas fa-chevron-right text-black">href="#faq" class="text-black font-medium ml-2">FAQ</a>
                 </li>
                 <li class="flex items-center hover:bg-gray-300">
                     <i class="fas fa-chevron-right text-black"></i>
@@ -677,7 +676,7 @@
             </div>
         </div>
         <!-- Item More -->
-        <a href="/program/bootcamp">
+        <a href="/bootcamp">
             <div class="bg-gray-100 rounded-lg shadow-md lg:p-4 lg:w-64 max-sm:w-40 flex flex-col justify-center items-center md:p-4">
                 <p class="lg:text-4xl max-sm:text-center max-sm:text-2xl md:text-6xl text-gray-400 mb-4">+</p>
                 <p class="text-gray-500 max-sm:text-center">lihat bootcamp lainnya...</p>
