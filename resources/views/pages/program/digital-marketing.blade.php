@@ -8,7 +8,7 @@
         <div class="lg:ml-4 max-sm:text-black max-sm:w-full max-sm:text-center max-sm:mx-auto max-sm:py-4"
             style="width: 100%;">
             <p
-                class="lg:ml-4 md:ml-4 lg:text-white md:text-black lg:text-4xl font-bold lg:w-4/5 max-sm:text-2xl max-sm:text-left max-sm:w-full max-sm:px-3 lg:mt-4">
+                class="lg:ml-4 md:ml-4 lg:text-white md:text-white lg:text-4xl font-bold lg:w-4/5 max-sm:text-2xl max-sm:text-left max-sm:w-full max-sm:px-3 lg:mt-4">
                 DIGITAL MARKETING: FULLSTACK INTENSIVE BOOTCAMP</p>
             <br>
             <div class="lg:w-48 lg:h-36 lg:ml-4 md:w-56 md:h-34 md:ml-4 bg-white border border-gray-400 lg:rounded-2xl md:rounded-xl shadow relative">
@@ -137,23 +137,6 @@
                 </li>
                 <li class="flex items-center hover:bg-gray-300">
                     <i class="fas fa-chevron-right text-black"></i>
-
-
-
-
-
-
-
-          Expand Down
-
-
-
-
-
-          Expand Up
-
-    @@ -677,7 +676,7 @@ class="lg:mt-2 w-full md:w-11/12 md:ml-8 md:p-2 focus:outline-none text-white bg
-
                     <a href="#komunitas" class="text-black font-medium ml-2">Komunitas</a>
                 </li>
                 <!-- Tambahkan item lainnya di sini -->
@@ -593,9 +576,9 @@
 <p class="lg:mt-1 sm:mt-2 lg:ml-12 max-sm:ml-4 max-sm:mb-1 lg:text-base max-sm:text-sm md:ml-6">Lanjut pelajari skill bersama tutor terbaik berpengalaman di bidangnya.</p>
 <!-- scrollbar horizontal 3 -->
 <div name="mb-8" class="overflow-x-auto no-scrollbar">
-    <div class="flex space-x-4 w-max lg:px-14 max-sm:px-4 py-3">
+    <div class="flex space-x-4 w-max lg:px-12 max-sm:px-4 py-3">
         <!-- Item Bootcamp 1 -->
-        <div class="bg-white rounded-lg shadow-md lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:ml-6 md:p-4">
+        <div class="bg-white rounded-lg shadow-md lg:ml-0 lg:p-4 max-sm:p-2 max-sm:w-40 lg:w-64 flex flex-col justify-between md:ml-6 md:p-4">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="h-34 w-full rounded-sm">
             <p class="mt-2 text-gray-700 font-semibold font-sans lg:text-lg max-sm:text-base max-sm:truncate">DIGITAL MARKETING : FULLSTACK INTENSIVE</p>
             <div class="flex flex-col mt-2 text-gray-500">
@@ -605,7 +588,7 @@
                 </div>
                 <div class="flex items-center">
                     <i class="fas fa-tag mr-2"></i>
-                    <p class="text-sm">Rp 500.000 <span class="line-through max-sm:hidden">Rp 800.000</span></p>
+                    <p class="text-sm">Rp 500.000 <span class="line-through text-red-500 max-sm:hidden">Rp 800.000</span></p>
                 </div>
             </div>
         </div>
@@ -620,7 +603,7 @@
                 </div>
                 <div class="flex items-center">
                     <i class="fas fa-tag mr-2"></i>
-                    <p class="text-sm">Rp 500.000 <span class="line-through max-sm:hidden">Rp 800.000</span></p>
+                    <p class="text-sm">Rp 500.000 <span class="line-through text-red-500 max-sm:hidden">Rp 800.000</span></p>
                 </div>
             </div>
         </div>
@@ -635,7 +618,7 @@
                 </div>
                 <div class="flex items-center">
                     <i class="fas fa-tag mr-2"></i>
-                    <p class="text-sm">Rp 500.000 <span class="line-through max-sm:hidden">Rp 800.000</span></p>
+                    <p class="text-sm">Rp 500.000 <span class="line-through text-red-500 max-sm:hidden">Rp 800.000</span></p>
                 </div>
             </div>
         </div>
@@ -650,7 +633,7 @@
                 </div>
                 <div class="flex items-center">
                     <i class="fas fa-tag mr-2"></i>
-                    <p class="text-sm">Rp 500.000 <span class="line-through max-sm:hidden">Rp 800.000</span></p>
+                    <p class="text-sm">Rp 500.000 <span class="line-through text-red-500 max-sm:hidden">Rp 800.000</span></p>
                 </div>
             </div>
         </div>
@@ -665,26 +648,15 @@
                 </div>
                 <div class="flex items-center">
                     <i class="fas fa-tag mr-2"></i>
-                    <p class="text-sm">Rp 500.000 <span class="line-through max-sm:hidden">Rp 800.000</span></p>
+                    <p class="text-sm">Rp 500.000 <span class="line-through text-red-500 max-sm:hidden">Rp 800.000</span></p>
                 </div>
             </div>
         </div>
         <!-- Item More -->
-        <a href="/program/bootcamp">
-            <div class="bg-gray-100 rounded-lg shadow-md lg:p-4 lg:w-64 max-sm:w-40 flex flex-col justify-center items-center md:p-4">
+        <a href="/bootcamp">
+            <div class="bg-gray-100 rounded-lg shadow-md lg:p-4 lg:w-64 lg:h-80 max-sm:w-40 max-sm:h-56 md:w-80 md:h-full flex flex-col justify-center items-center md:p-4">
                 <p class="lg:text-4xl max-sm:text-center max-sm:text-2xl md:text-6xl text-gray-400 mb-4">+</p>
                 <p class="text-gray-500 max-sm:text-center">lihat bootcamp lainnya...</p>
-
-
-
-
-
-
-
-          Expand Down
-
-
-
             </div>
         </a>
     </div>

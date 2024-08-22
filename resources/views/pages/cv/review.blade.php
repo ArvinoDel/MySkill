@@ -5,11 +5,11 @@
     <section class="bg-white bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex md:flex md:flex-row">
         <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-12">
         <div class="p-4">
-            <p class="lg:text-4xl max-sm:text-3xl md:text-3xl lg:w-11/12 md:w-full font-bold lg:text-white md:text-white text-black w-full max-lg:w-96">
+            <p class="lg:text-4xl max-sm:text-3xl md:text-3xl lg:w-11/12 md:w-full font-bold lg:text-white md:text-white text-white w-full max-lg:w-96">
                 Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.
             </p>
             <br class="max-sm:hidden">
-            <p class="lg:w-8/12 md:w-full lg:mb-4 lg:text-white text-black md:text-white">
+            <p class="lg:w-8/12 md:w-full lg:mb-4 lg:text-white text-white md:text-white">
                 Tingkatkan peluang diterima magang dan kerja full-time dengan bantuan HRD. Mulai dari Review CV, Template Surat Lamaran, hingga persiapan wawancara.
             </p>
             <button type="button"
@@ -24,7 +24,7 @@
                     <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
                     <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full">
                 </div>
-                <p class="ml-4 text-white text-md font-semibold">> 10.000 CV Telah Direview</p>
+                <p class="ml-4 text-white text-md font-semibold text-nowrap">> 10.000 CV Telah Direview</p>
             </div>
 
         </div>
@@ -116,7 +116,7 @@
                         <i class="fas fa-chevron-right sm:text-base text-orange-600 mr-3"></i>Tentang Bootcamp
                     </p>
                     <!-- Gambar di sebelah kiri -->
-                    <p class="mb-4 lg:ml-4 lg:text-base max-sm:ml-2">MySkill paham, proses melamar magang atau kerja
+                    <p class="mb-4 lg:ml-4 lg:text-base max-sm:ml-2 text-black">MySkill paham, proses melamar magang atau kerja
                         amat membingungkan. Kita seolah menebak-nebak standar HRD dalam menilai CV kita akan seperti
                         apa? Untuk itu, HR Consultant MySkill hadir untuk membantu mereview CV kamu. Dalam waktu 7 hari
                         kerja, kamu akan mendapatkan saran terperinci untuk meningkatkan kualitas CV lamaranmu.</p>
