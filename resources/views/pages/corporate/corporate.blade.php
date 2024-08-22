@@ -77,8 +77,8 @@
             <img src="./assets/corporate/corporate-training.webp" alt="Corporate Training"
                 class="h-56 w-full lg:h-72 lg:w-1/2 object-cover rounded-md mb-4 lg:mb-0">
             <div class="lg:w-1/2">
-                <h2 class="text-pink-600 text-xl lg:text-2xl font-bold mb-2">Corporate Training</h2>
-                <p class="text-gray-700 text-base lg:text-lg mb-4">
+                <h2 class="text-pink-600 text-xl lg:text-2xl font-bold ">Corporate Training</h2>
+                <p class="text-gray-700 mb-4">
                     Assessment, Pelatihan, dan Konsultasi Pasca Training.
                 </p>
                 <ul class="list-disc pl-5 mb-3">
@@ -119,7 +119,7 @@
                 </ul>
                 </p>
                 <a href="/experience"
-                    class="focus:outline-none text-white bg-pink-600 font-medium rounded-md text-sm px-5 py-2.5 mb-4 dark:focus:ring-yellow-900">Pelajari
+                    class="focus:outline-none text-white bg-pink-600 font-medium rounded-md max-sm:text-xs px-5 py-2.5 mb-4 dark:focus:ring-yellow-900">Pelajari
                     Performance Management Software</a>
             </div>
             <img src="./assets/corporate/experience.webp" alt="Performance Management Software"
