@@ -21,12 +21,12 @@ $activeButton = request()->query('activeButton');
         </div>
 
         <!-- Text Container -->
-        <div class="text-left lg:text-left lg:mr-4 text-black lg:text-white p-4 lg:p-8">
+        <div class="text-left lg:text-left lg:mr-4 text-black lg:text-white p-4 lg:p-8 lg:ml-16">
             <button type="button"
                 class="focus:outline-none text-white bg-gray-900 font-medium rounded-full text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">
                 GMT for Business
             </button>
-            <p class="text-xl lg:text-5xl font-bold mb-2 lg:mb-4 lg:w-10/12">
+            <p class="text-xl lg:text-5xl font-bold mb-2 lg:mb-4 lg:w-10/12 ">
                 Solusi Meningkatkan Performa Tim & Perusahaan
             </p>
             <p class="mt-2 text-base lg:text-lg mb-2 w-4/5">
@@ -37,22 +37,22 @@ $activeButton = request()->query('activeButton');
             <div
                 class="flex flex-col lg:flex-row lg:justify-start lg:space-x-4 lg:items-center items-center space-y-4 lg:space-y-0 mb-4">
                 <!-- Corporate Training Button -->
-                <a href="/corporate-training"
+                <a href="#form"
                     class="text-black lg:text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0 dark:focus:ring-yellow-900">
                     Pelajari Selengkapnya
                 </a>
 
                 <!-- Performance Management Software Button -->
-                <button type="button"
+                <a href="/login" type="button"
                     class="text-black lg:text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0 dark:focus:ring-yellow-900">
                     Login
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- button here -->
-    <div id="buttonContainer" class="flex overflow-x-auto space-x-4 mt-14 mr-14 ml-14 mb-8 no-scrollbar">
+    <div id="buttonContainer" class="flex overflow-x-auto space-x-4 m-4 lg:ml-14 lg:mr-14 lg:mt-14 no-scrollbar max-sm:text-nowrap">
         @foreach ($buttons as $button)
         <a id="button-{{ $button['id'] }}" href="#{{ $button['id'] }}" data-target="content-{{ $button['id'] }}"
             class="py-1 px-2 rounded-md font-semibold
@@ -65,27 +65,28 @@ $activeButton = request()->query('activeButton');
 
 
     <!-- INI KAALO MAU BIKIN DIV, PASTIKAN ADA ID CONTENT-#ID SESUAI DENGAN ID BUTTON NYA  DAN CLASS NYA PASTI HIDDEN -->
-    <div id="content-1" class="flex flex-col lg:flex-row items-center lg:items-start"> <!-- Center on mobile -->
-        <div class="w-full lg:w-1/2 lg:ml-14 text-center lg:text-left"> <!-- Center text on mobile -->
-            <div class="text-center lg:text-left">
-                <p class="text-lg lg:text-3xl font-bold mb-2">
-                    Ratusan Materi Upskilling Untuk Semua Tim.
-                </p>
-                <p class="text-base lg:text-lg">
-                    Akses 900+ video dan modul latihan hasil rancangan para experts. Upgrade skill karyawan di semua
-                    divisi dengan efisien.
-                </p>
-            </div>
-
-            <button type="button"
-                class="text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 mt-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0">
-                saya tertarik
-            </button>
+    <div id="content-1" class="flex flex-col lg:flex-row">
+    <div class="w-full lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
+        <!-- Bagian ini tidak perlu 'text-center' pada max-sm -->
+        <div>
+            <p class="lg:text-3xl font-bold mb-2 max-sm:text-4xl max-sm:text-left">
+                Ratusan Materi Upskilling Untuk Semua Tim.
+            </p>
+            <p class="text-base lg:text-lg max-sm:text-left">
+                Akses 900+ video dan modul latihan hasil rancangan para experts. Upgrade skill karyawan di semua divisi dengan efisien.
+            </p>
         </div>
-        <video src="{{ asset('assets/corporate/learning.mp4') }}" autoplay loop muted
-            class="w-full lg:w-1/2 h-auto lg:mr-12 mt-4 lg:ml-4" playsinline> <!-- Center video on mobile -->
-        </video>
+
+        <button type="button"
+            class="text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mt-4 mb-2 lg:mb-0">
+            saya tertarik
+        </button>
     </div>
+    <video src="{{ asset('assets/corporate/learning.mp4') }}" autoplay loop muted
+        class="w-full lg:w-1/2 h-auto lg:mr-12 mt-4 lg:ml-4" playsinline>
+    </video>
+</div>
+
 
     <div id="content-2" class="hidden">
         <div class="flex flex-col lg:flex-row items-center lg:items-start"> <!-- Center on mobile -->
@@ -236,7 +237,7 @@ $activeButton = request()->query('activeButton');
         </div>
     </section>
 
-    <section class="w-full h-auto px-4">
+    <section class="w-full h-auto px-4" id="form">
         <p class="bg-clip-text bg-gradient-to-r from-orange-400 to-pink-500 mt-4 text-transparent text-xl text-center">
             MySkill Experience akan Rilis Segera!
         </p>

@@ -49,7 +49,7 @@
         Learning Partner Karena</h3>
     <div class="flex flex-wrap justify-center mb-4 space-x-4">
         <!-- Customizable Program -->
-        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center">
+        <div class="bg-white text-black p-6 rounded-lg w-64 border border-spacing-1 flex flex-col items-center max-sm:ml-4">
             <img src="./assets/corporate/workshop.webp" alt="" class="mx-auto mb-4 w-3/4 max-w-xs h-32 object-fill">
             <p class="text-md font-bold text-center">Customizable Program</p>
             <p class="text-sm text-center">Dari segi topik materi, online/offline,<br>durasi serta lokasi pelatihan.</p>

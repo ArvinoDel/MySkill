@@ -23,7 +23,7 @@
                 <br>
                 <p class="w-8/12 max-sm:w-full max-sm:text-sm max-sm:mx-auto md:text-white md:ml-6">Full Online dan Dipandu oleh Praktisi Senior. Praktikal, lebih dari sekadar Webinar. Fokus Bantu Kembangkan Skill dan Portfolio Ribuan Alumni.</p>
                 <br>
-                <button type="button" class="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-1.5 max-sm:w-4/5 max-sm:mx-auto md:ml-6">Lihat Program Pilihan</button>
+                <a href="#bootcamp" type="button" class="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 max-sm:bg-yellow-500 max-sm:text-white max-sm:px-3 max-sm:py-1.5 max-sm:w-4/5 max-sm:mx-auto md:ml-6">Lihat Program Pilihan</a>
                 <div class="flex items-center mt-2 max-sm:flex-col max-sm:items-center">
                     <div class="flex space-x-1 max-sm:space-x-2 max-sm:justify-center md:ml-6">
                         <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="h-6 w-6 rounded-full max-sm:h-3 max-sm:w-3 md:w-8 md:h-8">
@@ -83,7 +83,7 @@
 
 
     <!-- search bar -->
-    <div class="relative w-11/12 mx-auto mb-6">
+    <div class="relative w-11/12 mx-auto mb-6" id="bootcamp">
         <input type="text" class="w-full p-2 pl-10 border border-gray-300 rounded"
             placeholder="Apa yang ingin kamu pelajari ?">
         <span class="absolute inset-y-0 left-0 flex items-center pl-3">
@@ -278,9 +278,9 @@
                 perusahaan.
                 Miliki juga berbagai fitur khusus untuk mendorong employee performance and development.</p>
             <br>
-            <button type="button"
+            <a href="/corporate-service" type="button"
                 class="ml-4 focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-3 me-2 mb-2 dark:focus:ring-yellow-900">Hubungi
-                Tim MySkill</button>
+                Tim MySkill</a>
         </div>
     </section>
     </div>
