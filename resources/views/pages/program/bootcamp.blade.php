@@ -91,127 +91,153 @@
     </div>
     <!-- end search bar -->
 
+    <a href="/bootcamp/digital-marketing"></a>
     <!-- start grid -->
     <div class="grid grid-cols-2 max-sm:p-2 max-sm:m-2 max-sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-6 lg:px-14 md:gap-8 md:px-14 max-sm:mt-2">
         <!-- grid card here -->
-        <a href="/bootcamp/digital-marketing">
-            <div class="bg-white border rounded-lg shadow-md max-sm:p-2 max-sm:ml-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center">
-                <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-34 lg:w-full md:h-32 md:w-full max-sm:h-36 sm:w-full rounded-sm">
-                <div class="text-center sm:text-start sm:mt-4">
-                    <p class="text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p>
-                    <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                        <i class="fas ml-2 fa-calendar-alt mr-2"></i>
-                        <p class="text-sm">9 Oktober 2024</p>
-                    </div>
-                    <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                        <i class="fas ml-2 fa-tag mb-2 mr-2"></i>
-                        <p class="text-sm">Rp 590.000 <span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
-                    </div>
-                </div>
-            </div>
-        </a>
+
         <!-- garis batas -->
-        <div class="bg-white border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-34 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
-            <div class="text-center sm:text-left sm:mt-4">
-                <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
                     <i class="fas ml-2 fa-calendar-alt mr-2"></i>
                     <p class="text-sm">9 Oktober 2024</p>
                 </div>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-tag mb-2 mr-2"></i>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
                     <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
                 </div>
             </div>
         </div>
-        <div class="bg-white border rounded-lg shadow-md max-sm:p-2 max-sm:ml-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-34 lg:w-full md:h-32 md:w-full max-sm:h-36 sm:w-full rounded-sm">
-            <div class="text-center sm:text-start sm:mt-4">
-                <p class="text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
                     <i class="fas ml-2 fa-calendar-alt mr-2"></i>
                     <p class="text-sm">9 Oktober 2024</p>
                 </div>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-tag mb-2 mr-2"></i>
-                    <p class="text-sm">Rp 590.000 <span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
-                </div>
-            </div>
-        </div>
-        <!-- garis batas -->
-        <div class="bg-white border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-34 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
-            <div class="text-center sm:text-left sm:mt-4">
-                <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
-                    <p class="text-sm">9 Oktober 2024</p>
-                </div>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-tag mb-2 mr-2"></i>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
                     <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
                 </div>
             </div>
         </div>
-        <div class="bg-white border rounded-lg shadow-md max-sm:p-2 max-sm:ml-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-34 lg:w-full md:h-32 md:w-full max-sm:h-36 sm:w-full rounded-sm">
-            <div class="text-center sm:text-start sm:mt-4">
-                <p class="text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
                     <i class="fas ml-2 fa-calendar-alt mr-2"></i>
                     <p class="text-sm">9 Oktober 2024</p>
                 </div>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-tag mb-2 mr-2"></i>
-                    <p class="text-sm">Rp 590.000 <span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
-                </div>
-            </div>
-        </div>
-        <!-- garis batas -->
-        <div class="bg-white border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-34 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
-            <div class="text-center sm:text-left sm:mt-4">
-                <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
-                    <p class="text-sm">9 Oktober 2024</p>
-                </div>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-tag mb-2 mr-2"></i>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
                     <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
                 </div>
             </div>
         </div>
-        <div class="bg-white border rounded-lg shadow-md max-sm:p-2 max-sm:ml-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-34 lg:w-full md:h-32 md:w-full max-sm:h-36 sm:w-full rounded-sm">
-            <div class="text-center sm:text-start sm:mt-4">
-                <p class="text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
                     <i class="fas ml-2 fa-calendar-alt mr-2"></i>
                     <p class="text-sm">9 Oktober 2024</p>
                 </div>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-tag mb-2 mr-2"></i>
-                    <p class="text-sm">Rp 590.000 <span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
-                </div>
-            </div>
-        </div>
-        <!-- garis batas -->
-        <div class="bg-white border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-34 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
-            <div class="text-center sm:text-left sm:mt-4">
-                <p class="mt-4 text-gray-700 font-semibold font-sans text-lg">Digital Marketing : Fullstack Intensive</p>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
-                    <p class="text-sm">9 Oktober 2024</p>
-                </div>
-                <div class="flex items-center justify-center sm:justify-start mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-tag mb-2 mr-2"></i>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
                     <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
                 </div>
             </div>
         </div>
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
+                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
+                    <p class="text-sm">9 Oktober 2024</p>
+                </div>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
+                    <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
+                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
+                    <p class="text-sm">9 Oktober 2024</p>
+                </div>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
+                    <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
+                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
+                    <p class="text-sm">9 Oktober 2024</p>
+                </div>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
+                    <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
+                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
+                    <p class="text-sm">9 Oktober 2024</p>
+                </div>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
+                    <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
+                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
+                    <p class="text-sm">9 Oktober 2024</p>
+                </div>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
+                    <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+            <div class="text-left sm:text-left sm:mt-4">
+                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
+                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
+                    <p class="text-sm">9 Oktober 2024</p>
+                </div>
+                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                    <i class="fas ml-2 fa-tag mr-2"></i>
+                    <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
+                </div>
+            </div>
+        </div>
+
 
 
     </div>
