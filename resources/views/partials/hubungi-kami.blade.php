@@ -1,4 +1,4 @@
-<div class="min-h-screen flex items-center justify-center mt-9 px-4 sm:px-6 lg:px-8">
+<div class="min-h-screen flex items-center justify-center mt-9 px-4 sm:px-6 lg:px-8" id="call">
     <div class="w-full max-w-lg">
         <h2 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center">Hubungi GMTrainer untuk Diskusi
             Lebih Lanjut</h2>

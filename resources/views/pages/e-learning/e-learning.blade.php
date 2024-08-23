@@ -16,11 +16,11 @@
                             dari sekadar nonton rekaman. Belajar fleksibel via • Video Materi • Case Study & Praktik • Bahan
                             Bacaan • Komunitas.</p>
                         <div class="flex justify-center lg:justify-start space-x-4 mb-4">
-                            <button class="bg-teal-500 lg:text-white px-6 py-2 rounded-md font-semibold text-gray-950">Mulai
-                                Berlangganan</button>
-                            <button
+                            <a href="#pricing" class="bg-teal-500 lg:text-white px-6 py-2 rounded-md font-semibold text-gray-950">Mulai
+                                Berlangganan</a>
+                            <a href="#learning"
                                 class="bg-yellow-500 lg:text-white px-6 py-2 rounded-md font-semibold text-gray-950">Lihat
-                                900+ Materi</button>
+                                900+ Materi</a>
                         </div>
                         <p class="text-sm lg:text-white text-gray-950">2.000+ Orang Berlangganan Setiap Minggu</p>
                     </div>
@@ -545,7 +545,7 @@
         <!-- Section 7: Pricing -->
         <section id="pricing" class="bg-gradient-to-b from-blue-100 to-white py-12 px-4">
             <div class="max-w-5xl mx-auto">
-                <h2 class="text-3xl font-bold text-center mb-2">Langganan Sekarang dan Jadi Lebih Hebat</h2>
+                <p class="text-3xl font-bold text-center mb-2">Langganan Sekarang dan Jadi Lebih Hebat</p>
                 <p class="text-center mb-8 text-gray-600">Langganan bulanan untuk akses semua materi, tanpa batas. Makin
                     lama, makin hemat dan untung banyak.</p>
 
