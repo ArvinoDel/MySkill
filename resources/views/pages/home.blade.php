@@ -124,7 +124,7 @@
 </div>
 
 <div class="grid md:grid-cols-2 lg:py-10">
-    <img class="lg:w-96 w-80 h-80 ms-10 lg:ms-48" src="{{ asset('assets/home/image1.svg') }}" alt="" />
+    <img class="lg:w-96 w-80 h-80 ms-10 lg:ms-48 max-sm:ms-auto" src="{{ asset('assets/home/image1.svg') }}" alt="" />
     <div class="text-start px-10 lg:px-20 lg:py-4">
         <h2 class="font-bold text-black text-2xl">E-learning</h2>
         <h1 class="text-black text-lg pt-7 font-semibold">Pelajari Ratusan Skill Sekali Bayar. Praktik dan
@@ -164,11 +164,11 @@
         <div class="mt-8"></div>
         <a href="/bootcamp" class="font-semibold px-5 py-2.5 rounded-xl mt-4 bg-orange-400 max-sm:text-xs">Lihat Ragam Bootcamp</a>
     </div>
-    <img class="w-80 lg:w-96 h-80 ms-10" src="{{ asset('assets/home/image2.svg') }}" alt="" />
+    <img class="w-80 lg:w-96 h-80 ms-10 max-sm:ms-auto" src="{{ asset('assets/home/image2.svg') }}" alt="" />
 </div>
 
 <div class="grid md:grid-cols-2 md:py-10">
-    <img class="ms-10 w-80 lg:w-96 h-80 lg:ps-20" src="{{ asset('assets/home/image3.svg') }}" alt="" />
+    <img class="ms-10 w-80 lg:w-96 h-80 lg:ps-20 max-sm:ms-auto" src="{{ asset('assets/home/image3.svg') }}" alt="" />
     <div class="text-start px-10 lg:px-20  lg:py-4">
         <h2 class="font-bold text-black text-2xl">Review CV</h2>
         <h1 class="text-black text-lg pt-7 font-semibold">Dapatkan review dan dokumen persiapan karir dari HRD</h1>
@@ -209,7 +209,7 @@
         <a href="/experience" class="font-semibold px-5 py-2.5 rounded-xl  mt-4 bg-orange-400 ">Sofware HRIS</a>
         </div>
     </div>
-    <img class="lg:w-96 w-80 h-80 ms-10" src="{{ asset('assets/home/image88.svg') }}" alt="" />
+    <img class="lg:w-96 w-80 h-80 ms-10 max-sm:ms-auto" src="{{ asset('assets/home/image88.svg') }}" alt="" />
 </div>
 <h2 class="text-center font-bold text-2xl mx-3 lg:px-80 py-24">Rasanya Gabung Dengan Komunitas GM Official #Sipaling
     Ngoding
@@ -513,12 +513,12 @@
     </div>
 </div>
 <h3 class="py-20 text-center text-2xl font-bold ">Yang Sering Ditanyakan</h3>
-<div class="relative inline-block w-full px-4 md:px-4 lg:px-0 py-4">
-    <div class="relative inline-block w-full lg:px-32 py-2">
+<div class="relative inline-block w-screen px-4 md:px-4 lg:px-0 py-4">
+    <div class="relative inline-block w-screen lg:px-32 py-2">
         <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
             <div>
                 <button type="button" onclick="toggleDropdown('dropdown2', 'icon2')" data-open="false"
-                    class="inline-flex justify-between w-full text-lg font-medium text-start text-dark"
+                    class="inline-flex justify-between w-screen text-lg font-medium text-start text-dark"
                     id="menu-button2" aria-expanded="false" aria-haspopup="true">
                     Apakah ProSkill bagus ?
                     <i id="icon2" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
@@ -536,11 +536,11 @@
         </div>
     </div>
 
-    <div class="relative inline-block w-full lg:px-32 py-2">
+    <div class="relative inline-block w-screen lg:px-32 py-2">
         <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
             <div>
                 <button type="button" onclick="toggleDropdown('dropdown3', 'icon3')" data-open="false"
-                    class="inline-flex justify-between w-full text-lg font-medium text-start text-dark"
+                    class="inline-flex justify-between w-screen text-lg font-medium text-start text-dark"
                     id="menu-button3" aria-expanded="false" aria-haspopup="true">
                     Apakah ProSkill Berbayar ?
                     <i id="icon3" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
@@ -556,11 +556,11 @@
         </div>
     </div>
 
-    <div class="relative inline-block w-full lg:px-32 py-2">
+    <div class="relative inline-block w-screen lg:px-32 py-2">
         <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
             <div>
                 <button type="button" onclick="toggleDropdown('dropdown4', 'icon4')" data-open="false"
-                    class="inline-flex justify-between w-full text-lg font-medium text-start text-dark"
+                    class="inline-flex justify-between w-screen text-lg font-medium text-start text-dark"
                     id="menu-button4" aria-expanded="false" aria-haspopup="true">
                     Platform Pembayaran apa saja yang digunakan pada SkillPro ?
                     <i id="icon4" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
