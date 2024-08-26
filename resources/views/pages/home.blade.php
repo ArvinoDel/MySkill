@@ -141,7 +141,7 @@
             </li>
         </div>
         <div class="mt-8"></div>
-        <a href="/e-learning" class="font-semibold px-10 rounded-xl py-2 mt-4 bg-orange-400 ">Lihat Materi</a>
+        <a href="/e-learning" class="font-semibold px-5 py-2.5 rounded-xl  mt-4 bg-orange-400 ">Lihat Materi</a>
     </div>
 </div>
 
@@ -162,7 +162,7 @@
             </li>
         </div>
         <div class="mt-8"></div>
-        <a href="/bootcamp" class="font-semibold px-10 rounded-xl py-2 mt-4 bg-orange-400 ">Lihat Ragam Bootcamp</a>
+        <a href="/bootcamp" class="font-semibold px-5 py-2.5 rounded-xl mt-4 bg-orange-400 max-sm:text-xs">Lihat Ragam Bootcamp</a>
     </div>
     <img class="w-80 lg:w-96 h-80 ms-10" src="{{ asset('assets/home/image2.svg') }}" alt="" />
 </div>
@@ -184,7 +184,7 @@
             </li>
         </div>
         <div class="mt-8"></div>
-        <a href="/review" class="font-semibold px-10 rounded-xl py-2 mt-4 bg-orange-400 ">Review CV</a>
+        <a href="/review" class="font-semibold px-5 py-2.5 rounded-xl mt-4 bg-orange-400 ">Review CV</a>
     </div>
 </div>
 
@@ -205,8 +205,8 @@
             </li>
         </div>
         <div class="grid grid-cols-2 gap-4 text-center">
-        <a href="/corporate-service" class="font-semibold px-10 rounded-xl py-2 mt-4 bg-orange-400 ">Corporate Service</a>
-        <a href="/experience" class="font-semibold px-10 rounded-xl py-2 mt-4 bg-orange-400 ">Sofware HRIS</a>
+        <a href="/corporate-service" class="font-semibold rounded-xl  mt-4 max-sm:text-left px-5 py-2.5 bg-orange-400 ">Corporate Service</a>
+        <a href="/experience" class="font-semibold px-5 py-2.5 rounded-xl  mt-4 bg-orange-400 ">Sofware HRIS</a>
         </div>
     </div>
     <img class="lg:w-96 w-80 h-80 ms-10" src="{{ asset('assets/home/image88.svg') }}" alt="" />
