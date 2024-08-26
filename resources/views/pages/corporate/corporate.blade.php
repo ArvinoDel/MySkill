@@ -13,10 +13,10 @@
             <button type="button"
                 class="focus:outline-none text-white bg-gray-900 font-medium rounded-full text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">GMT
                 for Business</button>
-            <p class="text-xl lg:text-4xl lg:w-4/5 font-bold mb-2 lg:mb-4">
+            <p class="text-xl lg:text-4xl lg:w-4/5 font-bold mb-2 lg:mb-4 text-white">
                 Layanan Pengembangan Skill dan Peningkatan Performa Karyawan
             </p>
-            <p class="lg:w-8/12 lg:text-white text-black">
+            <p class="lg:w-8/12 lg:text-white text-white">
                 Jalankan corporate training yang disesuaikan dengan kebutuhan perusahaan, maupun akses Performance Management Software dan E-learning MySkill for Business.
             </p>
             <br>
@@ -28,7 +28,7 @@
                     class="text-black lg:text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0 dark:focus:ring-yellow-900">
                     Corporate Training
                 </a>
-
+    
                 <!-- Performance Management Software Button -->
                 <a href="/experience"
                     class="text-black lg:text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0 dark:focus:ring-yellow-900">

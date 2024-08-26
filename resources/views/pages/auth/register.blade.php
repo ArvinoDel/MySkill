@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <div class="flex flex-row-reverse w-full max-w-xl mx-auto overflow-hidden bg-white rounded-lg lg:max-w-3xl">
-        <div class="hidden lg:flex lg:w-1/2 items-center ms-10 justify-center image-container">
+    <div class="flex w-full mt-5 mx-auto overflow-hidden bg-white rounded-lg lg:max-w-4xl">
+        <div class="hidden lg:flex ms-10 lg:w-1/2 items-center justify-center image-container">
             <img class="w-full h-full object-contain" src="{{ asset('assets/regis.svg') }}">
         </div>
-        <div class="w-full me-16 py-8 lg:w-1/2">
+        <div class="w-full me-16 py-8 lg:w-1/2 max-sm:justify-center ml-6">
             <p class="mt-3 text-xl text-start text-gray-900 font-bold :text-gray-200">
                 Buat Akun MySkill
             </p>
@@ -78,14 +78,14 @@
                 </label>
             </div>
 
-            <div class="mt-1">
+            <div class="mt-1 max-sm:ml-8">
                 <button
-                    class="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-gradient-to-r from-pink-400 to-orange-400 rounded-lg hover:from-pink-500 hover:to-orange-500 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-50">
+                    class="w-full   px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-gradient-to-r from-pink-400 to-orange-400 rounded-lg hover:from-pink-500 hover:to-orange-500 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-50">
                     Sign In
                 </button>
             </div>
 
-            <div class="flex items-center justify-between mt-4">
+            <div class="flex items-center justify-between mt-4 max-sm:ml-8 max-sm:text-nowrap">
                 <span class="w-1/5 border-b lg:w-1/4"></span>
                 <a href="#" class="text-xs text-center uppercase :text-gray-400 hover:underline">or login
                     with Google</a>
@@ -93,7 +93,7 @@
             </div>
 
             <a href="#"
-                class="flex items-center justify-center mt-4 text-gray-600 transition-colors duration-300 transform border rounded-lg  ">
+                class="flex max-sm:ml-8 items-center justify-center mt-4 text-gray-600 transition-colors duration-300 transform border rounded-lg  ">
                 <div class="px-auto py-2">
                     <svg class="w-6 h-6" viewBox="0 0 40 40">
                         <path
@@ -113,7 +113,7 @@
                 <span class="w-5/6 px-auto py-3 font-bold text-center">Sign in with Google</span>
             </a>
 
-            <label class="mt-3 text-sm font-light text-gray-900 text-center block" htmlFor="check">
+            <label class=" max-sm:ml-8 mt-3 text-sm font-light text-gray-900 text-center block" htmlFor="check">
                 Dengan membuat akun, saya setuju dengan
                 <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-pink-500">
                     Syarat dan Ketentuan
