@@ -205,8 +205,8 @@
             </li>
         </div>
         <div class="grid grid-cols-2 gap-4 text-center">
-        <a href="/corporate-service" class="font-semibold rounded-xl  mt-4 max-sm:text-left px-5 py-2.5 bg-orange-400 ">Corporate Service</a>
-        <a href="/experience" class="font-semibold px-5 py-2.5 rounded-xl  mt-4 bg-orange-400 ">Sofware HRIS</a>
+            <a href="/corporate-service" class="font-semibold rounded-xl  mt-4 max-sm:text-left px-5 py-2.5 bg-orange-400 ">Corporate Service</a>
+            <a href="/experience" class="font-semibold px-5 py-2.5 rounded-xl  mt-4 bg-orange-400 ">Sofware HRIS</a>
         </div>
     </div>
     <img class="lg:w-96 w-80 h-80 ms-10 max-sm:ms-auto" src="{{ asset('assets/home/image88.svg') }}" alt="" />
@@ -513,106 +513,69 @@
     </div>
 </div>
 <h3 class="py-20 text-center text-2xl font-bold ">Yang Sering Ditanyakan</h3>
-<div class="relative inline-block w-screen px-4 md:px-4 lg:px-0 py-4">
-    <div class="relative inline-block w-screen lg:px-32 py-2">
-        <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
-            <div>
-                <button type="button" onclick="toggleDropdown('dropdown2', 'icon2')" data-open="false"
-                    class="inline-flex justify-between w-screen text-lg font-medium text-start text-dark"
-                    id="menu-button2" aria-expanded="false" aria-haspopup="true">
-                    Apakah ProSkill bagus ?
-                    <i id="icon2" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
-                </button>
-            </div>
-            <div id="dropdown2" class="dropdown-content" role="menu" aria-orientation="vertical"
-                aria-labelledby="menu-button2" tabindex="-1">
-                <div class="pt-2" role="none">
-                    <p class="text-gray-700 block text-sm" role="menuitem">Proskill memiliki tiga fitur utama
-                        e-learning untuk belajar Mandiri via video modul belajar dan webinar series bulanan bootcamp
-                        untuk belajar intensif fokus pada praktik via Zoom barang ekspor mentoring untuk dapat template
-                        dan review CV hingga persiapan wawancara bersama HRD</p>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="relative inline-block w-screen lg:px-32 py-2">
-        <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
-            <div>
-                <button type="button" onclick="toggleDropdown('dropdown3', 'icon3')" data-open="false"
-                    class="inline-flex justify-between w-screen text-lg font-medium text-start text-dark"
-                    id="menu-button3" aria-expanded="false" aria-haspopup="true">
-                    Apakah ProSkill Berbayar ?
-                    <i id="icon3" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
-                </button>
-            </div>
-            <div id="dropdown3" class="dropdown-content" role="menu" aria-orientation="vertical"
-                aria-labelledby="menu-button3" tabindex="-1">
-                <div class="pt-2" role="none">
-                    <p class="text-gray-700 block text-sm" role="menuitem">Ya, setiap peserta akan mendapatkan
-                        sertifikat setelah menyelesaikan kursus.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="relative inline-block w-screen lg:px-32 py-2">
-        <div class="border-2 px-5 py-3 rounded-xl shadow-lg">
-            <div>
-                <button type="button" onclick="toggleDropdown('dropdown4', 'icon4')" data-open="false"
-                    class="inline-flex justify-between w-screen text-lg font-medium text-start text-dark"
-                    id="menu-button4" aria-expanded="false" aria-haspopup="true">
-                    Platform Pembayaran apa saja yang digunakan pada SkillPro ?
-                    <i id="icon4" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
-                </button>
-            </div>
-            <div id="dropdown4" class="dropdown-content" role="menu" aria-orientation="vertical"
-                aria-labelledby="menu-button4" tabindex="-1">
-                <div class="pt-2" role="none">
-                    <p class="text-gray-700 block text-sm" role="menuitem">Pembayaran bisa menggunakan
-                        berbagai e-wallet, QRIS, transfer bank hingga melalui swalayan terdekat</p>
-                </div>
-            </div>
-        </div>
+<div class="mb-1 border border-gray-300 rounded lg:mt-2 max-sm:mt-2 md:m-4 max-sm:p-1 max-sm:mx-1">
+    <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center font-semibold"
+        onclick="toggleDropdown('dropdown1', this)">
+        Apakah ProSkill bagus ?
+        <i id="icon2" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
+    </button>
+    <div id="dropdown1" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+        <p class="text-gray-700 block text-sm" role="menuitem">Proskill memiliki tiga fitur utama
+            e-learning untuk belajar Mandiri via video modul belajar dan webinar series bulanan bootcamp
+            untuk belajar intensif fokus pada praktik via Zoom barang ekspor mentoring untuk dapat template
+            dan review CV hingga persiapan wawancara bersama HRD</p>
     </div>
 </div>
 
-<style>
-    .dropdown-content {
-        transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
-        overflow: hidden;
-        max-height: 0;
-        opacity: 0;
-    }
+<div class="mb-1 border border-gray-300 rounded lg:mt-2 max-sm:mt-2 md:m-4 max-sm:p-1 max-sm:mx-1">
+    <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center font-semibold"
+        onclick="toggleDropdown('dropdown2', this)">
+        Apakah ProSkill Berbayar ?
+        <i id="icon3" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
+    </button>
+    <div id="dropdown2" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+        <p class="text-gray-700 block text-sm" role="menuitem">Ya, setiap peserta akan mendapatkan
+            sertifikat setelah menyelesaikan kursus.</p>
+    </div>
+</div>
 
-    .dropdown-content.show {
-        max-height: 200px;
-        opacity: 1.2;
-    }
-</style>
+<div class="mb-1 border border-gray-300 rounded lg:mt-2 max-sm:mt-2 md:m-4 max-sm:p-1 max-sm:mx-1">
+    <button class="w-full text-left bg-white p-2 rounded flex justify-between items-center font-semibold"
+        onclick="toggleDropdown('dropdown3', this)">
+        Platform Pembayaran apa saja yang digunakan pada SkillPro ?
+        <i id="icon4" class="fa-solid fa-chevron-down ml-2 text-sm mt-1.5"></i>
+    </button>
+    <div id="dropdown3" class="hidden p-2 bg-white transition-opacity duration-300 ease-in-out opacity-0">
+        <p class="text-gray-700 block text-sm" role="menuitem">Pembayaran bisa menggunakan
+            berbagai e-wallet, QRIS, transfer bank hingga melalui swalayan terdekat</p>
+    </div>
+</div>
 
+
+<!-- script dropdown -->
 <script>
-    function toggleDropdown(dropdownId, iconId) {
-        const dropdown = document.getElementById(dropdownId);
-        const button = document.querySelector(`[onclick="toggleDropdown('${dropdownId}', '${iconId}')"]`);
-        const icon = document.getElementById(iconId);
-
-        const isOpen = button.getAttribute("data-open") === "true";
-
-        // Toggle dropdown visibility
-        dropdown.classList.toggle("show");
-
-        // Toggle the data-open attribute
-        button.setAttribute("data-open", !isOpen);
-
-        // Change the FontAwesome icon
-        if (isOpen) {
-            icon.classList.remove("fa-chevron-up");
-            icon.classList.add("fa-chevron-down");
+    function toggleDropdown(id, button) {
+        const dropdown = document.getElementById(id);
+        const isHidden = dropdown.classList.contains('hidden');
+        if (isHidden) {
+            dropdown.classList.remove('hidden');
+            setTimeout(() => {
+                dropdown.classList.remove('opacity-0');
+                dropdown.classList.add('opacity-100');
+            }, 10); // Delay to allow the transition to take effect
         } else {
-            icon.classList.remove("fa-chevron-down");
-            icon.classList.add("fa-chevron-up");
+            dropdown.classList.remove('opacity-100');
+            dropdown.classList.add('opacity-0');
+            dropdown.addEventListener('transitionend', function() {
+                dropdown.classList.add('hidden');
+            }, {
+                once: true
+            });
         }
+        const arrow = button.querySelector('i');
+        arrow.classList.toggle('fa-chevron-down');
+        arrow.classList.toggle('fa-chevron-up');
     }
 </script>
 @endsection

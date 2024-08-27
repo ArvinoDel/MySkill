@@ -3,8 +3,8 @@
 <!-- header here -->
 <section class="review w-screen h-auto">
     <section class="bg-white bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex md:flex md:flex-row">
-        <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-12">
-        <div class="p-4">
+        <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-4 md:ml-10 mx-auto"> <!-- Added mx-auto for centering -->
+        <div class="p-4 text-center"> <!-- Added text-center for centering text -->
             <p class="lg:text-4xl max-sm:text-3xl md:text-3xl lg:w-11/12 md:w-full font-bold lg:text-white md:text-white text-white w-full max-lg:w-96">
                 Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.
             </p>

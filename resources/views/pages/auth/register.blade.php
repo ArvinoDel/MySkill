@@ -57,7 +57,6 @@
                     class="block w-full px-auto py-2 text-gray-700 bg-white border rounded-lg  :text-gray-300 focus:border-blue-400 focus:ring-opacity-40 :focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300"
                     type="password" />
             </div>
-
             <div class="mt-5 inline-flex items-center">
                 <label class="relative flex items-center p-3 rounded-full cursor-pointer" htmlFor="check">
                     <input type="checkbox"
