@@ -17,11 +17,7 @@
 <section class="bootcamp-program w-screen">
     <div class="bootcamp w-screen">
         <section class="w-full h-auto bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex max-sm:text-black max-sm:bg-white">
-<<<<<<< HEAD
-            <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="lg:h-72 w-auto lg:ml-16 py-2 max-sm:h-48  max-sm:mx-auto max-sm:my-4m md:mx-auto md:block md:w-96">
-=======
             <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="lg:h-72 w-auto lg:ml-16 py-2 max-sm:h-48 max-sm:mx-auto max-sm:my-4m md:mx-auto md:block md:w-96">
->>>>>>> 06d9fdd6dacfe9d4e4e10cfe34e6dae078e0db19
             <div class="lg:ml-4 max-sm:text-black max-sm:w-full max-sm:text-center max-sm:mx-auto max-sm:py-4">
                 <p class="text-4xl font-bold w-4/5 max-sm:text-xl max-sm:w-full max-sm:mx-auto text-white md:ml-6">Bootcamp yang Memberi Hasil. Fokus Praktik & Portfolio.</p>
                 <br>
