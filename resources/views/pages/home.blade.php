@@ -26,7 +26,7 @@
     </div>
 
 
-    <div class="grid grid-flow-col lg:grid-cols-5 ps-6 gap-8 overflow-x-auto no-scrollbar no-scrollbar">
+    <div class="grid grid-flow-col lg:grid-cols-5 ps-6 gap-8 overflow-x-auto no-scrollbar no-scrollbar ">
         <div class="w-44 h-60 md:w-52 md:h-64 bg-white border border-black rounded-2xl shadow flex-shrink-0">
             <img class="mx-auto rounded-t-lg w-28 h-28 lg:w-36 lg:h-36" src="{{ asset('assets/home/image118.svg') }}"
                 alt="" />

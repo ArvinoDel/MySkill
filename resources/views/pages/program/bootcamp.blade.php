@@ -17,7 +17,7 @@
 <section class="bootcamp-program w-screen">
     <div class="bootcamp w-screen">
         <section class="w-full h-auto bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex max-sm:text-black max-sm:bg-white">
-            <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="lg:h-72 w-auto lg:ml-16 py-2 max-sm:h-48 max-sm:w-12 max-sm:mx-auto max-sm:my-4m md:mx-auto md:block md:w-96">
+            <img src="{{ asset('./assets/bootcamp/hero-header.png') }}" class="lg:h-72 w-auto lg:ml-16 py-2 max-sm:h-48  max-sm:mx-auto max-sm:my-4m md:mx-auto md:block md:w-96">
             <div class="lg:ml-4 max-sm:text-black max-sm:w-full max-sm:text-center max-sm:mx-auto max-sm:py-4">
                 <p class="text-4xl font-bold w-4/5 max-sm:text-xl max-sm:w-full max-sm:mx-auto text-white md:ml-6">Bootcamp yang Memberi Hasil. Fokus Praktik & Portfolio.</p>
                 <br>
@@ -91,26 +91,27 @@
     </div>
     <!-- end search bar -->
 
-    <a href="/bootcamp/digital-marketing"></a>
     <!-- start grid -->
     <div class="grid grid-cols-2 max-sm:p-2 max-sm:m-2 max-sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-6 lg:px-14 md:gap-8 md:px-14 max-sm:mt-2">
         <!-- grid card here -->
 
         <!-- garis batas -->
-        <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
-            <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
-            <div class="text-left sm:text-left sm:mt-4">
-                <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
-                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
-                    <i class="fas ml-2 fa-calendar-alt mr-2"></i>
-                    <p class="text-sm">9 Oktober 2024</p>
-                </div>
-                <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
-                    <i class="fas ml-2 fa-tag mr-2"></i>
-                    <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
+        <a href="/bootcamp/digital-marketing">
+            <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
+                <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
+                <div class="text-left sm:text-left sm:mt-4">
+                    <p class="mt-4 text-gray-700 font-semibold font-sans max-sm:text-xs md:text-lg lg:text-lg ml-2">Digital Marketing : Fullstack Intensive</p>
+                    <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 max-sm:text-nowrap md:mt-4 lg:mt-4 text-gray-500">
+                        <i class="fas ml-2 fa-calendar-alt mr-2"></i>
+                        <p class="text-sm">9 Oktober 2024</p>
+                    </div>
+                    <div class="flex items-center justify-start sm:justify-start max-sm:mt-1 md:mt-4 lg:mt-4 lg:mb-4 text-gray-500">
+                        <i class="fas ml-2 fa-tag mr-2"></i>
+                        <p class="text-sm">Rp 590.000<span class="line-through text-xs/tight max-sm:hidden text-red-500">Rp 1.000.000</span></p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
         <div class="bg-white mt-2 mb-2 border rounded-lg shadow-md max-sm:p-2 max-sm:mr-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-start">
             <img src="{{ asset('./assets/bootcamp/contentdummy.png') }}" class="lg:h-48 lg:w-full md:h-32 md:w-full sm:h-48 sm:w-full rounded-sm">
             <div class="text-left sm:text-left sm:mt-4">
