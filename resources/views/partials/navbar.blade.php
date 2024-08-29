@@ -1,18 +1,8 @@
 <nav id="navbar" class="sticky top-0 px-8 flex justify-between items-center bg-orange-400 z-10 w-screen transition-all duration-300 ease-in-out">
-    <div class="lg:hidden max-sm:hidden">
-        <button class="navbar-burger flex items-center p-3 focus:outline-none hover:text-white focus:text-gray-900">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd"
-                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                    clip-rule="evenodd" />
-            </svg>
-        </button>
-    </div>
     <a class="text-2xl font-bold leading-none" href="#">
         <img class="max-w-xs max-md:w-20 h-auto" src="{{ asset('assets/logo-company.svg') }}" alt="logo-company">
-
     </a>
-    <div class="lg:hidden md:hidden">
+    <div class="lg:hidden">
         <button class="navbar-burger flex items-center p-3 focus:outline-none hover:text-white focus:text-gray-900">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd"
@@ -25,31 +15,51 @@
         class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-5">
         <li>
             <a href="/home"
+<<<<<<< HEAD
                 class="text-nowrap {{ request()->is('home') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-xs lg:text-sm font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
+=======
+                class="text-nowrap {{ request()->is('home') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-sm lg:text-md font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
+>>>>>>> 06d9fdd6dacfe9d4e4e10cfe34e6dae078e0db19
                 Home
             </a>
         </li>
         <li>
             <a href="/e-learning"
+<<<<<<< HEAD
                 class="text-nowrap {{ request()->is('e-learning') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-xs lg:text-sm font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
+=======
+                class="text-nowrap {{ request()->is('e-learning') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }}  text-xs lg:text-md font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
+>>>>>>> 06d9fdd6dacfe9d4e4e10cfe34e6dae078e0db19
                 E-Learning
             </a>
         </li>
         <li>
             <a href="/bootcamp"
+<<<<<<< HEAD
                 class="text-nowrap {{ request()->is('bootcamp') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-xs lg:text-sm font-medium relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 hover:text-teal-400 hover:before:scale-x-100 focus:outline-none focus:ring-0">
+=======
+                class="text-nowrap {{ request()->is('bootcamp') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-xs lg:text-md font-medium relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 hover:text-teal-400 hover:before:scale-x-100 focus:outline-none focus:ring-0">
+>>>>>>> 06d9fdd6dacfe9d4e4e10cfe34e6dae078e0db19
                 Program & Bootcamp
             </a>
         </li>
         <li>
             <a href="/review"
+<<<<<<< HEAD
                 class="text-nowrap {{ request()->is('review') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-xs lg:text-sm font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
+=======
+                class="text-nowrap {{ request()->is('review') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-xs lg:text-md font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
+>>>>>>> 06d9fdd6dacfe9d4e4e10cfe34e6dae078e0db19
                 Review CV
             </a>
         </li>
         <li>
             <a href="/corporate-service"
+<<<<<<< HEAD
                 class="text-nowrap {{ request()->is('corporate-service') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} text-xs lg:text-sm font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
+=======
+                class="text-nowrap {{ request()->is('corporate-service') ? 'text-teal-400 before:scale-x-100' : 'text-black before:scale-x-0' }} lg:text-md text-xs font-medium hover:text-teal-400 relative px-2 py-2 rounded transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-teal-400 before:scale-x-0 hover:before:scale-x-100 focus:outline-none focus:ring-0 active:text-teal-400 active:before:bg-teal-400">
+>>>>>>> 06d9fdd6dacfe9d4e4e10cfe34e6dae078e0db19
                 Corporate Service
             </a>
         </li>
