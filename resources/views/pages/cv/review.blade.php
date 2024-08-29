@@ -3,9 +3,9 @@
 <!-- header here -->
 <section class="review w-screen h-auto">
     <section class="bg-white bg-gradient-to-b from-orange-400 to-red-400 text-white lg:flex md:flex md:flex-row">
-        <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:ml-4 md:ml-10 mx-auto"> <!-- Added mx-auto for centering -->
+        <img src="{{ asset('./assets/review/reviewcv.png') }}" class="h-72 w-72 max-lg:w-1/4 lg:ml-16 py-2 max-sm:h-64 max-sm:w-64 md:ml-10 mx-auto"> <!-- Added mx-auto for centering -->
         <div class="p-4"> <!-- Added text-center for centering text -->
-            <p class="lg:text-4xl max-sm:text-3xl md:text-3xl lg:w-11/12 md:w-full font-bold lg:text-white md:text-white text-white w-full max-lg:w-96">
+            <p class="lg:text-4xl max-sm:text-3xl md:text-3xl lg:w-11/12 max-sm:w-auto font-bold lg:text-white md:text-white text-white w-full max-lg:w-96">
                 Dapatkan Review CV oleh HRD & Dokumen Persiapan Melamar Kerja.
             </p>
             <br class="max-sm:hidden">
@@ -42,43 +42,43 @@
         <p class="text-white font-bold text-2xl ml-4 md:hidden lg:hidden">Testimoni Peserta Review CV</p>
         <br>
         <div class="flex mb-4 max-sm:mb-2 max-sm:overflow-x-auto md:overflow-x-auto max-sm:space-x-4 lg:overflow-x-auto no-scrollbar ">
-            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border max-sm:w-3/4"> <!-- Updated for responsiveness -->
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border max-sm:w-3/4"> <!-- Updated for responsiveness -->
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border max-sm:w-3/4"> <!-- Updated for responsiveness -->
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border max-sm:w-3/4"> <!-- Updated for responsiveness -->
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg mb-6 mt-2 max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mb-6 mt-2 max-sm:min-w-[14rem] ml-4 max-sm:border max-sm:w-3/4"> <!-- Updated for responsiveness -->
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border max-sm:w-3/4"> <!-- Updated for responsiveness -->
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca
                     Cerita</button>
             </div>
-            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border">
+            <div class="bg-white p-2 rounded-lg mt-2 mb-6 max-sm:min-w-[14rem] ml-4 max-sm:border max-sm:w-3/4"> <!-- Updated for responsiveness -->
                 <img src="{{ asset('./assets/review/dummyreview.png') }}" class="w-56 rounded-md">
                 <button type="button"
                     class="lg:mt-2 md:mt-1 max-sm:ml-1 max-sm:px-16 max-sm:py-2 max-sm:mt-1 lg:ml-2 md:whitespace-nowrap lg:px-14 lg:py-2 md:py-1 md:px-12 text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm">Baca

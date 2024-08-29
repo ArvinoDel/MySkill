@@ -66,8 +66,8 @@ $activeButton = request()->query('activeButton');
 
 
     <!-- INI KAALO MAU BIKIN DIV, PASTIKAN ADA ID CONTENT-#ID SESUAI DENGAN ID BUTTON NYA  DAN CLASS NYA PASTI HIDDEN -->
-    <div id="content-1" class="flex flex-col lg:flex-row">
-        <div class="w-full lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
+    <div id="content-1" class="flex flex-col lg:flex-row max-sm:flex-col">
+        <div class="w-auto lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
             <!-- Bagian ini tidak perlu 'text-center' pada max-sm -->
             <div>
                 <p class="lg:text-3xl font-bold mb-2 max-sm:text-4xl max-sm:text-left">
@@ -80,7 +80,7 @@ $activeButton = request()->query('activeButton');
 
             <button type="button"
                 class="text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mt-4 mb-2 lg:mb-0">
-                saya tertarik
+                Saya tertarik
             </button>
         </div>
         <video src="{{ asset('assets/corporate/learning.mp4') }}" autoplay loop muted
@@ -89,9 +89,9 @@ $activeButton = request()->query('activeButton');
     </div>
 
 
-    <div id="content-2" class="flex flex-col lg:flex-row">
+    <div id="content-2" class="flex flex-col lg:flex-row max-sm:flex-col">
         <!-- Konten Teks -->
-        <div class="w-full lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
+        <div class="w-auto lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
             <div>
                 <p class="lg:text-3xl font-bold mb-2 max-sm:text-4xl max-sm:text-left">
                     Buat dan Bagikan Materi Onboarding.
@@ -102,7 +102,7 @@ $activeButton = request()->query('activeButton');
             </div>
             <button type="button"
                 class="text-black bg-yellow-400 hover:bg-yellow-500 mt-4 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0">
-                saya tertarik
+                Saya tertarik
             </button>
         </div>
 
@@ -113,9 +113,9 @@ $activeButton = request()->query('activeButton');
     </div>
 
 
-    <div id="content-3" class="flex flex-col lg:flex-row">
+    <div id="content-3" class="flex flex-col lg:flex-row max-sm:flex-col">
         <!-- Konten Teks -->
-        <div class="w-full lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
+        <div class="w-auto lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
             <div>
                 <p class="lg:text-3xl font-bold mb-2 max-sm:text-4xl max-sm:text-left">
                     Tools Manajemen Proyek secara Kolaboratif.
@@ -126,7 +126,7 @@ $activeButton = request()->query('activeButton');
             </div>
             <button type="button"
                 class="text-black bg-yellow-400 hover:bg-yellow-500 mt-4 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 mb-2 lg:mb-0">
-                saya tertarik
+                Saya tertarik
             </button>
         </div>
 
@@ -138,9 +138,9 @@ $activeButton = request()->query('activeButton');
 
 
 
-    <div id="content-4" class="flex flex-col lg:flex-row">
+    <div id="content-4" class="flex flex-col lg:flex-row max-sm:flex-col">
         <!-- Konten Teks -->
-        <div class="w-full lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
+        <div class="w-auto lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
             <div>
                 <p class="lg:text-3xl font-bold mb-2 max-sm:text-4xl max-sm:text-left">
                     Buat dan Pantau Target KPI Semua Karyawan.
@@ -162,9 +162,9 @@ $activeButton = request()->query('activeButton');
     </div>
 
 
-    <div id="content-5" class="flex flex-col lg:flex-row">
+    <div id="content-5" class="flex flex-col lg:flex-row max-sm:flex-col">
         <!-- Konten Teks -->
-        <div class="w-full lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
+        <div class="w-auto lg:w-1/2 lg:ml-14 text-left flex flex-col items-start ml-4">
             <div>
                 <p class="lg:text-3xl font-bold mb-2 max-sm:text-4xl max-sm:text-left">
                     Dapatkan Insight dari Perkembangan & Performa Tim.
