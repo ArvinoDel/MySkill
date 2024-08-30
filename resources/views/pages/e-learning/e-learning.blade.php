@@ -602,9 +602,10 @@
                                         clip-rule="evenodd"></path>
                                 </svg>Diskon untuk Bootcamp</li>
                         </ul>
-                        <button
-                            class="w-full bg-blue-500 text-white font-semibold py-2 rounded text-sm hover:bg-blue-600 transition-colors">Mulai
-                            Berlangganan</button>
+                        <a href="/payment">
+                            <button class="w-full bg-blue-500 text-white font-semibold py-2 rounded text-sm hover:bg-blue-600 transition-colors">Mulai
+                                Berlangganan</button>
+                        </a>
                         <p class="text-blue-100 text-xs mt-2">Segera Habis 🔥</p>
                         <div class="w-full h-1 bg-blue-400 rounded mt-1"></div>
                     </div>
@@ -665,9 +666,10 @@
                                         clip-rule="evenodd"></path>
                                 </svg>Diskon untuk Bootcamp</li>
                         </ul>
-                        <button
-                            class="w-full bg-teal-600 text-white font-semibold py-2 rounded text-sm hover:bg-teal-700 transition-colors">Mulai
-                            Berlangganan</button>
+                        <a href="/payment">
+                            <button class="w-full bg-blue-500 text-white font-semibold py-2 rounded text-sm hover:bg-blue-600 transition-colors">Mulai
+                                Berlangganan</button>
+                        </a>
                         <p class="text-gray-700 text-xs mt-2">Segera Habis 🔥</p>
                         <div class="w-3/4 h-1 bg-teal-200 rounded mt-1"></div>
                     </div>
@@ -714,9 +716,10 @@
                                         clip-rule="evenodd"></path>
                                 </svg>Grup Komunitas</li>
                         </ul>
-                        <button
-                            class="w-full bg-blue-500 text-white font-semibold py-2 rounded text-sm hover:bg-blue-600 transition-colors">Mulai
-                            Berlangganan</button>
+                        <a href="/payment">
+                            <button class="w-full bg-blue-500 text-white font-semibold py-2 rounded text-sm hover:bg-blue-600 transition-colors">Mulai
+                                Berlangganan</button>
+                        </a>
                         <p class="text-blue-100 text-xs mt-2">Segera Habis 🔥</p>
                         <div class="w-full h-1 bg-blue-400 rounded mt-1"></div>
                     </div>
